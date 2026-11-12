@@ -1,0 +1,74 @@
+Table S7. Probe-recipe experiment.,,,,,
+,,,,,
+(a) Probe-recipe test results,,,,,
+Probe recipe,Classifier,Subsamples,Accuracy (%),Macro-F1 (%),Host accuracy (%)
+"Class-weighted, C = 1",DINOv2-L class-token probe,30,76.68 ± 0.37,74.16 ± 0.41,88.51 ± 0.27
+"Class-weighted, C = 1",DINOv3-L global-feature probe,30,77.27 ± 0.32,74.66 ± 0.33,88.94 ± 0.26
+"Class-weighted, C = 1",CLIP-L image-embedding probe,30,71.50 ± 0.49,68.87 ± 0.54,81.89 ± 0.42
+"Class-weighted, C = 1",DINOv2-L attentive probe,30,76.80 ± 0.37,74.19 ± 0.41,88.55 ± 0.26
+"Class-weighted, C = 1",Three-probe fusion,30,80.13 ± 0.34,77.60 ± 0.38,90.13 ± 0.22
+"Class-weighted, C = 1",DINOv2-L attentive swap,30,80.16 ± 0.35,77.59 ± 0.38,90.15 ± 0.21
+"Class-weighted, C = 0.01",DINOv2-L class-token probe,30,78.22 ± 0.32,75.99 ± 0.36,89.83 ± 0.22
+"Class-weighted, C = 0.01",DINOv3-L global-feature probe,30,78.89 ± 0.27,76.25 ± 0.30,90.27 ± 0.15
+"Class-weighted, C = 0.01",CLIP-L image-embedding probe,30,73.87 ± 0.28,71.03 ± 0.33,83.41 ± 0.24
+"Class-weighted, C = 0.01",DINOv2-L attentive probe,30,80.29 ± 0.27,77.93 ± 0.29,90.09 ± 0.16
+"Class-weighted, C = 0.01",Three-probe fusion,30,80.33 ± 0.31,77.99 ± 0.32,90.46 ± 0.18
+"Class-weighted, C = 0.01",DINOv2-L attentive swap,30,81.57 ± 0.26,79.17 ± 0.34,90.84 ± 0.13
+"Unweighted, C = 0.01",DINOv2-L class-token probe,30,78.26 ± 0.33,75.64 ± 0.39,89.99 ± 0.20
+"Unweighted, C = 0.01",DINOv3-L global-feature probe,30,79.13 ± 0.24,76.02 ± 0.31,90.57 ± 0.21
+"Unweighted, C = 0.01",CLIP-L image-embedding probe,30,74.25 ± 0.32,71.04 ± 0.38,84.05 ± 0.26
+"Unweighted, C = 0.01",DINOv2-L attentive probe,30,80.21 ± 0.29,77.93 ± 0.30,89.99 ± 0.24
+"Unweighted, C = 0.01",Three-probe fusion,30,80.83 ± 0.28,78.12 ± 0.33,90.78 ± 0.16
+"Unweighted, C = 0.01",DINOv2-L attentive swap,30,81.77 ± 0.31,79.31 ± 0.35,90.93 ± 0.17
+Means and sample SDs describe 30 matched training subsamples evaluated on the same test images.,,,,,
+,,,,,
+,,,,,
+(b) Paired recipe contrasts,,,,,
+Recipe,Reference recipe,Comparison,Metric,Mean Δ (pp),Subsample-bootstrap 95% CI
+"Class-weighted, C = 1",Within recipe,Attentive − class-token probe,Accuracy (%),0.12,"[0.06, 0.17]"
+"Class-weighted, C = 1",Within recipe,Attentive − class-token probe,Macro-F1 (%),0.03,"[−0.05, 0.12]"
+"Class-weighted, C = 1",Within recipe,Attentive − class-token probe,Host accuracy (%),0.04,"[0.01, 0.07]"
+"Class-weighted, C = 1",Within recipe,Attentive swap − three-probe fusion,Accuracy (%),0.03,"[−0.00, 0.07]"
+"Class-weighted, C = 1",Within recipe,Attentive swap − three-probe fusion,Macro-F1 (%),−0.01,"[−0.04, 0.03]"
+"Class-weighted, C = 1",Within recipe,Attentive swap − three-probe fusion,Host accuracy (%),0.02,"[−0.01, 0.05]"
+"Class-weighted, C = 0.01",Within recipe,Attentive − class-token probe,Accuracy (%),2.07,"[1.95, 2.19]"
+"Class-weighted, C = 0.01",Within recipe,Attentive − class-token probe,Macro-F1 (%),1.94,"[1.80, 2.07]"
+"Class-weighted, C = 0.01",Within recipe,Attentive − class-token probe,Host accuracy (%),0.26,"[0.18, 0.34]"
+"Class-weighted, C = 0.01",Within recipe,Attentive swap − three-probe fusion,Accuracy (%),1.24,"[1.14, 1.34]"
+"Class-weighted, C = 0.01",Within recipe,Attentive swap − three-probe fusion,Macro-F1 (%),1.18,"[1.07, 1.28]"
+"Class-weighted, C = 0.01",Within recipe,Attentive swap − three-probe fusion,Host accuracy (%),0.38,"[0.33, 0.44]"
+"Unweighted, C = 0.01",Within recipe,Attentive − class-token probe,Accuracy (%),1.96,"[1.81, 2.09]"
+"Unweighted, C = 0.01",Within recipe,Attentive − class-token probe,Macro-F1 (%),2.30,"[2.15, 2.44]"
+"Unweighted, C = 0.01",Within recipe,Attentive − class-token probe,Host accuracy (%),0.00,"[−0.09, 0.09]"
+"Unweighted, C = 0.01",Within recipe,Attentive swap − three-probe fusion,Accuracy (%),0.94,"[0.84, 1.04]"
+"Unweighted, C = 0.01",Within recipe,Attentive swap − three-probe fusion,Macro-F1 (%),1.19,"[1.09, 1.30]"
+"Unweighted, C = 0.01",Within recipe,Attentive swap − three-probe fusion,Host accuracy (%),0.14,"[0.09, 0.19]"
+"Class-weighted, C = 0.01","Class-weighted, C = 1",Attentive − class-token probe,Accuracy (%),1.95,"[1.84, 2.07]"
+"Class-weighted, C = 0.01","Class-weighted, C = 1",Attentive − class-token probe,Macro-F1 (%),1.90,"[1.75, 2.06]"
+"Class-weighted, C = 0.01","Class-weighted, C = 1",Attentive − class-token probe,Host accuracy (%),0.22,"[0.13, 0.31]"
+"Class-weighted, C = 0.01","Class-weighted, C = 1",Attentive swap − three-probe fusion,Accuracy (%),1.21,"[1.11, 1.31]"
+"Class-weighted, C = 0.01","Class-weighted, C = 1",Attentive swap − three-probe fusion,Macro-F1 (%),1.19,"[1.08, 1.29]"
+"Class-weighted, C = 0.01","Class-weighted, C = 1",Attentive swap − three-probe fusion,Host accuracy (%),0.37,"[0.31, 0.43]"
+"Unweighted, C = 0.01","Class-weighted, C = 0.01",Attentive − class-token probe,Accuracy (%),−0.11,"[−0.26, 0.04]"
+"Unweighted, C = 0.01","Class-weighted, C = 0.01",Attentive − class-token probe,Macro-F1 (%),0.36,"[0.20, 0.53]"
+"Unweighted, C = 0.01","Class-weighted, C = 0.01",Attentive − class-token probe,Host accuracy (%),−0.26,"[−0.36, −0.15]"
+"Unweighted, C = 0.01","Class-weighted, C = 0.01",Attentive swap − three-probe fusion,Accuracy (%),−0.30,"[−0.39, −0.21]"
+"Unweighted, C = 0.01","Class-weighted, C = 0.01",Attentive swap − three-probe fusion,Macro-F1 (%),0.01,"[−0.09, 0.11]"
+"Unweighted, C = 0.01","Class-weighted, C = 0.01",Attentive swap − three-probe fusion,Host accuracy (%),−0.24,"[−0.30, −0.18]"
+Intervals resample the 30 paired training-subsample differences.,,,,,
+,,,,,
+,,,,,
+(c) Training fit and attentive-probe loss,,,,,
+Probe recipe,Probe training accuracy (%),Probe mean cross-entropy,First-epoch loss,Final-epoch loss,
+"Class-weighted, C = 1",98.83,0.0343,0.0345,0.0336,
+"Class-weighted, C = 0.01",92.66,0.3698,0.3675,0.2629,
+"Unweighted, C = 0.01",93.03,0.3532,0.3541,0.2443,
+Losses are mean batch losses averaged across the matched runs.,,,,,
+,,,,,
+,,,,,
+(d) Resampling design,,,,,
+Sampling unit,Target sampling fraction (%),Paired subsamples,Resamples,,
+Training subsample,80.00,30,10000,,
+,,,,,
+,,,,,
+,,,,,

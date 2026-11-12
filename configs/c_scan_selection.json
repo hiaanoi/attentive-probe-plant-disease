@@ -1,0 +1,17 @@
+{
+  "grid": [
+    0.001,
+    0.003,
+    0.01,
+    0.03,
+    0.1,
+    0.3,
+    1
+  ],
+  "attentive_validation_selected_C": 0.003,
+  "swap_validation_selected_C": 0.001,
+  "main_analysis_C": 0.01,
+  "selection_source": "results/diagnostics/c_scan_validation_summary.csv",
+  "test_predictions_reused": true,
+  "selection_is_posthoc_to_historical_scan": true
+}

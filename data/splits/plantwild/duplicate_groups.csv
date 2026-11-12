@@ -1,0 +1,1311 @@
+sample_id,class_id,sha256,split,keep,group_id
+apple black rot/1.jpg,0,b5441c7d7fdbf6fba772f049bc2d5cdb7b9f9b779ec62d847bc319643d5ff418,train,0,apple black rot/1.jpg
+apple black rot/10.jpg,0,3ba9989959e9d6e9d878f7bfdefcb2b030e18c6e6a3cf9307aa6fab811a6dc64,train,0,apple black rot/10.jpg
+apple black rot/google_0145.jpg,0,b71e3bc4ef90791efd0758c06d749ec244771741150f785fdf30ec62789fccce,train,1,apple black rot/google_0145.jpg
+apple black rot/google_0049.jpg,0,e5d3d6847801112c052c7707d6209aad211916ee5f4d9affb80bc7bd635dc762,train,1,apple black rot/google_0049.jpg
+apple black rot/google_0067.jpg,0,6730b6f4499afd9f95b61240dc69d612cd7ca1e2f1a7883af7f6452968884abd,train,1,apple black rot/google_0067.jpg
+apple black rot/144.jpg,0,e55548a9cacc703a6a3a4d5d5bc703ccd747eaf1701e9f40219695453857511d,train,1,apple black rot/144.jpg
+apple black rot/6.jpg,0,8e3f633e13d37a25b8539a42a0dbf0d93bfc6727184baa5c3b43abd4ec16026e,train,1,apple black rot/144.jpg
+apple black rot/google_0018.jpg,0,81bc4cba644987a6635d7f89e3062bd9c7c6c3022e4f87e89c6a9b95432849e0,train,1,apple black rot/google_0018.jpg
+apple black rot/34.jpg,0,1cadefad363f9b1387763302c1fe1f9395ec4969a1666ab1ae900b7e4d3fc7b0,train,1,apple black rot/34.jpg
+apple black rot/80.jpg,0,482bbdc8dfefa75d96efd56ac9c48eba6553bed5d59769382487794e27129ab4,train,1,apple black rot/80.jpg
+apple black rot/2.jpg,0,76f46958a33451750657201850056f761478662c576a2e1a50edb36303276e97,train,1,apple black rot/2.jpg
+apple leaf/129.jpg,1,4bf39250bfc9b9fb8d671fd3497b0d54fa358f16e6d0bca4444cbf0f33cca8e4,train,1,apple leaf/129.jpg
+apple leaf/254.jpg,1,9990ff56c098a7d78c0af015feadac4f7b67f98fb7b7f32f8f09eca232a48bb3,train,1,apple leaf/250.jpg
+apple leaf/google_0207.jpg,1,a17d093afa7db1fc94cf6e9a1c17ae545684601c83a02585db49c463f101a4df,train,1,apple leaf/google_0207.jpg
+apple leaf/145.jpg,1,7bcfefaac280d4f1c28e32ba75404dd23b16eee8e3512f9380ab4d73c5278e2d,train,1,apple leaf/145.jpg
+apple leaf/216.jpg,1,9189b86eb63951bf8b48147b578a9250d4f012aef5865220bc3b25978c8dd79f,train,1,apple leaf/216.jpg
+apple leaf/google_0265.jpg,1,67b9225524dba9d47ad8145024c868c49b278315056be4cd4c856a77190940a7,train,1,apple leaf/129.jpg
+apple leaf/250.jpg,1,4cf1516d373aed99fe561db0379b446df925c5ffcd1d75886248f5fcbde11b8c,train,1,apple leaf/250.jpg
+apple leaf/google_0300.jpg,1,aabf602cbf16a120a1013b762d17f2c5b45a7d0eb482c1887689c0498ae013d2,train,0,apple leaf/google_0300.jpg
+apple leaf/149.jpg,1,3497689e780e56fd074922c6729e239287b5c486c00dcdab0ecbaec7fc097a0d,train,0,apple leaf/149.jpg
+apple leaf/329.jpg,1,07e37352e670c03a318cfe1f738a370eba7046c7a4e398802b8d4acb6d8ed393,train,1,apple leaf/329.jpg
+apple leaf/95.jpg,1,4f757938d1253eff453e8ebdfb84746783835fccb603b2abcc3ac5490d810a94,train,1,apple leaf/329.jpg
+apple leaf/34.jpg,1,7a216c9c3f012c9931733ed78331623c6149de932062c0743d5f0e08fcc1ba4f,train,0,apple leaf/28.jpg
+apple leaf/80.jpg,1,14218924ec3ffbb39f8a98ba13c1fba11da1918157bf80cee005d852e4a4c167,train,1,apple leaf/80.jpg
+apple leaf/155.jpg,1,dfe980d3f5ff7445394228b6f29e9e7271466cbe8c625b1337ff97b63ec419c8,train,1,apple leaf/155.jpg
+apple leaf/google_0360.jpg,1,0520297e31140d43a8bb27d6e2a9c6a71fcafc1238eb41e5afde8ea80a6bc95d,train,0,apple leaf/168.jpg
+apple mosaic virus/43.jpg,2,a124974d6c2db935cd3b546b4eacfad15b8305e6b8fd71e288a7d59704bb92c4,train,1,apple mosaic virus/43.jpg
+apple mosaic virus/google_0052.jpg,2,3d824b7bad9bde5883abe3650459fbee32cb18824a861d976488011b34c40932,train,1,apple mosaic virus/google_0052.jpg
+apple mosaic virus/google_0001.jpg,2,9d46ebd7debe30c835b3603decb72012541153bb55286d4bbc1c4ae00407dc1e,train,1,apple mosaic virus/google_0001.jpg
+apple mosaic virus/93.jpg,2,c32486fd4032c493252070509f68a01aae80399556d875e2d455eb1092f13622,train,0,apple mosaic virus/93.jpg
+apple mosaic virus/google_0161.jpg,2,de3dd6a41dd92854aaece1dbc37fcf6cc79d31e01960d815a555ec4aa2cb1fe7,train,1,apple mosaic virus/google_0161.jpg
+apple mosaic virus/google_0013.jpg,2,d990cedf544074e3755d0bafadb75094a16e0e0a27782966bd3bf78c5fe505c7,train,1,apple mosaic virus/google_0001.jpg
+apple mosaic virus/google_0100.jpg,2,32bdc7447f4a93330f73f8aae6fbc33d49450c66509a0dc660ba3f69aa9dff44,train,0,apple mosaic virus/google_0100.jpg
+apple rust/4.jpg,3,075bc1db502800497ea83eb994e6e684af18e4a121d6bdb6f60849dd932acc72,train,1,apple rust/4.jpg
+apple rust/google_0035.jpg,3,81bc4cba644987a6635d7f89e3062bd9c7c6c3022e4f87e89c6a9b95432849e0,train,1,apple black rot/google_0018.jpg
+apple rust/google_0119.jpg,3,6514073d80e57f09c7b33a1d2a2ace25c941ab5269c532374197d67a9689b753,train,0,apple rust/google_0119.jpg
+apple rust/104.jpg,3,3f0734acbf78d769089e6663e3b555d03a0a2dbd977702847037ee38e9a7850f,train,1,apple rust/104.jpg
+apple rust/98.jpg,3,2e72f56c2b1ad9261e87517aeaf3c562df0bb7b60f65022b5d2cadf0e4f47692,train,0,apple rust/286.jpg
+apple rust/162.jpg,3,4ac3d5b8364c8b618b4ba77ddfdbdce826605d191bb634e15dca742c528147bf,train,0,apple rust/162.jpg
+apple rust/7.jpg,3,9e0aa9e4f32dfb9948e166f455feb660726fe5a986e070c6a23b2a03d723bd71,train,1,apple rust/7.jpg
+apple rust/30.jpg,3,71bd79300e5847f2128e01438f197d137d9b49d8280f09b1091d8a2f84c27b40,train,1,apple rust/30.jpg
+apple rust/22.jpg,3,9189b86eb63951bf8b48147b578a9250d4f012aef5865220bc3b25978c8dd79f,train,1,apple leaf/216.jpg
+apple rust/63.jpg,3,fc9adea70c81154832eb96716250194ac28bf32107617aaeaa4cb5b9a4c6e1f4,train,1,apple mosaic virus/43.jpg
+apple rust/76.jpg,3,52c7e68cd0dd8a69824e97e6da24596ef2d14009f6dc2f92cb3097f73e994096,train,1,apple leaf/330.jpg
+apple rust/96.jpg,3,70d5fc33a7a270d7042ea16cd9e6360e7827a4ae9e6d313b8605d7be6dd1eec6,train,0,apple black rot/18.jpg
+apple rust/google_0007.jpg,3,63d98c4309eac863b73441f8c39ace645cd0950be724c9573ed84e8ae7feb798,train,1,apple rust/google_0007.jpg
+apple rust/64.jpg,3,fd8d2fe8a8d2238d2fcc7f93faa4442d63825d0e27acd8546557e5aeedd16503,train,1,apple rust/64.jpg
+apple scab/12.jpg,4,76f46958a33451750657201850056f761478662c576a2e1a50edb36303276e97,train,1,apple black rot/2.jpg
+apple scab/google_0226.jpg,4,d4cf3178e3ee2f4ab683e9490069c353e6330f123bc37fa7248a051c5aa69dea,train,1,apple black rot/google_0016.jpg
+apple scab/google_0042.jpg,4,71ba06c32c306c8a0800296c41aa091ae096e5fe11ee55ec99df979af95be9b1,train,1,apple scab/6.jpg
+apple scab/google_0163.jpg,4,b71e3bc4ef90791efd0758c06d749ec244771741150f785fdf30ec62789fccce,train,1,apple black rot/google_0145.jpg
+apple scab/65.jpg,4,1212a5376a2412bd53bb969cc1b4476b0a93663cc0fae4791133681e10acab70,train,0,apple rust/78.jpg
+apple scab/google_0233.jpg,4,1c653b62e393f417c0c574290426bf8cc2e4f3fe8017869a389a62a3717e63f7,train,1,apple black rot/google_0049.jpg
+apple scab/6.jpg,4,c65e8c0e360899b376a744416d4545324a93e3d4f87f4328051209f31728d51f,train,1,apple scab/6.jpg
+apple scab/33.jpg,4,0ddc81a123bd6f2e2bbb1a1d34a47e55c683bbfb55042e9e514a9c7a3dc89a78,train,1,apple rust/30.jpg
+banana leaf/101.jpg,5,c521e6846eb19605f1ddd2f91e8f3763f9492f002925b35bdcedc3978cd7997a,train,1,banana leaf/101.jpg
+banana leaf/3.jpg,5,9377e1e557038873796933a6d02694a0abdd9ebf08e42c8e2c2f743f4f249170,train,1,banana leaf/201.jpg
+banana leaf/190.jpg,5,c5a12c4ec3d29868c0d794fd165b83b8b2a9f65dfe651c7c9ef97621b5929f53,train,1,banana leaf/15.jpg
+banana leaf/24.jpg,5,14fc5438c0705831de6563561d95a3c77786aea20d8b7a5ba15e48d88e00fee8,train,1,banana leaf/176.jpg
+banana leaf/247.jpg,5,1a8fa894c88d50ca92babbdbfadcb5adf21fb34fb110a6bd3e0ab164ed5c0fb3,train,1,banana leaf/101.jpg
+banana leaf/170.jpg,5,a4703e2b1411e62348c559b8f3d615365feb3d56c4b75bb2224c2d6da41f68c3,train,1,banana leaf/170.jpg
+banana leaf/176.jpg,5,e6084b7d52b955c1fc067e9bd54c951f4c00f7cef3fbcba340e40e84a8f9d218,train,1,banana leaf/176.jpg
+banana leaf/191.jpg,5,992b99e9c26e92ce9e91d73d6ce8c55912fef460fbf8c5e2a95efbdce6f9425c,train,1,banana leaf/170.jpg
+banana panama disease/google_0003.jpg,6,25e805f7c859f028c724c536a4c793c6b69bc5a556b961548346c54f4f07043d,train,1,banana panama disease/add_2 (9).jpg
+banana panama disease/116.jpg,6,b0c8d28f354dad62064b067dec837dfd3b55fcd4140aeda4c331ee2dfb3f5bb3,train,1,banana panama disease/116.jpg
+banana panama disease/105.jpg,6,d8423ce9f4e7f341a95384097bbee1647223767184b89fdcd0349f927a1af88a,train,1,banana panama disease/105.jpg
+banana panama disease/addition (27).jpg,6,b0c8d28f354dad62064b067dec837dfd3b55fcd4140aeda4c331ee2dfb3f5bb3,train,1,banana panama disease/116.jpg
+banana panama disease/11.jpg,6,8c1a8879f395e315197ced6e05bc634635a11e29ebca06570236c4cdb6256645,train,0,banana panama disease/11.jpg
+banana panama disease/add_2 (33).jpg,6,a1aa15905920ae8f5b83f2048c2289d9520597fdfd5c2a6d28e7455cfb54dcd8,train,0,banana panama disease/add_2 (33).jpg
+banana panama disease/add_2 (9).jpg,6,25e805f7c859f028c724c536a4c793c6b69bc5a556b961548346c54f4f07043d,train,1,banana panama disease/add_2 (9).jpg
+banana panama disease/109.jpg,6,4ea416ed0e6c5da54b222be432924669cef45e6aa56ec30579c07064bcbfdb1d,train,0,banana panama disease/109.jpg
+banana panama disease/25.jpg,6,ebf768e6d7968c7fa14e9d4f4a42cf9b7838f0850c7fa8d7da1901c20ce02f5c,train,0,banana panama disease/109.jpg
+banana panama disease/33.jpg,6,6809fd5e2ff2808c538599ca681198172c7bdce9ad00b6d86b5d93bea155144a,train,1,banana panama disease/33.jpg
+banana panama disease/addition (2).jpg,6,7940473936794a96b23efa52f0569e3795a0508b6d0025279e62d364d56ef869,train,1,banana panama disease/33.jpg
+banana panama disease/addition (18).jpg,6,4154ebd4dc3745b89fa69b5a0cf300a2175d3f441f5bde100fc4626c5865532f,train,0,banana panama disease/112.jpg
+banana panama disease/google_0060.jpg,6,7b98af854c6fd7d413b155196a36021bf74d9609d0ef483592ea5807ae03db8d,train,0,banana panama disease/add_2 (33).jpg
+basil downy mildew/google_0064.jpg,7,cd4ab9429f1dffc78c355bc803d363a47a92cf3f49dbec69351f3ab29a004d92,train,1,basil downy mildew/google_0064.jpg
+basil downy mildew/google_0016.jpg,7,7877770eee0750beebe41bba01126d1483a131a905fb0ad1620ea3754d90bed7,train,1,basil downy mildew/google_0016.jpg
+basil downy mildew/google_0057 - Copy.jpg,7,819de47915824d52ed6d79c2f68c49e7194b01da0fd9083b77044fe3b83edb47,train,1,basil downy mildew/google_0057 - Copy.jpg
+basil downy mildew/google_0079.jpg,7,d7e57093ae4bbe49d918a97117bc7b324a23b29f6cb3255c8352b74cab129dbc,train,1,basil downy mildew/google_0057 - Copy.jpg
+basil downy mildew/google_0020.jpg,7,ad2b47a5824d8d013d014663df8fb64f5f27d1353da9b7c8f23ab23d6c1c50f5,train,0,basil downy mildew/google_0020.jpg
+basil leaf/272.jpg,8,9d23c3863a3db6c8a88e3da9d57c762dfdb1e93a9ba1472133cf59665aeef329,train,1,basil leaf/272.jpg
+basil leaf/203.jpg,8,29ea03329477f80943487258d7a9f502d565cab0ee6985b8867b35dc0fe9923c,train,0,basil leaf/121.jpg
+basil leaf/285.jpg,8,7af798350c418b0034856bdc9f40e246e1d8fb2e14ea08eb490d650c2409bbbd,train,1,basil leaf/285.jpg
+basil leaf/300.jpg,8,69608ce2c7015b05519e8f1529685ae99a7f4ae5931dd2ea444065971cd3f3bd,train,1,basil leaf/277.jpg
+basil leaf/129.jpg,8,d82e31f31f7211ace4ada63b86120a7995ea0bcd0900ecb2d2ef2435d1fa8fd3,train,1,basil leaf/129.jpg
+basil leaf/10.jpg,8,e124c61e7b2079d83bcf5df0d1657e4b92390eb1e404d85096b8b3798d933d89,train,1,basil leaf/10.jpg
+basil leaf/197.jpg,8,9dc2455e2841f0c6aadaf6a24915b94bf9199918ede6689d2aca9ba0d2c361b8,train,1,basil leaf/197.jpg
+basil leaf/google_0008.jpg,8,90be26ee2fdffa9af3978f56ec17c42745f124a9e2a084d0c52471c4aca0441c,train,1,basil leaf/google_0008.jpg
+basil leaf/google_0112.jpg,8,07bf6eea38dccc859678e02cae0927ec3a065582de37c8f65b797e2c8d160f24,train,1,basil leaf/310.jpg
+basil leaf/277.jpg,8,a2791c5263d21186eedf2aeed5ab3800abde9cc8bbd0eb8ae13e6789ad8d4eb4,train,1,basil leaf/277.jpg
+basil leaf/294.jpg,8,842bb312228aa1e7b27434fa4edae6a783dbcbe3259ed085bbd96b63755d607c,train,0,basil leaf/294.jpg
+basil leaf/google_0005.jpg,8,af78b1dbf71da531359be4712879c0edb9bb4451b750629e41e793bbb264fd50,train,1,basil leaf/google_0005.jpg
+basil leaf/215.jpg,8,7932eca76eb10b8786edd1c8d52c348c8be9fb56784b2a7956778f95d22ae9d2,train,1,basil leaf/197.jpg
+basil leaf/google_0438.jpg,8,aea062f860398aadb0bc6766b97de71737f5938c3fff869f5e88dd251bdcb40a,train,1,basil leaf/426.jpg
+basil leaf/426.jpg,8,20c823075a172a69c15770a22a41d9faf966b0c31152d39b4cb896621ea6106d,train,1,basil leaf/426.jpg
+basil leaf/2.jpg,8,84d2bfda6cd1779a16f0ad1a96adf5d9b94bef70e7878473287f39a6fd3060f3,train,1,basil leaf/129.jpg
+basil leaf/google_0010.jpg,8,0802e7a7ccb77e291c4e06f732028e6ecc4dd1609bfa71c0e1e1f1e9706dc3a1,train,1,basil leaf/129.jpg
+bean halo blight/google_0041.jpg,9,00e31b10402e978f6606b848955f22196bd3ac7aedfebdd5264b7d1041661042,train,1,bean halo blight/google_0041.jpg
+bean halo blight/google_0078.jpg,9,fcdc663938f6e3ded0b704115ebd08bb78b25d502c660a2dc551f65d48f09430,train,1,bean halo blight/google_0078.jpg
+bean halo blight/22.jpg,9,36e8292ea5ee1fd313528bcbb043e25cf5b909e840f16457a3abee85f50ca761,train,1,bean halo blight/22.jpg
+bean halo blight/google_0027.jpg,9,83a5ca3dbc4a12d2b6782d9bb4abb696c9d711b1dcb8fa83f988055a64cbd627,train,1,bean halo blight/google_0027.jpg
+bean halo blight/google_0174.jpg,9,c79c78c57eb331123b05d08e4d7ba2bb52bd5dd429a37a435b2f930f0230a2ef,train,1,bean halo blight/google_0174.jpg
+bean leaf/1.jpg,10,55ca0020138bcccd384ed45203a1a4a9cc31686bd3885957cd01490834ea883f,train,1,bean leaf/1.jpg
+bean leaf/153.jpg,10,795611bfc3f2add570cd182cf5f070ccfec72a7f20c3cc2ef323d9785a2b63a3,train,0,bean leaf/153.jpg
+bean leaf/google_0138.jpg,10,d4b63509628351d51cf436a8651e3df30cb52e077a6c0adb295240bb5803f61b,train,1,bean leaf/google_0138.jpg
+bean leaf/46.jpg,10,14435776421536dcd909af972947677b73a58ddfa228e167550b207a66dd97bc,train,1,bean leaf/46.jpg
+bean leaf/26.jpg,10,881ad3c2f583f105563e7b858b52cb68a75dbad79e08fd50a91ef94f988c5eb8,train,1,bean leaf/26.jpg
+bean mosaic virus/google_0080.jpg,11,754d3b07a2bdcdb9d494c78f74264604582c86538bfbce9906809a6211183526,train,1,bean mosaic virus/google_0080.jpg
+bean mosaic virus/google_0031.jpg,11,d4b63509628351d51cf436a8651e3df30cb52e077a6c0adb295240bb5803f61b,train,1,bean leaf/google_0138.jpg
+bean mosaic virus/30.jpg,11,12e232de8763b57a788c6c418f67d7149c678267c04b44f393a450d0ace463f9,train,1,bean mosaic virus/30.jpg
+bean mosaic virus/google_0040.jpg,11,c2bfa242249e0b421e3f552875d4abd79ea69e998b57458a6c072861fc9de426,train,0,bean mosaic virus/google_0040.jpg
+bean mosaic virus/76.jpg,11,f3e086c02fea578a821cc06a0809e601cf70847a1dd5e16c942756c7f4b98fc0,train,0,apple mosaic virus/18.jpg
+bean mosaic virus/6.jpg,11,881ad3c2f583f105563e7b858b52cb68a75dbad79e08fd50a91ef94f988c5eb8,train,1,bean leaf/26.jpg
+bean mosaic virus/14.jpg,11,14435776421536dcd909af972947677b73a58ddfa228e167550b207a66dd97bc,train,1,bean leaf/46.jpg
+bean mosaic virus/google_0231.jpg,11,b046b1cc3c581fccd59dcc198e85f17c72347c625bcba4fec0b99ddf2b0aa1a7,train,1,bean halo blight/google_0027.jpg
+bean rust/10.jpg,12,e74c92b6efd45c8d9f4b5aa973672f3e6407680d86a13d1a979a15b2d788f419,train,1,bean rust/10.jpg
+bean rust/4.jpg,12,22dd692442a7ca27d57dbce4a4c40f9192de730d848e943d502e59a0d66ccba2,train,1,bean rust/4.jpg
+bean rust/google_0130.jpg,12,a9fc7f6e0824643a30d6801246a17b38f32c9d3b9e1760d8908d6f705b6d536a,train,1,bean rust/google_0030.jpg
+bean rust/google_0002.jpg,12,f9cfeeacb9bd5e679eae7d0052755881b60e43c14993bd935fcc18d5a9bf13e1,train,0,bean halo blight/google_0191.jpg
+bean rust/google_0065 - Copy (2).jpg,12,0f7d44893c33860329bfd0e2587c812298f23564d3b9db7c26867ff16b8faece,train,1,bean halo blight/google_0041.jpg
+bean rust/75.jpg,12,aa045957bf3787d2ec0a135e155e47648e7130e00a3a5dfec001a0b1afc542bd,train,1,bean rust/75.jpg
+bean rust/60.jpg,12,075bc1db502800497ea83eb994e6e684af18e4a121d6bdb6f60849dd932acc72,train,1,apple rust/4.jpg
+bean rust/google_0001.jpg,12,00e31b10402e978f6606b848955f22196bd3ac7aedfebdd5264b7d1041661042,train,1,bean halo blight/google_0041.jpg
+bean rust/78.jpg,12,39c7d87088c80b31af6fe0698459ee12717fecad55564f3f75ef6acbc1d85918,train,1,bean rust/78.jpg
+bean rust/google_0054 - Copy.jpg,12,ad29165e997b156a23e88914a63182369676a3da0d4ba515eb47021499df7fbb,train,0,bean leaf/google_0054 - Copy.jpg
+bean rust/google_0030.jpg,12,a9fc7f6e0824643a30d6801246a17b38f32c9d3b9e1760d8908d6f705b6d536a,train,1,bean rust/google_0030.jpg
+bean rust/77.jpg,12,9e0aa9e4f32dfb9948e166f455feb660726fe5a986e070c6a23b2a03d723bd71,train,1,apple rust/7.jpg
+bell pepper leaf/85.jpg,13,9d23c3863a3db6c8a88e3da9d57c762dfdb1e93a9ba1472133cf59665aeef329,train,1,basil leaf/272.jpg
+bell pepper leaf/google_0066.jpg,13,24c3f7e88e53f2c78b0beab76d128317c4aa8b1266b12806aec1b9c3892dd414,train,1,bell pepper leaf/google_0066.jpg
+bell pepper leaf/90.jpg,13,be29958fbe16af55e12c36b5b56e165516873a10439ccaeeeb963011c97cac13,train,0,basil leaf/213.jpg
+bell pepper leaf/63.jpg,13,6fabf44abcd77f1bceaf9f883d338fc805e9606e43059d51966a8915df4f7816,train,1,bell pepper leaf spot/12.jpg
+bell pepper leaf/222.jpg,13,7af798350c418b0034856bdc9f40e246e1d8fb2e14ea08eb490d650c2409bbbd,train,1,basil leaf/285.jpg
+bell pepper leaf/159.jpg,13,1155a0b1a5ab51e350510f541eb06d69a79412c89e90cd121eb002d82f436ed0,train,0,bell pepper leaf/159.jpg
+bell pepper leaf spot/12.jpg,14,6fabf44abcd77f1bceaf9f883d338fc805e9606e43059d51966a8915df4f7816,train,1,bell pepper leaf spot/12.jpg
+bell pepper leaf spot/google_0016.jpg,14,1062fbb97225cb3ddd76a84372b9982542a85bd90fdc46785d85d7159a0fb2e0,train,1,bell pepper leaf spot/google_0016.jpg
+bell pepper leaf spot/google_0000.jpg,14,7727464cb354aaefa0a63628f018612719f5f386c9cff8405ab4508bb1f1e44f,train,1,bell pepper leaf spot/google_0000.jpg
+bell pepper leaf spot/33.jpg,14,a425f65a898c83be49316efef73740dfb7ea0da3d44618dc4ff4000b81e6691a,train,1,bell pepper leaf spot/33.jpg
+bell pepper leaf spot/google_0160.jpg,14,1a5b3569916dce92f481658900ca4dd39675b39a7436d68d09c643f286126dc2,train,0,bell pepper leaf spot/google_0160.jpg
+bell pepper leaf spot/google_0020.jpg,14,a2afa9dfdef85820b5213b3d915c62c9f0477c063ef4bf43b82fd61a76ef951b,train,1,bell pepper leaf spot/google_0020.jpg
+blueberry leaf/222.jpg,15,10cafdb6a806adce559d88d0e058ee86242787b71c91dda1473fdc4fceff1cf4,train,1,blueberry leaf/128.jpg
+blueberry leaf/128.jpg,15,25ea8d4786913aff442db1191aedd76fe3a73fcaa4665fb4e28ef8e26ec267e1,train,1,blueberry leaf/128.jpg
+blueberry leaf/66.jpg,15,67a3adfa5db28567546684f4c42bb85d81e8d4f986c293045e111a44cf6725ff,train,0,blueberry leaf/66.jpg
+blueberry rust/55.jpg,16,5b308cd55247863d9d1f177f21a42224eddfa113cf895d53197fe6e96815060e,train,1,blueberry rust/55.jpg
+blueberry rust/3.jpg,16,82193ea8278fed6fa52e735df1b260c7beb5a2b1adff63fe08f184f0f806e4c5,train,1,bean rust/78.jpg
+blueberry rust/43.jpg,16,58e107994b7a7a836f48701ca169989d0858dad53854ef1dc52074856487df5f,train,0,apple rust/20.jpg
+blueberry rust/30.jpg,16,7d819b74de0f2534b5a90c1b573fe80c1900b8ffb5e05660faf42e3b8ba1e91f,train,1,bean rust/75.jpg
+blueberry rust/15.jpg,16,32426f60c43ba4e78d735ce13a984289421787add3bbd34f38289085fb205b96,train,0,apple black rot/61.jpg
+blueberry rust/41.jpg,16,8f35ba333229239be4d8b3e6cd02320886dea2f402739f81993e1cd3606a3c09,train,0,blueberry rust/41.jpg
+blueberry rust/78.jpg,16,1f1e1e001acb4811dd0ca9073a64cd1738b88c35a7714b3d34920363207213a6,train,1,bean rust/4.jpg
+blueberry rust/google_0185.jpg,16,a3df11a3a682e8eac140b516851ffdc8ac2bd4d3ba8ea00532389dd32da08b58,train,1,blueberry rust/google_0185.jpg
+blueberry rust/66.jpg,16,e74c92b6efd45c8d9f4b5aa973672f3e6407680d86a13d1a979a15b2d788f419,train,1,bean rust/10.jpg
+broccoli downy mildew/google_0056.jpg,17,04de390329a57bcf5f6552b8163d8447e93ce6d0926b7a0edda284c308dbc823,train,1,broccoli downy mildew/google_0056.jpg
+broccoli downy mildew/google_0251.jpg,17,4c6d0d554578bf5f50af52a4538b62b6259b2df8d52b2b3cee8be0a3e02c1059,train,0,broccoli downy mildew/google_0251.jpg
+broccoli downy mildew/google_0070 - Copy.jpg,17,217b02d661eb9e97b2653648946e50099e379099c23d8257c4687576305c26c3,train,1,broccoli downy mildew/google_0070 - Copy.jpg
+broccoli downy mildew/25.jpg,17,3858936a61e20c9ced3627861c6f09773e810b05b72ec16578b242bae921f4db,train,1,broccoli downy mildew/25.jpg
+broccoli leaf/google_0051.jpg,18,38b20dc89b2ae6914a112e20e552144c7404c8724571f9c5cb02df29d8d604bd,train,0,broccoli leaf/google_0051.jpg
+broccoli leaf/google_0019.jpg,18,7b8859765fe3270a3e30fc60065cae377c58fcb4d85c2d7205ea26ba4933267a,train,1,broccoli leaf/google_0019.jpg
+broccoli leaf/google_0083.jpg,18,1c467ced37b83409a537453096dce1722d001c8cadf598bda782fdf8cecfd394,train,1,broccoli leaf/google_0019.jpg
+broccoli leaf/google_0482.jpg,18,7d87881aa6ce9d4addc26957f2590a75a93175cd94ec94f25e45193a54be652a,train,1,broccoli leaf/google_0482.jpg
+cabbage alternaria leaf spot/google_0155.jpg,19,d4c3481f57a5394a32b7b8b4874af461452aa14712b610d5a27227a2c9bd3ac4,train,1,cabbage alternaria leaf spot/google_0155.jpg
+cabbage alternaria leaf spot/google_0044 - Copy (2).jpg,19,b6e7eb0083c20e5e20e5ec25d54c907c0f5ab11de1b3c74dda18a8fb636b20e1,train,1,cabbage alternaria leaf spot/google_0044 - Copy (2).jpg
+cabbage alternaria leaf spot/google_0044 - Copy.jpg,19,76f269756fff9d8380c57f85f6faf5513c4c2a02c5a3f5d40a3034ae4125bb1e,train,0,cabbage alternaria leaf spot/google_0044 - Copy.jpg
+cabbage alternaria leaf spot/google_0065.jpg,19,0b7346996dffd81948ae65daf2fb3677a2219cd10f5e987d68696f15a409d95b,train,1,cabbage alternaria leaf spot/google_0065.jpg
+cabbage alternaria leaf spot/google_0057.jpg,19,a25d90501be95a4c561e6a62b9795c9422b031b6a52ec6c3452b83b980aba209,train,1,cabbage alternaria leaf spot/google_0057.jpg
+cabbage alternaria leaf spot/google_0021.jpg,19,9a17760847916ed9b7616da08ad5f3dd45aa3dad7f40bde1652396b11f09e6bc,train,1,cabbage alternaria leaf spot/google_0021.jpg
+cabbage alternaria leaf spot/google_0148.jpg,19,f4c4b831f4e0e59a2d950505e82e6e34a83957cfeef655a654ae613f7aa76409,train,0,cabbage alternaria leaf spot/google_0148.jpg
+cabbage alternaria leaf spot/google_0072.jpg,19,d49727de94e5e2ace98cf9c1cafb1d3dab598b14ae60775d2da276059639b47f,train,1,cabbage alternaria leaf spot/google_0072.jpg
+cabbage alternaria leaf spot/google_0016.jpg,19,5b57c891d72ee573a81da473cc89dc6e6458615d38fb4e93890b388a1ce007ad,train,1,cabbage alternaria leaf spot/google_0016.jpg
+cabbage alternaria leaf spot/google_0128.jpg,19,023fcc82ccb177ae5baf29863df22562f9b621107e91f45f57711a7b7400fb4b,train,1,cabbage alternaria leaf spot/google_0128.jpg
+cabbage alternaria leaf spot/google_0002.jpg,19,add4ac0670d36b2ec8ebe02e2c8db3a62537dcbf10cf9987317514a3ae5a5c00,train,1,cabbage alternaria leaf spot/google_0002.jpg
+cabbage alternaria leaf spot/google_0000.jpg,19,56ab1f44ca3f95bd358d349d14eba8ffa8b05aad1d3132e1f29ba41d3aea6857,train,1,cabbage alternaria leaf spot/google_0000.jpg
+cabbage alternaria leaf spot/google_0102.jpg,19,a1255e7b66187d2e38405c71611029eb03dfefc41049621f225006df711f2488,train,1,broccoli downy mildew/google_0003.jpg
+cabbage alternaria leaf spot/google_0197.jpg,19,b3bbdc8f3feb8ddbec03c63b0f4311e314981215b021147005b34e84b4f80ba2,train,0,cabbage alternaria leaf spot/google_0197.jpg
+cabbage alternaria leaf spot/google_0206.jpg,19,8e6497665b7ff667327e5da5745171050467cd0f3be8afb1fe6560a1d3f6738e,train,1,cabbage alternaria leaf spot/google_0206.jpg
+cabbage alternaria leaf spot/google_0052.jpg,19,b4827ad474f4a6095d246093180fb69489bb051c14e71b7c60016fcdb63fb704,train,1,cabbage alternaria leaf spot/google_0052.jpg
+cabbage alternaria leaf spot/google_0058.jpg,19,b8bf5cd567d3cae067f2fb0e4d7c6278e8acf50d89e39718c3db8ec848a71eb5,train,0,cabbage alternaria leaf spot/google_0058.jpg
+cabbage alternaria leaf spot/google_0026.jpg,19,bcfed76e05c666f4ab2b591ce698aef791b05d193f2243c48f1792fd15617d71,train,1,cabbage alternaria leaf spot/google_0026.jpg
+cabbage alternaria leaf spot/google_0001.jpg,19,083d699478235f56b86baee0933eb8f8e9e3f5a89b9f7ba9d0cf37122b511409,train,1,cabbage alternaria leaf spot/google_0001.jpg
+cabbage alternaria leaf spot/google_0013.jpg,19,5506fddf0772153f39289672298379deb44628e1598c4f4f513da14dc7375acb,train,0,cabbage alternaria leaf spot/google_0013.jpg
+cabbage alternaria leaf spot/google_0006.jpg,19,36d70ee2612776c1ce86278bb8660e88294876513b8bdc6324eabc422b83154d,train,1,cabbage alternaria leaf spot/google_0006.jpg
+cabbage alternaria leaf spot/34.jpg,19,a558f3f3cb112ed9373b0bb30b8733926235c14aea8d2e3e36406e38a6c330cb,train,1,cabbage alternaria leaf spot/34.jpg
+cabbage alternaria leaf spot/google_0010.jpg,19,325129f78df76df906789205b1b420dedfd0febc39b9d83caac4505330f05db4,train,0,cabbage alternaria leaf spot/google_0010.jpg
+cabbage alternaria leaf spot/google_0020.jpg,19,9b826f8b9422f213956b200f6dd0cb1c0c42054014c415fe83a3cf8fe4b44660,train,1,cabbage alternaria leaf spot/google_0020.jpg
+cabbage leaf/google_0051.jpg,20,fabcae7e43448d28974a8bf9e4179d8c10dd1b05f2ea2b2a5f8761c350f1f94f,train,1,cabbage leaf/google_0051.jpg
+cabbage leaf/340.jpg,20,54842b5d942ef56595581b8234a436bc6b4940fa456174ad205d4236f9823bfe,train,1,cabbage leaf/340.jpg
+cabbage leaf/323.jpg,20,b08efeaaf270717e008c0bf35a7a2d27abc2de087d97cc219c50547729b215c4,train,1,cabbage leaf/323.jpg
+cabbage leaf/373.jpg,20,6c159ae4eb306fb33de16a1a1519b52d3be1ee8b917c58af79f6218737ba500c,train,1,cabbage leaf/369.jpg
+cabbage leaf/368.jpg,20,4a3edad8ddac2e893966f6f4b23d69ee99cc7da653b94c153e9aca18dec17c0b,train,0,cabbage leaf/368.jpg
+cabbage leaf/74.jpg,20,673668f897d1a0ff9a0e62392a0b0607ef4f11dacd22da23aeffe9953599f897,train,1,cabbage leaf/301.jpg
+cabbage leaf/301.jpg,20,4a2339d6a6b3e90d101a3cc00696182a6458401e56853d0636935aeae687921a,train,1,cabbage leaf/301.jpg
+cabbage leaf/3.jpg,20,6fd4da8f2635f06af59ff703655bae03ccc26c40f8719279d0f09f89ba9db2b4,train,1,cabbage leaf/180.jpg
+cabbage leaf/369.jpg,20,6c159ae4eb306fb33de16a1a1519b52d3be1ee8b917c58af79f6218737ba500c,train,1,cabbage leaf/369.jpg
+cabbage leaf/218.jpg,20,ad32eba254b93d250d502b3920473c8ddd94c02f688cba7ea579c985c0846035,train,1,cabbage leaf/218.jpg
+cabbage leaf/341.jpg,20,54842b5d942ef56595581b8234a436bc6b4940fa456174ad205d4236f9823bfe,train,1,cabbage leaf/340.jpg
+cabbage leaf/180.jpg,20,635dcbf5b2ddd3cc10049c5bbd148732d24b2eecff108722755e135721487db8,train,1,cabbage leaf/180.jpg
+cabbage leaf/191.jpg,20,776be5ececc559d840d91fc4a6afd3377891cd6111095fe8e7aac7632779e400,train,1,cabbage leaf/191.jpg
+cabbage leaf/google_0015.jpg,20,36d70ee2612776c1ce86278bb8660e88294876513b8bdc6324eabc422b83154d,train,1,cabbage alternaria leaf spot/google_0006.jpg
+cabbage leaf/199.jpg,20,ffed3e78312cf3873aa4ace7919b03aef80f1c877569df9eca89a6343151fbe0,train,1,cabbage leaf/191.jpg
+cabbage leaf/256.jpg,20,b43be7f73c854a951534fec71ff47bee364d0571dd8cb33b67534969823e9417,train,1,cabbage leaf/255.jpg
+cabbage leaf/445.jpg,20,9086679e79eb6b85780c4937a1763a9adbac494c626f0e12037ff716f6954195,train,1,cabbage leaf/323.jpg
+cabbage leaf/77.jpg,20,ad36894962c06642e04c9cbd15b7dadfb77e4aa8263b16a92c1d3859461ed22e,train,0,cabbage leaf/294.jpg
+cabbage leaf/131.jpg,20,ca5c32c6c4b186132db4c73f3d4f930049f0894f6f43b14e086403f7cd0955da,train,0,cabbage leaf/131.jpg
+cauliflower alternaria leaf spot/google_0003.jpg,22,5f69c428fcffa74283f7ed1c69d31698a4ba19e4fdd7a91bd76f2a5472f2be16,train,0,cabbage alternaria leaf spot/google_0044 - Copy.jpg
+cauliflower alternaria leaf spot/google_0051.jpg,22,d49727de94e5e2ace98cf9c1cafb1d3dab598b14ae60775d2da276059639b47f,train,1,cabbage alternaria leaf spot/google_0072.jpg
+cauliflower alternaria leaf spot/9.jpg,22,63cb52dde792607328ae089d171fc6b252a3112b6bc4948b0df63c493da847d1,train,1,cauliflower alternaria leaf spot/170.jpg
+cauliflower alternaria leaf spot/4.jpg,22,a558f3f3cb112ed9373b0bb30b8733926235c14aea8d2e3e36406e38a6c330cb,train,1,cabbage alternaria leaf spot/34.jpg
+cauliflower alternaria leaf spot/google_0021.jpg,22,bcfed76e05c666f4ab2b591ce698aef791b05d193f2243c48f1792fd15617d71,train,1,cabbage alternaria leaf spot/google_0026.jpg
+cauliflower alternaria leaf spot/google_0234.jpg,22,8e6497665b7ff667327e5da5745171050467cd0f3be8afb1fe6560a1d3f6738e,train,1,cabbage alternaria leaf spot/google_0206.jpg
+cauliflower alternaria leaf spot/google_0011.jpg,22,add4ac0670d36b2ec8ebe02e2c8db3a62537dcbf10cf9987317514a3ae5a5c00,train,1,cabbage alternaria leaf spot/google_0002.jpg
+cauliflower alternaria leaf spot/google_0050.jpg,22,5b57c891d72ee573a81da473cc89dc6e6458615d38fb4e93890b388a1ce007ad,train,1,cabbage alternaria leaf spot/google_0016.jpg
+cauliflower alternaria leaf spot/google_0343.jpg,22,814af85f7cba5f704ec332710128c60c4ad1df4d9946db2c7174b0c4cf09b117,train,1,cabbage alternaria leaf spot/google_0155.jpg
+cauliflower alternaria leaf spot/google_0000.jpg,22,083d699478235f56b86baee0933eb8f8e9e3f5a89b9f7ba9d0cf37122b511409,train,1,cabbage alternaria leaf spot/google_0001.jpg
+cauliflower alternaria leaf spot/google_0222.jpg,22,023fcc82ccb177ae5baf29863df22562f9b621107e91f45f57711a7b7400fb4b,train,1,cabbage alternaria leaf spot/google_0128.jpg
+cauliflower alternaria leaf spot/7.jpg,22,3858936a61e20c9ced3627861c6f09773e810b05b72ec16578b242bae921f4db,train,1,broccoli downy mildew/25.jpg
+cauliflower alternaria leaf spot/google_0047.jpg,22,9b826f8b9422f213956b200f6dd0cb1c0c42054014c415fe83a3cf8fe4b44660,train,1,cabbage alternaria leaf spot/google_0020.jpg
+cauliflower alternaria leaf spot/170.jpg,22,63cb52dde792607328ae089d171fc6b252a3112b6bc4948b0df63c493da847d1,train,1,cauliflower alternaria leaf spot/170.jpg
+cauliflower alternaria leaf spot/google_0034.jpg,22,93536369fda242940029dd67eee35cac20f30bc77d81375016b1446444fff45b,train,1,cabbage alternaria leaf spot/google_0021.jpg
+cauliflower alternaria leaf spot/google_0261.jpg,22,a25d90501be95a4c561e6a62b9795c9422b031b6a52ec6c3452b83b980aba209,train,1,cabbage alternaria leaf spot/google_0057.jpg
+cauliflower alternaria leaf spot/google_0089 - Copy (2).jpg,22,f3f01c1fc13a2ef3cbb59f567c3feef946f891034f05e38e21c89489500ceab6,train,1,cabbage alternaria leaf spot/google_0044 - Copy (2).jpg
+cauliflower alternaria leaf spot/google_0033.jpg,22,4d1ae3457366ec9dbd62ba162374f8fc35ee8cb0b1c08cffa84225d29eb4663f,train,0,cabbage alternaria leaf spot/google_0032.jpg
+cauliflower alternaria leaf spot/google_0001.jpg,22,56ab1f44ca3f95bd358d349d14eba8ffa8b05aad1d3132e1f29ba41d3aea6857,train,1,cabbage alternaria leaf spot/google_0000.jpg
+cauliflower alternaria leaf spot/6.jpg,22,a75b1b2ba7c92af4b67eb39fc13796f19d9dd77f3bcfa79ab067e55548b73f6b,train,1,cauliflower alternaria leaf spot/6.jpg
+cauliflower alternaria leaf spot/google_0012.jpg,22,42a92ced21a5413c64c9f74f4a58f0a42c555137bc5c0c1654486d52ef8f3f24,train,0,cauliflower alternaria leaf spot/google_0012.jpg
+cauliflower alternaria leaf spot/add (2).jpg,22,3858936a61e20c9ced3627861c6f09773e810b05b72ec16578b242bae921f4db,train,1,broccoli downy mildew/25.jpg
+cauliflower alternaria leaf spot/google_0046.jpg,22,fe30ac95e41d3f71fad31e16d3fd29c299e2e19834471d4da1820bd1700cd582,train,1,cabbage alternaria leaf spot/google_0047.jpg
+cauliflower alternaria leaf spot/google_0103.jpg,22,0b7346996dffd81948ae65daf2fb3677a2219cd10f5e987d68696f15a409d95b,train,1,cabbage alternaria leaf spot/google_0065.jpg
+cauliflower leaf/google_0251.jpg,23,7d87881aa6ce9d4addc26957f2590a75a93175cd94ec94f25e45193a54be652a,train,1,broccoli leaf/google_0482.jpg
+cauliflower leaf/98.jpg,23,a75b1b2ba7c92af4b67eb39fc13796f19d9dd77f3bcfa79ab067e55548b73f6b,train,1,cauliflower alternaria leaf spot/6.jpg
+cauliflower leaf/google_0078.jpg,23,09cda0d274a025d004b54fed7deb9283c1b3cac3f286043d22d94e71fc0d2402,train,1,cauliflower leaf/115.jpg
+cauliflower leaf/google_0029.jpg,23,38b20dc89b2ae6914a112e20e552144c7404c8724571f9c5cb02df29d8d604bd,train,0,broccoli leaf/google_0051.jpg
+cauliflower leaf/115.jpg,23,dde2266a05b6751a8b0d13295c08ce276aca5caeeff3938cce651776aef69384,train,1,cauliflower leaf/115.jpg
+celery early blight/16.jpg,25,cea4ccca31b459064a403393ffea39a1c2a67e77c508ddfdcb0e23af92645177,train,1,celery early blight/16.jpg
+celery early blight/google_0017.jpg,25,603919c583029d746a1e782823144058b66840aec03d3b3d8030d3803b01da23,train,1,celery early blight/google_0017.jpg
+celery early blight/27.jpg,25,18bf18373bf1ec6ccc4504b41a82b58eb5c5256cea7aaeca0f2f577837816306,train,1,celery early blight/27.jpg
+celery early blight/google_0015.jpg,25,906353e02eea628e03dab1089fbeaf29332c03efbfcb1c21404fe51177f77cdd,train,1,celery early blight/google_0015.jpg
+celery early blight/google_0109.jpg,25,359599ac2a314723fd5f013f834b781847c8e43f517fe07f95e9613f346907c8,train,0,celery early blight/google_0109.jpg
+celery leaf/181.jpg,26,233aebb9344b13bc972fd9b4f1a5d922c4f49d50dfa3482d90d6088e16df169e,train,1,celery leaf/181.jpg
+celery leaf/55.jpg,26,f44353ab0028a98f61caf9955d7e956fa930774b405a6991ec9ecc888ecc870c,train,1,celery leaf/181.jpg
+celery leaf/121.jpg,26,18bf18373bf1ec6ccc4504b41a82b58eb5c5256cea7aaeca0f2f577837816306,train,1,celery early blight/27.jpg
+cherry leaf/23.jpg,27,943365181c25399962e0fcdc4524b2c38c78908719c0edd8b0808719fe1ef7b6,train,1,cherry leaf/23.jpg
+cherry leaf/170.jpg,27,df41330d91dd187a28725d5fcb5d4999a64e3c3d5f718aa0f72ea49e5418c0a1,train,0,apple leaf/149.jpg
+cherry leaf/google_0033.jpg,27,5ffe6c4479f7391c4d2e0cfdbf2b7c3e715e364d33428b0095be0c51ab2790ad,train,1,cherry leaf/23.jpg
+cherry leaf/171.jpg,27,9919278f7ce2326aa491c21db76a42c48b33e99d336bcd1e1d42e3af0fcb5a0e,train,1,cherry leaf/168.jpg
+cherry leaf/168.jpg,27,9919278f7ce2326aa491c21db76a42c48b33e99d336bcd1e1d42e3af0fcb5a0e,train,1,cherry leaf/168.jpg
+cherry leaf spot/google_0283.jpg,28,94cfa9a156f55cbfe71711c394682f6ed86bcfe57fc8f0cce30bf272c6459156,train,1,apple rust/google_0007.jpg
+cherry leaf spot/google_0343.jpg,28,3a0be9f531d85db50db35902f65ddfb448079651ffdf7fc41fd240bdd7221e45,train,1,cherry leaf spot/google_0343.jpg
+cherry leaf spot/google_0238.jpg,28,8fc5e5632fb8c41fa3535ce2717b521866ff91c942ddcd4584ab159d42b91426,train,1,cherry leaf spot/google_0238.jpg
+cherry leaf spot/google_0158.jpg,28,69136c37be3e72a9d86581ff6e7b82a5ae14e5eb21f43537f4ac26f15e72f9a3,train,0,cherry leaf spot/google_0158.jpg
+cherry leaf spot/google_0247.jpg,28,1a5b3569916dce92f481658900ca4dd39675b39a7436d68d09c643f286126dc2,train,0,bell pepper leaf spot/google_0160.jpg
+cherry leaf spot/google_0177.jpg,28,a3df11a3a682e8eac140b516851ffdc8ac2bd4d3ba8ea00532389dd32da08b58,train,1,blueberry rust/google_0185.jpg
+cherry leaf spot/google_0324.jpg,28,764568827e4fae35d4c374c377adcd3a6b01e5d840918817c71a1d21d96cbb63,train,1,cherry leaf spot/google_0324.jpg
+cherry powdery mildew/google_0036.jpg,29,06ff7ea03c909e68b0ffb8dbad0dd156a923107579536ae56e511f6ad93cbabc,train,1,cherry powdery mildew/google_0036.jpg
+cherry powdery mildew/google_0084.jpg,29,2fbf606994af3b8984cc6816c90fa4c2ddad27c7b9ac7b65d5e43f0942b75035,train,1,cherry powdery mildew/google_0084.jpg
+cherry powdery mildew/google_0119.jpg,29,d45211d7a4a5849af102e8e5475247238b6e8d868d3457fe0e681c47de84138b,train,1,cherry powdery mildew/google_0119.jpg
+cherry powdery mildew/51.jpg,29,e2187c64436c37d0ec6493fb4a41107d6e0aba05434cc70654c38bd5a9e44729,train,1,cherry powdery mildew/51.jpg
+cherry powdery mildew/google_0019.jpg,29,71f29fe5eecf0731c3e5b7fdd6e0fe673bf2a267abdaab61c59ae0156838f59f,train,1,cherry powdery mildew/google_0019.jpg
+cherry powdery mildew/15.jpg,29,8208db409c2667e50aa02cabb01a4cf3f8692dc8e556c15ed24e895d1483c1f1,train,1,cherry powdery mildew/15.jpg
+cherry powdery mildew/google_0018.jpg,29,8ae9e7791fad6d57c8dbd3c38af286d0566723e5b50683cb524579c59bb10563,train,0,cherry powdery mildew/google_0018.jpg
+cherry powdery mildew/33.jpg,29,945f89ebce016c18e2ff58ec6d8e7cb18691ca68e8f25c0156678ca62d3ee73a,train,1,cherry powdery mildew/33.jpg
+cherry powdery mildew/google_0024.jpg,29,0aa78becd4931391b8b7290fa4730b7a9576f22db6dcc6c4b465cec34c635dea,train,1,cherry powdery mildew/51.jpg
+citrus canker/331.jpg,30,76ddcf6c43447628d1e4a861739c53f26ad1d1e558990555aeb653f5f4e8499e,train,1,citrus canker/331.jpg
+citrus canker/323.jpg,30,a45614208a6c89e1ab47b80c978b2bb736fa909955c2bc5ebdebdee9ef8db9bb,train,0,citrus canker/139.jpg
+citrus canker/google_0065.jpg,30,9619f9d617521025c44630c86b8b0c6f9be728e810d3018ad4bb4e563ba75a4d,train,1,citrus canker/google_0065.jpg
+citrus canker/4.jpg,30,82fc7e2287dfe136a9d2b1fc8d014f7eaaad36386537bfdd0de857f26f9146ca,train,1,citrus canker/4.jpg
+citrus canker/263.jpg,30,737db86d57f7522831c86335e04860b7d3ba235cdafda6bafd7914090b0646ed,train,0,citrus canker/263.jpg
+citrus canker/288.jpg,30,c43270fc3076586a9e34a2a76f1d1822beb528dcd93183972b8036d2d6eea4d9,train,1,citrus canker/163.jpg
+citrus canker/139.jpg,30,812e6e5f712d37257ecc4773f246d31f16bead2ea1289dad8f8c118adecf91d0,train,0,citrus canker/139.jpg
+citrus canker/google_0302.jpg,30,83966eb323018dd6c66e92d82ee32d8595811456cff5592d65d1b12c0671502b,train,1,citrus canker/256.jpg
+citrus canker/277.jpg,30,92b835820f7dce3cc41424e5db2a578d237fe5f1be164d5585eb54ede08d8cd5,train,1,citrus canker/277.jpg
+citrus canker/333.jpg,30,76ddcf6c43447628d1e4a861739c53f26ad1d1e558990555aeb653f5f4e8499e,train,1,citrus canker/331.jpg
+citrus canker/40 - Copy (2).jpg,30,669411648e55330a7617c710947e656788bc0eceef77c4b6a63ffd31193a8980,train,1,citrus canker/4.jpg
+citrus canker/211.jpg,30,19bdad1e3cc665fe1bb1f1be17916d33ab81320c94776c391305833745422c2f,train,1,citrus canker/169.jpg
+citrus canker/259.jpg,30,c584443c9991bcc75c286bcb465953c81e50c73d4d2f08560bc03f203889162b,train,1,citrus canker/259.jpg
+citrus canker/233.jpg,30,21d1e1f01e8978f8fffd940238ac223135c45acff74bb6c61945ee4f1d16df70,train,1,citrus canker/169.jpg
+citrus canker/307.jpg,30,b6e22b77a4a300b50c6114840e0cff2304afb5d6bc038a095d4d99d7ab5d8136,train,0,citrus canker/305.jpg
+citrus canker/279.jpg,30,4d6953efee6a27c9ecb070e6ca583eb97bd5b1c4c0082a6dfcea7b632321caf0,train,1,citrus canker/276.jpg
+citrus canker/247.jpg,30,30440930364eb4cbcf98b1063f4f7fc1612b59d96dd911562baeed1ccdb2af65,train,1,citrus canker/247.jpg
+citrus canker/280.jpg,30,92b835820f7dce3cc41424e5db2a578d237fe5f1be164d5585eb54ede08d8cd5,train,1,citrus canker/277.jpg
+citrus canker/412.jpg,30,697180fef25651bec5635f5e54ead77330f6a6dc1fcab873a8d6edbb881a1e19,train,0,citrus canker/371.jpg
+citrus canker/107.jpg,30,7fac8e96389fa1fa740de30ae311211f244d430846fe491b7e76b0be88dd8727,train,1,citrus canker/107.jpg
+citrus canker/355.jpg,30,98b59e9d47643b8f9c108a1961eda1b363e162871ccfbe16f056c4dedd03cedc,train,0,citrus canker/263.jpg
+citrus canker/169.jpg,30,e254882c1f8417d70f6b6324adae57decc4d199f706a77afe5f6ae32ae949770,train,1,citrus canker/169.jpg
+citrus canker/403.jpg,30,d7d40272486695f5d5f34b252c20a9af9d852d798e396a8fd6b1409a55318c5f,train,0,citrus canker/139.jpg
+citrus canker/308.jpg,30,7f269a3b6ec36e1e1f027eb4ca1313d680849a45efb9759fc3b3ac67be733578,train,0,citrus canker/306.jpg
+citrus canker/252.jpg,30,55ac01a523e24aad4c980d5f8a0d3c70aa6050c61f00165e58a9991995d3a6de,train,0,citrus canker/252.jpg
+citrus canker/361.jpg,30,98b59e9d47643b8f9c108a1961eda1b363e162871ccfbe16f056c4dedd03cedc,train,0,citrus canker/263.jpg
+citrus canker/33.jpg,30,60b358701352fa4223737c4aa70a4d9f09debe8e0a3e54afc4ec04e7c9534e39,train,1,citrus canker/259.jpg
+citrus canker/249.jpg,30,30440930364eb4cbcf98b1063f4f7fc1612b59d96dd911562baeed1ccdb2af65,train,1,citrus canker/247.jpg
+citrus canker/441.jpg,30,5c34bde6ed48263c260e216a85bdcd83da533a062d1cf0716b549cb65bee3d79,train,0,citrus canker/441.jpg
+citrus canker/256.jpg,30,069319066fb6c1f2e1e8c306d1ad713c4b4c6d670d50bd3895ee32a187837fbb,train,1,citrus canker/256.jpg
+citrus canker/312.jpg,30,dde66de96ca4027d29b9b32d0d8096c5321451ced4185774520c0d8b5cb2ff7f,train,0,citrus canker/285.jpg
+citrus canker/276.jpg,30,4d6953efee6a27c9ecb070e6ca583eb97bd5b1c4c0082a6dfcea7b632321caf0,train,1,citrus canker/276.jpg
+citrus greening disease/google_0068.jpg,31,7e6208f6f1e91bb6510474f57e3c3b9899b9aacc47163d2775a20d2c59c48a0a,train,1,citrus canker/google_0065.jpg
+coffee leaf/329.jpg,32,e16b58e12860cdba4b27325e792d46a611fcda8cdf76c2ff79b525b3048595fe,train,0,coffee leaf rust/16.jpg
+coffee leaf rust/13.jpg,33,ad77314be6de62c1f1a3780b457e9c02b27e840004b9aa402ba4c6e602adc083,train,0,coffee leaf rust/13.jpg
+coffee leaf rust/54.jpg,33,290c86dcf282f4b51bc8552c4418c7f6bc6a6b462b8e2c3b36548772daf7d513,train,1,coffee leaf rust/51.jpg
+coffee leaf rust/5.jpg,33,8f35ba333229239be4d8b3e6cd02320886dea2f402739f81993e1cd3606a3c09,train,0,blueberry rust/41.jpg
+coffee leaf rust/google_0208.jpg,33,a17b77385206311d1a2ea1f1326a00cdce48a1f747d2fbfdc9b8cf3e170c5ae9,train,1,coffee leaf rust/63.jpg
+coffee leaf rust/google_0130.jpg,33,9209d8822513bffe33999ad24419b0ccdd40b7f46df4a5f62900aa41a4c50f5d,train,1,coffee leaf rust/59.jpg
+coffee leaf rust/google_0136.jpg,33,1351617d23967e386490f039f366375429b4845ce67261b4f3f82aad0a6b41d3,train,1,coffee leaf rust/google_0125.jpg
+coffee leaf rust/51.jpg,33,290c86dcf282f4b51bc8552c4418c7f6bc6a6b462b8e2c3b36548772daf7d513,train,1,coffee leaf rust/51.jpg
+coffee leaf rust/59.jpg,33,322d7d1bdedf883ef5b2c4ac89cc2fd3d1f788ab757a416a407d37321d1176af,train,1,coffee leaf rust/59.jpg
+coffee leaf rust/google_0048.jpg,33,d5923a6dbd62354b00a33a7792b884de0266345c06029fd4382d39cbf504b2d3,train,1,coffee leaf rust/9.jpg
+coffee leaf rust/24.jpg,33,6d53a847e6a5c36f82a6832e0eea00f034b8aa6414471629fb76f81a8f9ce9d5,train,1,coffee leaf rust/24.jpg
+coffee leaf rust/google_0125.jpg,33,8a176e15165a3b7ab3af08c43145609dd9b3efecd572ecca8a5058b18f2e1ce9,train,1,coffee leaf rust/google_0125.jpg
+coffee leaf rust/google_0040.jpg,33,e43052970ced6aa1042f66d3a7038022046faef763174786f7c555374ca99ebe,train,1,coffee leaf rust/26.jpg
+coffee leaf rust/google_0012.jpg,33,d1d34f99a2af531a3f9812091f857af1dbf7412312871fab0d18ef996c9a411d,train,1,coffee leaf rust/24.jpg
+coffee leaf rust/26.jpg,33,aba9e80d0566213622bc8a7db82ebe48ce848c77cdadeeba234babdd6e427a17,train,1,coffee leaf rust/26.jpg
+coffee leaf rust/39.jpg,33,cb6bede4794737064f3a9f0e08957f97519ad0b227ca5359a92959df8929de3b,train,0,blueberry rust/26.jpg
+corn gray leaf spot/google_0133.jpg,34,082435cb1670a93b51db818da5eaa756f54145af2ceba8a90c407fc2f810c30b,train,1,corn gray leaf spot/google_0133.jpg
+corn gray leaf spot/google_0036.jpg,34,64a3a68af6f99f6eca8e566f244277ed9626f281d605baf267b11ea0f080bc86,train,1,corn gray leaf spot/google_0036.jpg
+corn gray leaf spot/google_0194.jpg,34,0eb59e81cbc0a4e54bc221b24621010d652ef532e981e2359877e630fa9becb8,train,1,corn gray leaf spot/google_0194.jpg
+corn gray leaf spot/12.jpg,34,226a560e9f3256f597896b6c32123c54033a42adcbc6e279954f0de808e11392,train,1,corn gray leaf spot/12.jpg
+corn gray leaf spot/google_0203.jpg,34,570ec67a243b2c5088fe968b48c0c6810a41ac8d8f3a24314bb781d9ba2fae98,train,1,corn gray leaf spot/google_0203.jpg
+corn gray leaf spot/google_0000.jpg,34,22a0c517a3262ce8a0824af900dc65d5c3fbaf719d69b8acd0d231d152cb4f6a,train,0,corn gray leaf spot/google_0000.jpg
+corn gray leaf spot/google_0066.jpg,34,d8ee0647c3a7693e1f8e7be54a45965d7eef188a9a2e6ebdb2e723fde7315605,train,1,corn gray leaf spot/google_0066.jpg
+corn gray leaf spot/google_0176.jpg,34,7959fca57814573b285eb4291dd855c6ef47e7fc8c1c23ef7c2228fbbcdb9b69,train,1,corn gray leaf spot/google_0176.jpg
+corn gray leaf spot/add (7).jpg,34,67d06ad0545a0f410144e95da16b0ca61cb1e70f003539003436b295f51a1b03,train,0,corn gray leaf spot/30.jpg
+corn gray leaf spot/google_0028.jpg,34,cbe51b12bed91050e1a2e1e296babe20222706b67ee057ae70a9959d7c8a81e5,train,1,corn gray leaf spot/google_0028.jpg
+corn gray leaf spot/google_0373.jpg,34,14153a39f175f253d929504799b3565b1952cb60d297ca8fbc38d6e855663b29,train,1,corn gray leaf spot/google_0373.jpg
+corn gray leaf spot/4 - Copy (2).jpg,34,809d10e8b75ee60d3de7f9b160f264fa5088b63034f270f4d6b3571a778384e8,train,1,corn gray leaf spot/4 - Copy (2).jpg
+corn gray leaf spot/4 - Copy.jpg,34,e1bf75ab28a150dfa7a47ab0abccfd3a36907cbda75f164fb263f8a723febcbe,train,1,corn gray leaf spot/2 - Copy (3).jpg
+corn gray leaf spot/google_0079.jpg,34,ac1da14ab2a6c4ad8a5731af70a3a91b1b0feedc3f4e92395480e9f822a8cd13,train,1,corn gray leaf spot/google_0079.jpg
+corn gray leaf spot/google_0124.jpg,34,2e2ddc693c41d4ed0389108f5240d8a871c4090afba896fe57240eefa5895ba5,train,1,corn gray leaf spot/google_0124.jpg
+corn gray leaf spot/google_0127.jpg,34,b9889bdbbafd2f34d75638a524c64badfb1525123ebbc5ca5cf907cad0208137,train,0,corn gray leaf spot/google_0127.jpg
+corn leaf/google_0098.jpg,35,67be3ebcd009533522f787ad21e33ff24f55df36a7b2913c5efdda4b21464ca5,train,1,corn leaf/6.jpg
+corn leaf/google_0079.jpg,35,fa46b75591905965e4fa84bd738ef7cc56b715c0ad07d54684ad60361e2f625f,train,0,corn leaf/14.jpg
+corn leaf/6.jpg,35,f6acdcba3cd9a4bea713701222787a7c244aee57d1d00c2c7154ac8ab4fb8fa2,train,1,corn leaf/6.jpg
+corn northern leaf blight/google_0068.jpg,36,f8ce8a1f5fc8d3740c2c222a34f3ee9b913c826430908b8297718c53f7299b6c,train,0,corn gray leaf spot/google_0026.jpg
+corn northern leaf blight/13.jpg,36,5d43e7f641882b197841e5d331c8c87814fd5a573cb27cd6c5738d259d70daff,train,1,corn gray leaf spot/20.jpg
+corn northern leaf blight/1.jpg,36,50a319ee5ea483da2c91a7b6fcaff1e478a026acb5112318f6f9d11a98163382,train,1,corn gray leaf spot/2 - Copy (3).jpg
+corn northern leaf blight/add (9).jpg,36,a87ae078d02fe67d42f5e31542b8e71192009e924e184d895baea6e6e7d4235e,train,0,corn northern leaf blight/3.jpg
+corn northern leaf blight/add (13).jpg,36,69c12e41d6a71553d9a8cdcac742002b272b526facdb3d1faa64fa5bbb085f83,train,1,corn northern leaf blight/71.jpg
+corn northern leaf blight/add (27).jpg,36,539d7ec21c46999c397843f77c202bbd1dd636e2088aab5978d8190a73a80188,train,1,corn northern leaf blight/4.jpg
+corn northern leaf blight/2 - Copy (3).jpg,36,40bb51b0e2861c7b4b8e4a7b254bfbe9da639959fa041e324051e988120badad,train,1,corn gray leaf spot/4 - Copy (2).jpg
+corn northern leaf blight/4.jpg,36,476ce2c585ccca20688777d4ec8606fa2e224061e2ff9befc957639934c9bb84,train,1,corn northern leaf blight/4.jpg
+corn northern leaf blight/5.jpg,36,d02ce16630c3a7e9face42eeffba7514ff51c68a9066e8e67055dbc60c812cf7,train,0,corn gray leaf spot/2 - Copy.jpg
+corn northern leaf blight/12.jpg,36,40177e2f7587e926fd37fd45a0e9615eaadb403df0def1f0897d7b52128dc928,train,0,corn northern leaf blight/12.jpg
+corn northern leaf blight/71.jpg,36,211a6a11a2c4284ee60a2ac7d769e526af5b27191a6e088ec44ed3304bca3eef,train,1,corn northern leaf blight/71.jpg
+corn northern leaf blight/google_0132.jpg,36,082435cb1670a93b51db818da5eaa756f54145af2ceba8a90c407fc2f810c30b,train,1,corn gray leaf spot/google_0133.jpg
+corn northern leaf blight/google_0072.jpg,36,7959fca57814573b285eb4291dd855c6ef47e7fc8c1c23ef7c2228fbbcdb9b69,train,1,corn gray leaf spot/google_0176.jpg
+corn northern leaf blight/23.jpg,36,0bb8e7550fd502507bb65dada37238eccd20b689656a29d3da5ec10617f12de9,train,1,corn northern leaf blight/23.jpg
+corn northern leaf blight/104.jpg,36,47d83a2e99d14b74deb413c422b4b36ac9488ee7fe944cfb9ddf1b0e970d797b,train,1,corn northern leaf blight/104.jpg
+corn northern leaf blight/google_0031.jpg,36,cbe51b12bed91050e1a2e1e296babe20222706b67ee057ae70a9959d7c8a81e5,train,1,corn gray leaf spot/google_0028.jpg
+corn northern leaf blight/google_0023.jpg,36,64a3a68af6f99f6eca8e566f244277ed9626f281d605baf267b11ea0f080bc86,train,1,corn gray leaf spot/google_0036.jpg
+corn northern leaf blight/add (17).jpg,36,41c7723e9b3bb6442dd3877bdcf5af0c9eb372d0b9e4ec96eb62af495fc5a31a,train,1,corn northern leaf blight/50.jpg
+corn northern leaf blight/add (12).jpg,36,bdf798f1219bf1d90f05f383e1597381adb8b6a713c03b41f402d5f5bdecf2f0,train,1,corn northern leaf blight/66.jpg
+corn northern leaf blight/google_0129.jpg,36,2e2ddc693c41d4ed0389108f5240d8a871c4090afba896fe57240eefa5895ba5,train,1,corn gray leaf spot/google_0124.jpg
+corn northern leaf blight/google_0040.jpg,36,ac1da14ab2a6c4ad8a5731af70a3a91b1b0feedc3f4e92395480e9f822a8cd13,train,1,corn gray leaf spot/google_0079.jpg
+corn northern leaf blight/2 - Copy (2).jpg,36,75754ff7015bd0a2f9f4908f30d5ca721ab461250167a92d0afa94b035f16638,train,0,corn gray leaf spot/2 - Copy.jpg
+corn northern leaf blight/google_0038.jpg,36,734d4bcf1d310f906598b5a52130fe351cb9b3ee27c525f046cc383986c7b31b,train,1,corn northern leaf blight/google_0038.jpg
+corn northern leaf blight/google_0039.jpg,36,e7efd025a45b7b9e43960e0092255d49b8a75356e8c07a326a1980629d8cbc07,train,1,corn gray leaf spot/google_0066.jpg
+corn northern leaf blight/2 - Copy.jpg,36,50fd8ed17e5addcc72852de65086e488c497481b72fd99c95d3eae607542a996,train,1,corn gray leaf spot/2 - Copy (3).jpg
+corn northern leaf blight/37.jpg,36,6288835224c95ebbadf6253c9050df65d7864b18949faaf9d5a31faf8bedd316,train,0,corn gray leaf spot/38.jpg
+corn northern leaf blight/50.jpg,36,41c7723e9b3bb6442dd3877bdcf5af0c9eb372d0b9e4ec96eb62af495fc5a31a,train,1,corn northern leaf blight/50.jpg
+corn northern leaf blight/add (30).jpg,36,47d83a2e99d14b74deb413c422b4b36ac9488ee7fe944cfb9ddf1b0e970d797b,train,1,corn northern leaf blight/104.jpg
+corn northern leaf blight/66.jpg,36,009db1a1d1f663dcfc848a5292c310c867f4a4a7b7a2ab1dbc961e428369c266,train,1,corn northern leaf blight/66.jpg
+corn rust/47.jpg,37,625f3a9669614a5385e6fc82107d5e53a35ae0cc3f17bf32bc48b9d7292ac38b,train,0,corn northern leaf blight/59.jpg
+corn rust/61.jpg,37,c34dd939307809520771bf40d3d975574bdebf379551755c9faa8d6e8c378090,train,0,corn northern leaf blight/69.jpg
+corn rust/google_0097.jpg,37,570ec67a243b2c5088fe968b48c0c6810a41ac8d8f3a24314bb781d9ba2fae98,train,1,corn gray leaf spot/google_0203.jpg
+corn rust/google_0098.jpg,37,9226c551aac9a3f88c6d5718a69df86e0ff0f7f842997a9c21ca2faee0d1517e,train,1,corn rust/2.jpg
+corn rust/81.jpg,37,5b308cd55247863d9d1f177f21a42224eddfa113cf895d53197fe6e96815060e,train,1,blueberry rust/55.jpg
+corn rust/2.jpg,37,326287d48d61a940e9e9986a7b2da1e3ba9152d8c49d23524c59a21f77f3f053,train,1,corn rust/2.jpg
+corn smut/google_0208.jpg,38,3f29c0c48155930bc66d3f8fbbb756ee38f305c4beaf7c39e4a3a6af01c82fb7,train,1,corn smut/170.jpg
+corn smut/170.jpg,38,3f5d96aed84ae96e2a46b2ca392011dceb2098b0ec137f2373ff97d8a3829b00,train,1,corn smut/170.jpg
+cucumber angular leaf spot/175.jpg,39,6556ac4ab9d46239fd01a99aa33a61c77304c24a14f1d051733f48d59d55107b,train,0,cucumber angular leaf spot/175.jpg
+cucumber angular leaf spot/google_0179.jpg,39,c79c78c57eb331123b05d08e4d7ba2bb52bd5dd429a37a435b2f930f0230a2ef,train,1,bean halo blight/google_0174.jpg
+cucumber angular leaf spot/55.jpg,39,37021eaf380a676ce5bdf89fc4a68c857f0ada40a1c195ae390364d0729eb950,train,1,cucumber angular leaf spot/296.jpg
+cucumber angular leaf spot/313.jpg,39,660f586333c1525adc4ffbe5e787edd45c8315079d7b854715866764137e14de,train,1,cucumber angular leaf spot/306.jpg
+cucumber angular leaf spot/170.jpg,39,87e56b80602d1bd86d82687a2b24b83d703975d06c8cdaea9043064b24f79ce0,train,1,cucumber angular leaf spot/170.jpg
+cucumber angular leaf spot/google_0034.jpg,39,b7eee7fa2ff9756cf6704dc4f82e5fdf1a3cb02ae71cacc87e4a359784c72f32,train,1,cucumber angular leaf spot/google_0034.jpg
+cucumber angular leaf spot/306.jpg,39,dd72376f5ea26ad4a3ac40a68c2ddaab7cf4b2e254421a15916e70e208e9a539,train,1,cucumber angular leaf spot/306.jpg
+cucumber angular leaf spot/320.jpg,39,846fcd3203910102c88cff894f1ec20a2452278aea6cce60912b5236713db174,train,1,cucumber angular leaf spot/170.jpg
+cucumber angular leaf spot/191.jpg,39,9c5433d7452f3f15651809463707f40207237523585ced4f13c5568a36c6c160,train,1,cucumber angular leaf spot/191.jpg
+cucumber angular leaf spot/64.jpg,39,ddd9e756c03dd40e8e601e608d4217755bc42061264867cc24f88b2bf6e5fc55,train,0,cucumber angular leaf spot/210.jpg
+cucumber angular leaf spot/296.jpg,39,3132d980c39bed640ba02449b99229398cbebd07e2529d385baaa16b62663b60,train,1,cucumber angular leaf spot/296.jpg
+cucumber bacterial wilt/google_0126.jpg,40,0683a81c6d8474c65d5b60dd32ded56d80ef638b93c627aefd18497eec284e17,train,1,cucumber bacterial wilt/google_0126.jpg
+cucumber bacterial wilt/18.jpg,40,21a18246e54f1777a2f4f3f4831728013afa419dbbd6e60c1d88fadd46d81ec5,train,1,cucumber bacterial wilt/18.jpg
+cucumber bacterial wilt/180.jpg,40,a2aec73775ede74448b691e0096017539cb556c95ed4c63bec1c57ecda8ee158,train,1,cucumber bacterial wilt/18.jpg
+cucumber bacterial wilt/google_0044.jpg,40,43c9e761e2c8c82fcd646435cdd162607542b6786b0e6ded4225e9883b793f64,train,1,cucumber bacterial wilt/google_0044.jpg
+cucumber bacterial wilt/32.jpg,40,75ceeb990ec49fb0832c27927d97e5daa1493720dc457792490741a8c0f5abdd,train,0,cucumber bacterial wilt/169.jpg
+cucumber leaf/google_0361.jpg,41,0683a81c6d8474c65d5b60dd32ded56d80ef638b93c627aefd18497eec284e17,train,1,cucumber bacterial wilt/google_0126.jpg
+cucumber leaf/google_0058.jpg,41,dda645f592f2dfdc67176c2c50fe20f787299f2b8f4eb16773bda2cc2b1a363e,train,1,cucumber leaf/google_0058.jpg
+cucumber leaf/google_0018.jpg,41,24c3f7e88e53f2c78b0beab76d128317c4aa8b1266b12806aec1b9c3892dd414,train,1,bell pepper leaf/google_0066.jpg
+cucumber powdery mildew/google_0056.jpg,42,2b380dda74a1db0425180f4720d40dd3e95f87f94da64b967da3fc9051b95725,train,0,cucumber powdery mildew/google_0056.jpg
+cucumber powdery mildew/160 - Copy.jpg,42,322910651f62a28a07f915d6ff4254aa8e0713d66c5fc5396d6d5521e1b02d3c,train,1,cucumber powdery mildew/134.jpg
+cucumber powdery mildew/google_0036.jpg,42,930b7aa4c995a4e360d136e640fb70f0976975e8b6940e318c69e30289be79c3,train,1,cucumber powdery mildew/google_0036.jpg
+cucumber powdery mildew/145.jpg,42,32a36f1f072ce3320fe95155d58f88411be2e2b677cf29642a4e3c1eab9df505,train,1,cucumber powdery mildew/145.jpg
+cucumber powdery mildew/67.jpg,42,8cd7a53c57b791cee853806137d9a90b83092e9bf8cd1c5cc10ddded59fecf54,train,1,cucumber powdery mildew/141.jpg
+cucumber powdery mildew/8.jpg,42,edc0e2dba3f54ced0b0f18f4ae858df2d0481417460967bc6731b785ab0822dd,train,0,cucumber powdery mildew/151.jpg
+cucumber powdery mildew/42.jpg,42,3d8f3d4776d4698b70f3bb6fb16b75f3e9a09cfe895faee7e1df68c256ea239d,train,1,cucumber powdery mildew/134.jpg
+cucumber powdery mildew/125.jpg,42,25a33e03fb0ab8c38e91f27362c222cde40426916764983ba76941d456ba6086,train,1,cucumber powdery mildew/125.jpg
+cucumber powdery mildew/google_0164.jpg,42,756c9bfd9ac7b82a5e48e40c5644cb627edebd88dba0d8b31836747613c40123,train,1,cucumber powdery mildew/google_0164.jpg
+cucumber powdery mildew/136.jpg,42,9a31e94a531df79d96cd01b2a8d4c888dadcb09165e0cfeb5292b2ed0331d768,train,0,cucumber powdery mildew/132.jpg
+cucumber powdery mildew/google_0102.jpg,42,1c3bc232c7ec323dab751c935b23a1c4f6a99dc334d4090198ac54224ab79f37,train,1,cucumber powdery mildew/google_0102.jpg
+cucumber powdery mildew/178.jpg,42,4d205cf8933d8bef1d905416f301fb0bd3f0b458862bcdd1eecb96c30cd3a50b,train,1,cucumber powdery mildew/125.jpg
+cucumber powdery mildew/google_0088.jpg,42,3bbf7bd7fe3073fcb9e10f644c53134756f05b662c730c9938654102b3ba56be,train,1,cucumber powdery mildew/google_0088.jpg
+cucumber powdery mildew/google_0097.jpg,42,b7eee7fa2ff9756cf6704dc4f82e5fdf1a3cb02ae71cacc87e4a359784c72f32,train,1,cucumber angular leaf spot/google_0034.jpg
+cucumber powdery mildew/google_0145.jpg,42,a19302903e40df7d09f848114ce2701b3c95158748da95326faa0929fb52fc3d,train,1,cherry powdery mildew/google_0119.jpg
+cucumber powdery mildew/google_0047.jpg,42,308b2d2dfd8f4bd81d1c5428bab2afb6f561046cf236fe14565210a49ffa8738,train,0,cucumber powdery mildew/google_0047.jpg
+cucumber powdery mildew/google_0026.jpg,42,29e95630d83cb2cf0059cc45a96f94757f21696bc81f4598cdcacbb4bf906e22,train,0,cucumber powdery mildew/google_0026.jpg
+cucumber powdery mildew/134.jpg,42,da31377b607b04e1afb8f1e8e99d04fb63e40fd8ad8cebc6d564242ef832032d,train,1,cucumber powdery mildew/134.jpg
+cucumber powdery mildew/169.jpg,42,4017bc13e1825503553ebf94b56d1f5053c1945d246f1ac5c2b1f01f38fa82ad,train,1,cucumber powdery mildew/169.jpg
+cucumber powdery mildew/google_0038.jpg,42,5fdead8e8b437788292e2a83c309a14fe34a75c221cb345f9f4e1772559cde55,train,0,cherry powdery mildew/google_0003.jpg
+cucumber powdery mildew/google_0096.jpg,42,3a7a58e0fa68aa79b35f8e17e5b862e354d7dac675c9c68583ac3aa11291df81,train,0,cherry powdery mildew/google_0058.jpg
+cucumber powdery mildew/google_0061.jpg,42,68295a59af723e367017500679946ecdc4a3953a9c0d2d77a8d3b8b39ad49c9e,train,1,cucumber powdery mildew/google_0061.jpg
+cucumber powdery mildew/google_0063.jpg,42,98b5d5934ed0733a80eeee2960fe9881117b13efaee851f8587e93aad2767f1e,train,1,cucumber powdery mildew/google_0063.jpg
+cucumber powdery mildew/2.jpg,42,86a98cc6361251ca3f37152c413415cc436257e80d72502d74b4c8118921666c,train,1,cucumber powdery mildew/2.jpg
+cucumber powdery mildew/194.jpg,42,71bcda29c5b8a2702686ee5e5211ef818ecce21ef5efa3491de81e8d2f55b3fc,train,0,cucumber powdery mildew/194.jpg
+eggplant cercospora leaf spot/google_0045.jpg,43,8d796e38dfab985e12c95722cbf2f1c1f73432cb7e1d1bc51a03a4abff3b3a07,train,1,eggplant cercospora leaf spot/google_0045.jpg
+eggplant cercospora leaf spot/google_0131.jpg,43,1062fbb97225cb3ddd76a84372b9982542a85bd90fdc46785d85d7159a0fb2e0,train,1,bell pepper leaf spot/google_0016.jpg
+eggplant cercospora leaf spot/google_0091.jpg,43,359599ac2a314723fd5f013f834b781847c8e43f517fe07f95e9613f346907c8,train,0,celery early blight/google_0109.jpg
+eggplant cercospora leaf spot/google_0159.jpg,43,1a5b3569916dce92f481658900ca4dd39675b39a7436d68d09c643f286126dc2,train,0,bell pepper leaf spot/google_0160.jpg
+eggplant cercospora leaf spot/google_0121.jpg,43,0dcac884078ef1d995707188b187ca285022d215c65ef420646a3dce84b6f131,train,0,eggplant cercospora leaf spot/google_0121.jpg
+eggplant cercospora leaf spot/google_0190.jpg,43,a2afa9dfdef85820b5213b3d915c62c9f0477c063ef4bf43b82fd61a76ef951b,train,1,bell pepper leaf spot/google_0020.jpg
+eggplant cercospora leaf spot/google_0053.jpg,43,ef45d8877b6759ff5733874a59cd9216ab1fcf2253315a9ea35eb1683b42a7f7,train,1,eggplant cercospora leaf spot/google_0053.jpg
+eggplant cercospora leaf spot/96.jpg,43,84dca953d734c184b66f944c267185dc7e2d1cbb134ff279baeaf01f6ecec10a,train,1,eggplant cercospora leaf spot/96.jpg
+eggplant cercospora leaf spot/google_0030.jpg,43,b8bf5cd567d3cae067f2fb0e4d7c6278e8acf50d89e39718c3db8ec848a71eb5,train,0,cabbage alternaria leaf spot/google_0058.jpg
+eggplant cercospora leaf spot/google_0106.jpg,43,83a5ca3dbc4a12d2b6782d9bb4abb696c9d711b1dcb8fa83f988055a64cbd627,train,1,bean halo blight/google_0027.jpg
+eggplant leaf/191.jpg,44,8beea7b1a1ddc5fee2f10bf0a6702ed75ab13fbb4226b256435ffb082969d041,train,1,eggplant leaf/191.jpg
+eggplant leaf/58.jpg,44,eede37b155ff1d077283e09ae63b72b5d0b4f3623d6fbfb38dc7c58598161325,train,1,eggplant leaf/191.jpg
+garlic leaf/294.jpg,45,31d9435c72950a30ce662902a5f05cbf8d6bec6682b9f4193394894018580f97,train,1,garlic leaf/294.jpg
+garlic leaf/43.jpg,45,f921f5c01deaaa94a6a8138bd2850d3586354f9ce7380b6ac515efc1cb06ef88,train,1,garlic leaf/294.jpg
+garlic leaf/google_0052.jpg,45,5f06b8ffa4df5776f61ba4cdec123dc1dfa0d701b4a8f4eaafcc584c12d6a88c,train,1,garlic leaf/google_0052.jpg
+garlic leaf/google_0005.jpg,45,eb3aa165c992e15bf9957af79761fe69a7d9843cea09f018c1d24349856dd50c,train,0,garlic leaf/52.jpg
+garlic leaf/293.jpg,45,09e5df2c9a1b5af827d3fb72d1c86f5bfaec4ccd0ecc50062257d951fcc2a80a,train,1,garlic leaf/207.jpg
+garlic leaf/google_0043.jpg,45,bc4f4db40fc21cb7c3363ec9b55741b52f2b6bdf84bd74d401eda7ea80903e69,train,1,garlic leaf blight/google_0004.jpg
+garlic leaf/189.jpg,45,8b17f1feb4ff7c495860871d0882f6f73ee598a41ac75a63a802309f94dc6bf2,train,1,apple leaf/145.jpg
+garlic leaf/356.jpg,45,5fbb57c243274d41e5ab92f484953f93b6a6087c79a6e2e7948240ff6a86e2d7,train,1,garlic leaf/207.jpg
+garlic leaf/google_0185.jpg,45,0c10342399d0d8837cf6cf34b7766a360229ab39b098ed8ba0507582cad6eae6,train,0,garlic leaf blight/google_0254.jpg
+garlic leaf blight/145.jpg,46,cbab60e4f0e22d1a9fc7ef51e3b1ed4208b4872f527137150dfa1e44273cc662,train,1,garlic leaf blight/140.jpg
+garlic leaf blight/google_0002.jpg,46,604b5eaa283dfa2d1465d2b7ab08c974a8063db8a8e3085ff9261e65617829e5,train,1,garlic leaf blight/google_0002.jpg
+garlic leaf blight/7.jpg,46,0c31d888dc42ee04a282e614caf19991b39b7219b08c82edbcf7ea8ba7268a18,train,0,garlic leaf blight/7.jpg
+garlic leaf blight/215.jpg,46,ede6b749f4ab582f7115cef54f8e40850397c0fe07d4b94c243d11fee03ab99d,train,1,garlic leaf blight/215.jpg
+garlic leaf blight/google_0210.jpg,46,32071521232b21a4d3710dd7216a86250c75564eba097a2cb473fc41f082067f,train,1,garlic leaf blight/google_0210.jpg
+garlic leaf blight/140.jpg,46,e028594181abc60fe760a0ad7ded381e1cccd134fd7fe25bcc87a558092c07a3,train,1,garlic leaf blight/140.jpg
+garlic leaf blight/14.jpg,46,65f6f1ed3a329be8b9fa3bddd53268ecbbe32d45cea7c5dd55c5d9ad6cb1b526,train,1,garlic leaf blight/14.jpg
+garlic leaf blight/google_0010.jpg,46,308d7858a3ba14fa99f0f15de9737e7fad7653c176c9297aa8d54376f58e82be,train,1,celery anthracnose/google_0035.jpg
+garlic leaf blight/google_0124.jpg,46,40007215cfb7d3f483bb0f5e4bdee367f4a6513b7103bbd71a14e3dd573e3e15,train,1,garlic leaf blight/google_0124.jpg
+garlic rust/google_0003.jpg,47,52951eda9d45272a753842b8c967d25bbab4d216b2f477c57488b027d5d68552,train,1,garlic leaf/google_0051.jpg
+garlic rust/183.jpg,47,be9e9f5cfbcd204f3ebd8c54a59c7e4157638c4db749e98488e6dd16578acca0,train,0,garlic rust/180.jpg
+garlic rust/181.jpg,47,9b2ebef9d5c7a246f952b85481b83e90de51dad6d03b142be65b01d45685c475,train,1,garlic rust/178.jpg
+garlic rust/24.jpg,47,bb1f4bb14ad6e37e6837150048edd98543b96cec6ed30bea993cd26423cd864a,train,1,garlic rust/24.jpg
+garlic rust/178.jpg,47,9b2ebef9d5c7a246f952b85481b83e90de51dad6d03b142be65b01d45685c475,train,1,garlic rust/178.jpg
+garlic rust/google_0210.jpg,47,32071521232b21a4d3710dd7216a86250c75564eba097a2cb473fc41f082067f,train,1,garlic leaf blight/google_0210.jpg
+garlic rust/google_0001.jpg,47,6830f55dc0aad6aeb99eae8dec1b1566dc8d3e616157954e099c7ad15be8a35d,train,1,garlic leaf/google_0052.jpg
+garlic rust/97.jpg,47,167128d5073bf9b788aef9ebfe25dcca2254e14969cb330937c264cfb5f92178,train,1,garlic rust/217.jpg
+garlic rust/google_0044.jpg,47,f4abfac98de5a0ed66b160c2ee89e4fabdcb0720eceda3b45301dfccd76845fa,train,0,garlic leaf blight/google_0044.jpg
+garlic rust/26.jpg,47,bb1f4bb14ad6e37e6837150048edd98543b96cec6ed30bea993cd26423cd864a,train,1,garlic rust/24.jpg
+garlic rust/217.jpg,47,885271dcbfe56fbff7ec3d7f04e5012c067e6279352f4b150d6d620800005cb8,train,1,garlic rust/217.jpg
+garlic rust/35.jpg,47,107d58136408312f79a34da7436d71c9d37e74e0667ffe0aedd3ef09283935e5,train,1,garlic rust/2.jpg
+garlic rust/google_0124.jpg,47,40007215cfb7d3f483bb0f5e4bdee367f4a6513b7103bbd71a14e3dd573e3e15,train,1,garlic leaf blight/google_0124.jpg
+ginger leaf/30.jpg,48,26b69f5b7ede745effad531994cf5a4ce609e6812ca47a87cbc496a689a24cb8,train,1,ginger leaf spot/11.jpg
+ginger leaf/155.jpg,48,61cda2ccd1f39db42b5483719c3a57b2f4d927dd273a4c5af2d4be7fc846f4f2,train,0,ginger leaf/155.jpg
+ginger leaf spot/42.jpg,49,986e414182277b021c147bf024e84540c5ffa92f8273469c27da1b7ec35a2567,train,0,ginger leaf spot/42.jpg
+ginger leaf spot/google_0000.jpg,49,09f3f9fd62870b746a4415885e206ae26bcbcdb321bfff081a27fb79f90eb234,train,0,ginger leaf spot/google_0000.jpg
+ginger leaf spot/11.jpg,49,26b69f5b7ede745effad531994cf5a4ce609e6812ca47a87cbc496a689a24cb8,train,1,ginger leaf spot/11.jpg
+ginger leaf spot/36.jpg,49,6d582420ea4aaa4f7092b43fde00cd62fb93019612a08ed995f2ade21167e9e3,train,1,garlic leaf blight/140.jpg
+ginger leaf spot/81.jpg,49,4f61f6324bf231c2b64c588566444af9bcae5ead0ae81279c654b47abb752e91,train,1,garlic leaf blight/14.jpg
+ginger leaf spot/109.jpg,49,98089e532887258cce7933b90fb2707cf9dab044fb6651f390804b9948da6049,train,1,ginger leaf spot/105.jpg
+ginger leaf spot/78.jpg,49,4f61f6324bf231c2b64c588566444af9bcae5ead0ae81279c654b47abb752e91,train,1,garlic leaf blight/14.jpg
+ginger leaf spot/google_0137.jpg,49,14153a39f175f253d929504799b3565b1952cb60d297ca8fbc38d6e855663b29,train,1,corn gray leaf spot/google_0373.jpg
+ginger leaf spot/159.jpg,49,cbab60e4f0e22d1a9fc7ef51e3b1ed4208b4872f527137150dfa1e44273cc662,train,1,garlic leaf blight/140.jpg
+ginger sheath blight/13.jpg,50,56a044ba05e97c0ba2e73f95e7355f2c36de4c026ee46ebb15386725b0501342,train,0,ginger sheath blight/13.jpg
+ginger sheath blight/89.jpg,50,d4c3b4b8bb2c526261b9a9e29fe17c4151e9572aa15ff1dda4b3018158dbf5ea,train,0,ginger sheath blight/89.jpg
+ginger sheath blight/30.jpg,50,fa8f59ae9f87b71f93abb8716c83131faf5ec40eb26ef82b07e3cc83370e4be3,train,1,ginger sheath blight/30.jpg
+ginger sheath blight/170.jpg,50,6157fe8b9a90258a823969d9819e04b9fb7303e67c9351643895068b68bd1cac,train,0,ginger sheath blight/170.jpg
+ginger sheath blight/91.jpg,50,f46ba750f85a8779ac65c17e86c7b245916c500cfd07bda8d474296abd09699a,train,0,ginger sheath blight/166.jpg
+ginger sheath blight/6.jpg,50,41cdab2205db94f1489635f98ad826852b96445a332a1f4d835cc59a550cc199,train,0,ginger leaf spot/25.jpg
+ginger sheath blight/26.jpg,50,d1d943d8f43ca8bbb9c3e73bdfdcbd74af1326643a851fbdf60e2f85b4d1200e,train,1,ginger sheath blight/26.jpg
+ginger sheath blight/80.jpg,50,ce87532354f3478cb69dd3ecfeaa3a3d637d07ec131b990a6ea4dcc66935acdf,train,1,ginger sheath blight/80.jpg
+ginger sheath blight/google_0015.jpg,50,06ba2133ad14d5df5767609d362ae254b7d9fde70aa381a3a8bf783d72e802e2,train,1,ginger sheath blight/google_0015.jpg
+ginger sheath blight/58.jpg,50,59cb98c88341ecc43a533903ecabc10f120117ff8c405e69fdeb8ea85c9d25ec,train,1,ginger sheath blight/58.jpg
+ginger sheath blight/google_0046.jpg,50,f383a44f85e44f9010c19c1efc0af36fba646d4c0bcdd1423bce95def9b8298e,train,0,ginger leaf spot/44.jpg
+ginger sheath blight/google_0007.jpg,50,3fd657c62d17a92e1f4a7a40bd6344a59a8810f12df28e0014f38bf04b928284,train,0,ginger sheath blight/google_0007.jpg
+ginger sheath blight/google_0020.jpg,50,fad5d3a196320f0ac6af913eb3f236e081cd246584bb379d680c0fc4f6b35dd3,train,0,ginger sheath blight/google_0020.jpg
+ginger sheath blight/64.jpg,50,79fd753120b9a04683bd41e9dd4641665c7e4405693ebe191e7641ab5232579c,train,1,ginger sheath blight/64.jpg
+ginger sheath blight/77.jpg,50,2119dbbebb1207750642db90ab533c66da1e72e02e2087441138c8bbcaff0788,train,1,ginger sheath blight/77.jpg
+grape black rot/9.jpg,51,43bd714c43b6a9eb26ebdebcad7c7887b634ccf406aaf1f76f546bcee26a205a,train,1,grape black rot/9.jpg
+grape black rot/156.jpg,51,075cda1cba78e0276f36a89529d070cea7417d06420589dd440d82c393a4e8c8,train,0,grape black rot/156.jpg
+grape black rot/google_0064.jpg,51,fa972eb05f9ecd4ddd901020d88f566ea702855a0b90d2f4e6c5e81e3070cd4c,train,1,grape black rot/google_0064.jpg
+grape black rot/google_0119.jpg,51,3cfe8e0ac56e29dfe568db6c8663c0c3821961c90491a26b4eb679ac8cde82d4,train,0,grape black rot/google_0119.jpg
+grape black rot/8.jpg,51,cabab65dea06730df022937a6391b90042ac94cf346bad71515325f5bb50666c,train,1,grape black rot/8.jpg
+grape black rot/42.jpg,51,482bbdc8dfefa75d96efd56ac9c48eba6553bed5d59769382487794e27129ab4,train,1,apple black rot/80.jpg
+grape black rot/google_0081.jpg,51,cdb5a7a37b64eaa9d10cad946be6dd2c1c48345963500275e6a95a5fb04a8a0a,train,1,grape black rot/google_0081.jpg
+grape black rot/google_0023.jpg,51,83e5e9d930d31172491db1d624843fa76fe1749c7b9f7a89a8fea344fe96ff4b,train,1,grape black rot/8.jpg
+grape black rot/google_0320.jpg,51,21b591e30f766b2086dd8bf26a2b95d8f782a8696a9ecc5da1db400fd807ae8c,train,1,grape black rot/9.jpg
+grape black rot/google_0032.jpg,51,ef92b0c5d5bda9e214610509ce07b841c0ad0ffff08a5bf02bc970d64567dae4,train,1,grape black rot/9.jpg
+grape black rot/102.jpg,51,1cadefad363f9b1387763302c1fe1f9395ec4969a1666ab1ae900b7e4d3fc7b0,train,1,apple black rot/34.jpg
+grape black rot/google_0010.jpg,51,034b424518105b0249f765bf117fb8a8b461714c01339b1f7df73a69f838ccc2,train,1,apple black rot/google_0067.jpg
+grape downy mildew/272.jpg,52,5235ae67b2e6655828f98003a541fabcc5aff6f418655661f8a88e8100f87f50,train,1,grape downy mildew/27.jpg
+grape downy mildew/1.jpg,52,0a06bdb47310e188d71cfa316e08ad746718c5fae06708b1c05dc0082b5432cc,train,0,grape downy mildew/1.jpg
+grape downy mildew/122.jpg,52,a1dd65509a5675c546257e05a868b8ae28bb13f3d8dfa33bb186f2971ecf26e7,train,1,grape downy mildew/122.jpg
+grape downy mildew/google_0209.jpg,52,cdb5a7a37b64eaa9d10cad946be6dd2c1c48345963500275e6a95a5fb04a8a0a,train,1,grape black rot/google_0081.jpg
+grape downy mildew/241.jpg,52,a1dd65509a5675c546257e05a868b8ae28bb13f3d8dfa33bb186f2971ecf26e7,train,1,grape downy mildew/122.jpg
+grape downy mildew/216.jpg,52,8bebefbf5af250d1584054916d89ef34f70b7ea11640acfbe4f3a9165d24dbaa,train,0,grape downy mildew/102.jpg
+grape downy mildew/190.jpg,52,945f89ebce016c18e2ff58ec6d8e7cb18691ca68e8f25c0156678ca62d3ee73a,train,1,cherry powdery mildew/33.jpg
+grape downy mildew/79.jpg,52,7a8bccf4b2285dafbec11adb37e4a1688e7241e1c23f67d71befab26a2b50deb,train,0,grape downy mildew/79.jpg
+grape downy mildew/193.jpg,52,40e1e60a6564c703432223ee9ffb93d5f884ffba340c7daaa3eadc985e881f67,train,1,grape downy mildew/193.jpg
+grape downy mildew/google_0067.jpg,52,28da2eebe744a007de5d9bffc1d192b0a05aa5b9e62baaf7913398d49bf9a028,train,0,cherry powdery mildew/google_0032.jpg
+grape downy mildew/27.jpg,52,309ae18a4d8786c5f077133f3055e92fc641f4fb11303bb0a5a4cf0845d4bbc0,train,1,grape downy mildew/27.jpg
+grape downy mildew/225.jpg,52,39d58ee07246bae615ded5178948c938e1cdb69274fde216a0f770a77986b320,train,0,grape downy mildew/12.jpg
+grape downy mildew/google_0012.jpg,52,f9dc31308164b8ace5c790682d6d2c3ca216df7ca0efd0ffdc4dbbee0701cedb,train,1,grape downy mildew/google_0012.jpg
+grape downy mildew/google_0043.jpg,52,4015bb980b460420186180c5855c3579937c5952361a90fa5f7374c3f9776581,train,0,cherry powdery mildew/google_0029.jpg
+grape downy mildew/138.jpg,52,74f54299de6d844ebe0f7236aaf1f3794a483268566583cf370b9d1a819171ce,train,0,cucumber powdery mildew/172.jpg
+grape downy mildew/220.jpg,52,631fb037455c9245ee4d0369517867388d60dbab21d7153193c18dec56e70deb,train,0,grape downy mildew/17.jpg
+grape downy mildew/google_0076.jpg,52,fa972eb05f9ecd4ddd901020d88f566ea702855a0b90d2f4e6c5e81e3070cd4c,train,1,grape black rot/google_0064.jpg
+grape downy mildew/64.jpg,52,aa7b6fff235b5f5b90e649df25564ba02a8e0c9ccee1eb67a2afb51d272da279,train,1,grape downy mildew/193.jpg
+grape leaf/13.jpg,53,ad8ec9bc27873144586dea0de86e6049512cb505e7b8b9b2b3868fc207ed2898,train,0,grape leaf/13.jpg
+grape leaf/147.jpg,53,a60974845a93568a856054bb53e5d9479b0ec3d8ac7fe01c934ef8ab590b3eb5,train,1,grape leaf/147.jpg
+grape leaf/3.jpg,53,81d2d3ac2c5c6dcf78a62db4f4154a3970bd15552029873746c78132180a908e,train,0,grape leaf/3.jpg
+grape leaf/google_0286.jpg,53,bab98c5fb29bd678f610e99101c74dc3909d5199af5eac62e592c4c6d431c236,train,1,grape leaf/google_0286.jpg
+grape leaf/6.jpg,53,c580127e47fb1ce1e635b01fc0472163b1631124ec16143edf4c9a00f572327c,train,1,grape leaf spot/25.jpg
+grape leaf spot/38.jpg,54,d185116f484684c4d05cac18485714f9a704f66cab1fe0b4c5c7290457f14903,train,1,grape leaf spot/144.jpg
+grape leaf spot/google_0036.jpg,54,b8bf5cd567d3cae067f2fb0e4d7c6278e8acf50d89e39718c3db8ec848a71eb5,train,0,cabbage alternaria leaf spot/google_0058.jpg
+grape leaf spot/google_0070.jpg,54,86bbc637000510fb05836c3b0ecd43783ce002e4eb08f473aa8de7eae65b0e0d,train,1,grape leaf spot/google_0070.jpg
+grape leaf spot/5.jpg,54,02f46f7405f7b969fb7f591317cbe3af436ce79e10d9884b168cdcc0229e5e15,train,1,grape leaf spot/5.jpg
+grape leaf spot/google_0002.jpg,54,b8b9437330eb4bf8b80651a98b3e9c156002c26dfc910d7092884904d63fb78f,train,1,grape leaf spot/google_0002.jpg
+grape leaf spot/205.jpg,54,158aed62a1d742de9f5a528fe0afd6b15521a2be76e4ef671d183ce85fc94551,train,1,grape leaf spot/205.jpg
+grape leaf spot/144.jpg,54,16b84a04850bb973a5b1d850f880463293ee96f1bf67908285e261d13da54703,train,1,grape leaf spot/144.jpg
+grape leaf spot/198.jpg,54,d5da466ba5737410afe5be96182fcd11c50f98d7172ec86e8cabcf63a543cc5c,train,1,grape leaf spot/168.jpg
+grape leaf spot/google_0098.jpg,54,f1319f5b1783b0973db501da3a6d10c855c83d5c8bb8a4beb76b2afff3c6b8c5,train,1,grape leaf spot/google_0098.jpg
+grape leaf spot/97.jpg,54,b1316b214c4ad311bc3678b1153a793a3d8b897dba16f605a28f7f3d0bd61cde,train,0,grape leaf spot/97.jpg
+grape leaf spot/41.jpg,54,184955d015bb75e910a509c59453e039d23ed19ab9d8c98ffdbe02004ad2a253,train,1,grape leaf spot/205.jpg
+grape leaf spot/157.jpg,54,fcdd3677623aa9676605cbaf0108a2bddec389a5f92745b8c928c08d0734acb0,train,0,grape downy mildew/google_0079.jpg
+grape leaf spot/138.jpg,54,2a27bb4b3443b8733d1e5ddf50c2169064df30269d6b2542b9c0130410550434,train,0,grape leaf spot/138.jpg
+grape leaf spot/google_0030.jpg,54,a3a8154506fd41d31416b81fce8b9b80e0bad722353b6484789ca898c295843d,train,1,grape leaf spot/google_0030.jpg
+grape leaf spot/google_0076.jpg,54,5a39ade30b0b5b61f8e1970187982f922656c0eea5269b254b3e45796ade7002,train,1,cabbage alternaria leaf spot/google_0047.jpg
+grape leaf spot/168.jpg,54,a6dd1080b7e7feb37b4a456536e72cb7fecbf6cdd0188134a33c8a0318a4970e,train,1,grape leaf spot/168.jpg
+grapevine leafroll disease/5.jpg,55,242a9d01652cd8e34cac79738710e091c07850b35738ecc4c7becb27dcff2a5c,train,1,grape leaf spot/5.jpg
+grapevine leafroll disease/google_0187.jpg,55,a90538c49159da1ad08c97ffb588d91df27398a0f41c84296abae9492644d8df,train,0,cherry powdery mildew/google_0029.jpg
+grapevine leafroll disease/google_0010.jpg,55,4d8d364dddbcd98b3ffa6ad792f287d00c4f453b72ed7749c5458d22a8f9c419,train,1,grape leaf spot/google_0002.jpg
+lettuce downy mildew/google_0068.jpg,56,cd4ab9429f1dffc78c355bc803d363a47a92cf3f49dbec69351f3ab29a004d92,train,1,basil downy mildew/google_0064.jpg
+lettuce downy mildew/44.jpg,56,eab15b1b9810088f642e38a3039dfbecf839f0fccc41812d084130fb361291ed,train,1,lettuce downy mildew/44.jpg
+lettuce downy mildew/google_0002.jpg,56,04de390329a57bcf5f6552b8163d8447e93ce6d0926b7a0edda284c308dbc823,train,1,broccoli downy mildew/google_0056.jpg
+lettuce downy mildew/63.jpg,56,8fa39d17c1b91656fc7b710ed0791fa51dad2af5f20ed427f92108418641bb0a,train,1,lettuce downy mildew/63.jpg
+lettuce downy mildew/google_0017.jpg,56,8ae9e7791fad6d57c8dbd3c38af286d0566723e5b50683cb524579c59bb10563,train,0,cherry powdery mildew/google_0018.jpg
+lettuce downy mildew/93.jpg,56,2144f35425ffb8313a3539fc08856b832f74b57c5e8ac475069474296b1b07b9,train,1,lettuce downy mildew/93.jpg
+lettuce downy mildew/14.jpg,56,7ddeca6e1e1995c7969faf349961844bdde8c254cb700d1cad7d584ac6005868,train,1,lettuce downy mildew/14.jpg
+lettuce downy mildew/google_0039.jpg,56,abbe9fc607b426d7dcd0abfc35943c7221adb9835d23e2a94265b0edac1f18b9,train,1,lettuce downy mildew/google_0039.jpg
+lettuce leaf/google_0194.jpg,57,90be26ee2fdffa9af3978f56ec17c42745f124a9e2a084d0c52471c4aca0441c,train,1,basil leaf/google_0008.jpg
+lettuce leaf/google_0144.jpg,57,af78b1dbf71da531359be4712879c0edb9bb4451b750629e41e793bbb264fd50,train,1,basil leaf/google_0005.jpg
+lettuce leaf/35.jpg,57,ee5722914822970e055c0ee4f862b4f27c41c1ec5e5a22d0fd8a57afbd9756a1,train,0,lettuce leaf/16.jpg
+lettuce mosaic virus/google_0011.jpg,58,abbe9fc607b426d7dcd0abfc35943c7221adb9835d23e2a94265b0edac1f18b9,train,1,lettuce downy mildew/google_0039.jpg
+lettuce mosaic virus/36.jpg,58,46fef54c29e37263483a4ce095c2264c9bce05be9c320f00cb7022f438917db3,train,1,lettuce downy mildew/78.jpg
+lettuce mosaic virus/15.jpg,58,7ddeca6e1e1995c7969faf349961844bdde8c254cb700d1cad7d584ac6005868,train,1,lettuce downy mildew/14.jpg
+lettuce mosaic virus/27.jpg,58,c44175e49691c9d6b3db6dd4c0e425c796c72c4210f9b16d1af869896b8d874a,train,1,lettuce mosaic virus/27.jpg
+lettuce mosaic virus/25.jpg,58,8fa39d17c1b91656fc7b710ed0791fa51dad2af5f20ed427f92108418641bb0a,train,1,lettuce downy mildew/63.jpg
+lettuce mosaic virus/34.jpg,58,ea02cef5fd85d3085fa66fe25fc99ff5dd47295ed733e039ebe662bfb23f70e1,train,1,lettuce downy mildew/65.jpg
+lettuce mosaic virus/google_0039.jpg,58,d07894a3fbe8568a1115de0b30482ca3e526f0fc7939d96b1553852e7fe933f5,train,1,lettuce mosaic virus/google_0039.jpg
+lettuce mosaic virus/28.jpg,58,eab15b1b9810088f642e38a3039dfbecf839f0fccc41812d084130fb361291ed,train,1,lettuce downy mildew/44.jpg
+lettuce mosaic virus/32.jpg,58,cbf1660e143511f509608234a9a701b808e6eaec42a1c1eb5d13dd41d07d43f2,train,0,lettuce downy mildew/47.jpg
+maple leaf/388.jpg,59,cc92107c7c0f1286f703509ab7a6501eac457e696b7c48ef076ed1044dfd30cf,train,1,maple leaf/19.jpg
+maple leaf/83.jpg,59,7ac63d468f46cb5737cb3648c0941d6908151da5fb81931355f855701c90ed6e,train,1,maple leaf/166.jpg
+maple leaf/12.jpg,59,2b19b8b0c7c0bddb485ae1cc9b45edea701ab91496bac594a594b33596b648d2,train,1,maple leaf/12.jpg
+maple leaf/166.jpg,59,7c091945ec809764b476dc1a18cc3295981c42c629676a3a580c20537f10c1a5,train,1,maple leaf/166.jpg
+maple leaf/419.jpg,59,79da1d7363d9f916c8d71e0b40dc9967de1a1b2dd14b9cd11c96551c60111052,train,1,maple leaf/29.jpg
+maple leaf/88.jpg,59,e03827d1eb844afa21b452effa579de1f22d1b101cc89df1f18141729ce7f3d0,train,0,maple leaf/356.jpg
+maple leaf/19.jpg,59,28ba06a441b963345d872e371b479f8812d994a6fe67941967859aa613bfe792,train,1,maple leaf/19.jpg
+maple leaf/29.jpg,59,6ad79128d00185c36b1ffaa2d40dccdad886bb34978165244f8e18eab1d39b98,train,1,maple leaf/29.jpg
+maple tar spot/google_0002.jpg,60,1238bb7b10052e0bba4edd6d03e2e22e43bc2424536b018de4ec67dc811d1a59,train,1,maple tar spot/google_0002.jpg
+maple tar spot/google_0097.jpg,60,9471c08d71e8af1d12ee40f66f3161ed9754cf1e8802c07988327dce21ff79bc,train,1,maple tar spot/google_0002.jpg
+maple tar spot/google_0067.jpg,60,86bbc637000510fb05836c3b0ecd43783ce002e4eb08f473aa8de7eae65b0e0d,train,1,grape leaf spot/google_0070.jpg
+maple tar spot/google_0001.jpg,60,3817c8745ffdbe78e10011fd9fd24f27fbf0a09a84c00be23f3765c1832cd88e,train,0,grape leaf spot/google_0032.jpg
+peach leaf/139.jpg,61,13e262a0b5d0370ccdd38d88af18bce32edecaf88caed174a05f381f8063f563,train,1,peach leaf/139.jpg
+peach leaf/100.jpg,61,4bb1bd774b8113c37a730c99120dd3ee0ec9e3b392c08c7471267554d567ae6d,train,0,peach leaf/100.jpg
+peach leaf/36.jpg,61,332c96fa8ab5ad56460fa49e93f2e003f01b2c8e7fb90cf3fe9969efa244084f,train,1,peach leaf/36.jpg
+peach leaf/157.jpg,61,15c9e3528e937bf0f15e81a5c6aa193bf1cd34c5f2271a147492629c7732a1f9,train,1,peach leaf/139.jpg
+peach leaf/google_0218.jpg,61,53f235214da5ca1df76561141afe685e07d10ba33a1a6c84a8d62d1ea2181d12,train,1,peach leaf/36.jpg
+peach leaf curl/google_0021.jpg,62,170dd8dd37f05ed6e2ceedb289940649da2a0f7162494cf1ffe6ba214fd7ea41,train,1,peach leaf curl/google_0021.jpg
+peach leaf curl/google_0087.jpg,62,931fa2a7e32ffe20705d3fc08bdeea3ed38b78edd61490942d23c6c235ac78c7,train,1,peach leaf curl/google_0087.jpg
+peach leaf curl/google_0126.jpg,62,3225c7b2587d21b68a397dacf9ab34ecd373246b38db3d3240a3aa81d6a179ed,train,1,peach leaf curl/google_0021.jpg
+peach leaf curl/google_0231.jpg,62,e3a7683bc323d9c3a6fd857822fbc9023c3759c5d54ab2f4ea82049f884a4418,train,1,peach leaf curl/google_0087.jpg
+peach leaf curl/28.jpg,62,8208db409c2667e50aa02cabb01a4cf3f8692dc8e556c15ed24e895d1483c1f1,train,1,cherry powdery mildew/15.jpg
+plum leaf/319.jpg,63,9e58b0f136cb95995e859b5e1b698b9d8faa7a10e49f85fbeba6b57613758cfb,train,0,plum leaf/248.jpg
+plum leaf/google_0151.jpg,63,4c9d553aae1add3dfe61b1b3b7b9afee58e99a7e6a7066bef116039caa1f55d7,train,1,plum leaf/google_0151.jpg
+plum leaf/60.jpg,63,5e5c9b8b629a571a71cb16644741485f3ac0fbe0454cba77348b7f1b34519fed,train,0,plum leaf/155.jpg
+plum leaf/45.jpg,63,e1a4886a616d87a36c595b98473a0cb8f8754bbc63c4160b3de7ab54e8ca7ce3,train,0,plum leaf/45.jpg
+plum pocket disease/google_0019.jpg,64,4c9d553aae1add3dfe61b1b3b7b9afee58e99a7e6a7066bef116039caa1f55d7,train,1,plum leaf/google_0151.jpg
+potato early blight/13.jpg,65,03418e8ff826c83763194e4d550d74b29cc121fddd0f72e0576f9936bb725bf6,train,0,potato early blight/13.jpg
+potato early blight/google_0200.jpg,65,b7028097fd9d0f880ba0c3cae23448c670a9d0bfe3cc90ab2a6ba99a302865c0,train,1,potato early blight/google_0200.jpg
+potato early blight/google_0143.jpg,65,c09de2797122318ab66af69c41b7d820086a5d4a2373b33a55601416a0523133,train,1,potato early blight/google_0018.jpg
+potato early blight/google_0345.jpg,65,1192dae4dffd13069dfca3a690104a616a194e54f5e0a0799a5379b60d53326a,train,1,potato early blight/google_0004.jpg
+potato early blight/google_0071.jpg,65,965b2804d52b1ec57e2e67ec0adedf7761cb956ada47350158edb132411fb6e2,train,0,bean halo blight/google_0032.jpg
+potato early blight/google_0008.jpg,65,5fffbc40caa405d25a465694129e07557b328b2ae1819a8e2b4ae4ff3e7a1b5a,train,0,cauliflower alternaria leaf spot/google_0340.jpg
+potato early blight/google_0084.jpg,65,dadaf8136f1d031289d1df21ea5b685db22cfc99823b13d3886626936c0e327f,train,1,potato early blight/google_0084.jpg
+potato early blight/google_0112.jpg,65,035732fe5ef66d50dc06132827bc70142b1faada964e52963bb5e0f2d34eb3c3,train,1,potato early blight/google_0112.jpg
+potato early blight/8.jpg,65,d884bdd9037615cdd239aefb0df2e1a99ab96a26043256e46dc6f77def6b5716,train,1,potato early blight/8.jpg
+potato early blight/google_0215.jpg,65,debcb95e2eaf51e7241606dbad4b2d21ac67f24314b5f386c73c132b161caf60,train,1,bean halo blight/google_0078.jpg
+potato early blight/google_0170.jpg,65,51a917e86f04d24f0a29eb85944a929a3eeaccf9b15334165c8b1b53f401602b,train,1,grape leaf spot/google_0046.jpg
+potato early blight/google_0002.jpg,65,69fcef346a429b1a0e101b1350b8b75cbc5fa5637b414d15cfbe8248bb1743cb,train,1,bean halo blight/22.jpg
+potato early blight/google_0171.jpg,65,5923775a4cb8ff783a133a5790d64c1c84a3852dfac7dd0a0435133897d2ed2d,train,1,potato early blight/google_0171.jpg
+potato early blight/google_0048.jpg,65,a68b6ce94070859c277e10b683309278105978808a18da875ae988855b4036a1,train,0,potato early blight/google_0048.jpg
+potato early blight/google_0158.jpg,65,d73ea8f64acf03337761d262d412cfa17b6b4e41f92bcc27dc91f1370ccccf32,train,1,potato early blight/google_0158.jpg
+potato early blight/google_0097.jpg,65,265c012f2e747827d4ea1b3f942130d940d087acaca6a87a8d4a87fd9a159d5b,train,1,potato early blight/google_0097.jpg
+potato early blight/google_0055.jpg,65,61155c1c1618426413a4aeed3153f5ec72f5d608a99eb6a14c0087e1b702b5a3,train,1,potato early blight/google_0055.jpg
+potato early blight/google_0081.jpg,65,2296932d7e9450fe642469b09b0e244df1b3c1cc4bcf8a42d2a7219314a43875,train,1,potato early blight/google_0018.jpg
+potato early blight/google_0004.jpg,65,386f8cf5dfe4dcbc8d514dd49a395b919f8466af2089fe0782ce6bfada07c655,train,1,potato early blight/google_0004.jpg
+potato early blight/google_0005.jpg,65,8825163e6ed481ad9f1c6b6f9b01836a37965b543ce6064ce3011a887c49ff9a,train,1,potato early blight/google_0005.jpg
+potato early blight/google_0320.jpg,65,f668fb502babe0421557fda46dbc66a84980fdc7306e1e04b86c782661c20cd0,train,1,potato early blight/google_0320.jpg
+potato early blight/google_0129.jpg,65,a115cdb53d1e8e0bd79c8ec8c431f396b29b83fc8de3064380d639ba6637ac65,train,1,potato early blight/google_0129.jpg
+potato early blight/google_0116.jpg,65,fbfe982179c8e3c6e90b7e2c2b82f426bdf2ae5fa3596e03d412297603c9f87f,train,1,potato early blight/google_0116.jpg
+potato early blight/google_0201.jpg,65,6c1604818d71907f8219208176e0c5cafb6b2381de84039670ccd5bbe1f862c2,train,1,potato early blight/google_0201.jpg
+potato early blight/google_0120.jpg,65,7542662166ea8745f881b1fd65a954b358ed46d938c3f8eead9dcbd8fbcedacf,train,1,potato early blight/google_0120.jpg
+potato early blight/google_0017.jpg,65,8f838fce7ea5b00f55a5ae2788e8e1c814ceba5624cd39692a79f98e40a4d560,train,1,potato early blight/google_0017.jpg
+potato early blight/google_0001.jpg,65,924e53be97e2e95da89bc180c6e9b6ef48acee486a648c72674828bb1b166383,train,1,potato early blight/google_0001.jpg
+potato early blight/google_0032 - Copy.jpg,65,adeac2275952b0a98ffff3523bce96e9ee22cc6f5128ad5d593ad90f37d3ec97,train,1,potato early blight/google_0013.jpg
+potato early blight/41.jpg,65,241fc95a73e16f55e079a763ca86e6605b94d265bc0f37e2cd591ba63e43fbe8,train,1,potato early blight/41.jpg
+potato early blight/google_0053.jpg,65,4f1a8dec3cf61808c258c33437e394949db2a7eb7e5c556fa789c5132231bf01,train,1,potato early blight/google_0053.jpg
+potato early blight/google_0013.jpg,65,0706829e0721777ae9102fe2e4f03afaed7e176f103744468ac7bddddd4b00a0,train,1,potato early blight/google_0013.jpg
+potato early blight/google_0018.jpg,65,f519fa24a42bb4c6835672efcc0baf74f450f1a5f25f966172c5591ca4fd2a8e,train,1,potato early blight/google_0018.jpg
+potato early blight/google_0100.jpg,65,a2dfc65c915313158b41c3e7ef2efdf649f38ec4b422e3bc320405040d9f1850,train,0,cabbage alternaria leaf spot/google_0226.jpg
+potato early blight/google_0030.jpg,65,0c3acccdee0131c5de2c77304bca0b9a4bf847305ef3ab2a6f8cd9bfb9c32595,train,0,potato early blight/google_0030.jpg
+potato early blight/31.jpg,65,bd539d3ed39a47b0d3c04df31fd09126f5bac944344ae1d60dee286e99248ef1,train,0,potato early blight/100.jpg
+potato early blight/google_0089.jpg,65,771952526f82e5e5cb52c7da95e924167603fe4f1490b7942fa1fd5dead9fdc6,train,1,potato early blight/google_0089.jpg
+potato early blight/google_0123.jpg,65,89bf1764596140ba8096c9d8c8bc115207523cc7f03860ba86a900d8972414ce,train,1,potato early blight/google_0123.jpg
+potato early blight/google_0147.jpg,65,0a7d8d90455948c012c526a16b42d4f50daccb0a32609472ad3a1de1d0d2d472,train,1,potato early blight/google_0147.jpg
+potato late blight/google_0054.jpg,66,a115cdb53d1e8e0bd79c8ec8c431f396b29b83fc8de3064380d639ba6637ac65,train,1,potato early blight/google_0129.jpg
+potato late blight/google_0035.jpg,66,82c339146e8298c4c8bf20cfc2f037c476ae8c0587a18a55253fff3ebf8ddd7e,train,0,potato early blight/google_0284.jpg
+potato late blight/add (3).jpg,66,3cddb653e4361ac5b780d9be30d0ea093106665c38515907d74197c9f3e6398c,train,1,potato late blight/add (3).jpg
+potato late blight/google_0074.jpg,66,7ec7eb68891e930dc2a94ea6e33b2c2af45bd3371bf9cd981c01661422daf322,train,1,potato late blight/google_0024 - Copy.jpg
+potato late blight/google_0077.jpg,66,9da4ff075445afdff1c02775af9dd0e83d158249606b7e2f8543dcb664e4aef0,train,1,potato late blight/google_0077.jpg
+potato late blight/google_0195 - Copy.jpg,66,c1e835196f15997f2e9802a9241bcdcd71931732ca5f79e4894e62b73eacced5,train,0,potato late blight/google_0162.jpg
+potato late blight/google_0052 - Copy.jpg,66,52b4def1f841b3db71e53c5cd4b3c5977bf02729e5b382f6063e801b96dee498,train,0,potato late blight/google_0052 - Copy.jpg
+potato late blight/20.jpg,66,30f08b838baa71daded60b8c443fb6edc41889a00c8eacac62c6f88c4482cbab,train,0,potato early blight/57.jpg
+potato late blight/google_0042.jpg,66,901417cedbfbefc0598fecc35d33918038a36a82cad9e4103b45be5d1ca07e13,train,0,potato late blight/add (7).jpg
+potato late blight/3.jpg,66,eb26e5cc10b522d03f9f972de3ce5a1a5fc08b40089e875d8e9ea788b21f2865,train,1,potato early blight/google_0120.jpg
+potato late blight/google_0024 - Copy.jpg,66,9ccd071eea29df8af518f2c53c8a89e5f197e44e8c71321a0598990128eb8988,train,1,potato late blight/google_0024 - Copy.jpg
+potato late blight/google_0048.jpg,66,7542662166ea8745f881b1fd65a954b358ed46d938c3f8eead9dcbd8fbcedacf,train,1,potato early blight/google_0120.jpg
+potato late blight/79.jpg,66,695a2402832a89eaa62bf74e19784cb1d812aa28fb62223ae86d1636b1c062d7,train,1,potato early blight/47.jpg
+potato late blight/google_0219.jpg,66,40c0a500676d8aa298acee2b60d0fb60ee5f2ab09cd876f2820401433621866e,train,0,potato late blight/google_0219.jpg
+potato late blight/google_0023.jpg,66,a61207c15c1dbce16217cbec30f6ffcc30026a82db6ae9a1923278e714bf4786,train,0,potato late blight/add (5).jpg
+potato late blight/google_0026.jpg,66,55c4a65be3de62b53afb30a97f9ad420066287c2719e4830fae37d680bdf4910,train,1,potato early blight/google_0147.jpg
+potato late blight/google_0098.jpg,66,68ea3ff1bdb997c0447ba474cad8d7ad470c264025891637873de401fdd9c8ab,train,1,potato early blight/google_0097.jpg
+potato late blight/add (6).jpg,66,ff8032d7e46fec33f32df219350d35cd99341edd66d0474bd91d76c4ec9238bf,train,0,potato late blight/add (6).jpg
+potato late blight/6.jpg,66,2516ed30bced1498eeb0aa90d4a3cd68b0966559a0e92ba3fd63d54d792d6f3c,train,1,potato early blight/8.jpg
+potato late blight/google_0149.jpg,66,a68b6ce94070859c277e10b683309278105978808a18da875ae988855b4036a1,train,0,potato early blight/google_0048.jpg
+potato late blight/google_0006.jpg,66,3cddb653e4361ac5b780d9be30d0ea093106665c38515907d74197c9f3e6398c,train,1,potato late blight/add (3).jpg
+potato late blight/add (5).jpg,66,a61207c15c1dbce16217cbec30f6ffcc30026a82db6ae9a1923278e714bf4786,train,0,potato late blight/add (5).jpg
+potato late blight/google_0090.jpg,66,826aa929683f1b08878f268e98d5d9c5a7ffc862db6642f6963ef934a520e08e,train,1,potato late blight/google_0090.jpg
+potato leaf/109.jpg,67,06baf3daf2b90c130bf1d380428237ca591308ecab6cda6a8e1b8c80c635d700,train,0,potato leaf/109.jpg
+raspberry leaf/google_0056.jpg,68,97d9d544dfff7c24df62d63e89de7d271d4bc0c9083c767b09c81fee592b1cce,train,1,raspberry leaf/google_0056.jpg
+raspberry leaf/59.jpg,68,7b1d2e530096bc64f635180dace736a22112732f41c94c2b91194aedb910c210,train,1,raspberry leaf/57.jpg
+raspberry leaf/3.jpg,68,ec18ef036a487d2418209e610969327b358d19a7ef9c2a0ddc69c75c1635d414,train,1,apple leaf/80.jpg
+raspberry leaf/57.jpg,68,7b1d2e530096bc64f635180dace736a22112732f41c94c2b91194aedb910c210,train,1,raspberry leaf/57.jpg
+rice blast/20.jpg,69,572344d3b77dac5e2c85d078c27ab8010491cf97879af3b560228e201cd7abe4,train,1,ginger sheath blight/77.jpg
+rice blast/28.jpg,69,62ee42672a46a1368706f074b77f2b0072b7d8abe771c0091f2d2857f904e809,train,1,garlic leaf blight/215.jpg
+rice blast/50.jpg,69,72383880783063dc9e4cd1d580ac167fd9c5730d3c51ed357671fd9cc8d16df6,train,1,rice blast/151.jpg
+rice leaf/139.jpg,70,98f059431fdb13649a8a6525b19d1dcc0c57e748ed6a6a605905fd0a0df29fa7,train,1,rice leaf/136.jpg
+rice leaf/136.jpg,70,98f059431fdb13649a8a6525b19d1dcc0c57e748ed6a6a605905fd0a0df29fa7,train,1,rice leaf/136.jpg
+rice leaf/92.jpg,70,2e1f3320d377294dd3808a8b78f609ffc4bfcc2ed20500cec9352f9fcc59a71c,train,1,rice leaf/84.jpg
+rice leaf/84.jpg,70,a9f7da7a3f16034f7cdcfa524746c5bb8085af4b88c5c2e2ba60a8ed8e056682,train,1,rice leaf/84.jpg
+rice leaf/214.jpg,70,7c81283b691f0be92b17865f1844dd31c3bab1faa6dc4ec044217263ca7e0064,train,0,rice leaf/214.jpg
+rice leaf/296.jpg,70,e4ce9396fd268ee418bc4683b70eae66123373e63e666fbde497bc29a60e9ebf,train,0,rice leaf/118.jpg
+rice sheath blight/google_0065 - Copy.jpg,71,24778562d0f8ca301a196d5bd17aa1ab2dfe0dc5dc5073efeba779c06015b431,train,0,ginger sheath blight/google_0020.jpg
+rice sheath blight/40.jpg,71,ff01069015ea7fa0c4c43722cba629fb7e5b56cfc918efc2fcd52005fdb28adc,train,1,rice sheath blight/153.jpg
+rice sheath blight/google_0111.jpg,71,eec806496b1854b1046b2b2d830e60019000b7b942bc592a19cfcee5a92014ea,train,1,rice sheath blight/google_0029.jpg
+rice sheath blight/177.jpg,71,35ea1f9e47c64cbbd439d216a55030fb49c6877758b0cef74845d23fa5d80e1b,train,1,rice sheath blight/176.jpg
+rice sheath blight/20.jpg,71,fa8f59ae9f87b71f93abb8716c83131faf5ec40eb26ef82b07e3cc83370e4be3,train,1,ginger sheath blight/30.jpg
+rice sheath blight/213.jpg,71,2d5d4464a11bd48a6a0120cc5e1cbd819ecfbeecc729120f38bf783eaf0c39f7,train,0,ginger sheath blight/89.jpg
+rice sheath blight/google_0002.jpg,71,2d9b73c88ee096deae0e47801756db9be0fd3e2482e6680b2b367dc746a9f414,train,1,rice sheath blight/google_0002.jpg
+rice sheath blight/google_0164.jpg,71,b68d7e80fba081f49d84f66fb53b7dcfbea6c16ed2835a6dc57825718ef59f17,train,1,rice sheath blight/google_0002.jpg
+rice sheath blight/153.jpg,71,ff01069015ea7fa0c4c43722cba629fb7e5b56cfc918efc2fcd52005fdb28adc,train,1,rice sheath blight/153.jpg
+rice sheath blight/google_0048.jpg,71,c77a37b807c0bf5fd0d0b8024022e0ac2e82174730996b0775f911f7d55a9690,train,1,rice sheath blight/google_0048.jpg
+rice sheath blight/162.jpg,71,59cb98c88341ecc43a533903ecabc10f120117ff8c405e69fdeb8ea85c9d25ec,train,1,ginger sheath blight/58.jpg
+rice sheath blight/48.jpg,71,af9b4710ec2371fc6e51e84fa8293ab8738a8fd89551e842821ec55f190fe179,train,0,ginger sheath blight/39.jpg
+rice sheath blight/176.jpg,71,35ea1f9e47c64cbbd439d216a55030fb49c6877758b0cef74845d23fa5d80e1b,train,1,rice sheath blight/176.jpg
+rice sheath blight/google_0029.jpg,71,ab7532852f5a7cb7d993cd9147f730fbf8b07016a4eb13f62ed412eb28acfcb6,train,1,rice sheath blight/google_0029.jpg
+rice sheath blight/93.jpg,71,fbaa496ea3b4f05e40822e0b8686f93cc330b9fd5f1738f6d8b498e63d4fb3d1,train,1,ginger sheath blight/80.jpg
+rice sheath blight/google_0165 - Copy (2).jpg,71,3b419aa87371a072284e4d376448a48630e61f8e71c1bff9eed859f54ab95047,train,1,rice sheath blight/google_0048.jpg
+rice sheath blight/google_0165 - Copy.jpg,71,feda9423fa8990bc748cb13b100dc6892fd6c476751ed331fc9fd5d8edc7632b,train,0,ginger sheath blight/google_0020.jpg
+rice sheath blight/143.jpg,71,796c05dca344141d145203fdb68641b0f604bea139c7da133f0e9ef1ce54791f,train,1,ginger sheath blight/161.jpg
+rice sheath blight/google_0007.jpg,71,370d8f37a2d99c5f9003d24d2f71845f3fd933a96c08979cd6ecc63dec1c4203,train,1,ginger sheath blight/google_0015.jpg
+rice sheath blight/17.jpg,71,488823d7e8c6337c5413bb36f1c33eeeab8372eae9709b9f81f8ff4d0af76ede,train,0,ginger sheath blight/20.jpg
+rice sheath blight/google_0165.jpg,71,8fe91e40c1bfd9edd81111f607fe71f8a32bd78afe4ff1d7026d071d1e1fd183,train,1,rice sheath blight/google_0002.jpg
+rice sheath blight/96 - Copy (2).jpg,71,d499bf75eb12d7679b29ed50253c4875860a08f4917f3eb2108739f6b066d49d,train,1,rice sheath blight/159.jpg
+rice sheath blight/146.jpg,71,79fd753120b9a04683bd41e9dd4641665c7e4405693ebe191e7641ab5232579c,train,1,ginger sheath blight/64.jpg
+soybean leaf/google_0509.jpg,72,c083a94736f0ddebcd94fa0ca9a3d0c22c33cfe234f62ef55ae4d8b264054e6d,train,1,soybean leaf/google_0470.jpg
+soybean leaf/9.jpg,72,1ce56a2ced8a80814bf5166c3696404f17fda53cfadf373275327044a2b0393e,train,1,bean leaf/google_0514.jpg
+soybean leaf/google_0470.jpg,72,e2f70131f71dd708a90d7c116c5969f5a43cd74496ed4bebb0547d2fd8c7330f,train,1,soybean leaf/google_0470.jpg
+soybean leaf/3.jpg,72,3972e1fa712751ac24af9151c80f6128d3f285415db1a0aaa8d74f37f8e1984c,train,0,bean leaf/6.jpg
+soybean leaf/google_0602.jpg,72,6c650a01eb7fd292f70020feeb5736d68961d35441c067fa022c3b0d467c8f34,train,0,bean leaf/google_0005.jpg
+soybean leaf/google_0032.jpg,72,6492056eb2d93014141537b5361185d89c448a6be1d94e219d16926b11f4a83f,train,1,bean leaf/google_0514.jpg
+soybean leaf/google_0014.jpg,72,4aab226483763f290c1e5329f07514083433552dc80aa4e8bbb129d18bbbe835,train,1,bean leaf/google_0001.jpg
+soybean leaf/22.jpg,72,24d0ef187f650a319022f55cf2eaa90e0a193200fb560a5871f0ee3d7592b55d,train,1,soybean leaf/22.jpg
+soybean leaf/84.jpg,72,7ad2505b2450759411c9163ffdd5bbcb6cd7c0eb7172bd70a72bdb1f766083e0,train,1,soybean leaf/82.jpg
+soybean leaf/339.jpg,72,a130e729c69acb811c625de8317908666ce64d956e92b2a1eaf1e7b687453a46,train,0,bean leaf/56.jpg
+soybean leaf/google_0553.jpg,72,4cd1c4cb4bf89d8be9c2b4957030067f76db43be6f17c2cd4b1456cc18a24bad,train,1,soybean leaf/22.jpg
+soybean leaf/6.jpg,72,55ca0020138bcccd384ed45203a1a4a9cc31686bd3885957cd01490834ea883f,train,1,bean leaf/1.jpg
+soybean leaf/82.jpg,72,7ad2505b2450759411c9163ffdd5bbcb6cd7c0eb7172bd70a72bdb1f766083e0,train,1,soybean leaf/82.jpg
+squash leaf/google_0130.jpg,73,19699747fe43f22cfad5d363829fa1d6f6f70e8c37ad18ff72558a9db69ec3f1,train,1,squash leaf/google_0130.jpg
+squash leaf/google_0009.jpg,73,1819aa2f209aa7c864cc64b5c4dc68cb2fc87176eb17a3d3b89cb56e2119bce9,train,1,squash leaf/google_0009.jpg
+squash leaf/z396.jpg,73,7819c6a8f8e5c93b2a26d92be8b08c09f19cd5eda63fdb251c7203acb759d739,train,1,squash leaf/z396.jpg
+squash leaf/z441.jpg,73,ac1f4363c0164cecba87d35949b8ecb76349200f0342cdfd381541c274696959,train,1,squash leaf/z441.jpg
+squash leaf/zgoogle_0242.jpg,73,43c9e761e2c8c82fcd646435cdd162607542b6786b0e6ded4225e9883b793f64,train,1,cucumber bacterial wilt/google_0044.jpg
+squash powdery mildew/google_0329.jpg,74,14586d58edace950ce88377f7881d62a0feae4edce1055d0fb70baebc48515f7,train,0,cucumber powdery mildew/google_0022.jpg
+squash powdery mildew/google_0312.jpg,74,3bbf7bd7fe3073fcb9e10f644c53134756f05b662c730c9938654102b3ba56be,train,1,cucumber powdery mildew/google_0088.jpg
+squash powdery mildew/101.jpg,74,94b2b23c7cd86e4a1ed3e55b86478312262c4d08bede0b4b2a7a979642c889ac,train,1,cucumber powdery mildew/2.jpg
+squash powdery mildew/google_0074.jpg,74,98b5d5934ed0733a80eeee2960fe9881117b13efaee851f8587e93aad2767f1e,train,1,cucumber powdery mildew/google_0063.jpg
+squash powdery mildew/google_0009.jpg,74,100f25baa808e62e036bd3644111434646ac544cd44790aff19329e224ad25cf,train,1,cucumber powdery mildew/google_0046.jpg
+squash powdery mildew/google_0228.jpg,74,1c3bc232c7ec323dab751c935b23a1c4f6a99dc334d4090198ac54224ab79f37,train,1,cucumber powdery mildew/google_0102.jpg
+squash powdery mildew/google_0358.jpg,74,1819aa2f209aa7c864cc64b5c4dc68cb2fc87176eb17a3d3b89cb56e2119bce9,train,1,squash leaf/google_0009.jpg
+squash powdery mildew/google_0094.jpg,74,756c9bfd9ac7b82a5e48e40c5644cb627edebd88dba0d8b31836747613c40123,train,1,cucumber powdery mildew/google_0164.jpg
+squash powdery mildew/google_0189.jpg,74,06ff7ea03c909e68b0ffb8dbad0dd156a923107579536ae56e511f6ad93cbabc,train,1,cherry powdery mildew/google_0036.jpg
+squash powdery mildew/google_0158.jpg,74,8dd49a5aac88f699931d7a0f5882e4d3660403143e6e5352517290ccbd673259,train,1,squash leaf/google_0130.jpg
+squash powdery mildew/google_0290.jpg,74,737e1f31a1264b318928641120cdcf20aef49bf65380a2e8222f138b9803e6e4,train,0,cucumber leaf/google_0177.jpg
+squash powdery mildew/google_0183.jpg,74,6e640e5cd581d4a882bac799b92e41d3e26f6235309988842889e840705e05b4,train,1,squash powdery mildew/129 - Copy.jpg
+squash powdery mildew/google_0233.jpg,74,2fbf606994af3b8984cc6816c90fa4c2ddad27c7b9ac7b65d5e43f0942b75035,train,1,cherry powdery mildew/google_0084.jpg
+squash powdery mildew/google_0098.jpg,74,71f29fe5eecf0731c3e5b7fdd6e0fe673bf2a267abdaab61c59ae0156838f59f,train,1,cherry powdery mildew/google_0019.jpg
+squash powdery mildew/google_0286.jpg,74,a93654f5a7e465dc4efe74334b2d8042441d7ebad1dd4cfbfcd37dff8c242f05,train,0,cucumber powdery mildew/google_0001.jpg
+squash powdery mildew/google_0191.jpg,74,930b7aa4c995a4e360d136e640fb70f0976975e8b6940e318c69e30289be79c3,train,1,cucumber powdery mildew/google_0036.jpg
+squash powdery mildew/google_0315.jpg,74,32bdc7447f4a93330f73f8aae6fbc33d49450c66509a0dc660ba3f69aa9dff44,train,0,apple mosaic virus/google_0100.jpg
+squash powdery mildew/152.jpg,74,4017bc13e1825503553ebf94b56d1f5053c1945d246f1ac5c2b1f01f38fa82ad,train,1,cucumber powdery mildew/169.jpg
+squash powdery mildew/129 - Copy.jpg,74,10686c67e969d6d813b8c5bb52b97aeb6580a655ab4a5ea13277ce46dcf39def,train,1,squash powdery mildew/129 - Copy.jpg
+squash powdery mildew/google_0365.jpg,74,e96909649ce7d6074b8d3c87a164c8746f415db93b2b9a6599c715a82e60cb5b,train,1,cucumber powdery mildew/google_0061.jpg
+squash powdery mildew/google_0007.jpg,74,f07c0b5b54092616a9d56de9dabacccd9abc9333253ce86711e84bd989741167,train,0,cucumber powdery mildew/google_0002.jpg
+squash powdery mildew/google_0025.jpg,74,65080ff5634c6540f21b701dadf1ef2c6451d3a16bceeb4c29d5125722b1bc6d,train,1,grape downy mildew/google_0012.jpg
+squash powdery mildew/google_0123.jpg,74,a19302903e40df7d09f848114ce2701b3c95158748da95326faa0929fb52fc3d,train,1,cherry powdery mildew/google_0119.jpg
+strawberry leaf/google_0485.jpg,76,97d9d544dfff7c24df62d63e89de7d271d4bc0c9083c767b09c81fee592b1cce,train,1,raspberry leaf/google_0056.jpg
+strawberry leaf/36.jpg,76,9c2be5f4496b1b4e3e3deb642b88dab5c62e313ea472eceb746c63ba607d90f1,train,1,apple leaf/87.jpg
+strawberry leaf scorch/google_0089.jpg,77,38f5baba91e3ea14c45f02f1320137375db422c77eec313f44ad1c4bd99687e5,train,1,strawberry leaf scorch/google_0089.jpg
+tobacco leaf/49.jpg,78,e785cfb0fc7c469cfedbb18e9006c948cfe9ddc4bccb7486f19f080d8ca0d52d,train,0,tobacco leaf/49.jpg
+tobacco leaf/37.jpg,78,4a83a325e5eb0ab2378cd6c97d346c96c5a3876afbe8f5e996756ebd1d8ffd56,train,1,tobacco leaf/37.jpg
+tobacco mosaic virus/54.jpg,79,b103673bf245052dd97fe8ee01c3317bd75fd595dfe80885c9938331d3fa903b,train,1,bell pepper leaf spot/33.jpg
+tobacco mosaic virus/google_0002.jpg,79,96e69f0ba1bb38d16bc88a9793923a1265ecfab5f0b25dd08401072b8d1b2cb2,train,1,bean mosaic virus/google_0080.jpg
+tobacco mosaic virus/35.jpg,79,4a83a325e5eb0ab2378cd6c97d346c96c5a3876afbe8f5e996756ebd1d8ffd56,train,1,tobacco leaf/37.jpg
+tomato bacterial leaf spot/116.jpg,80,cea6462b2c2e7206109ebd2fdf88625847364707ee9070f92c30449205acc865,train,1,tomato bacterial leaf spot/116.jpg
+tomato bacterial leaf spot/google_0035.jpg,80,b0f9be6169ce9e1cee31fb1b0500d0b0197a27985415556d6fb3b3844e15df83,train,1,tomato bacterial leaf spot/google_0035.jpg
+tomato bacterial leaf spot/google_0071.jpg,80,17b7c9cf37cf5450a6cd0b2e9fa399cbe0d242792e131edfcf92b1d0b4a8d3f5,train,1,tomato bacterial leaf spot/google_0071.jpg
+tomato bacterial leaf spot/google_0087.jpg,80,b8bf5cd567d3cae067f2fb0e4d7c6278e8acf50d89e39718c3db8ec848a71eb5,train,0,cabbage alternaria leaf spot/google_0058.jpg
+tomato bacterial leaf spot/google_0112.jpg,80,035732fe5ef66d50dc06132827bc70142b1faada964e52963bb5e0f2d34eb3c3,train,1,potato early blight/google_0112.jpg
+tomato bacterial leaf spot/google_0077.jpg,80,1d46ee648a3f52cc019ef21fcaca509e19dbe7fb78c1a10ea4b76fa7286561e4,train,1,tomato bacterial leaf spot/google_0035.jpg
+tomato bacterial leaf spot/103.jpg,80,68052aae0c0611e7e21229d59e6525e5cad59b21b5d10b3db83209668ffc7f4c,train,0,tomato bacterial leaf spot/103.jpg
+tomato bacterial leaf spot/google_0011.jpg,80,db80cbea8eea6c9f6e1bbc232fb5f5b6ac1c41426d85c1a136e77ab70b4edeed,train,1,potato early blight/google_0225.jpg
+tomato bacterial leaf spot/google_0126.jpg,80,ef45d8877b6759ff5733874a59cd9216ab1fcf2253315a9ea35eb1683b42a7f7,train,1,eggplant cercospora leaf spot/google_0053.jpg
+tomato bacterial leaf spot/google_0128.jpg,80,481146ab0d2d9119d4b4d1490626038ba222eaa9b13d80f4665fe39ca0e1188e,train,1,tomato bacterial leaf spot/google_0128.jpg
+tomato bacterial leaf spot/google_0163.jpg,80,d0d65a48c4abd35fc5054e3159c7da1a9831edf9d99a5e14d0f5d0a34cc7987c,train,1,tomato bacterial leaf spot/google_0163.jpg
+tomato bacterial leaf spot/google_0091.jpg,80,b2970f4fdf5ee1328c860970fbbaee8275340e4e0b40a4c79605bc053f3f66e7,train,0,tomato bacterial leaf spot/google_0091.jpg
+tomato bacterial leaf spot/49.jpg,80,c34c5a98bbd4f1b846ab65aba2a6c7c8b0e040a306420b3e658d915e29cfc733,train,1,tomato bacterial leaf spot/49.jpg
+tomato bacterial leaf spot/google_0296.jpg,80,771952526f82e5e5cb52c7da95e924167603fe4f1490b7942fa1fd5dead9fdc6,train,1,potato early blight/google_0089.jpg
+tomato bacterial leaf spot/google_0169.jpg,80,1062fbb97225cb3ddd76a84372b9982542a85bd90fdc46785d85d7159a0fb2e0,train,1,bell pepper leaf spot/google_0016.jpg
+tomato bacterial leaf spot/google_0017.jpg,80,72e528891dbc9570460b77b5e38fb66ecdbecf7f410297910d27e96ad914d8b3,train,1,tomato bacterial leaf spot/google_0017.jpg
+tomato bacterial leaf spot/70.jpg,80,ce45538f2d187373c6168f139e6cb55331d839bd264ac566ce068d80ea546488,train,0,tomato bacterial leaf spot/70.jpg
+tomato bacterial leaf spot/google_0029.jpg,80,8d796e38dfab985e12c95722cbf2f1c1f73432cb7e1d1bc51a03a4abff3b3a07,train,1,eggplant cercospora leaf spot/google_0045.jpg
+tomato bacterial leaf spot/109.jpg,80,753b1b822832efe0192feface83d85616afd85b82b5202453a4ed321a15dd586,train,1,tomato bacterial leaf spot/109.jpg
+tomato bacterial leaf spot/google_0013.jpg,80,56fc2e01ad1c73d0ce9d6010800bd848d6d617cace83ac53f19a36b1e0817db0,train,0,cherry leaf spot/google_0289.jpg
+tomato bacterial leaf spot/78.jpg,80,ad25d3adc55907f2c9b4b42293d09a0f4c9914d4a43be0daf5571fb2e7dc9110,train,1,tomato bacterial leaf spot/78.jpg
+tomato bacterial leaf spot/google_0449.jpg,80,7a81565cc3fd3b1af6548a5043664edd270778130ec87d1983788ec119480a67,train,1,tomato bacterial leaf spot/google_0449.jpg
+tomato bacterial leaf spot/28.jpg,80,6aa91250faa45729379bb54dd5ae093d5f0fd8dc52d8c28897b13f0b29810428,train,1,tomato bacterial leaf spot/28.jpg
+tomato bacterial leaf spot/google_0292.jpg,80,5923775a4cb8ff783a133a5790d64c1c84a3852dfac7dd0a0435133897d2ed2d,train,1,potato early blight/google_0171.jpg
+tomato early blight/47.jpg,81,15f8670e65da342c271b69129521a1dea5ec4e04edd6a5dd2fa0e41a23998154,train,1,tomato early blight/193.jpg
+tomato early blight/google_0133.jpg,81,dadaf8136f1d031289d1df21ea5b685db22cfc99823b13d3886626936c0e327f,train,1,potato early blight/google_0084.jpg
+tomato early blight/google_0003.jpg,81,906353e02eea628e03dab1089fbeaf29332c03efbfcb1c21404fe51177f77cdd,train,1,celery early blight/google_0015.jpg
+tomato early blight/google_0036.jpg,81,6ae670ce5fcc26e159e08bca37c94426614d50c836b337e8bc645cd52579fde2,train,1,potato early blight/google_0225.jpg
+tomato early blight/google_0070.jpg,81,603919c583029d746a1e782823144058b66840aec03d3b3d8030d3803b01da23,train,1,celery early blight/google_0017.jpg
+tomato early blight/google_0344.jpg,81,6dd9640e79e5dda8309f5514c3addb76d8258e573b4563717deec0c4f7f4c4be,train,1,tomato bacterial leaf spot/google_0328.jpg
+tomato early blight/google_0372.jpg,81,a61207c15c1dbce16217cbec30f6ffcc30026a82db6ae9a1923278e714bf4786,train,0,potato late blight/add (5).jpg
+tomato early blight/google_0041.jpg,81,a2dfc65c915313158b41c3e7ef2efdf649f38ec4b422e3bc320405040d9f1850,train,0,cabbage alternaria leaf spot/google_0226.jpg
+tomato early blight/google_0099.jpg,81,02d27549f22875956827ebc3db2a9d379c9b1440b852146f5a36fcbdac5b5e20,train,0,tomato bacterial leaf spot/google_0075.jpg
+tomato early blight/google_0008.jpg,81,6a29f666c60b114b7430fb9a75b52c209132bf71e9dc47ece0298115d144fb06,train,1,potato early blight/google_0111.jpg
+tomato early blight/google_0021.jpg,81,17922b0abee633de36b1fe0e5c449f519692caf7a5b26d2f9c5dd3f835587ca1,train,0,tomato early blight/google_0021.jpg
+tomato early blight/google_0087.jpg,81,b97f9d258a685730eceef6325bbd2595599e5b4e854dc04300349a29aa16fba5,train,1,tomato early blight/google_0087.jpg
+tomato early blight/google_0223.jpg,81,a3a8154506fd41d31416b81fce8b9b80e0bad722353b6484789ca898c295843d,train,1,grape leaf spot/google_0030.jpg
+tomato early blight/google_0009.jpg,81,552b55a133d296b16a3af35aaab82171cc3d529df63cd33a44f858935a2fbde5,train,0,tomato early blight/google_0009.jpg
+tomato early blight/google_0343.jpg,81,b7028097fd9d0f880ba0c3cae23448c670a9d0bfe3cc90ab2a6ba99a302865c0,train,1,potato early blight/google_0200.jpg
+tomato early blight/google_0189.jpg,81,3198c6032889b9356e8df5eb137b17333434902877b938ff7ca11414e2469e94,train,1,potato early blight/google_0001.jpg
+tomato early blight/104.jpg,81,11e6a8286e90afce48b8660e9b1e2b6dc051db89803b5a390f3a0feb1fb9b198,train,0,celery early blight/4.jpg
+tomato early blight/google_0307.jpg,81,e08f156ee9bae5f2a4510e5c9e3573b9f8c5050f5a069319358d309a8d8c736b,train,1,tomato early blight/google_0307.jpg
+tomato early blight/google_0163.jpg,81,51a917e86f04d24f0a29eb85944a929a3eeaccf9b15334165c8b1b53f401602b,train,1,grape leaf spot/google_0046.jpg
+tomato early blight/google_0192.jpg,81,df6719bbeae2920c495c6ad816027c1249d41efc5882155fb11e21e2aef62eee,train,1,tomato early blight/google_0192.jpg
+tomato early blight/google_0422.jpg,81,37e76725f69fbb60f890b69a24c1b84d25ccf9c683a90960eee66842467fce65,train,1,tomato bacterial leaf spot/google_0449.jpg
+tomato early blight/google_0322.jpg,81,9ea8ccaef82c9d560aefc6f0ff18f2489e0c8c9527071bfd8f5d2eb83487258f,train,0,cherry leaf spot/google_0289.jpg
+tomato early blight/google_0154.jpg,81,a99c279d145b456ce0cb5b6508e4fb74c855259b70e3e0cb759297088cbf8ab2,train,1,tomato early blight/google_0154.jpg
+tomato early blight/google_0152.jpg,81,4f1a8dec3cf61808c258c33437e394949db2a7eb7e5c556fa789c5132231bf01,train,1,potato early blight/google_0053.jpg
+tomato early blight/244.jpg,81,a0790bec3246b9c428e97d29f783df611f231c70a78c9a6ad3e6ac7993c12771,train,0,celery early blight/4.jpg
+tomato early blight/google_0271.jpg,81,c008003115ab7372c512251b166f91c5cd15422ae91638db4f515b2b31bf604b,train,1,potato early blight/google_0116.jpg
+tomato early blight/google_0032.jpg,81,ecc6890994a1955e73f63f34b092f6f1d773281d23a6ac4d0ba8823ebec1d71f,train,0,tomato bacterial leaf spot/google_0023.jpg
+tomato early blight/google_0033.jpg,81,8d00b3a3c6a0754bbfa6d6079a3b99bb1fa3e5fb852ccfe163e8294548d00d60,train,1,tomato early blight/google_0033.jpg
+tomato early blight/google_0014.jpg,81,6c1604818d71907f8219208176e0c5cafb6b2381de84039670ccd5bbe1f862c2,train,1,potato early blight/google_0201.jpg
+tomato early blight/google_0120.jpg,81,61155c1c1618426413a4aeed3153f5ec72f5d608a99eb6a14c0087e1b702b5a3,train,1,potato early blight/google_0055.jpg
+tomato early blight/google_0349.jpg,81,ee443d56f4f93689fa3add743a487104d194b15e06a0917a39b92b347543587b,train,0,potato early blight/google_0241.jpg
+tomato early blight/246.jpg,81,241fc95a73e16f55e079a763ca86e6605b94d265bc0f37e2cd591ba63e43fbe8,train,1,potato early blight/41.jpg
+tomato early blight/google_0096.jpg,81,e8fba0624046c3e0d1c8357b31005954829fd92f51cfa110a9c833c040144f20,train,1,potato early blight/google_0133.jpg
+tomato early blight/46.jpg,81,51d17be47ff1e4a7b733bc2879ddecb3927d031d0386c98f0e91a1033da9ffbe,train,1,lettuce downy mildew/93.jpg
+tomato early blight/109.jpg,81,307b1316dc0ccf92f6721c8b78f13ea19521d1d11056193008be811c127fc124,train,1,tomato early blight/109.jpg
+tomato early blight/google_0044.jpg,81,8825163e6ed481ad9f1c6b6f9b01836a37965b543ce6064ce3011a887c49ff9a,train,1,potato early blight/google_0005.jpg
+tomato early blight/google_0137.jpg,81,d73ea8f64acf03337761d262d412cfa17b6b4e41f92bcc27dc91f1370ccccf32,train,1,potato early blight/google_0158.jpg
+tomato early blight/173.jpg,81,deb8c9102b9a8d6bc8a3473b420bdb6b31ab92be9419a3215c1757e044dd8869,train,0,tomato early blight/173.jpg
+tomato early blight/google_0015.jpg,81,12ce0c3a8c2a2004e28e6927eddfa5199c1e7b5e1bc3f2cf6f1d9eb43824f620,train,1,tomato bacterial leaf spot/google_0099.jpg
+tomato early blight/google_0093.jpg,81,c9af81c4f54c8324adc07a0a8befdb2625f84102e5ca7da63fdf1bc702b8d1cf,train,1,potato early blight/google_0013.jpg
+tomato early blight/google_0157.jpg,81,96872ed67c31719e91e0d0aef7ac1dba3762d75a800de80a10fd76a88d773b9d,train,1,tomato early blight/google_0157.jpg
+tomato early blight/google_0260.jpg,81,5923775a4cb8ff783a133a5790d64c1c84a3852dfac7dd0a0435133897d2ed2d,train,1,potato early blight/google_0171.jpg
+tomato early blight/210.jpg,81,a37d3a153b93d3e39889448fb85521352d5d0639d4efdadea312c3dcfcb8c965,train,1,tomato early blight/210.jpg
+tomato early blight/168.jpg,81,eed546f9d909bbef1cbb5cfba4ff91847781c7288a4bbc5d388b9777fb9d33bd,train,0,tomato early blight/168.jpg
+tomato late blight/add (9).jpg,82,52f328e4521e6cbc1a22902e963ddc4287b676defb6443deabed28fe8810f80d,train,1,tomato late blight/107.jpg
+tomato late blight/add (14).jpg,82,35d19460030c504a6a02df35067a4357eda56240b238537f0ef42d1acd62c8d5,train,1,tomato late blight/220.jpg
+tomato late blight/google_0021.jpg,82,563e0379dae54e5210d1371d20ed0ef017a2d4c51e570c76a950620ad3f73a1a,train,1,potato early blight/google_0123.jpg
+tomato late blight/add (4).jpg,82,744f216c30dce2030df4035be2fbdd2ae1cbd01d5109be46367c102ff23a64d1,train,1,tomato late blight/162.jpg
+tomato late blight/207.jpg,82,3ae9873bfbed50999299b1972ad6d8333018f9257eb0a8d023eb7e2a2382ad31,train,0,tomato early blight/188.jpg
+tomato late blight/google_0072.jpg,82,9a52b258f8c46ed77c201d3bea40f3546aeeae3a2fb3d0ef584c81fbbcf03ec9,train,1,tomato late blight/246.jpg
+tomato late blight/181.jpg,82,b4ee9ae205a5ad6356e2c42256d34c1b77dc5cfcd9648ed168ddff1aa5665746,train,0,tomato bacterial leaf spot/70.jpg
+tomato late blight/google_0102.jpg,82,02d27549f22875956827ebc3db2a9d379c9b1440b852146f5a36fcbdac5b5e20,train,0,tomato bacterial leaf spot/google_0075.jpg
+tomato late blight/200.jpg,82,c3d1bf0a22b3e8616b65f5370c999690255acc71e572cf199cafbf28407da64f,train,1,tomato late blight/200.jpg
+tomato late blight/google_0158.jpg,82,4329cdfcf770b56385ecc6e7dd14911d667ec9a467e80c8d17b019dab3282ad4,train,1,tomato early blight/google_0246.jpg
+tomato late blight/163.jpg,82,e671fbf6ff1fa98750f942e19b0d4cb9f4aea346a796a8565cca1f16773da82b,train,1,tomato late blight/163.jpg
+tomato late blight/162.jpg,82,744f216c30dce2030df4035be2fbdd2ae1cbd01d5109be46367c102ff23a64d1,train,1,tomato late blight/162.jpg
+tomato late blight/121.jpg,82,0bc3b7898c633d526089061a46ca7098e3e1a139612b144a18edc949d2053440,train,1,tomato late blight/121.jpg
+tomato late blight/add (12).jpg,82,e671fbf6ff1fa98750f942e19b0d4cb9f4aea346a796a8565cca1f16773da82b,train,1,tomato late blight/163.jpg
+tomato late blight/google_0058.jpg,82,7dbf5ba930694b7bc191dd10c5a2d5f61e9e3fb0207c47f0d94c434502877ad6,train,1,tomato late blight/google_0058.jpg
+tomato late blight/75.jpg,82,51d17be47ff1e4a7b733bc2879ddecb3927d031d0386c98f0e91a1033da9ffbe,train,1,lettuce downy mildew/93.jpg
+tomato late blight/google_0098.jpg,82,9da4ff075445afdff1c02775af9dd0e83d158249606b7e2f8543dcb664e4aef0,train,1,potato late blight/google_0077.jpg
+tomato late blight/67 - Copy.jpg,82,c7663985b77d22bf6a7fc91c65686432b910a35784875c1d964d0999cd4ddf60,train,0,tomato early blight/67 - Copy.jpg
+tomato late blight/107.jpg,82,52f328e4521e6cbc1a22902e963ddc4287b676defb6443deabed28fe8810f80d,train,1,tomato late blight/107.jpg
+tomato late blight/246.jpg,82,b9628eca920a392ff856dcf98cbb75fa02797a4a2ebd015118d5fe3ad0bb15bb,train,1,tomato late blight/246.jpg
+tomato late blight/google_0175.jpg,82,826aa929683f1b08878f268e98d5d9c5a7ffc862db6642f6963ef934a520e08e,train,1,potato late blight/google_0090.jpg
+tomato late blight/google_0018.jpg,82,8febdd954d541edaae3c8e541c15d5b26ce50efcc65e32aca91a17f1b7f8b17b,train,1,tomato early blight/google_0192.jpg
+tomato late blight/add (2).jpg,82,0bc3b7898c633d526089061a46ca7098e3e1a139612b144a18edc949d2053440,train,1,tomato late blight/121.jpg
+tomato late blight/google_0260.jpg,82,8d00b3a3c6a0754bbfa6d6079a3b99bb1fa3e5fb852ccfe163e8294548d00d60,train,1,tomato early blight/google_0033.jpg
+tomato late blight/google_0134.jpg,82,e08f156ee9bae5f2a4510e5c9e3573b9f8c5050f5a069319358d309a8d8c736b,train,1,tomato early blight/google_0307.jpg
+tomato leaf/47.jpg,83,c59ed023ab84a6df7f1eb0b1b538629e118f1bca95b147bd489a939485ea98e8,train,0,bell pepper leaf/97.jpg
+tomato leaf/google_0003.jpg,83,9f8d144be3cf5b095fd9c5d54dc13322e9e838913f7289b24560dd9b4676ef11,train,1,potato leaf/google_0292.jpg
+tomato leaf/85.jpg,83,244c20b72f49b4424e6047781ae98280cd81758fdaecfd77fb23312eddf68d18,train,0,tomato leaf mold/80.jpg
+tomato leaf/59.jpg,83,e1d3f336c7cd3356be00eb1c3e81fe0542fa3cd375ad65217572a82b8581147c,train,0,tomato leaf/57.jpg
+tomato leaf/98.jpg,83,ab24b1762a73deb5f3f4c45ba6235e01db780214dc685d422e082fca3e626d02,train,1,tomato leaf mold/62.jpg
+tomato leaf/92.jpg,83,63dc881d32a5127088fa8ec4e4bf5c8c35db5c09b9ccab90fd7c29723108e285,train,1,tomato leaf mold/16.jpg
+tomato leaf/google_0049.jpg,83,2395bf9a596792fab2c36473e68a899531bcaee99af03ffd5664db8b083338ba,train,0,tomato leaf/21.jpg
+tomato leaf mold/230.jpg,84,525ad302d82c9b301df69ca397e5ebc5c394e14472bc33d26142a21bb936256d,train,1,tomato leaf mold/230.jpg
+tomato leaf mold/google_0070.jpg,84,95df6eac48fce5192f2fc51b7fc980ab76bac2dadeec7b8aff1935c72b57c1e3,train,0,cherry leaf spot/google_0465.jpg
+tomato leaf mold/16.jpg,84,63dc881d32a5127088fa8ec4e4bf5c8c35db5c09b9ccab90fd7c29723108e285,train,1,tomato leaf mold/16.jpg
+tomato leaf mold/278.jpg,84,fe49853180bf73ad36d029dc9f3cfe1407ca590b6fe5f19b17db16252507a91f,train,1,tomato leaf mold/278.jpg
+tomato leaf mold/google_0072.jpg,84,a99c279d145b456ce0cb5b6508e4fb74c855259b70e3e0cb759297088cbf8ab2,train,1,tomato early blight/google_0154.jpg
+tomato leaf mold/google_0016.jpg,84,b97f9d258a685730eceef6325bbd2595599e5b4e854dc04300349a29aa16fba5,train,1,tomato early blight/google_0087.jpg
+tomato leaf mold/62.jpg,84,ab24b1762a73deb5f3f4c45ba6235e01db780214dc685d422e082fca3e626d02,train,1,tomato leaf mold/62.jpg
+tomato leaf mold/233.jpg,84,f3c0f795545a2a80985a5a51fd471b5f8289e4a92cd31f1def40656150ae21ce,train,1,tomato leaf mold/230.jpg
+tomato leaf mold/google_0049.jpg,84,7bbc013bf335971f0002a1563ffcf4f4bdbd56bb9ef2179057bb686fe0252fb9,train,1,tomato leaf mold/google_0020.jpg
+tomato leaf mold/google_0306.jpg,84,bccd6645f206c3abdd0be74eb2aba6959386d48cc345db77354e95c4b16e4d8c,train,0,tomato leaf mold/google_0306.jpg
+tomato leaf mold/141.jpg,84,7294e373203433e8d9d24fb15246b95e2a297e9bf830998ecb2340f438b4e5f5,train,1,tomato leaf mold/141.jpg
+tomato leaf mold/137.jpg,84,f88de2b68dcf8858a8f79e784dc6198793dda703bf93f38894848acb699480cf,train,1,tomato leaf mold/137.jpg
+tomato leaf mold/google_0012.jpg,84,a3a8154506fd41d31416b81fce8b9b80e0bad722353b6484789ca898c295843d,train,1,grape leaf spot/google_0030.jpg
+tomato leaf mold/google_0260.jpg,84,e585ba5bace63fa8c728c3b2d49695d1c7c498f98efa7e20ec12203f04a2dd35,train,1,tomato leaf mold/195.jpg
+tomato leaf mold/google_0020.jpg,84,3b9243014bdba91709cfac92dcede654dd071ba017636eefd5b915dc58f9c471,train,1,tomato leaf mold/google_0020.jpg
+tomato leaf mold/195.jpg,84,25a041a876331b88a1abde2f559fe0a122bed14b6aeed21f33b91418ec962a4c,train,1,tomato leaf mold/195.jpg
+tomato leaf mold/50.jpg,84,25bd3a1e309481eb2debe7bfd7ebc9222d942983362488b6c0c262799f45db7d,train,0,tomato leaf mold/50.jpg
+tomato mosaic virus/13.jpg,85,8942626a554683459e739fa0fd8e10b86dd088713e9ca209d4f7e5d3a2034782,train,1,tomato mosaic virus/13.jpg
+tomato mosaic virus/236.jpg,85,95ed8400557b78cdc693bece06951f223e4dc7066ba3b2239ff8d476500301cc,train,1,tomato mosaic virus/236.jpg
+tomato mosaic virus/209.jpg,85,17fb812376f9edb629e594aa8fdcf0d0496fcc25dc4ceaf5f75667062f0b50d9,train,0,tomato mosaic virus/209.jpg
+tomato mosaic virus/177.jpg,85,a2dfb663b170c4ea2865f1bde9096d914ab84ce73364bde6058e88ba50a24222,train,1,tomato mosaic virus/177.jpg
+tomato mosaic virus/59.jpg,85,ede10a16798c9df440b9191ceafe8209d93286537eba8e17b2068da71beb30eb,train,1,tomato mosaic virus/59.jpg
+tomato mosaic virus/google_0034.jpg,85,de3dd6a41dd92854aaece1dbc37fcf6cc79d31e01960d815a555ec4aa2cb1fe7,train,1,apple mosaic virus/google_0161.jpg
+tomato mosaic virus/29.jpg,85,15db07d65c6750251324400f817b15583a68cc636c3e04129ead2094a896831f,train,1,tomato mosaic virus/29.jpg
+tomato mosaic virus/41.jpg,85,4f0a66a7fdb75c5e789f9920f3c3973ed8fbd7016e35e078ec2d79b220ec1a1e,train,1,tomato mosaic virus/41.jpg
+tomato mosaic virus/33.jpg,85,9556ab9c12f758d2c80f4eaebce005651c33f0112dd209d7565d4b3f3c9900c5,train,0,tobacco mosaic virus/19.jpg
+tomato mosaic virus/199.jpg,85,284f96a0630dbc4aa6e6970f25613a8b5a671eed6f96b0979d200b52f87bcc67,train,1,tomato mosaic virus/199.jpg
+tomato mosaic virus/143.jpg,85,2f1450d764e4d23f1ed986a5ca0fa76f6ec04435d0875ea43bbf5e107b3ce3e3,train,1,tomato mosaic virus/143.jpg
+tomato mosaic virus/2.jpg,85,2dbca3fcbc0404a40be1a4ca71ecf8dbe1fbd0b8c9fe52b12bfd179cc9dad867,train,0,tomato mosaic virus/2.jpg
+tomato septoria leaf spot/google_0230.jpg,86,481146ab0d2d9119d4b4d1490626038ba222eaa9b13d80f4665fe39ca0e1188e,train,1,tomato bacterial leaf spot/google_0128.jpg
+tomato septoria leaf spot/1.jpg,86,84dca953d734c184b66f944c267185dc7e2d1cbb134ff279baeaf01f6ecec10a,train,1,eggplant cercospora leaf spot/96.jpg
+tomato septoria leaf spot/google_0133.jpg,86,f77953fb7673b9b751ca955e877917f33175055083701a79131d3968c44b31f8,train,0,tomato early blight/google_0354.jpg
+tomato septoria leaf spot/google_0003.jpg,86,95df6eac48fce5192f2fc51b7fc980ab76bac2dadeec7b8aff1935c72b57c1e3,train,0,cherry leaf spot/google_0465.jpg
+tomato septoria leaf spot/google_0051.jpg,86,17b7c9cf37cf5450a6cd0b2e9fa399cbe0d242792e131edfcf92b1d0b4a8d3f5,train,1,tomato bacterial leaf spot/google_0071.jpg
+tomato septoria leaf spot/google_0065.jpg,86,817159800857b6661c18ba26bc89c75b1f8890a2754fd10d5bf324820422577c,train,0,tomato bacterial leaf spot/45.jpg
+tomato septoria leaf spot/google_0130.jpg,86,d5e9cfde348f7a10ed4e8ae286a99a663eeef74cb0831e7136d42781b2580d32,train,1,tomato bacterial leaf spot/google_0070.jpg
+tomato septoria leaf spot/google_0164.jpg,86,771952526f82e5e5cb52c7da95e924167603fe4f1490b7942fa1fd5dead9fdc6,train,1,potato early blight/google_0089.jpg
+tomato septoria leaf spot/google_0202.jpg,86,db5a2cc1d8bce20272196656770678cdb742627bf6c8d50dfa8d125dac9ec768,train,0,tomato bacterial leaf spot/google_0415.jpg
+tomato septoria leaf spot/google_0069.jpg,86,3a0be9f531d85db50db35902f65ddfb448079651ffdf7fc41fd240bdd7221e45,train,1,cherry leaf spot/google_0343.jpg
+tomato septoria leaf spot/google_0178.jpg,86,8fc5e5632fb8c41fa3535ce2717b521866ff91c942ddcd4584ab159d42b91426,train,1,cherry leaf spot/google_0238.jpg
+tomato septoria leaf spot/243.jpg,86,689956f4be3e7bdb621ee5eb05603c531c9299f38964a0d6507a3f8e8a78c845,train,1,tomato early blight/210.jpg
+tomato septoria leaf spot/google_0052.jpg,86,d0d65a48c4abd35fc5054e3159c7da1a9831edf9d99a5e14d0f5d0a34cc7987c,train,1,tomato bacterial leaf spot/google_0163.jpg
+tomato septoria leaf spot/google_0058.jpg,86,603919c583029d746a1e782823144058b66840aec03d3b3d8030d3803b01da23,train,1,celery early blight/google_0017.jpg
+tomato septoria leaf spot/218.jpg,86,62b787f2c6feed7b4cc5f532ded7188e6f8b85d6f04f8f760dde2da6a5f75c47,train,1,tomato leaf mold/278.jpg
+tomato septoria leaf spot/google_0040.jpg,86,9f506bdd885ffcc86c61df897568d311542fadbc47a6e24641b04d809a249ca4,train,1,grape leaf spot/google_0098.jpg
+tomato septoria leaf spot/google_0205.jpg,86,5923775a4cb8ff783a133a5790d64c1c84a3852dfac7dd0a0435133897d2ed2d,train,1,potato early blight/google_0171.jpg
+tomato septoria leaf spot/google_0121.jpg,86,e3f96949c871ff0fbd451753f1a2370a018a9a9b2d133df022db4a57bbc57ca6,train,0,tomato early blight/google_0018.jpg
+tomato septoria leaf spot/google_0014.jpg,86,38f5baba91e3ea14c45f02f1320137375db422c77eec313f44ad1c4bd99687e5,train,1,strawberry leaf scorch/google_0089.jpg
+tomato septoria leaf spot/google_0113.jpg,86,72e528891dbc9570460b77b5e38fb66ecdbecf7f410297910d27e96ad914d8b3,train,1,tomato bacterial leaf spot/google_0017.jpg
+tomato septoria leaf spot/19.jpg,86,95ce01c35811b34f1e002d1127dea03213092a60ea368e6ad88a38ef4e85254a,train,1,tomato bacterial leaf spot/15.jpg
+tomato septoria leaf spot/225.jpg,86,b5d07d2963c6efebd2c9ec836a2a06b4df0a89fdd471006179793648b260c697,train,1,tomato septoria leaf spot/196.jpg
+tomato septoria leaf spot/6.jpg,86,6aa91250faa45729379bb54dd5ae093d5f0fd8dc52d8c28897b13f0b29810428,train,1,tomato bacterial leaf spot/28.jpg
+tomato septoria leaf spot/34.jpg,86,7294e373203433e8d9d24fb15246b95e2a297e9bf830998ecb2340f438b4e5f5,train,1,tomato leaf mold/141.jpg
+tomato septoria leaf spot/96.jpg,86,cea6462b2c2e7206109ebd2fdf88625847364707ee9070f92c30449205acc865,train,1,tomato bacterial leaf spot/116.jpg
+tomato septoria leaf spot/google_0224 - Copy.jpg,86,3aa49bc827a7d4595dd48c873581816b16eeb1195b131efa9a651fed651dda92,train,1,tomato septoria leaf spot/google_0097 - Copy.jpg
+tomato septoria leaf spot/google_0237.jpg,86,87591dcb15d95e74fee457215e1e02acfea631299343331fd10c29036c044250,train,1,cherry leaf spot/google_0324.jpg
+tomato septoria leaf spot/google_0007.jpg,86,ef45d8877b6759ff5733874a59cd9216ab1fcf2253315a9ea35eb1683b42a7f7,train,1,eggplant cercospora leaf spot/google_0053.jpg
+tomato septoria leaf spot/196.jpg,86,f1d5bbc548bf7d1b1edd663749f6f3596f815ab17607594a699053e2fe8d7984,train,1,tomato septoria leaf spot/196.jpg
+tomato septoria leaf spot/google_0097 - Copy.jpg,86,f974ef0d6914899b101192795eb09aa43fd1358593a9013f6c7995ed0de506a4,train,1,tomato septoria leaf spot/google_0097 - Copy.jpg
+tomato yellow leaf curl virus/4.jpg,87,8942626a554683459e739fa0fd8e10b86dd088713e9ca209d4f7e5d3a2034782,train,1,tomato mosaic virus/13.jpg
+tomato yellow leaf curl virus/12.jpg,87,15db07d65c6750251324400f817b15583a68cc636c3e04129ead2094a896831f,train,1,tomato mosaic virus/29.jpg
+tomato yellow leaf curl virus/42.jpg,87,f96293f10a65f40a5e12d2f7886b69c1fe3de932894bffdb2a13a95b62a95f2d,train,0,tomato mosaic virus/25.jpg
+tomato yellow leaf curl virus/11.jpg,87,b28a9de7d36f62abe24ac3fa019aacb9bd55f0c2fd4c720841a531d0910f63bf,train,1,tomato mosaic virus/1.jpg
+tomato yellow leaf curl virus/google_0098.jpg,87,96872ed67c31719e91e0d0aef7ac1dba3762d75a800de80a10fd76a88d773b9d,train,1,tomato early blight/google_0157.jpg
+tomato yellow leaf curl virus/149.jpg,87,284f96a0630dbc4aa6e6970f25613a8b5a671eed6f96b0979d200b52f87bcc67,train,1,tomato mosaic virus/199.jpg
+tomato yellow leaf curl virus/35.jpg,87,95ed8400557b78cdc693bece06951f223e4dc7066ba3b2239ff8d476500301cc,train,1,tomato mosaic virus/236.jpg
+tomato yellow leaf curl virus/151.jpg,87,a2dfb663b170c4ea2865f1bde9096d914ab84ce73364bde6058e88ba50a24222,train,1,tomato mosaic virus/177.jpg
+tomato yellow leaf curl virus/google_0103.jpg,87,afbe98c56159db45f7ab79c4417491af2aca786ed75b502d74df2b2a2d52dda9,train,0,tomato mosaic virus/google_0053 - Copy.jpg
+zucchini yellow mosaic virus/38.jpg,88,ede7979d65b3f05f8157349bdb30f82f32894f52996a428e36e71961c4c61694,train,1,zucchini yellow mosaic virus/116.jpg
+zucchini yellow mosaic virus/116.jpg,88,937c053fc58265c6110ee436aca4b0fbe08b7bb12fd718ebca49c745cbc62263,train,1,zucchini yellow mosaic virus/116.jpg
+zucchini yellow mosaic virus/56.jpg,88,31f99ab9ce067b3d274ce4c7ac0b4230988703d2722299f8d5f2ee9376f94766,train,1,lettuce mosaic virus/27.jpg
+zucchini yellow mosaic virus/google_0042.jpg,88,d07894a3fbe8568a1115de0b30482ca3e526f0fc7939d96b1553852e7fe933f5,train,1,lettuce mosaic virus/google_0039.jpg
+zucchini yellow mosaic virus/62.jpg,88,ac1f4363c0164cecba87d35949b8ecb76349200f0342cdfd381541c274696959,train,1,squash leaf/z441.jpg
+zucchini yellow mosaic virus/43.jpg,88,32ababa519891a22083668d4c09c430ff5b4fa251a07227572f4d17ef9af89a1,train,1,zucchini yellow mosaic virus/160.jpg
+zucchini yellow mosaic virus/90.jpg,88,ede10a16798c9df440b9191ceafe8209d93286537eba8e17b2068da71beb30eb,train,1,tomato mosaic virus/59.jpg
+zucchini yellow mosaic virus/92.jpg,88,da90bf7612422a081deeef6f5f1546d51f45e570aef929de6d99f37d9fab2cf1,train,0,lettuce mosaic virus/51.jpg
+zucchini yellow mosaic virus/224.jpg,88,eb90c26dc6e4f7d167931df66ebe0a03f59b2ac4ef6f20249540e31f27e75a53,train,1,zucchini yellow mosaic virus/116.jpg
+zucchini yellow mosaic virus/google_0047.jpg,88,693bf375fa9261dcf56b76b0186a0ada79a7adb1c4c2aedc6494874a38570e9d,train,1,squash leaf/zgoogle_0131.jpg
+zucchini yellow mosaic virus/17.jpg,88,7819c6a8f8e5c93b2a26d92be8b08c09f19cd5eda63fdb251c7203acb759d739,train,1,squash leaf/z396.jpg
+zucchini yellow mosaic virus/google_0092.jpg,88,43c9e761e2c8c82fcd646435cdd162607542b6786b0e6ded4225e9883b793f64,train,1,cucumber bacterial wilt/google_0044.jpg
+apple black rot/google_0016.jpg,0,eeb0b23a57d8a663d49ee28d2099450223931ad7c3852532bd6439631598dd75,val,1,apple black rot/google_0016.jpg
+apple leaf/87.jpg,1,9c2be5f4496b1b4e3e3deb642b88dab5c62e313ea472eceb746c63ba607d90f1,val,1,apple leaf/87.jpg
+apple leaf/330.jpg,1,ecf4f2fcb3c7d959ba1ef4272051fe31979ccba3855c9c061410c969e4eacfc6,val,1,apple leaf/330.jpg
+apple leaf/50.jpg,1,59dafe70da4fb139993de67811885e44ca4f17061dfffbf3c36db6c7ac20afe1,val,1,apple leaf/155.jpg
+apple scab/62.jpg,4,fd8d2fe8a8d2238d2fcc7f93faa4442d63825d0e27acd8546557e5aeedd16503,val,1,apple rust/64.jpg
+apple scab/google_0125.jpg,4,3d824b7bad9bde5883abe3650459fbee32cb18824a861d976488011b34c40932,val,1,apple mosaic virus/google_0052.jpg
+apple scab/37.jpg,4,2ab33b84369599745306d16035a9b78b2d3e484c54637ceba9471915eaf8d8e3,val,0,apple rust/77.jpg
+banana leaf/15.jpg,5,2cb60ad8fbf145b906fe3178a5e66917b1019e2f2418b0bc5ba8dccb7b74ad26,val,1,banana leaf/15.jpg
+banana leaf/201.jpg,5,d31fa53567d434cce937758367ce2a46d151c6ecdb59eafbfdb96de95bc92467,val,1,banana leaf/201.jpg
+banana panama disease/addition (17).jpg,6,d8423ce9f4e7f341a95384097bbee1647223767184b89fdcd0349f927a1af88a,val,1,banana panama disease/105.jpg
+basil downy mildew/google_0057.jpg,7,e3cf19e44de6eef9fb74a0df5126ced5a2c212555fbdbb3490e602ca26c96232,val,1,basil downy mildew/google_0016.jpg
+basil leaf/227.jpg,8,859b7df4cf697f8ad4e13bc3c034936e22d71a0b8374db28066cfebb7216d3bb,val,1,basil leaf/10.jpg
+basil leaf/310.jpg,8,e3567c927e2f6b5368a91533e6866e9132ca4a6d4906ed38cac6ff75efd71595,val,1,basil leaf/310.jpg
+bean leaf/google_0054.jpg,10,e5667cd38e0d22dee156888943ed269c081152412b7e68814321bb51f2c53735,val,1,bean leaf/google_0054.jpg
+bean leaf/google_0514.jpg,10,e97406d822f3ef80ace723287ecce4b01a927467ed3882d2389c9149cacb75ea,val,1,bean leaf/google_0514.jpg
+bean leaf/google_0183.jpg,10,e35898e2767a238a37f5ac729231b37af2c13bd826c25660be3cede2ce2fc888,val,0,bean leaf/google_0183.jpg
+bean leaf/google_0001.jpg,10,10ffdf534968882c6f2ba536dd165f692a0d5a5b698fd41f543b825abc41dc7b,val,1,bean leaf/google_0001.jpg
+bean mosaic virus/google_0111.jpg,11,de3dd6a41dd92854aaece1dbc37fcf6cc79d31e01960d815a555ec4aa2cb1fe7,val,1,apple mosaic virus/google_0161.jpg
+bean rust/google_0054.jpg,12,e5667cd38e0d22dee156888943ed269c081152412b7e68814321bb51f2c53735,val,1,bean leaf/google_0054.jpg
+bell pepper leaf spot/google_0066.jpg,14,c21a20447be4cddd270e2615d104c2592692c795799078993361f0facea3a36c,val,0,bell pepper leaf spot/google_0066.jpg
+bell pepper leaf spot/google_0213.jpg,14,83a5ca3dbc4a12d2b6782d9bb4abb696c9d711b1dcb8fa83f988055a64cbd627,val,1,bean halo blight/google_0027.jpg
+blueberry rust/google_0135.jpg,16,3bbecc3198e770ec09bbb9be567e6022fb0a2be426b49815b525c30c6411b655,val,0,bean rust/google_0051.jpg
+broccoli downy mildew/google_0003.jpg,17,a1255e7b66187d2e38405c71611029eb03dfefc41049621f225006df711f2488,val,1,broccoli downy mildew/google_0003.jpg
+broccoli downy mildew/google_0163.jpg,17,03b2282adddbb1e027bf8850bc2966c6c91abf30a9ce52603b90b7945327b895,val,1,broccoli downy mildew/google_0070 - Copy.jpg
+broccoli leaf/400.jpg,18,61cd2c79605f8d08cf5172e706ede237fc728b9c0fbdcdf1f6a96fd3fd358c07,val,0,broccoli leaf/323.jpg
+cabbage alternaria leaf spot/google_0075.jpg,19,f80b62e3fb886dec97711dae43a80ba60fe3a8860779fce6279cf5845dd2ab47,val,1,cabbage alternaria leaf spot/google_0044 - Copy (2).jpg
+cabbage alternaria leaf spot/google_0047.jpg,19,fe30ac95e41d3f71fad31e16d3fd29c299e2e19834471d4da1820bd1700cd582,val,1,cabbage alternaria leaf spot/google_0047.jpg
+cabbage leaf/282.jpg,20,32e97d4f8f059d3af47d7974e05a396dcdb8142080a1207a1224ffa30283b2f8,val,1,cabbage leaf/218.jpg
+cabbage leaf/255.jpg,20,b43be7f73c854a951534fec71ff47bee364d0571dd8cb33b67534969823e9417,val,1,cabbage leaf/255.jpg
+cauliflower alternaria leaf spot/google_0042 - Copy.jpg,22,c7fc3e5b535b583bdcbc616ac963e9aa4bdee13f961974f6ea64b6cdc7cda597,val,0,cabbage alternaria leaf spot/google_0030 - Copy.jpg
+cauliflower alternaria leaf spot/google_0037.jpg,22,dc564ba6fb9c0f186459969ecf4ee6335f7d8e248d36931a5a2ccf18c211e1ed,val,1,cabbage alternaria leaf spot/google_0052.jpg
+cauliflower alternaria leaf spot/google_0061.jpg,22,f80b62e3fb886dec97711dae43a80ba60fe3a8860779fce6279cf5845dd2ab47,val,1,cabbage alternaria leaf spot/google_0044 - Copy (2).jpg
+celery anthracnose/google_0035.jpg,24,20c3f8eb380c69d9779a9020e03d464ad6e134c222f653d570d43d3212041f49,val,1,celery anthracnose/google_0035.jpg
+celery early blight/google_0023.jpg,25,32432449addbac5fc05c78d07e72f490f5f1edc705c31177f592dd128ae78f19,val,0,celery early blight/google_0023.jpg
+celery early blight/google_0012.jpg,25,6911dc51d04841455bfe7ae3507ba875939e46f5ea6cb7b41696430503da6c98,val,0,celery early blight/google_0012.jpg
+celery leaf/90.jpg,26,cea4ccca31b459064a403393ffea39a1c2a67e77c508ddfdcb0e23af92645177,val,1,celery early blight/16.jpg
+cherry leaf/google_0158.jpg,27,a17d093afa7db1fc94cf6e9a1c17ae545684601c83a02585db49c463f101a4df,val,1,apple leaf/google_0207.jpg
+cherry leaf spot/google_0289.jpg,28,56fc2e01ad1c73d0ce9d6010800bd848d6d617cace83ac53f19a36b1e0817db0,val,0,cherry leaf spot/google_0289.jpg
+cherry powdery mildew/8.jpg,29,3f0734acbf78d769089e6663e3b555d03a0a2dbd977702847037ee38e9a7850f,val,1,apple rust/104.jpg
+citrus canker/399.jpg,30,60783daa858cc23a03fef9a822970c3a209ab12d46bc3c114b4d60668e05763a,val,1,citrus canker/107.jpg
+citrus canker/paper2.png,30,b2e7789fff1d27fa216cc2ac7c700f04427e64c5822d42801c33149732df21ad,val,0,citrus canker/225.jpg
+citrus canker/163.jpg,30,6196a8e02c8b5f0ed55ce3dce574a1f552fd687cdba5a87462b12e025ba0854b,val,1,citrus canker/163.jpg
+citrus canker/225.jpg,30,e12614bf9fcf658ef9c36f46dffb2436640aa4a7dbde4545dfe3006faf2beb74,val,0,citrus canker/225.jpg
+citrus canker/202.jpg,30,d0de00b42c655cbe03471c2955c4acfe606352f57960e09d2610ad0441082ad3,val,1,citrus canker/169.jpg
+citrus canker/139 - Copy.jpg,30,667149ebed6bcc1c53ec5b2fa62905f170a68c7b70af3f03baa7ce67449df816,val,0,citrus canker/139 - Copy.jpg
+citrus canker/382.jpg,30,1a61c5ad050fb503e39188fef86cf8a38b53f859090ab851cb180ff240350f47,val,1,citrus canker/169.jpg
+coffee leaf rust/9.jpg,33,2cea66b6d1c45e57805d86c2e164c92df302d6b366b463f71eadad6765240786,val,1,coffee leaf rust/9.jpg
+coffee leaf rust/63.jpg,33,20ce290b80cd9e8123ff4af39797f3599296ee225d9140b066d92ed8f4a2eb43,val,1,coffee leaf rust/63.jpg
+corn gray leaf spot/2 - Copy (3).jpg,34,0d2d6448f0fbeb3168a659848f2863f682699c944ef13641e6b8e1a85456a804,val,1,corn gray leaf spot/2 - Copy (3).jpg
+corn gray leaf spot/20.jpg,34,5d43e7f641882b197841e5d331c8c87814fd5a573cb27cd6c5738d259d70daff,val,1,corn gray leaf spot/20.jpg
+corn northern leaf blight/11.jpg,36,226a560e9f3256f597896b6c32123c54033a42adcbc6e279954f0de808e11392,val,1,corn gray leaf spot/12.jpg
+corn northern leaf blight/google_0047.jpg,36,0eb59e81cbc0a4e54bc221b24621010d652ef532e981e2359877e630fa9becb8,val,1,corn gray leaf spot/google_0194.jpg
+corn northern leaf blight/1 - Copy (3).jpg,36,a4abf36a7c8062a57c803dc1b7ea64b6d22c8b453f5dd11a54fd86919e1b3f3e,val,0,corn gray leaf spot/2 - Copy.jpg
+corn northern leaf blight/add (21).jpg,36,5d6464c49044a8a1f2932bd05aecad24b403047195b380a6063dd9ab8c4b87b0,val,1,corn northern leaf blight/23.jpg
+corn northern leaf blight/add (6).jpg,36,d02ce16630c3a7e9face42eeffba7514ff51c68a9066e8e67055dbc60c812cf7,val,0,corn gray leaf spot/2 - Copy.jpg
+corn rust/google_0139.jpg,37,4a5a5cf50c4a0020de670e8eb15b944935bba7faf2e4ec5d21f02f02a735cad8,val,1,corn northern leaf blight/google_0038.jpg
+corn smut/174.jpg,38,3f5d96aed84ae96e2a46b2ca392011dceb2098b0ec137f2373ff97d8a3829b00,val,1,corn smut/170.jpg
+cucumber angular leaf spot/43.jpg,39,5bc16050cc46e436afb8a69c9309a4a1bac884500553b3b4f12e1cca4c5b4405,val,1,cucumber angular leaf spot/191.jpg
+cucumber powdery mildew/google_0170.jpg,42,dda645f592f2dfdc67176c2c50fe20f787299f2b8f4eb16773bda2cc2b1a363e,val,1,cucumber leaf/google_0058.jpg
+cucumber powdery mildew/google_0131.jpg,42,ad2b47a5824d8d013d014663df8fb64f5f27d1353da9b7c8f23ab23d6c1c50f5,val,0,basil downy mildew/google_0020.jpg
+cucumber powdery mildew/google_0181.jpg,42,abeb9d58f44c982d16c7e7b713195d3ae84c436bbb6d754f650abe5882669080,val,1,cucumber powdery mildew/google_0181.jpg
+cucumber powdery mildew/141.jpg,42,5e2311633bce4bddbf749eaa217647c976949758061a8af97e7482bd2fe2f376,val,1,cucumber powdery mildew/141.jpg
+cucumber powdery mildew/26.jpg,42,37234f2731d0f4e05052268d61c5127ca32449ae2757411637e2542840fde0e9,val,1,cucumber powdery mildew/145.jpg
+cucumber powdery mildew/google_0046.jpg,42,100f25baa808e62e036bd3644111434646ac544cd44790aff19329e224ad25cf,val,1,cucumber powdery mildew/google_0046.jpg
+eggplant cercospora leaf spot/google_0058.jpg,43,8d5951fd2a8205367cc18ac3f1306a1ad361a750f7ac2453eaf05c0060e8bd66,val,0,eggplant cercospora leaf spot/google_0058.jpg
+garlic leaf/google_0051.jpg,45,627f9b1ae9ea13b672052e494c45af0d93e3283c22e6f0d49ef1b93a2af38ef0,val,1,garlic leaf/google_0051.jpg
+garlic leaf/207.jpg,45,90974e0c5a56cddfeb8134d0e3e14bb80617d24a5df7ffb19ed785aecb67a3e2,val,1,garlic leaf/207.jpg
+garlic leaf blight/google_0004.jpg,46,bc4f4db40fc21cb7c3363ec9b55741b52f2b6bdf84bd74d401eda7ea80903e69,val,1,garlic leaf blight/google_0004.jpg
+garlic rust/google_0002.jpg,47,604b5eaa283dfa2d1465d2b7ab08c974a8063db8a8e3085ff9261e65617829e5,val,1,garlic leaf blight/google_0002.jpg
+garlic rust/2.jpg,47,43bfdb73246c795defb411a09ed30cfce30cf453a93afc0d179515430445d55f,val,1,garlic rust/2.jpg
+ginger leaf spot/105.jpg,49,98089e532887258cce7933b90fb2707cf9dab044fb6651f390804b9948da6049,val,1,ginger leaf spot/105.jpg
+ginger leaf spot/google_0011.jpg,49,f383a44f85e44f9010c19c1efc0af36fba646d4c0bcdd1423bce95def9b8298e,val,0,ginger leaf spot/44.jpg
+ginger leaf spot/32.jpg,49,583686ed67f1fff23bed9927ec5a7b3821261af112990c406c5541e6ed088f9f,val,0,garlic leaf blight/156.jpg
+ginger sheath blight/161.jpg,50,8d3d138d75bc1dadfca324044424b680f0ed0c19ba5a6958283c0f892cfcaca9,val,1,ginger sheath blight/161.jpg
+grape black rot/40.jpg,51,24c7b73100577903cb8a88c17d526fe1099d725ba40ef87ee53dbe12b02c1ac9,val,1,apple black rot/google_0067.jpg
+grape downy mildew/38.jpg,52,885cd2b8640d1292c1ab4bf7d34bc5be20e9444ac8da0cdef4cdb1a0fbc83297,val,0,grape downy mildew/171.jpg
+grape downy mildew/97.jpg,52,0e723198fb35cf3ef030ac5fc58d964a0e16d153b13950e29eeeef5bf4f8b0d2,val,0,grape downy mildew/200.jpg
+grape leaf spot/15.jpg,54,745352b525412fcccc2f06a6ffe166ee8fe94d7ecc26bd959f5534168a172b2d,val,1,grape leaf spot/140.jpg
+grape leaf spot/25.jpg,54,c580127e47fb1ce1e635b01fc0472163b1631124ec16143edf4c9a00f572327c,val,1,grape leaf spot/25.jpg
+grape leaf spot/140.jpg,54,02fb595a2423ec45f830e5b1d253ade938e0639a2d2d4a115d475b4ac79dc6d3,val,1,grape leaf spot/140.jpg
+grape leaf spot/google_0046.jpg,54,51a917e86f04d24f0a29eb85944a929a3eeaccf9b15334165c8b1b53f401602b,val,1,grape leaf spot/google_0046.jpg
+grape leaf spot/google_0060.jpg,54,965b2804d52b1ec57e2e67ec0adedf7761cb956ada47350158edb132411fb6e2,val,0,bean halo blight/google_0032.jpg
+lettuce downy mildew/65.jpg,56,ea02cef5fd85d3085fa66fe25fc99ff5dd47295ed733e039ebe662bfb23f70e1,val,1,lettuce downy mildew/65.jpg
+lettuce downy mildew/78.jpg,56,46fef54c29e37263483a4ce095c2264c9bce05be9c320f00cb7022f438917db3,val,1,lettuce downy mildew/78.jpg
+lettuce leaf/google_0227.jpg,57,8fcc1785a58c49bb6d384f3bb65b9d2ab9b3701fe37500be18ecfce35305b509,val,1,cabbage leaf/google_0051.jpg
+maple leaf/295.jpg,59,f069059829155c78e3d14c2110fe9403c2401c32c264553f9105250f52e28e51,val,1,grape leaf/147.jpg
+maple leaf/254.jpg,59,d17cf5d6db1b70a60bb003ea13d576ed4280bae578c24568bd714cb2636e8d46,val,1,maple leaf/12.jpg
+maple leaf/332.jpg,59,8d51751e5519e67a10a6ca52e1772daa32cdb8fd6e9c3b1430a6917e97f3c882,val,1,maple leaf/19.jpg
+maple leaf/25.jpg,59,93f39a770ec4d7c0c9c1e2ebf3a528e482a6e94f86115146731cb711aa934c70,val,0,maple leaf/25.jpg
+potato early blight/47.jpg,65,f390aecc0123cb838aca4d7cf78316c6273fafe5de45e92f316fa20df94a7eca,val,1,potato early blight/47.jpg
+potato early blight/google_0133.jpg,65,e8fba0624046c3e0d1c8357b31005954829fd92f51cfa110a9c833c040144f20,val,1,potato early blight/google_0133.jpg
+potato early blight/google_0011.jpg,65,dfc003d79f390792dbf78d0fbf53f9a223beee44645ea2408d093b445dfd3c3e,val,0,potato early blight/google_0011.jpg
+potato early blight/google_0111.jpg,65,6a29f666c60b114b7430fb9a75b52c209132bf71e9dc47ece0298115d144fb06,val,1,potato early blight/google_0111.jpg
+potato early blight/55.jpg,65,cf6f3e5c70308ca46fb6ea1c7931e172efd5a064dce702bb5b0b8ce32d3414f0,val,0,potato early blight/55.jpg
+potato early blight/google_0352.jpg,65,0687654024c8ef09190786100684636bd0ceed8914f9f9c11dfafe8466b21d3c,val,1,potato early blight/google_0320.jpg
+potato early blight/google_0225.jpg,65,6ae670ce5fcc26e159e08bca37c94426614d50c836b337e8bc645cd52579fde2,val,1,potato early blight/google_0225.jpg
+potato late blight/56.jpg,66,9636b13f0587bdff4f06bd9dd66077b21799776499bfde3c469ab59e91d587d1,val,0,bean halo blight/24.jpg
+potato late blight/google_0152.jpg,66,89bf1764596140ba8096c9d8c8bc115207523cc7f03860ba86a900d8972414ce,val,1,potato early blight/google_0123.jpg
+potato leaf/google_0292.jpg,67,9f8d144be3cf5b095fd9c5d54dc13322e9e838913f7289b24560dd9b4676ef11,val,1,potato leaf/google_0292.jpg
+raspberry leaf/56.jpg,68,2031649ae56c241598d6b554a620ecd75746df5418cd3c327925bd0b9877e5d1,val,0,raspberry leaf/56.jpg
+rice blast/120.jpg,69,93caf83d3663ee7126418d95172efaf3fdead9f797c0a47df39ab0a683f7ca02,val,0,rice blast/120.jpg
+rice blast/151.jpg,69,bc6f218dfa537538917a0cf960f568ae16e3033af883cb56534b79cdc5fdf765,val,1,rice blast/151.jpg
+rice sheath blight/google_0016.jpg,71,886d29e2d18eee1f794da736245b33b88b858b600ef74fdfc6607dee209be246,val,1,rice sheath blight/google_0016.jpg
+rice sheath blight/google_0048 - Copy.jpg,71,44b875a4b79158650c1463e410363a1e2cd8c658301bab5a1d4009e9a49d1a5b,val,1,rice sheath blight/google_0016.jpg
+rice sheath blight/52.jpg,71,d1d943d8f43ca8bbb9c3e73bdfdcbd74af1326643a851fbdf60e2f85b4d1200e,val,1,ginger sheath blight/26.jpg
+rice sheath blight/159.jpg,71,29ec52b73e2dcbcc5e3b2aee63d62712c941c4fbd2e2f922116bbcceaf9c447c,val,1,rice sheath blight/159.jpg
+squash leaf/zgoogle_0131.jpg,73,693bf375fa9261dcf56b76b0186a0ada79a7adb1c4c2aedc6494874a38570e9d,val,1,squash leaf/zgoogle_0131.jpg
+squash powdery mildew/google_0176.jpg,74,abeb9d58f44c982d16c7e7b713195d3ae84c436bbb6d754f650abe5882669080,val,1,cucumber powdery mildew/google_0181.jpg
+strawberry leaf/google_0338.jpg,76,bab98c5fb29bd678f610e99101c74dc3909d5199af5eac62e592c4c6d431c236,val,1,grape leaf/google_0286.jpg
+tomato bacterial leaf spot/google_0070.jpg,80,d5e9cfde348f7a10ed4e8ae286a99a663eeef74cb0831e7136d42781b2580d32,val,1,tomato bacterial leaf spot/google_0070.jpg
+tomato bacterial leaf spot/google_0099.jpg,80,3cd2e7faac8d7aa7f477277ee6bba06e507708ebdecc0e1a65bc72b4f97911f1,val,1,tomato bacterial leaf spot/google_0099.jpg
+tomato bacterial leaf spot/google_0328.jpg,80,6dd9640e79e5dda8309f5514c3addb76d8258e573b4563717deec0c4f7f4c4be,val,1,tomato bacterial leaf spot/google_0328.jpg
+tomato bacterial leaf spot/google_0048.jpg,80,41ead654ac6be7ce2887870c95e85041769a279bda593f5c82b74fbf21e2a445,val,0,bell pepper leaf spot/google_0172.jpg
+tomato bacterial leaf spot/google_0059.jpg,80,1a5b3569916dce92f481658900ca4dd39675b39a7436d68d09c643f286126dc2,val,0,bell pepper leaf spot/google_0160.jpg
+tomato bacterial leaf spot/15.jpg,80,95ce01c35811b34f1e002d1127dea03213092a60ea368e6ad88a38ef4e85254a,val,1,tomato bacterial leaf spot/15.jpg
+tomato bacterial leaf spot/45.jpg,80,8465701939b93a7e58d7ce8d1a996d67705307c49826c394700db27e71af55a6,val,0,tomato bacterial leaf spot/45.jpg
+tomato early blight/google_0347.jpg,81,539c54c5a4bfef0bedc99a52aa0a643efa290e69194755aaf9fb722f80986b36,val,0,celery early blight/google_0023.jpg
+tomato early blight/193.jpg,81,a005c44c400d294ff1ec22d9ad694b8e461722385768ed8edce43607dab04648,val,1,tomato early blight/193.jpg
+tomato early blight/google_0246.jpg,81,091631ad6e0cbff7c48f9a7e3b115fcaf226573977351e75e15f33d0d847bc44,val,1,tomato early blight/google_0246.jpg
+tomato early blight/google_0177.jpg,81,5b9917e50cefe261c95354135ce440ca4dfa8a872285bed27d14f47f368b32a3,val,1,tomato early blight/google_0177.jpg
+tomato early blight/274.jpg,81,a4f1b3883b7b62f58f01672f361ccff4924de366f05527be9d89efba40ca78b4,val,1,tomato early blight/109.jpg
+tomato late blight/101.jpg,82,c34c5a98bbd4f1b846ab65aba2a6c7c8b0e040a306420b3e658d915e29cfc733,val,1,tomato bacterial leaf spot/49.jpg
+tomato late blight/google_0126.jpg,82,c4838e5362227a126c47a2c3792d57d173b6e59943f7237ceb48d544c085364c,val,1,tomato late blight/google_0058.jpg
+tomato late blight/google_0016.jpg,82,8f838fce7ea5b00f55a5ae2788e8e1c814ceba5624cd39692a79f98e40a4d560,val,1,potato early blight/google_0017.jpg
+tomato late blight/220.jpg,82,35d19460030c504a6a02df35067a4357eda56240b238537f0ef42d1acd62c8d5,val,1,tomato late blight/220.jpg
+tomato leaf mold/186.jpg,84,eb97522761de20ea7be007cb24126cecc245e575a652b7cf21e7ad6f881defc5,val,1,tomato late blight/200.jpg
+tomato leaf mold/247.jpg,84,ed96e407ca88fea5e5ce8c678fe4103153398af3afd6ef747aff3e441b360fbf,val,0,tomato leaf mold/20.jpg
+tomato leaf mold/217.jpg,84,0f1600bcb39fc19c42e7b9bf3e5fca7d272a7f78b79e651c70a99199464fbfaf,val,1,tomato leaf mold/137.jpg
+tomato mosaic virus/1.jpg,85,b28a9de7d36f62abe24ac3fa019aacb9bd55f0c2fd4c720841a531d0910f63bf,val,1,tomato mosaic virus/1.jpg
+tomato mosaic virus/16.jpg,85,c32486fd4032c493252070509f68a01aae80399556d875e2d455eb1092f13622,val,0,apple mosaic virus/93.jpg
+tomato mosaic virus/184.jpg,85,12e232de8763b57a788c6c418f67d7149c678267c04b44f393a450d0ace463f9,val,1,bean mosaic virus/30.jpg
+tomato mosaic virus/30.jpg,85,15db07d65c6750251324400f817b15583a68cc636c3e04129ead2094a896831f,val,1,tomato mosaic virus/29.jpg
+tomato septoria leaf spot/174.jpg,86,efd511ed5c385f76b4a92ceceae83bb80f5a2e9792e63a2d9201c0dacb40fe21,val,1,tomato bacterial leaf spot/78.jpg
+tomato septoria leaf spot/google_0226.jpg,86,7727464cb354aaefa0a63628f018612719f5f386c9cff8405ab4508bb1f1e44f,val,1,bell pepper leaf spot/google_0000.jpg
+tomato septoria leaf spot/google_0081.jpg,86,5b9917e50cefe261c95354135ce440ca4dfa8a872285bed27d14f47f368b32a3,val,1,tomato early blight/google_0177.jpg
+tomato septoria leaf spot/google_0266 - Copy.jpg,86,abff83709443b4a0fdd9cce2c8f46dda2a3e1754edab40005f08586ed1ef09ca,val,1,potato early blight/google_0116.jpg
+tomato septoria leaf spot/88.jpg,86,753b1b822832efe0192feface83d85616afd85b82b5202453a4ed321a15dd586,val,1,tomato bacterial leaf spot/109.jpg
+tomato yellow leaf curl virus/40.jpg,87,2f1450d764e4d23f1ed986a5ca0fa76f6ec04435d0875ea43bbf5e107b3ce3e3,val,1,tomato mosaic virus/143.jpg
+tomato yellow leaf curl virus/68.jpg,87,9a0d73f2d323683d2f34c5c5236789cf1f142a9798f1a3379c4fbc582b1c0b06,val,1,tomato mosaic virus/41.jpg
+zucchini yellow mosaic virus/160.jpg,88,d4553a000909c0fe8f0ff677b6771d75a4317e9b4044bc16e1430df0bd3844a6,val,1,zucchini yellow mosaic virus/160.jpg
+zucchini yellow mosaic virus/117.jpg,88,930d30e0b1c263ad891e7e2441d0ae4b55cdbb948bcd1466d872071b4de3b2bb,val,1,tomato mosaic virus/41.jpg
+apple black rot/61.jpg,0,0a9b669d6b4aac0cc31564c7c6018a8dece664c91251a02c16275816e8f0adb0,test,1,apple black rot/61.jpg
+apple black rot/18.jpg,0,a63e10a64e602635058682dac15682d9c2ea79d60e46006034c5d8f57096fe3e,test,1,apple black rot/18.jpg
+apple leaf/google_0110.jpg,1,8a48ac7334ea035fd1dad80c743daf09a03b97e1002d9078d234366ffaf0b6b3,test,1,apple leaf/google_0110.jpg
+apple leaf/28.jpg,1,7a216c9c3f012c9931733ed78331623c6149de932062c0743d5f0e08fcc1ba4f,test,1,apple leaf/28.jpg
+apple leaf/168.jpg,1,0214b2371e9cba4e068d268b75d725168b37bdd2ee009812c320246831e73d15,test,1,apple leaf/168.jpg
+apple mosaic virus/18.jpg,2,f3e086c02fea578a821cc06a0809e601cf70847a1dd5e16c942756c7f4b98fc0,test,1,apple mosaic virus/18.jpg
+apple mosaic virus/google_0069.jpg,2,85a1effa57ad44f9009b6911fb0a29252afb87007a8f38a9eb681cec9795be48,test,1,apple mosaic virus/google_0069.jpg
+apple rust/20.jpg,3,58e107994b7a7a836f48701ca169989d0858dad53854ef1dc52074856487df5f,test,1,apple rust/20.jpg
+apple rust/11.jpg,3,2a681bc7598ae9c08867550a4c15a417530f86c4352bc2fa8d25c5490d83aff0,test,1,apple rust/11.jpg
+apple rust/google_0205.jpg,3,3b397582faea350272e63efbafb812cf645288d1296cc8bc003b664a21ce21c0,test,1,apple rust/google_0119.jpg
+apple rust/286.jpg,3,2e72f56c2b1ad9261e87517aeaf3c562df0bb7b60f65022b5d2cadf0e4f47692,test,1,apple rust/286.jpg
+apple rust/78.jpg,3,1212a5376a2412bd53bb969cc1b4476b0a93663cc0fae4791133681e10acab70,test,1,apple rust/78.jpg
+apple rust/77.jpg,3,2ab33b84369599745306d16035a9b78b2d3e484c54637ceba9471915eaf8d8e3,test,1,apple rust/77.jpg
+apple scab/48.jpg,4,e2c2b0af6e1d0e4ab0731516c0b70c0adf71b3cbaf33925a604ad92d1ea7f758,test,1,apple rust/11.jpg
+apple scab/76.jpg,4,4ac3d5b8364c8b618b4ba77ddfdbdce826605d191bb634e15dca742c528147bf,test,1,apple rust/162.jpg
+apple scab/66.jpg,4,5ed41a6d65fc58fe6ec3761980ebc19189be1881f6c6e23a51c09333ebbe7e09,test,1,apple black rot/1.jpg
+banana panama disease/addition (15).jpg,6,8c1a8879f395e315197ced6e05bc634635a11e29ebca06570236c4cdb6256645,test,1,banana panama disease/11.jpg
+banana panama disease/113.jpg,6,42c6131403a84fe59367a5a312ce333e3cd0d16cbe7855fc4fa37961b3842006,test,1,banana panama disease/109.jpg
+banana panama disease/google_0049.jpg,6,5cc38ed58748e9dd71c62e85cba9e1e70678af6bf6dedd4d9c32e0e7d42f721b,test,1,banana panama disease/add_2 (33).jpg
+banana panama disease/112.jpg,6,75e6a6091f4e06cfccc7289a13ac42f61ab67207ce3b02f0bac426c96daa22c4,test,1,banana panama disease/112.jpg
+basil leaf/335.jpg,8,aae4e2f3e70ec54535e9dae3b0eb239b87eacd3aad17faa04f7be881fd0d46c1,test,1,basil leaf/335.jpg
+basil leaf/359.jpg,8,2124e261647d4cd2dac4f1122fb5d45d773aae78728e57d478319cfff7109642,test,1,basil leaf/294.jpg
+basil leaf/213.jpg,8,be29958fbe16af55e12c36b5b56e165516873a10439ccaeeeb963011c97cac13,test,1,basil leaf/213.jpg
+basil leaf/121.jpg,8,29ea03329477f80943487258d7a9f502d565cab0ee6985b8867b35dc0fe9923c,test,1,basil leaf/121.jpg
+bean halo blight/24.jpg,9,9636b13f0587bdff4f06bd9dd66077b21799776499bfde3c469ab59e91d587d1,test,1,bean halo blight/24.jpg
+bean halo blight/google_0032.jpg,9,965b2804d52b1ec57e2e67ec0adedf7761cb956ada47350158edb132411fb6e2,test,1,bean halo blight/google_0032.jpg
+bean halo blight/google_0191.jpg,9,f9cfeeacb9bd5e679eae7d0052755881b60e43c14993bd935fcc18d5a9bf13e1,test,1,bean halo blight/google_0191.jpg
+bean halo blight/26.jpg,9,9636b13f0587bdff4f06bd9dd66077b21799776499bfde3c469ab59e91d587d1,test,1,bean halo blight/24.jpg
+bean leaf/56.jpg,10,a130e729c69acb811c625de8317908666ce64d956e92b2a1eaf1e7b687453a46,test,1,bean leaf/56.jpg
+bean leaf/20.jpg,10,ba4d397f24a365baf9072845e7c8b5df533d5d45fcd6e68c2fc3e3f2fa7446fb,test,1,bean leaf/153.jpg
+bean leaf/google_0005.jpg,10,6c650a01eb7fd292f70020feeb5736d68961d35441c067fa022c3b0d467c8f34,test,1,bean leaf/google_0005.jpg
+bean leaf/6.jpg,10,3972e1fa712751ac24af9151c80f6128d3f285415db1a0aaa8d74f37f8e1984c,test,1,bean leaf/6.jpg
+bean leaf/google_0054 - Copy.jpg,10,ad29165e997b156a23e88914a63182369676a3da0d4ba515eb47021499df7fbb,test,1,bean leaf/google_0054 - Copy.jpg
+bean mosaic virus/google_0153.jpg,11,a9e7c80810ca00b6a79a121fee65fbdeb028cf5e7ecb79796baa88dbb1bfe5f1,test,1,bean mosaic virus/google_0040.jpg
+bean rust/google_0051.jpg,12,3bbecc3198e770ec09bbb9be567e6022fb0a2be426b49815b525c30c6411b655,test,1,bean rust/google_0051.jpg
+bell pepper leaf/160.jpg,13,528d6e330916bb798f4636f327147b29f58b5c1dc8bf5cc95dfa2ab715656c4d,test,1,bell pepper leaf/159.jpg
+bell pepper leaf/198.jpg,13,aae4e2f3e70ec54535e9dae3b0eb239b87eacd3aad17faa04f7be881fd0d46c1,test,1,basil leaf/335.jpg
+bell pepper leaf/97.jpg,13,c59ed023ab84a6df7f1eb0b1b538629e118f1bca95b147bd489a939485ea98e8,test,1,bell pepper leaf/97.jpg
+bell pepper leaf spot/google_0172.jpg,14,41240fbb95ad6e313e887e843aa3e3d7e03570bfc74bffef2b83f396ab5be176,test,1,bell pepper leaf spot/google_0172.jpg
+blueberry leaf/google_0020.jpg,15,1c2362405d5b5d13e666f755622bd8c923313dff0612585a42ec7d0ce3fafef9,test,1,blueberry leaf/66.jpg
+blueberry rust/26.jpg,16,cb6bede4794737064f3a9f0e08957f97519ad0b227ca5359a92959df8929de3b,test,1,blueberry rust/26.jpg
+broccoli leaf/323.jpg,18,90e261225edc67f1d1be494c635e2d647e70e8a8eb9be69540ab32ff81b52851,test,1,broccoli leaf/323.jpg
+cabbage alternaria leaf spot/google_0226.jpg,19,a2dfc65c915313158b41c3e7ef2efdf649f38ec4b422e3bc320405040d9f1850,test,1,cabbage alternaria leaf spot/google_0226.jpg
+cabbage alternaria leaf spot/google_0030 - Copy.jpg,19,fd8314832d20c078afb5bcc016e879597fa9141cfbd433f15a1340caad0bf5be,test,1,cabbage alternaria leaf spot/google_0030 - Copy.jpg
+cabbage alternaria leaf spot/google_0032.jpg,19,4d1ae3457366ec9dbd62ba162374f8fc35ee8cb0b1c08cffa84225d29eb4663f,test,1,cabbage alternaria leaf spot/google_0032.jpg
+cabbage leaf/google_0037.jpg,20,38b20dc89b2ae6914a112e20e552144c7404c8724571f9c5cb02df29d8d604bd,test,1,broccoli leaf/google_0051.jpg
+cabbage leaf/294.jpg,20,4d05435860ea6333bd2406e57fcf897dacc1b81151193d633e8b1c5b70c8744b,test,1,cabbage leaf/294.jpg
+cabbage leaf/142.jpg,20,abac2b3be04eacd4e16ee084899db04e69151a7a8f71396b4c07d716f34f6d9e,test,1,cabbage leaf/142.jpg
+cabbage leaf/372.jpg,20,4a3edad8ddac2e893966f6f4b23d69ee99cc7da653b94c153e9aca18dec17c0b,test,1,cabbage leaf/368.jpg
+cabbage leaf/320.jpg,20,ae7e79dec5f41cecbd41cb6f744166fd919019a238f981abb11c0a9a766990d2,test,1,cabbage leaf/131.jpg
+cabbage leaf/143.jpg,20,abac2b3be04eacd4e16ee084899db04e69151a7a8f71396b4c07d716f34f6d9e,test,1,cabbage leaf/142.jpg
+cauliflower alternaria leaf spot/google_0230.jpg,22,f4c4b831f4e0e59a2d950505e82e6e34a83957cfeef655a654ae613f7aa76409,test,1,cabbage alternaria leaf spot/google_0148.jpg
+cauliflower alternaria leaf spot/google_0056.jpg,22,b8bf5cd567d3cae067f2fb0e4d7c6278e8acf50d89e39718c3db8ec848a71eb5,test,1,cabbage alternaria leaf spot/google_0058.jpg
+cauliflower alternaria leaf spot/google_0089 - Copy.jpg,22,c62693d9c504c5c2de34b86fb11e0cd36dab32314bb7784d5c18c176df4e290f,test,1,cabbage alternaria leaf spot/google_0044 - Copy.jpg
+cauliflower alternaria leaf spot/google_0078.jpg,22,f054b5bd0caddaec65fddbdf7e88057125b04d73bd415019a0e5b34fb51eaa70,test,1,cauliflower alternaria leaf spot/google_0012.jpg
+cauliflower alternaria leaf spot/google_0340.jpg,22,4d527ef10cf5335e06227b41f65d440e3468e006f6f7f97aa0349ce42464a38e,test,1,cauliflower alternaria leaf spot/google_0340.jpg
+cauliflower alternaria leaf spot/google_0028.jpg,22,5506fddf0772153f39289672298379deb44628e1598c4f4f513da14dc7375acb,test,1,cabbage alternaria leaf spot/google_0013.jpg
+cauliflower alternaria leaf spot/google_0186.jpg,22,325129f78df76df906789205b1b420dedfd0febc39b9d83caac4505330f05db4,test,1,cabbage alternaria leaf spot/google_0010.jpg
+celery early blight/4.jpg,25,8c1aeebf34423c9af98b3137f7484ea0081d63d9d21497f419a47c757817a449,test,1,celery early blight/4.jpg
+celery early blight/google_0107.jpg,25,dae85ae66d859f7621a761b62bf86c476b9c946840c81ab05620139c5804378d,test,1,celery early blight/google_0107.jpg
+celery leaf/214.jpg,26,3f7126833c3be745ccbb0b67093b454578613ec57709244ee223284d6725959f,test,1,celery leaf/208.jpg
+celery leaf/208.jpg,26,db44a96ec363bc1279fd557ae32e72774ec35e9731e11211d0b54d5e690a254c,test,1,celery leaf/208.jpg
+cherry leaf/google_0369.jpg,27,8a48ac7334ea035fd1dad80c743daf09a03b97e1002d9078d234366ffaf0b6b3,test,1,apple leaf/google_0110.jpg
+cherry leaf/167.jpg,27,df41330d91dd187a28725d5fcb5d4999a64e3c3d5f718aa0f72ea49e5418c0a1,test,1,apple leaf/149.jpg
+cherry leaf spot/google_0465.jpg,28,95df6eac48fce5192f2fc51b7fc980ab76bac2dadeec7b8aff1935c72b57c1e3,test,1,cherry leaf spot/google_0465.jpg
+cherry powdery mildew/google_0003.jpg,29,5fdead8e8b437788292e2a83c309a14fe34a75c221cb345f9f4e1772559cde55,test,1,cherry powdery mildew/google_0003.jpg
+cherry powdery mildew/google_0058.jpg,29,3a7a58e0fa68aa79b35f8e17e5b862e354d7dac675c9c68583ac3aa11291df81,test,1,cherry powdery mildew/google_0058.jpg
+cherry powdery mildew/google_0032.jpg,29,28da2eebe744a007de5d9bffc1d192b0a05aa5b9e62baaf7913398d49bf9a028,test,1,cherry powdery mildew/google_0032.jpg
+cherry powdery mildew/google_0029.jpg,29,4015bb980b460420186180c5855c3579937c5952361a90fa5f7374c3f9776581,test,1,cherry powdery mildew/google_0029.jpg
+citrus canker/285.jpg,30,e8b87e7ce4e5e63603a1194940e3259740c71558fff54f65645c556d71c34f64,test,1,citrus canker/285.jpg
+citrus canker/305.jpg,30,b6e22b77a4a300b50c6114840e0cff2304afb5d6bc038a095d4d99d7ab5d8136,test,1,citrus canker/305.jpg
+citrus canker/425.jpg,30,44bd31ce0d92f7ea13ca6f0a6fb18b453cd20491253cfa8bc8b4b541cccbb9ae,test,1,citrus canker/139.jpg
+citrus canker/google_0037.jpg,30,e72ae26d2acf6f2ba85b3932828beb2374c8fd08750376739868b145ccdff988,test,1,citrus canker/225.jpg
+citrus canker/44.jpg,30,52a69abdffd9c636257b2e83d947166842112539d5295c9d284f7ef8ca8fc122,test,1,citrus canker/139.jpg
+citrus canker/59.jpg,30,7eb7afdd569368f9c219dedf496c201565399782fe11a5363d643498b6159d6e,test,1,citrus canker/252.jpg
+citrus canker/90.jpg,30,d1bf58ea4a49ea0cd227f68b26902fbe6740d22ce57ce82f7850d3e6f02b0afe,test,1,citrus canker/441.jpg
+citrus canker/google_0032.jpg,30,b9f51b0986b94f27e908e502a896f7b190e39a83e19341a69342d6e10f5092eb,test,1,citrus canker/google_0032.jpg
+citrus canker/371.jpg,30,87fb665358dc03de9ce5d8b1e2251ff51a3aa648b1b3ac0acaa26e4b2e72bbf3,test,1,citrus canker/371.jpg
+citrus canker/306.jpg,30,7f269a3b6ec36e1e1f027eb4ca1313d680849a45efb9759fc3b3ac67be733578,test,1,citrus canker/306.jpg
+citrus canker/88.jpg,30,e62e573224172f75a61648d96675655e385be2e810eb60418511b11928f55870,test,1,citrus canker/263.jpg
+citrus canker/425 - Copy.jpg,30,90022585f8764a34ad3a7e2c3b8bb2b52be4afaaff3d0c9aeaf5e99787ae0ea2,test,1,citrus canker/139 - Copy.jpg
+citrus canker/37.jpg,30,4577bc954013631fbe6a9e1dbd6a39b8f2a4ab12833a1a0fe3a271c9f16ce840,test,1,citrus canker/225.jpg
+citrus greening disease/google_0169.jpg,31,ce6aa496f671f465de274dc29af3631b3284493845939158e9a52e58528a2ae0,test,1,citrus canker/google_0032.jpg
+coffee leaf rust/google_0009.jpg,33,58d6bf22856d8ada025a4716e8efbb7bc52a9d46d623af71429cd84cd13bce2e,test,1,blueberry rust/41.jpg
+coffee leaf rust/16.jpg,33,e16b58e12860cdba4b27325e792d46a611fcda8cdf76c2ff79b525b3048595fe,test,1,coffee leaf rust/16.jpg
+coffee leaf rust/google_0093.jpg,33,4d83d367cecaf79b29df832fef3ca610735665320e3a673f241f492cd2121bcf,test,1,coffee leaf rust/13.jpg
+corn gray leaf spot/38.jpg,34,6288835224c95ebbadf6253c9050df65d7864b18949faaf9d5a31faf8bedd316,test,1,corn gray leaf spot/38.jpg
+corn gray leaf spot/30.jpg,34,67d06ad0545a0f410144e95da16b0ca61cb1e70f003539003436b295f51a1b03,test,1,corn gray leaf spot/30.jpg
+corn gray leaf spot/google_0026.jpg,34,f8ce8a1f5fc8d3740c2c222a34f3ee9b913c826430908b8297718c53f7299b6c,test,1,corn gray leaf spot/google_0026.jpg
+corn gray leaf spot/google_0106.jpg,34,522bcea70d2e267a58b3d9aa153bfae5d199879d342d3eb12abfc73b6da8468e,test,1,corn gray leaf spot/google_0106.jpg
+corn gray leaf spot/2 - Copy.jpg,34,989a8b63eee51381b43cbdfa763ed478ae718afe35c6804eacd3adc03a4b1cba,test,1,corn gray leaf spot/2 - Copy.jpg
+corn leaf/14.jpg,35,61a759c9088f7bef52ef27aa785bde10bf4727b07371739ed1b045a436e206b6,test,1,corn leaf/14.jpg
+corn northern leaf blight/google_0003.jpg,36,b9889bdbbafd2f34d75638a524c64badfb1525123ebbc5ca5cf907cad0208137,test,1,corn gray leaf spot/google_0127.jpg
+corn northern leaf blight/69.jpg,36,28efd90815f26bbca1b6ac64d33dbdcc3a5481da1b3e84022bec27ec6976c0bd,test,1,corn northern leaf blight/69.jpg
+corn northern leaf blight/59.jpg,36,625f3a9669614a5385e6fc82107d5e53a35ae0cc3f17bf32bc48b9d7292ac38b,test,1,corn northern leaf blight/59.jpg
+corn northern leaf blight/3.jpg,36,6166662e4dd6e54326b218b6f2c89f310f45fe2680e9b4fa04a7e2e488146d8c,test,1,corn northern leaf blight/3.jpg
+corn northern leaf blight/add (5).jpg,36,7605de02c65414be9973840b53c41291e1aa46f05f6e5b17c9150bc6d41599a4,test,1,corn northern leaf blight/2.jpg
+corn northern leaf blight/google_0024.jpg,36,522bcea70d2e267a58b3d9aa153bfae5d199879d342d3eb12abfc73b6da8468e,test,1,corn gray leaf spot/google_0106.jpg
+corn northern leaf blight/2.jpg,36,94d9b6f442640a56df1b4fc437065c4ff439fc6841699bdfa5e091b9c8b07b56,test,1,corn northern leaf blight/2.jpg
+corn northern leaf blight/google_0076.jpg,36,3beb679fa9e6a7b2c91314835540d8caae3bcc15eb9a8a4960d49cea6e680610,test,1,corn gray leaf spot/google_0000.jpg
+corn northern leaf blight/add (8).jpg,36,40177e2f7587e926fd37fd45a0e9615eaadb403df0def1f0897d7b52128dc928,test,1,corn northern leaf blight/12.jpg
+cucumber angular leaf spot/247.jpg,39,542c551b809ad10e4a0abc5668832ebc44f871cc2d6c37b53180e13ba2252666,test,1,cucumber angular leaf spot/175.jpg
+cucumber angular leaf spot/107.jpg,39,1ec809267cae6bfaf0a86b1037db203a6844351ce3aac8cddc14d1725fac9736,test,1,cucumber angular leaf spot/107.jpg
+cucumber angular leaf spot/35.jpg,39,ee4ba7ca34317d7e6d0702d30fbe39101cc76ec24a201257e7ce86391ba481a8,test,1,cucumber angular leaf spot/107.jpg
+cucumber angular leaf spot/210.jpg,39,330ce2945605953b98b13b2f17ef82e13c47af24f8fbdc95fe0cf09cc07d71b0,test,1,cucumber angular leaf spot/210.jpg
+cucumber angular leaf spot/google_0107.jpg,39,dae198bd4174dfff9fbeaad2539372b0a1fc618af6212c72c5ff2098e1ee74a8,test,1,cabbage alternaria leaf spot/google_0197.jpg
+cucumber bacterial wilt/169.jpg,40,41851fc27abcc43b60410a5d55540b6bf7a49eaa83ead3195d249f49dbbf1dbb,test,1,cucumber bacterial wilt/169.jpg
+cucumber bacterial wilt/google_0020.jpg,40,757b7b50a83186b749d5e1816de32f103595a7b0076c00c3c9709811233df54d,test,1,cucumber bacterial wilt/google_0020.jpg
+cucumber leaf/google_0146.jpg,41,757b7b50a83186b749d5e1816de32f103595a7b0076c00c3c9709811233df54d,test,1,cucumber bacterial wilt/google_0020.jpg
+cucumber leaf/google_0177.jpg,41,737e1f31a1264b318928641120cdcf20aef49bf65380a2e8222f138b9803e6e4,test,1,cucumber leaf/google_0177.jpg
+cucumber powdery mildew/133.jpg,42,cf4ca5f1a2dbc5ff85a1c5d859fc98630197a8ccdbec482061e8e937ee611a70,test,1,cucumber powdery mildew/133.jpg
+cucumber powdery mildew/google_0002.jpg,42,f07c0b5b54092616a9d56de9dabacccd9abc9333253ce86711e84bd989741167,test,1,cucumber powdery mildew/google_0002.jpg
+cucumber powdery mildew/172.jpg,42,74f54299de6d844ebe0f7236aaf1f3794a483268566583cf370b9d1a819171ce,test,1,cucumber powdery mildew/172.jpg
+cucumber powdery mildew/google_0022.jpg,42,14586d58edace950ce88377f7881d62a0feae4edce1055d0fb70baebc48515f7,test,1,cucumber powdery mildew/google_0022.jpg
+cucumber powdery mildew/google_0001.jpg,42,a93654f5a7e465dc4efe74334b2d8042441d7ebad1dd4cfbfcd37dff8c242f05,test,1,cucumber powdery mildew/google_0001.jpg
+cucumber powdery mildew/151.jpg,42,78d8bab87aac9404daf177059cb3e7ce8803700e1431efab6f1a86968a8c0c54,test,1,cucumber powdery mildew/151.jpg
+cucumber powdery mildew/132.jpg,42,a1d037c3baff1af756fbd5ce3dac295b2b9c2c8f7711f36855f1f3143f8c46f1,test,1,cucumber powdery mildew/132.jpg
+cucumber powdery mildew/50.jpg,42,9699c8defe017b12f9a8cf0beb3fc922df5b7bca8b4f605d5505983c740b328a,test,1,cucumber powdery mildew/133.jpg
+eggplant cercospora leaf spot/google_0071.jpg,43,56fc2e01ad1c73d0ce9d6010800bd848d6d617cace83ac53f19a36b1e0817db0,test,1,cherry leaf spot/google_0289.jpg
+eggplant cercospora leaf spot/google_0002.jpg,43,92eca51ea8caa8baa33384b228dd137595991f532340013a35923941f86fdf4d,test,1,eggplant cercospora leaf spot/google_0002.jpg
+eggplant cercospora leaf spot/google_0122.jpg,43,95df6eac48fce5192f2fc51b7fc980ab76bac2dadeec7b8aff1935c72b57c1e3,test,1,cherry leaf spot/google_0465.jpg
+eggplant cercospora leaf spot/google_0139.jpg,43,cb5495fa967cbd4df64d2bfe0b87afb8b620f5d05a60df8fa437b3c17cbfa654,test,1,eggplant cercospora leaf spot/google_0121.jpg
+eggplant cercospora leaf spot/google_0188.jpg,43,a987e93fc090a2b8f5361539e97cf715ea8f95fc6a3f0fb3951d43a17566d363,test,1,eggplant cercospora leaf spot/google_0058.jpg
+garlic leaf/52.jpg,45,341168ca6a255117ddad9ba33e88495d2bef5ad936143c09d5260e9efdea714e,test,1,garlic leaf/52.jpg
+garlic leaf blight/156.jpg,46,c2414ae1c6857156759573ec2fbc5a8c9f7c9bd3471d4b33c7a4cc6d07d67d5e,test,1,garlic leaf blight/156.jpg
+garlic leaf blight/google_0035.jpg,46,9d0eb37d6b527af99d1e0bf743313ccdde0ccaa3a6424162eca698f23efd030b,test,1,garlic leaf blight/google_0035.jpg
+garlic leaf blight/google_0254.jpg,46,0c10342399d0d8837cf6cf34b7766a360229ab39b098ed8ba0507582cad6eae6,test,1,garlic leaf blight/google_0254.jpg
+garlic leaf blight/google_0013.jpg,46,86fe58e122ef7d3d36ae40d8fca7cb7a43b8baae36550f69fbffe8cfc9b408c7,test,1,garlic leaf blight/google_0013.jpg
+garlic leaf blight/google_0044.jpg,46,f4abfac98de5a0ed66b160c2ee89e4fabdcb0720eceda3b45301dfccd76845fa,test,1,garlic leaf blight/google_0044.jpg
+garlic rust/google_0035.jpg,47,9d0eb37d6b527af99d1e0bf743313ccdde0ccaa3a6424162eca698f23efd030b,test,1,garlic leaf blight/google_0035.jpg
+garlic rust/180.jpg,47,be9e9f5cfbcd204f3ebd8c54a59c7e4157638c4db749e98488e6dd16578acca0,test,1,garlic rust/180.jpg
+garlic rust/google_0013.jpg,47,86fe58e122ef7d3d36ae40d8fca7cb7a43b8baae36550f69fbffe8cfc9b408c7,test,1,garlic leaf blight/google_0013.jpg
+ginger leaf/google_0002.jpg,48,09f3f9fd62870b746a4415885e206ae26bcbcdb321bfff081a27fb79f90eb234,test,1,ginger leaf spot/google_0000.jpg
+ginger leaf/3.jpg,48,d6b5382f7da43ecbd812e2ab10ee58f20ca76c2db113c67838fd5e70f2889504,test,1,ginger leaf/155.jpg
+ginger leaf spot/44.jpg,49,fef0fa9aa1fc6eefb9b793b00eaeb0b64a402dc35127a19132cfedf9c8d70af8,test,1,ginger leaf spot/44.jpg
+ginger leaf spot/172.jpg,49,0c31d888dc42ee04a282e614caf19991b39b7219b08c82edbcf7ea8ba7268a18,test,1,garlic leaf blight/7.jpg
+ginger leaf spot/25.jpg,49,41cdab2205db94f1489635f98ad826852b96445a332a1f4d835cc59a550cc199,test,1,ginger leaf spot/25.jpg
+ginger sheath blight/10.jpg,50,986e414182277b021c147bf024e84540c5ffa92f8273469c27da1b7ec35a2567,test,1,ginger leaf spot/42.jpg
+ginger sheath blight/20.jpg,50,488823d7e8c6337c5413bb36f1c33eeeab8372eae9709b9f81f8ff4d0af76ede,test,1,ginger sheath blight/20.jpg
+ginger sheath blight/166.jpg,50,221d84105d03253fdc978c4740392b5406452c5b98b767248720f1e46a926797,test,1,ginger sheath blight/166.jpg
+ginger sheath blight/39.jpg,50,af9b4710ec2371fc6e51e84fa8293ab8738a8fd89551e842821ec55f190fe179,test,1,ginger sheath blight/39.jpg
+grape black rot/google_0202.jpg,51,050b15368e2dc60096a388bdd4042c754c7ec56a42935ed2a48f672ebb86ae94,test,1,grape black rot/google_0119.jpg
+grape black rot/google_0052.jpg,51,0d61903c35c5fe92694ed415d36abb0e97bd33804b253f582592f4406254cd53,test,1,grape black rot/google_0052.jpg
+grape black rot/157.jpg,51,075cda1cba78e0276f36a89529d070cea7417d06420589dd440d82c393a4e8c8,test,1,grape black rot/156.jpg
+grape black rot/96.jpg,51,3ba9989959e9d6e9d878f7bfdefcb2b030e18c6e6a3cf9307aa6fab811a6dc64,test,1,apple black rot/10.jpg
+grape downy mildew/12.jpg,52,ee00e979510170a1406bc6e8e0036730a02e8432ecf0d82384926f0e4d6883f9,test,1,grape downy mildew/12.jpg
+grape downy mildew/200.jpg,52,9dcec98685ac46e4e96a7eee248f25048d528ce32d3a6bdf8658e4d5aa66b9ba,test,1,grape downy mildew/200.jpg
+grape downy mildew/102.jpg,52,8bebefbf5af250d1584054916d89ef34f70b7ea11640acfbe4f3a9165d24dbaa,test,1,grape downy mildew/102.jpg
+grape downy mildew/274.jpg,52,afa5934cee98deee5cfc82bad3f1501b745da46567f9b9a661da0997d860d4c3,test,1,grape downy mildew/1.jpg
+grape downy mildew/google_0079.jpg,52,c164a48dde0a4d0f8fb572d519df24595ae8431516f9ceda3e22f6e31586b6c3,test,1,grape downy mildew/google_0079.jpg
+grape downy mildew/17.jpg,52,a46c43fbef139c9ff276b7cfc99c6258491ce7517f3c71cc2964fb320ab5b095,test,1,grape downy mildew/17.jpg
+grape downy mildew/171.jpg,52,c271358b4f596420eb1c1e9e93a787a0dad9d6863a8a78a7c4f15d650f9f6bc6,test,1,grape downy mildew/171.jpg
+grape downy mildew/google_0105.jpg,52,0d61903c35c5fe92694ed415d36abb0e97bd33804b253f582592f4406254cd53,test,1,grape black rot/google_0052.jpg
+grape leaf/google_0031.jpg,53,60426ce781d6e31c22f37c72f1e0a5e324d8fa3b1da5311b164367574f302786,test,1,grape leaf/13.jpg
+grape leaf/google_0047.jpg,53,ccfdb1796c8a7b78f63fab024915742b1eb277e2574e4e724f2a3cf08ac635f8,test,1,grape leaf/3.jpg
+grape leaf spot/1.jpg,54,7a8bccf4b2285dafbec11adb37e4a1688e7241e1c23f67d71befab26a2b50deb,test,1,grape downy mildew/79.jpg
+grape leaf spot/9.jpg,54,ca97af5b16dbea36b57edb2d9e9bfad1b64815ae28ceeca057686fd4e7e97e6a,test,1,grape leaf spot/138.jpg
+grape leaf spot/99.jpg,54,b1316b214c4ad311bc3678b1153a793a3d8b897dba16f605a28f7f3d0bd61cde,test,1,grape leaf spot/97.jpg
+grape leaf spot/google_0032.jpg,54,3817c8745ffdbe78e10011fd9fd24f27fbf0a09a84c00be23f3765c1832cd88e,test,1,grape leaf spot/google_0032.jpg
+lettuce downy mildew/47.jpg,56,cbf1660e143511f509608234a9a701b808e6eaec42a1c1eb5d13dd41d07d43f2,test,1,lettuce downy mildew/47.jpg
+lettuce downy mildew/google_0209.jpg,56,ad2b47a5824d8d013d014663df8fb64f5f27d1353da9b7c8f23ab23d6c1c50f5,test,1,basil downy mildew/google_0020.jpg
+lettuce downy mildew/google_0049.jpg,56,4c6d0d554578bf5f50af52a4538b62b6259b2df8d52b2b3cee8be0a3e02c1059,test,1,broccoli downy mildew/google_0251.jpg
+lettuce leaf/16.jpg,57,961c527e51308d314be4ee5784dde6cf35dba592c9fe3698ebcc19c184c5868d,test,1,lettuce leaf/16.jpg
+lettuce mosaic virus/51.jpg,58,da90bf7612422a081deeef6f5f1546d51f45e570aef929de6d99f37d9fab2cf1,test,1,lettuce mosaic virus/51.jpg
+maple leaf/302.jpg,59,aabd6bf408ffbd2e0085f8d040b4a5f6c02e4d9f686e957d3c0d9f7732f85bd1,test,1,maple leaf/25.jpg
+maple leaf/356.jpg,59,60a7b73e41de71ad7c9d9e7e796417b6f977f65e408e02581ff71f3dae373f3a,test,1,maple leaf/356.jpg
+peach leaf/154.jpg,61,adca40e26d60d73a33fc19532d4cab9008f0162e63fbf271fcf37b2ae1524d47,test,1,peach leaf/100.jpg
+plum leaf/47.jpg,63,e1a4886a616d87a36c595b98473a0cb8f8754bbc63c4160b3de7ab54e8ca7ce3,test,1,plum leaf/45.jpg
+plum leaf/248.jpg,63,445b4df719ef97febf7a097d2d9385626ed1006742c529406e6fdf5e1049f2b4,test,1,plum leaf/248.jpg
+plum leaf/google_0001.jpg,63,966a4a4b567a9cb8de283ddd0683221b4848007b639ee1e86c2337c77ab6d5b0,test,1,apple leaf/google_0300.jpg
+plum leaf/google_0039.jpg,63,69136c37be3e72a9d86581ff6e7b82a5ae14e5eb21f43537f4ac26f15e72f9a3,test,1,cherry leaf spot/google_0158.jpg
+plum leaf/155.jpg,63,0b84ef1f584fba63c9170156681abf6fceb62f6f1126953e58acb0fe8e7b190e,test,1,plum leaf/155.jpg
+potato early blight/100.jpg,65,bd539d3ed39a47b0d3c04df31fd09126f5bac944344ae1d60dee286e99248ef1,test,1,potato early blight/100.jpg
+potato early blight/google_0241.jpg,65,ee443d56f4f93689fa3add743a487104d194b15e06a0917a39b92b347543587b,test,1,potato early blight/google_0241.jpg
+potato early blight/google_0080 - Copy.jpg,65,af416a8e567ea835c83e82000b35c8a360736afe91b11c09976aad29b6081536,test,1,celery early blight/google_0107.jpg
+potato early blight/google_0079.jpg,65,883086b6d7a38e0ca8958ff82b277442d2f809fe87e419abcb1dbad2fa709167,test,1,potato early blight/google_0079.jpg
+potato early blight/6.jpg,65,16fc326179672ec667f0bc64e94e3979566e0cd145754889bc078db673554fb7,test,1,potato early blight/6.jpg
+potato early blight/google_0284.jpg,65,82c339146e8298c4c8bf20cfc2f037c476ae8c0587a18a55253fff3ebf8ddd7e,test,1,potato early blight/google_0284.jpg
+potato early blight/57.jpg,65,b92e97d699f184b6d36c79cb2bf788085a6e1739a1a84c183bfe111c0e5aba9e,test,1,potato early blight/57.jpg
+potato late blight/10.jpg,66,cf6f3e5c70308ca46fb6ea1c7931e172efd5a064dce702bb5b0b8ce32d3414f0,test,1,potato early blight/55.jpg
+potato late blight/add (7).jpg,66,c776d1dcf4790ebbc57426fe97aa83db9f68400396830cb881c67d647e7b9d71,test,1,potato late blight/add (7).jpg
+potato late blight/google_0032.jpg,66,b1748774c116b5d23f482df30d292de53b86a1bceeccd5ed820c8784fc30fe0d,test,1,potato late blight/google_0032.jpg
+potato late blight/google_0162.jpg,66,84b86a6cb9214c542e3278f054d5af218732ff418b6087abc9ca3b3286704916,test,1,potato late blight/google_0162.jpg
+potato late blight/google_0167.jpg,66,ff8032d7e46fec33f32df219350d35cd99341edd66d0474bd91d76c4ec9238bf,test,1,potato late blight/add (6).jpg
+potato late blight/19.jpg,66,a3774064c46b35d1be51fa5d8217d9ecb1b2a56ab9f9fb109685df6d50297a4f,test,1,potato early blight/13.jpg
+potato leaf/12.jpg,67,06baf3daf2b90c130bf1d380428237ca591308ecab6cda6a8e1b8c80c635d700,test,1,potato leaf/109.jpg
+potato leaf/google_0031.jpg,67,f783ca055c9bacb8bd5b98cfbc13b2224bed4f22846fedb9b4fa0bd6137c6fdc,test,1,potato leaf/21.jpg
+potato leaf/21.jpg,67,2585b214d12cb8372a8ec377fc4f3f4445b26f868110dc398151dcd9fcf5b8e9,test,1,potato leaf/21.jpg
+raspberry leaf/58.jpg,68,2031649ae56c241598d6b554a620ecd75746df5418cd3c327925bd0b9877e5d1,test,1,raspberry leaf/56.jpg
+rice blast/87.jpg,69,c443f589e045d9296e3c5909f13b2c959441197727c10b340872d7a162a999f9,test,1,rice blast/120.jpg
+rice leaf/235.jpg,70,25390f2c6fc83153af618bd505de420f35eecf470a1b006f7000d9f7fb2a6492,test,1,rice leaf/214.jpg
+rice leaf/118.jpg,70,5da9c416514cfe36242e7f8bd4d9a0f1ae31beebd06a9ba0dcead5526cd0d945,test,1,rice leaf/118.jpg
+rice sheath blight/google_0208 - Copy.jpg,71,c5b77a157052bfa05f3fb621bdef57376b8782d5367a791de13d8f2318907dba,test,1,rice sheath blight/google_0101.jpg
+rice sheath blight/google_0101.jpg,71,170bd5a629ac46c4cbdcbc6ba8ebcb42bd009bf7657fbb974c16ca7c0fe14178,test,1,rice sheath blight/google_0101.jpg
+rice sheath blight/google_0075.jpg,71,4ac3656d5e711ff39c65b73066c32bfc810ecefadf75bb8ece56129bd9659132,test,1,ginger sheath blight/google_0020.jpg
+rice sheath blight/google_0000.jpg,71,54d2da0345bd92e32aa47a11df5044fff0dc8f78fba946985e67bc0f6d05cc85,test,1,ginger sheath blight/google_0020.jpg
+rice sheath blight/google_0028.jpg,71,3fd657c62d17a92e1f4a7a40bd6344a59a8810f12df28e0014f38bf04b928284,test,1,ginger sheath blight/google_0007.jpg
+rice sheath blight/138.jpg,71,6157fe8b9a90258a823969d9819e04b9fb7303e67c9351643895068b68bd1cac,test,1,ginger sheath blight/170.jpg
+rice sheath blight/96.jpg,71,0e7d42feac6a6e4ec5e58e53e7bfbd53f89214c4c80f8f3f47326ac16480133b,test,1,ginger sheath blight/89.jpg
+rice sheath blight/37.jpg,71,ac31cc31bf1f824b984b3a16c1a9b95f7245290e4b83cf73a35d18a202193155,test,1,ginger sheath blight/13.jpg
+soybean leaf/google_0443.jpg,72,94da31a57734c3facbd358fced38a0088d70ebe9ee6c489586a6b5191eeae8f1,test,1,soybean leaf/18.jpg
+soybean leaf/18.jpg,72,b432d87b53f77864219cb8361a0b056406ea18fe9dd11373d2877ba309354062,test,1,soybean leaf/18.jpg
+soybean leaf/google_0526.jpg,72,e35898e2767a238a37f5ac729231b37af2c13bd826c25660be3cede2ce2fc888,test,1,bean leaf/google_0183.jpg
+squash powdery mildew/google_0192.jpg,74,29e95630d83cb2cf0059cc45a96f94757f21696bc81f4598cdcacbb4bf906e22,test,1,cucumber powdery mildew/google_0026.jpg
+squash powdery mildew/172.jpg,74,58e892aaa49c839a8e6a978f58c2890611c7f1ad12e86a9b0b9909bb96e0e3fa,test,1,cucumber powdery mildew/194.jpg
+squash powdery mildew/google_0364.jpg,74,e29cc13f8fe9a0eb99894a81a4f758c678aff78c619025feb5e42b3462cf02a5,test,1,cucumber powdery mildew/google_0047.jpg
+squash powdery mildew/google_0100.jpg,74,2b380dda74a1db0425180f4720d40dd3e95f87f94da64b967da3fc9051b95725,test,1,cucumber powdery mildew/google_0056.jpg
+squash powdery mildew/google_0106.jpg,74,8ae9e7791fad6d57c8dbd3c38af286d0566723e5b50683cb524579c59bb10563,test,1,cherry powdery mildew/google_0018.jpg
+tobacco mosaic virus/12.jpg,79,e785cfb0fc7c469cfedbb18e9006c948cfe9ddc4bccb7486f19f080d8ca0d52d,test,1,tobacco leaf/49.jpg
+tobacco mosaic virus/19.jpg,79,84bad61172dac91840887821aeb75aa3b36b399ccffaa16df47cb7be30302d9c,test,1,tobacco mosaic virus/19.jpg
+tomato bacterial leaf spot/google_0075.jpg,80,1f16466e8ca3d5940346251b5e0f25ed8cfa67e4079551cb5bcf439af061e6b4,test,1,tomato bacterial leaf spot/google_0075.jpg
+tomato bacterial leaf spot/google_0088.jpg,80,28a4654c591ec692e5b0c6e3569d012c0cb20d9364f2a7e84454e4237a62c674,test,1,tomato bacterial leaf spot/45.jpg
+tomato bacterial leaf spot/google_0055.jpg,80,965b2804d52b1ec57e2e67ec0adedf7761cb956ada47350158edb132411fb6e2,test,1,bean halo blight/google_0032.jpg
+tomato bacterial leaf spot/google_0023.jpg,80,002ae0a3d909552bdfdb4023a64ab34dba9cdadfe803df06c3a50c3dec4d4e86,test,1,tomato bacterial leaf spot/google_0023.jpg
+tomato bacterial leaf spot/google_0032.jpg,80,b2ad93e2eda8db3a7db3ce73d0064874d47e3a9ac694d199e957fd5d16e779a8,test,1,celery early blight/google_0023.jpg
+tomato bacterial leaf spot/google_0408.jpg,80,737720e8f8cab38a405bab9db7c2abdf53e3de609232cbd4cada5d4cc52a1486,test,1,eggplant cercospora leaf spot/google_0002.jpg
+tomato bacterial leaf spot/google_0415.jpg,80,db5a2cc1d8bce20272196656770678cdb742627bf6c8d50dfa8d125dac9ec768,test,1,tomato bacterial leaf spot/google_0415.jpg
+tomato early blight/google_0143.jpg,81,f353b146ee756f6dd2041da38226091305be4883b38cb47f92fc2a38e15a1a8a,test,1,celery early blight/google_0012.jpg
+tomato early blight/288.jpg,81,18fa0f39c1d779d04ba2541f79471030189bb4ce9a9a7d83c104356dc7e30a56,test,1,potato early blight/6.jpg
+tomato early blight/google_0267.jpg,81,10e4a70a1fa0ed58f335c85e4617e45f5ae0455b5687ee293ac3d59da8a0c804,test,1,potato early blight/google_0079.jpg
+tomato early blight/google_0354.jpg,81,f77953fb7673b9b751ca955e877917f33175055083701a79131d3968c44b31f8,test,1,tomato early blight/google_0354.jpg
+tomato early blight/google_0287.jpg,81,0c3acccdee0131c5de2c77304bca0b9a4bf847305ef3ab2a6f8cd9bfb9c32595,test,1,potato early blight/google_0030.jpg
+tomato early blight/67 - Copy.jpg,81,c7663985b77d22bf6a7fc91c65686432b910a35784875c1d964d0999cd4ddf60,test,1,tomato early blight/67 - Copy.jpg
+tomato early blight/188.jpg,81,3ae9873bfbed50999299b1972ad6d8333018f9257eb0a8d023eb7e2a2382ad31,test,1,tomato early blight/188.jpg
+tomato early blight/google_0059.jpg,81,32432449addbac5fc05c78d07e72f490f5f1edc705c31177f592dd128ae78f19,test,1,celery early blight/google_0023.jpg
+tomato early blight/google_0256.jpg,81,5b861522ab732843f690d549e84ff341cd628c478653b4e4096ca531e828f62d,test,1,cabbage alternaria leaf spot/google_0010.jpg
+tomato early blight/google_0018.jpg,81,1339516365e07d5271f00fee10068bdf1efb3e941d92ce51937ea671afae25c7,test,1,tomato early blight/google_0018.jpg
+tomato early blight/google_0046.jpg,81,dfc003d79f390792dbf78d0fbf53f9a223beee44645ea2408d093b445dfd3c3e,test,1,potato early blight/google_0011.jpg
+tomato early blight/28.jpg,81,622e0222d381a4f187cf3aebf6c7001c5ad7dbff65d16092a506510c39ed285c,test,1,tomato early blight/173.jpg
+tomato early blight/google_0076.jpg,81,27effa7855bde9aa6247729dc03b47b7decf191dcad03070382930337a977730,test,1,potato early blight/google_0048.jpg
+tomato late blight/google_0200.jpg,82,9ea8ccaef82c9d560aefc6f0ff18f2489e0c8c9527071bfd8f5d2eb83487258f,test,1,cherry leaf spot/google_0289.jpg
+tomato late blight/google_0056.jpg,82,a61207c15c1dbce16217cbec30f6ffcc30026a82db6ae9a1923278e714bf4786,test,1,potato late blight/add (5).jpg
+tomato late blight/5.jpg,82,373249e11c38fe780d066300912dfdc5fc20a55331522b6f0b9d692c89dbf2d9,test,1,tomato late blight/5.jpg
+tomato late blight/google_0008.jpg,82,552b55a133d296b16a3af35aaab82171cc3d529df63cd33a44f858935a2fbde5,test,1,tomato early blight/google_0009.jpg
+tomato late blight/google_0192.jpg,82,949f6dabfaeb734f5e34151dbf7f1294c24bf9240aff502fca51ee558974b5ff,test,1,potato late blight/google_0219.jpg
+tomato late blight/48.jpg,82,1c335c778f03f4571fb9aa7c1ffb1a469966854501576efb9411e281998a3cbf,test,1,tomato bacterial leaf spot/70.jpg
+tomato late blight/google_0204.jpg,82,b1748774c116b5d23f482df30d292de53b86a1bceeccd5ed820c8784fc30fe0d,test,1,potato late blight/google_0032.jpg
+tomato late blight/google_0096.jpg,82,8c6acd034066deb9629ea804705c1fd7d1c97ebce8a266f6a98b801eb362d1bc,test,1,potato late blight/google_0052 - Copy.jpg
+tomato late blight/201.jpg,82,2a651ce42e2295c53ed86e1d9b9125a5bc45f6cf91adeef38a8e08cee292cf0d,test,1,tomato bacterial leaf spot/70.jpg
+tomato late blight/google_0268.jpg,82,17922b0abee633de36b1fe0e5c449f519692caf7a5b26d2f9c5dd3f835587ca1,test,1,tomato early blight/google_0021.jpg
+tomato late blight/39.jpg,82,68052aae0c0611e7e21229d59e6525e5cad59b21b5d10b3db83209668ffc7f4c,test,1,tomato bacterial leaf spot/103.jpg
+tomato leaf/google_0056.jpg,83,bccd6645f206c3abdd0be74eb2aba6959386d48cc345db77354e95c4b16e4d8c,test,1,tomato leaf mold/google_0306.jpg
+tomato leaf/21.jpg,83,bfbf4877cf90ff90c793128f5e5cc746a5e927f6bc47c6d5fd51e6bbe135f11e,test,1,tomato leaf/21.jpg
+tomato leaf/152.jpg,83,25bd3a1e309481eb2debe7bfd7ebc9222d942983362488b6c0c262799f45db7d,test,1,tomato leaf mold/50.jpg
+tomato leaf/57.jpg,83,e1d3f336c7cd3356be00eb1c3e81fe0542fa3cd375ad65217572a82b8581147c,test,1,tomato leaf/57.jpg
+tomato leaf mold/20.jpg,84,a3ce7a5a245da777de45cefa93d0ff6940e84f4daa82ee4d99c4e1e36a18d0a9,test,1,tomato leaf mold/20.jpg
+tomato leaf mold/80.jpg,84,244c20b72f49b4424e6047781ae98280cd81758fdaecfd77fb23312eddf68d18,test,1,tomato leaf mold/80.jpg
+tomato leaf mold/33.jpg,84,373249e11c38fe780d066300912dfdc5fc20a55331522b6f0b9d692c89dbf2d9,test,1,tomato late blight/5.jpg
+tomato mosaic virus/google_0053 - Copy.jpg,85,09c920e6f7667841e8c5cccf088d85b656613e8caa7f5a2049188c86e7fcfe11,test,1,tomato mosaic virus/google_0053 - Copy.jpg
+tomato mosaic virus/25.jpg,85,f96293f10a65f40a5e12d2f7886b69c1fe3de932894bffdb2a13a95b62a95f2d,test,1,tomato mosaic virus/25.jpg
+tomato septoria leaf spot/google_0070.jpg,86,a5258f2db80d5f32f8338ff1a71826c0bec41b80641f4de8d64494225635c503,test,1,celery early blight/google_0023.jpg
+tomato septoria leaf spot/google_0004.jpg,86,1a5b3569916dce92f481658900ca4dd39675b39a7436d68d09c643f286126dc2,test,1,bell pepper leaf spot/google_0160.jpg
+tomato septoria leaf spot/google_0204.jpg,86,b2970f4fdf5ee1328c860970fbbaee8275340e4e0b40a4c79605bc053f3f66e7,test,1,tomato bacterial leaf spot/google_0091.jpg
+tomato septoria leaf spot/google_0001.jpg,86,83d625064bb01da286e1105bebb31e7abfce51793ab6ae4de20c94c7ca5ead29,test,1,cherry leaf spot/google_0289.jpg
+tomato septoria leaf spot/91.jpg,86,c31d2c4c558b5c6d3c7a0e10a56679f3489e01080f6cfd84d28372366ea07745,test,1,tomato early blight/168.jpg
+tomato septoria leaf spot/google_0044.jpg,86,c21a20447be4cddd270e2615d104c2592692c795799078993361f0facea3a36c,test,1,bell pepper leaf spot/google_0066.jpg
+tomato septoria leaf spot/google_0039.jpg,86,359599ac2a314723fd5f013f834b781847c8e43f517fe07f95e9613f346907c8,test,1,celery early blight/google_0109.jpg
+tomato yellow leaf curl virus/1.jpg,87,2dbca3fcbc0404a40be1a4ca71ecf8dbe1fbd0b8c9fe52b12bfd179cc9dad867,test,1,tomato mosaic virus/2.jpg
+tomato yellow leaf curl virus/62.jpg,87,a0f1da366ff56caf16954d6a969ba176c9b56c74d9daf7895a9f02e87b12a4d6,test,1,apple mosaic virus/93.jpg
+tomato yellow leaf curl virus/15.jpg,87,17fb812376f9edb629e594aa8fdcf0d0496fcc25dc4ceaf5f75667062f0b50d9,test,1,tomato mosaic virus/209.jpg
+zucchini yellow mosaic virus/google_0082.jpg,88,85a1effa57ad44f9009b6911fb0a29252afb87007a8f38a9eb681cec9795be48,test,1,apple mosaic virus/google_0069.jpg
+zucchini yellow mosaic virus/google_0035.jpg,88,956786cc04cb0536f6ec05d1854ef4d99da320bd93406bc9118f59a9fc051616,test,1,apple mosaic virus/google_0100.jpg

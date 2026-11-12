@@ -1,0 +1,19 @@
+{
+  "type": "saved_softmax_attention_output_not_model_weights_or_feature_cache",
+  "shape": [
+    37,
+    37
+  ],
+  "seeds": [
+    101,
+    202,
+    303,
+    404,
+    505
+  ],
+  "aggregation": "arithmetic mean of per-seed softmax attention",
+  "image_id": "test/Tomato Early blight leaf/Shoemaker_7068.JPG.jpg",
+  "plantdoc_commit": "5467f6012d78d1c446145d5f582da6096f852ae8",
+  "image_sha256": "7885910ac8d584a706d6448390c24f77e4e36ada4a75ae58b354a5642d0448b4",
+  "npy_sha256": "4f6a6cd8547312ef05b51fa41abec6ca161e93c3af9c2397a2cc956d1448a762"
+}

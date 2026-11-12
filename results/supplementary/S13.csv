@@ -1,0 +1,15 @@
+Table S13. Feature-fusion configuration search on PlantWild.,,,,,,,
+,,,,,,,
+(a) Feature-fusion candidate search,,,,,,,
+Candidate,Learning rate,Weight decay,Maximum epochs,Loss,Selected epoch,Validation accuracy (%),Validation macro-F1 (%)
+1,0.0021446,0.01,100,Focal (γ = 2) + label smoothing 0.1,23,78.96,75.26
+2,0.0006927,0.0001,20,Focal (γ = 2) + label smoothing 0.1,14,79.07,74.87
+3,0.0005452,0.001,50,Cross-entropy,42,80.27,76.25
+4,0.0026825,0.05,20,Cross-entropy,14,80.22,76.36
+5,0.0005137,0.0001,20,Cross-entropy,17,77.42,73.27
+6,0.0001557,0.001,50,Focal (γ = 2) + label smoothing 0.1,43,77.91,73.81
+7,0.0015867,0.001,100,Cross-entropy,28,79.95,76.20
+8,0.0001033,0.001,100,Focal (γ = 2) + label smoothing 0.1,67,78.74,74.48
+,,,,,,,
+,,,,,,,
+,,,,,,,

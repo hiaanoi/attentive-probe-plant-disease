@@ -1,0 +1,137 @@
+sample_id,class_id,sha256,split,keep,group_id
+train/Apple Scab Leaf/Apple-Scab1.jpg,0,543670df5dc360f673b99f155a8672eb5661451bca9ef2137cf11940be8426eb,train,1,train/Apple Scab Leaf/Apple-Scab1.jpg
+train/Apple Scab Leaf/applescab.jpg,0,d46084bf18335b75d62302ecd7aa9e42a827c9ce505b2ede5ea5427bf1835b4d,train,1,train/Apple Scab Leaf/Apple-Scab1.jpg
+train/Bell_pepper leaf spot/Septoria-leaf-spot.jpg,4,8359148b53be0c6f35e0315cbfafc0a60621e699d33e0f12b847ce412ea38562,train,1,train/Bell_pepper leaf spot/Septoria-leaf-spot.jpg
+train/Bell_pepper leaf spot/green-pepper-plant-diseases-bacterial-spot-on-pepper-plant-green-pepper-plant-diseases-photos.jpg,4,9c3bc93d2381f7b26b7ef9556439686e157304068c6cf1fe62338340a158af22,train,1,train/Bell_pepper leaf spot/green-pepper-plant-diseases-bacterial-spot-on-pepper-plant-green-pepper-plant-diseases-photos.jpg
+train/Bell_pepper leaf spot/image_1500x1500%253E.jpeg?1467983528.jpg,4,cc201610a8a8288d6d55d02fc26490deb79ac1e1ae720a12244c0e3e2cacece2,train,1,train/Bell_pepper leaf spot/image_1500x1500%253E.jpeg?1467983528.jpg
+train/Bell_pepper leaf spot/image_1500x1500%253E.jpeg?1472603885.jpg,4,25b0571b5676d2c1859fca721650569e603e0c1e2335f293377e940b62a37b1f,train,1,train/Bell_pepper leaf spot/image_1500x1500%253E.jpeg?1472603885.jpg
+train/Bell_pepper leaf spot/image_original.jpeg?1472603885.jpg,4,40899946df44642bf0baf19c78b6ed03d76b44c7384bd5b1b2de4cae29cf5486,train,1,train/Bell_pepper leaf spot/image_1500x1500%253E.jpeg?1472603885.jpg
+train/Bell_pepper leaf spot/image_original.jpeg?1472603886.jpg,4,cd43c5a1b508cbd6254912337b3c9dc771a60d0a0b3d4fdb914b82709b825e06,train,1,train/Bell_pepper leaf spot/image_1500x1500%253E.jpeg?1467983528.jpg
+train/Bell_pepper leaf spot/peppers_bacterial_spot_zoom.jpg,4,6e6576bfdf851d2879633424d4aedfa5d98925d166c0af466424febb2aee395d,train,1,train/Bell_pepper leaf spot/green-pepper-plant-diseases-bacterial-spot-on-pepper-plant-green-pepper-plant-diseases-photos.jpg
+train/Blueberry leaf/blueberry-leaves-normal-above-and-iron-deficient-below-bgahf8.jpg,5,07b9b0a3395d6643e0033f5327c188305479c20a67b9e0081efec85139d63306,train,0,test/Blueberry leaf/blueberry-leaves-normal-above-and-iron-deficient-below-bgahf8.jpg
+train/Cherry leaf/Cherry-Fruit-and-Leaves-tp1263.jpg,6,a6726ea0f7b78e58923758b4dd315083b1623e68f293d6815531fc2950cd81f7,train,1,train/Cherry leaf/Cherry-Fruit-and-Leaves-tp1263.jpg
+train/Cherry leaf/i-have-a-cherry-tree-5252.jpg,6,7790209ebd6f50268838417aa3dea86c4e927ca22ac189e5acec88991daeb0a4,train,1,train/Cherry leaf/Cherry-Fruit-and-Leaves-tp1263.jpg
+train/Corn Gray leaf spot/2015070295153021.jpg,7,6e777d1b6829140e66573f918c0f1681ca4cd2979859c37435c84977153ec223,train,0,test/Corn leaf blight/2015070295153021.jpg
+train/Corn Gray leaf spot/corn-gray-leaf-spot-f4.jpg,7,9120578a76fd8539da220def6e0609ebb2435decc7a9c34b949e46e86e794c8d,val,0,test/Corn leaf blight/corn-gray-leaf-spot-f4.jpg
+train/Corn Gray leaf spot/gls99-anamosa.jpg,7,1c420ab7b30b2dbf7436879f85faabae5550c15b2f04eed6eb20037f0479c9bf,train,1,train/Corn Gray leaf spot/gls99-anamosa.jpg
+train/Corn leaf blight/28430_rel.jpg,8,a0fae715f72f9137a708266a9118620f2d39fc6becfc072297f7a548559e0856,train,1,train/Corn leaf blight/28430_rel.jpg
+train/Corn leaf blight/28430_web.jpg,8,a446f8111ca8bdb2a6e3b17970d71302a2f253ffc5a5dbf1613228e782242e67,val,1,train/Corn leaf blight/28430_rel.jpg
+train/Corn leaf blight/Corn-gray-leaf-spot-8-14-15-F1.jpg,8,c0420699cb1efca68d19b1301f53e29089353e3bf46409c0a44e9eed12391494,train,1,train/Corn leaf blight/Corn-gray-leaf-spot-8-14-15-F1.jpg
+train/Corn leaf blight/Figure-2-.jpg,8,678d2081bfc2715f98ef12faa3cf24f296011093a86c9b269daf1961df77f2e3,train,1,train/Corn leaf blight/Figure-2-.jpg
+train/Corn leaf blight/IMG_42231.jpg,8,ee3838e2249e671b7b4510b0d3831f30882e2bcbf20c9c8c42ee8f4e1b95fcce,train,0,test/Corn Gray leaf spot/IMG_42231.jpg
+train/Corn leaf blight/Northern-corn-leaf-blight-NM-F2.jpg,8,18900f842c15d79ac5f961e5d12bcfd191a5ca3b0215b92789562a1f898a7a35,val,1,train/Corn leaf blight/Figure-2-.jpg
+train/Corn leaf blight/bacterial-corn-1.jpg,8,c83713992d548ac734c7405311dfd71afc6f9f9ac2e9781ba09ccd28178c28e5,train,1,train/Corn leaf blight/bacterial-corn-1.jpg
+train/Corn leaf blight/bacterial-corn-300x300.jpg,8,87a09564fbd01084ac532766d625dd4e4a7dc0af91f803e831d7271aedd2ad8e,train,1,train/Corn leaf blight/bacterial-corn-1.jpg
+train/Corn leaf blight/corn_gray_leaf_spot.jpg,8,f8ce8a1f5fc8d3740c2c222a34f3ee9b913c826430908b8297718c53f7299b6c,train,1,train/Corn leaf blight/Corn-gray-leaf-spot-8-14-15-F1.jpg
+train/Corn leaf blight/gls99-anamosa-400x334.jpg,8,2bdc6dae1b05e27405e0fbb6e35f2137e2547acaffb9b1b519dcbe1dc038ef57,train,1,train/Corn Gray leaf spot/gls99-anamosa.jpg
+train/Corn rust leaf/Corn-Common-Rust-300x225.jpg,9,b7dd69037b5425387b1e87dd0a172c6870554e429d6632a441ff47697f9a43b2,train,1,train/Corn rust leaf/Corn-Common-Rust-300x225.jpg
+train/Corn rust leaf/Corn-Common-Rust.jpg,9,8d0748672aff25d99eaa3b714a3ee1a3773ec8e0b46fde756d9f565b70c74e36,train,1,train/Corn rust leaf/Corn-Common-Rust-300x225.jpg
+train/Peach leaf/stock-photo-two-peach-leaves-isolated-on-white-311533217.jpg,10,a2c9c950a0a74a130a0fb3eb83bf852b19b2f62785454d13c32f244d6ffb201c,train,1,train/Peach leaf/stock-photo-two-peach-leaves-isolated-on-white-311533217.jpg
+train/Peach leaf/two-peach-leaves-isolated-on-white-picture-id519433636.jpg,10,5433d2a268c2c8e0e3d9d93bd4b9bae857d23e88474a84d3ca0371c9df68851b,train,1,train/Peach leaf/stock-photo-two-peach-leaves-isolated-on-white-311533217.jpg
+train/Potato leaf early blight/1421_0.jpeg?itok=FMtmgePj.jpg,11,c53ad8d40c38debfbc0b79a87d0f3649c20b933a65f5b78a6931f59d06aad498,train,0,test/Potato leaf late blight/1421_0.jpeg?itok=FMtmgePj.jpg
+train/Potato leaf early blight/14321627273_58d893c3e2_potato-plant.jpg,11,9ed101561e6c03eff8eb46223dd423da83a9ccd74050e1dbf867374924b9d84b,train,1,train/Potato leaf early blight/14321627273_58d893c3e2_potato-plant.jpg
+train/Potato leaf early blight/18028_1.jpg,11,e5f14a70fc7a687a5846749d5499872c7c3320e81aea1358e481f7100b7ba242,train,1,train/Potato leaf early blight/18028_1.jpg
+train/Potato leaf early blight/2OBH_29_Gardening_early_blight.jpg,11,f748f35d0801ab88be6644598876bfc173fe281b0f01e2d12439eb53f9bde818,train,1,train/Potato leaf early blight/2OBH_29_Gardening_early_blight.jpg
+train/Potato leaf early blight/36-early-blight-concentric-rings.jpg,11,3491d3cbff6a350106d4d1bc21766378d5d64825246cb1b416d69795d001042d,train,1,train/Potato leaf early blight/36-early-blight-concentric-rings.jpg
+train/Potato leaf early blight/45035_1.jpg,11,adaee93874d17252870b7d4a49e8941af36309a0d1889afabd67aaf80fc0a261,train,1,train/Potato leaf early blight/45035_1.jpg
+train/Potato leaf early blight/5816740026_d42ef24413_Phytophthora-Infestans.jpg,11,a981ee59e5e1dcafd0d225f74369a05969200352c17743318c31987083ab6f4c,train,0,test/Potato leaf late blight/5816740026_d42ef24413_Phytophthora-Infestans.jpg
+train/Potato leaf early blight/Blght.jpg,11,8300fc21b4e6d93c481a75ffc201988fa280af06f8f2fbc8d13e45b479b71325,train,1,train/Potato leaf early blight/Blght.jpg
+train/Potato leaf early blight/Early-Blight-Leaves-56a348bf3df78cf7727cb35e.jpg,11,32c2acfef0fe441ba45e0d70f1d286e85ffebc4ecff3cad263939b036ce73e14,val,1,train/Potato leaf early blight/Early-Blight-Leaves-56a348bf3df78cf7727cb35e.jpg
+train/Potato leaf early blight/IMG_9055.JPG.jpg,11,f24fc176c4c0a18e65185c1ade695c8debd2fb70d4c8e1c809b662c43c9ddf08,train,1,train/Potato leaf early blight/IMG_9055.JPG.jpg
+train/Potato leaf early blight/backus-045-potato-blight.jpg,11,d472ecfbcce11cbb8448f6598427e6a8ba7cca3b2526636a37752d19cbffb2a5,train,1,train/Potato leaf early blight/backus-045-potato-blight.jpg
+train/Potato leaf early blight/early-blight-closeup-NCSU.jpg,11,e81e3a070908de5a356b6a7b503744c3f6db9abdb95f32694631ac95ba96f583,train,1,train/Potato leaf early blight/early-blight-closeup-NCSU.jpg
+train/Potato leaf early blight/irish-blight-symptoms-on-potato-leaves-atmf8b.jpg,11,9dd93b4217495fbb725cfdded86d3dc5f98955c9616fff5323be1a00df17be8b,train,0,test/Potato leaf late blight/irish-blight-symptoms-on-potato-leaves-atmf8b.jpg
+train/Potato leaf late blight/14321627273_58d893c3e2_b.jpg,12,4b16ae48d7489f97753d7488807b6005db82ddc8f4b3d831e297ce7824e7d4c0,train,1,train/Potato leaf early blight/14321627273_58d893c3e2_potato-plant.jpg
+train/Potato leaf late blight/24064_1.jpg,12,e5f14a70fc7a687a5846749d5499872c7c3320e81aea1358e481f7100b7ba242,train,1,train/Potato leaf early blight/18028_1.jpg
+train/Potato leaf late blight/IMG_5813-1024x768.jpg,12,d6571d4ea8e5e5739b0b44dd996efe9f3319e7bdbe4537a12d66810b03996c40,train,1,train/Potato leaf late blight/IMG_5813-1024x768.jpg
+train/Potato leaf late blight/Jessore-potato-late-blight-8-2h2fdkl.jpg,12,0b6f4d2de2f71df550ed08edf5c50aeb307666f9a661013a6cfd99ff5d951836,train,1,train/Potato leaf late blight/Jessore-potato-late-blight-8-2h2fdkl.jpg
+train/Potato leaf late blight/LB_potato_leaf_topside.jpg,12,5c063b6d55aa671a8cc7cf492303ebae1f170395c178760d80809a5dd0140468,train,1,train/Potato leaf late blight/LB_potato_leaf_topside.jpg
+train/Potato leaf late blight/Late+blight+on+potato.jpg,12,1d37b80d5b7061808cc5dae83ebb3665e69aa4f2baa3d6ecba4b49595762079d,train,1,train/Potato leaf early blight/45035_1.jpg
+train/Potato leaf late blight/PotatoLateBlight2.jpg,12,bd66eb0876b22d38cc7a5ec3e59475ebf071fa0cd52108025b80ef6b141f753f,train,1,train/Potato leaf late blight/LB_potato_leaf_topside.jpg
+train/Potato leaf late blight/Symptom_potato_late_blight.jpg,12,d4c652c5cbdc24ef0e5553f8b1628ba9f6ef81ab742048df42e79abb5918c38e,val,1,train/Potato leaf late blight/Symptom_potato_late_blight.jpg
+train/Potato leaf late blight/b3a52d4eda0deedc34260c4dee847a5b.jpg,12,50466281cbb13f25936fa70a12ce378ff62ceb5e8b8596feb0ef2143367a4610,train,1,train/Potato leaf late blight/b3a52d4eda0deedc34260c4dee847a5b.jpg
+train/Potato leaf late blight/backus-056-potato-blight.jpg,12,64c0f7b5701e815769bad881c0834ffb3b58018233fc3af42c3a1b7968f86973,train,0,test/Potato leaf early blight/backus-056-potato-blight.jpg
+train/Potato leaf late blight/early_blight.jpg,12,93f8d16d26178976bbb84dfb94b077a47bb15035ce5bd9999f30e05e2c3b97f0,train,1,train/Potato leaf late blight/b3a52d4eda0deedc34260c4dee847a5b.jpg
+train/Raspberry leaf/579a1aa0c6b3fd0354d1a6b57a40ac42--red-raspberry-medicinal-plants.jpg,13,53a852fc5fda104f96438d08e705d3c24e7d46005e37aceb5e11bc49e0e417f2,train,1,train/Raspberry leaf/579a1aa0c6b3fd0354d1a6b57a40ac42--red-raspberry-medicinal-plants.jpg
+train/Raspberry leaf/Raspberry-Suckers1.jpg,13,d209defae14e342248b4615368cd17d0ef1b104f3253a85ae2a616f29a0e5e57,train,1,train/Raspberry leaf/579a1aa0c6b3fd0354d1a6b57a40ac42--red-raspberry-medicinal-plants.jpg
+train/Soyabean leaf/fresh-soy-leaves-white-46020567.jpg,14,fd1016bb0312ce0265192166b68866f8d457bb724374e76d46a1737573ee9826,train,1,train/Soyabean leaf/fresh-soy-leaves-white-46020567.jpg
+train/Soyabean leaf/stock-photo-fresh-soy-leaves-isolated-on-white-224197243.jpg,14,1ba153cc63cc5817f0231fb2a6b9a369f250b5aeea423031f552937b690df993,train,1,train/Soyabean leaf/fresh-soy-leaves-white-46020567.jpg
+train/Squash Powdery mildew leaf/6c460a55e7e8607e922d98e1416448d4.jpg,15,bc1b257bc19a59b9286e55199b52d5b23d554300fe35a734bab1604f0e126db9,train,1,train/Squash Powdery mildew leaf/6c460a55e7e8607e922d98e1416448d4.jpg
+train/Squash Powdery mildew leaf/Aug+16+2010+051.jpg,15,30e787044374adce93e32b133a45657191b222ef2e52e2f7dbd44a1bbb086b02,train,1,train/Squash Powdery mildew leaf/6c460a55e7e8607e922d98e1416448d4.jpg
+train/Squash Powdery mildew leaf/squash-plant-identification-squash-powdery-mildew-garden-squash-varieties-pictures.jpg,15,144685ff7b2fba83f3b4c715d93c2af6174a0ff76687a4ec03f44efe08145ba1,train,1,train/Squash Powdery mildew leaf/squash-plant-identification-squash-powdery-mildew-garden-squash-varieties-pictures.jpg
+train/Squash Powdery mildew leaf/squash-powdery-mildew.jpg,15,d96e5e9edc637c206ee30c6026a25ded15d036fd60fcab6c65caff5a954d05da,train,1,train/Squash Powdery mildew leaf/squash-plant-identification-squash-powdery-mildew-garden-squash-varieties-pictures.jpg
+train/Tomato Early blight leaf/126689-004-D622CD2F.jpg,17,451d83c709fcbab2f641e27b6cd6315d9bb869cf94210cfcd4e085f5ec399c88,train,1,train/Potato leaf late blight/Symptom_potato_late_blight.jpg
+train/Tomato Early blight leaf/3606630.jpg,17,01cd050387f24fcbedb590c2b2ec5b2e959a9677b0b90036adc87e95d7b9fbd1,train,1,train/Tomato Early blight leaf/3606630.jpg
+train/Tomato Early blight leaf/EBTomato.jpg,17,9145ae957dc02636c9cae1d25e9b43fdc0ee330eb7131b12e244457d684ba326,train,1,train/Potato leaf early blight/36-early-blight-concentric-rings.jpg
+train/Tomato Early blight leaf/Early-bligh_t.jpg,17,3445460118b42927cd77ca03b2c35f78173f48117d5aaccfa63b00324d8a2f19,train,1,train/Tomato Early blight leaf/Early-bligh_t.jpg
+train/Tomato Early blight leaf/Early-blight.jpg,17,55c2e84169c7e645d9c23583e6ad8eaf19e930ee99b33b38a8c4c60e639e0099,train,1,train/Tomato Early blight leaf/Early-bligh_t.jpg
+train/Tomato Early blight leaf/Early_Blight_of_Tomato1687.jpg,17,12ce0c3a8c2a2004e28e6927eddfa5199c1e7b5e1bc3f2cf6f1d9eb43824f620,train,1,train/Potato leaf early blight/2OBH_29_Gardening_early_blight.jpg
+train/Tomato Early blight leaf/MPC105550.jpg.rendition.largest.ss.jpg,17,c280edc30e7bd848018d847e8d4111913799cf3042ce7e33de99c78cff5879f2,train,1,train/Tomato Early blight leaf/MPC105550.jpg.rendition.largest.ss.jpg
+train/Tomato Early blight leaf/b54d0e40027ff5e90e8ba7e1e9abf9bd--garden-guide-garden-ideas.jpg,17,6fa67a7e5771f317ad1e389f885e2b6ffc751f93f3d4b9605966905eb0e570a9,val,1,train/Tomato Early blight leaf/b54d0e40027ff5e90e8ba7e1e9abf9bd--garden-guide-garden-ideas.jpg
+train/Tomato Early blight leaf/confused-bacterial-canker-early-blight-zoom.JPG.jpg,17,23ed3c9f53f619a48c313ff93e456fe24bac94c5f64f62a5df0747e244f9acfc,train,1,train/Tomato Early blight leaf/confused-bacterial-canker-early-blight-zoom.JPG.jpg
+train/Tomato Early blight leaf/early-blight-closeup-sm.jpg,17,ab6642a5059e272e37d829d1e651b92d3b0af1322d4de601eb5a242267232d70,train,1,train/Potato leaf early blight/early-blight-closeup-NCSU.jpg
+train/Tomato Early blight leaf/early-blight-pp-labeled_orig.jpg,17,fd239bf6835b671660a8f6c01f19e977348f741ec605be9ed2ad5d08340729fe,train,1,train/Tomato Early blight leaf/3606630.jpg
+train/Tomato Early blight leaf/earlyblightpotato.jpg,17,d0c8a4d48ed9a3f9435d1affb82ac10e9a06adb0f2615ff62e83e21bdfa281fc,train,0,test/Potato leaf early blight/earlyblightpotato.jpg
+train/Tomato Early blight leaf/p1020084s.jpg,17,7a4acf69b4c2e40021ae5c225a9e82b7a4d0a19977401033cff9c57771d3b439,train,1,train/Tomato Early blight leaf/p1020084s.jpg
+train/Tomato Early blight leaf/tomato_D2b-Early-blight---RPitblado_zoom.jpg,17,981da629d2a419a303eea0e707d0a07f86fc6ce9d802bdc77e1c3efb25ff2ee8,train,1,train/Tomato Early blight leaf/confused-bacterial-canker-early-blight-zoom.JPG.jpg
+train/Tomato Early blight leaf/tomatoblight.jpg,17,0d2d54e20fec032f1a9da367df05eb364e42cf1f18f83c0be6e86ed09f9b9abf,train,1,train/Potato leaf early blight/36-early-blight-concentric-rings.jpg
+train/Tomato Septoria leaf spot/5c77186a4ea326e5495c9d03cd89ce16.jpg,18,4e8b0be6e1ebb25c470537f1601dd510bf7aefe99e3236b70a3ec90e247d69f7,train,1,train/Tomato Septoria leaf spot/5c77186a4ea326e5495c9d03cd89ce16.jpg
+train/Tomato Septoria leaf spot/MPC105550.jpg.rendition.largest.550.jpg,18,9d29d49bd39a44a7c9f3dc663df9a18848d22de832995550ae37c7f8c01ff085,train,1,train/Tomato Early blight leaf/MPC105550.jpg.rendition.largest.ss.jpg
+train/Tomato Septoria leaf spot/Sept9-300x225.jpg,18,31fa261bb38e5f84a5beef2c39b7cc40ca55169641c4028fcb0bcb33bbbf10de,train,1,train/Tomato Septoria leaf spot/Sept9-300x225.jpg
+train/Tomato Septoria leaf spot/Septoria-Tomato.jpg,18,b332a01ba636102d634872008b157bcdbb8b6d8b15efdfb2e730d47cd27c11b0,train,1,train/Tomato Septoria leaf spot/Septoria-Tomato.jpg
+train/Tomato Septoria leaf spot/Tomato%20bacterial%20spot%20closeup-050S.JPG.jpg,18,9a83f0507e08947cb4c6563ba4b080d32bfec11253d66292c0241cbed810f458,train,1,train/Tomato Septoria leaf spot/Tomato%20bacterial%20spot%20closeup-050S.JPG.jpg
+train/Tomato Septoria leaf spot/b54d0e40027ff5e90e8ba7e1e9abf9bd.jpg,18,d4ac24bc0922e6a642cfa1395b82d656190694bcda7e6d542ed44abac2c4f2e5,train,1,train/Tomato Early blight leaf/b54d0e40027ff5e90e8ba7e1e9abf9bd--garden-guide-garden-ideas.jpg
+train/Tomato Septoria leaf spot/caf212ccf4696675469a0beaa9e57213.jpg,18,909e493ee0f14f4757b15c40f19bac1e81ae6b639087c7a3945f657d88bc2397,val,1,train/Potato leaf early blight/IMG_9055.JPG.jpg
+train/Tomato Septoria leaf spot/early-blight-septoria-ls-fig-3.jpg,18,93c989d8551209bf34d4002ee9fae48ddbf6ab66fc3c27466c0473bcc7c0a2b7,train,0,test/Tomato Septoria leaf spot/early-blight-septoria-ls-fig-3.jpg
+train/Tomato Septoria leaf spot/eb56b488e349c2de423ab6afbcc4bd5b.jpg,18,ed7bb3ffc6866a36df769b79f7e54b47c7c45fdd955f25170664236e9abf9f6a,train,1,train/Tomato Septoria leaf spot/5c77186a4ea326e5495c9d03cd89ce16.jpg
+train/Tomato Septoria leaf spot/gray-leaf-spot.jpg,18,30489d7ecc6cea95f58ffc7e286aba175a38b1c11ca4cc521bb17e667f9356b3,train,1,train/Tomato Septoria leaf spot/gray-leaf-spot.jpg
+train/Tomato Septoria leaf spot/tomato-blight-treatment-blight.jpg,18,e1f6af6a0bea097bf8c35931904c8def0b9c20305e57df6ea432223a31108095,train,1,train/Bell_pepper leaf spot/Septoria-leaf-spot.jpg
+train/Tomato Septoria leaf spot/tomato-septoria-3-500x384.jpg,18,46884e0ed799561eb222f9947328edb85bad1f147bf033db1c3dbe4cfb39302c,train,1,train/Tomato Septoria leaf spot/tomato-septoria-3-500x384.jpg
+train/Tomato Septoria leaf spot/tomato-septoria-3.jpg,18,94dddabc3c29835b9e2be96cf6a12440606c98ffa45aeb890369cd2434f6c287,train,1,train/Tomato Septoria leaf spot/tomato-septoria-3-500x384.jpg
+train/Tomato Septoria leaf spot/tomato-septoria-5-500x384.jpg,18,2ad392423ff2760273e25387b398bf5e8118271879938be8b20643a55ca8d355,train,1,train/Tomato Septoria leaf spot/tomato-septoria-5-500x384.jpg
+train/Tomato Septoria leaf spot/tomato-septoria-5.jpg,18,6dbdb4f99a7533193d70ebf7fdcabbacfcd3693a0a39546cde879a46b7ce8db5,val,1,train/Tomato Septoria leaf spot/tomato-septoria-5-500x384.jpg
+train/Tomato Septoria leaf spot/tomato_V8.jpg,18,e23a29c94b58aac28e92f57f95eb6f53e99c874323cb2b90ebd327085721574e,train,0,test/Tomato leaf bacterial spot/tomato_V8.jpg
+train/Tomato Septoria leaf spot/tomatofactsheet.png.png,18,3b380dcb84fff7ab23c6f1e9787ada18367e6fdeb5cd0fb2087cff6b1cdd08fb,train,1,train/Tomato Septoria leaf spot/Septoria-Tomato.jpg
+train/Tomato Septoria leaf spot/xgray-leaf-spot.jpg.pagespeed.ic.ltF8KfKtQ1.jpg,18,4f57d8bbe3c8749886cf792b5cfd0852d2fecd51ecfa85f21ee97ae5b339cfdd,train,1,train/Tomato Septoria leaf spot/gray-leaf-spot.jpg
+train/Tomato leaf bacterial spot/BCH%20medium%20thumbnail%20for%20upload%20%2814%29.jpg,20,89dfb16890bdf8ea7730d3d1e928782389d4fb0da4a1c4da0d04126b73971aaf,train,1,train/Tomato leaf bacterial spot/BCH%20medium%20thumbnail%20for%20upload%20%2814%29.jpg
+train/Tomato leaf bacterial spot/BCH%20small%20thumbnail%20for%20upload%20%2814%29.jpg,20,612630455bbc59fd566931f32feea6b0fc4dd6e7ae86f52155d3e46c55fc840b,train,1,train/Tomato leaf bacterial spot/BCH%20medium%20thumbnail%20for%20upload%20%2814%29.jpg
+train/Tomato leaf bacterial spot/FS547-4-big.jpg,20,14b74849a64e5d7ce2af4d2bdb8a8850030cd225dcd6ed4ceeba1e0353e87a6a,train,1,train/Tomato Septoria leaf spot/Sept9-300x225.jpg
+train/Tomato leaf bacterial spot/RyBx7MH.jpg,20,fb84453832854781de2b24f9c4ee552d95e6dfd9cb6fa5f52d4b307b7d6a4b81,train,1,train/Tomato Septoria leaf spot/Tomato%20bacterial%20spot%20closeup-050S.JPG.jpg
+train/Tomato leaf bacterial spot/bacterial-canker3x2400-2ia1kgd.jpg,20,9840822e5069579f3b7a7608b69a77fdd8b477a9be85eb70524eff1ca7b191aa,train,0,test/Tomato leaf bacterial spot/07.17.18-Common_Tomato_Diseases_Canker-258x300.jpg
+train/Tomato leaf late blight/20150619d.jpg,21,04ff0d731573d592c97f73cd2219800dcc9b4e7337c8ed90de2ec2374013a9fa,train,1,train/Tomato leaf late blight/20150619d.jpg
+train/Tomato leaf late blight/924977LateBlightLeaf.jpg,21,5f45463b3311e0d105d5870a67144dfd7018d00584a07f15db811649d2b811f9,train,1,train/Tomato leaf late blight/924977LateBlightLeaf.jpg
+train/Tomato leaf late blight/IMG_5360.jpg,21,5118060f0790a20d309f5e181248777912a72453c63d18c2d5db05da9a723995,train,1,train/Tomato leaf late blight/20150619d.jpg
+train/Tomato leaf late blight/IMG_5813.jpg,21,1c2610d64ded9d26b2c5636d55d3acbf065e5ce346585bdacc81661e4e5484c9,train,1,train/Potato leaf late blight/IMG_5813-1024x768.jpg
+train/Tomato leaf late blight/LBleaf2INIA_0.jpg,21,73c62c716108bb65142931eca09dbe47fee66d1b0366bae04ea455f6090df9b5,train,1,train/Potato leaf early blight/Blght.jpg
+train/Tomato leaf late blight/LateBlightLeaf.jpg,21,e2a5a8fa44b401240bc20e971371df722267115731d247373489258e78c54f3c,train,1,train/Tomato leaf late blight/924977LateBlightLeaf.jpg
+train/Tomato leaf late blight/Pest2369.jpg,21,b031c7e4550ac090c4f7f1cb2aa150bd5c45dd1225f44d2a3f6144b22a71f45c,train,1,train/Potato leaf early blight/Early-Blight-Leaves-56a348bf3df78cf7727cb35e.jpg
+train/Tomato leaf late blight/TomatoLateBlight-3-Underside-2ebj05b-300x225.jpg,21,e86b5c15a56efc7e64f50af6bb7317cc2271c0067ed69371bb02aca7b43f0695,train,1,train/Tomato leaf late blight/TomatoLateBlight-3-Underside-2ebj05b-300x225.jpg
+train/Tomato leaf late blight/a7710b5901ba1f8e9759ef7576cd9f09.jpg,21,5dcae1eb24088f5742e9ede12c476f59571827915f0424907c58b348ce26479f,train,1,train/Potato leaf early blight/backus-045-potato-blight.jpg
+train/Tomato leaf late blight/late_blight1.jpg,21,3230695e2d8b18154ab2514dacdc3dca3249c8ef0559c255b958d3b62873e382,val,0,test/Tomato leaf late blight/18c.jpg
+train/Tomato leaf late blight/symptoms_of_late_blight.jpg2__0.jpg,21,dcd4897d6b910e92ef0cb35e3af59be9492fe1e2491717d2a634b2fba5792a40,train,1,train/Tomato leaf late blight/TomatoLateBlight-3-Underside-2ebj05b-300x225.jpg
+train/Tomato leaf late blight/symptoms_of_late_blight_0.jpg,21,6c87b6a1b27d85267538a304e1359b82f00db3421d58ae79e77e98806dec3ccb,train,1,train/Potato leaf late blight/Jessore-potato-late-blight-8-2h2fdkl.jpg
+train/Tomato leaf late blight/tomato-late-blight-foliar-lesions_Scot-Nelson_CC-BY-SA-2.0.jpg,21,845e3cfb95badfa9fa06675c134833b9849915083bafff579e3b14d251938f0e,train,0,test/Potato leaf late blight/5816740026_d42ef24413_Phytophthora-Infestans.jpg
+train/Tomato leaf late blight/tomato_late-blight_04_zoom.jpg,21,114e5d0090cd63ad9e176375c2fde3a48f01d88af3bd1dd44909b2ecefa70a49,train,1,train/Tomato Early blight leaf/p1020084s.jpg
+train/Tomato leaf mosaic virus/ab40cce958c60d8b6e0ec2e4fdb8f526.jpg,22,1a1cf0be9bdeae64a59ba65d0a08890633030342a9dff6603166a8de9445ae88,train,1,train/Tomato leaf mosaic virus/ab40cce958c60d8b6e0ec2e4fdb8f526.jpg
+train/Tomato leaf yellow virus/TYLCVDFerrinlr.jpg,23,810149d0e1363f92d855bdd95054d9eb62be06f79bfa6aa07c65710139dcb55d,train,1,train/Tomato leaf yellow virus/TYLCVDFerrinlr.jpg
+train/Tomato leaf yellow virus/Tomato2.jpg,23,b84c3a3d7e85450f1a10d9c3c0b0124a1dff13649d472d3717b99616ef249152,train,1,train/Tomato leaf mosaic virus/ab40cce958c60d8b6e0ec2e4fdb8f526.jpg
+train/Tomato leaf yellow virus/tomato-plant-virus-tomato-yellow-leaf-curl-virus-tomato-plant-disease-mosaic-virus.jpg,23,a9a2a8fb11e81b38fdf434db1711e1261d5e15033e3845ed58941affeacc84ba,train,1,train/Tomato leaf yellow virus/TYLCVDFerrinlr.jpg
+train/Tomato leaf yellow virus/tomato-yellow-leaf-curl-disease.jpg,23,f70e3c148a2472243d50b1f63006e2e28c0fa60d19171ed3e0a05133593c61a0,train,1,train/Tomato leaf yellow virus/tomato-yellow-leaf-curl-disease.jpg
+train/Tomato leaf yellow virus/tylcv-seminar-1-638.jpg,23,3c52144e19e95cc3d4170407eaf729d0981b934615eaa183f7f5aa29d8ef265a,train,0,test/Tomato leaf yellow virus/tylcv-seminar-1-638.jpg
+train/Tomato mold leaf/tylc.jpg,24,2ddeade403628874b112f319b8f0114863b3e34a89b7582cb648d9b08477fcc8,train,1,train/Tomato leaf yellow virus/tomato-yellow-leaf-curl-disease.jpg
+train/grape leaf black rot/image66.jpg,27,9ee7ec94d8a2df21a9ef08bc5bb2ba7e39b0c6f76a1f311244844e74b391cb24,train,1,train/grape leaf black rot/image66.jpg
+train/grape leaf black rot/muscals2.jpg,27,a865802e2102e9ac5b9214c1675d20b4f9ea26314b06a778b3b2f714f09aec4c,val,1,train/grape leaf black rot/image66.jpg
+test/Blueberry leaf/blueberry-leaves-normal-above-and-iron-deficient-below-bgahf8.jpg,5,07b9b0a3395d6643e0033f5327c188305479c20a67b9e0081efec85139d63306,test,1,test/Blueberry leaf/blueberry-leaves-normal-above-and-iron-deficient-below-bgahf8.jpg
+test/Corn Gray leaf spot/IMG_42231.jpg,7,ee3838e2249e671b7b4510b0d3831f30882e2bcbf20c9c8c42ee8f4e1b95fcce,test,1,test/Corn Gray leaf spot/IMG_42231.jpg
+test/Corn leaf blight/2015070295153021.jpg,8,6e777d1b6829140e66573f918c0f1681ca4cd2979859c37435c84977153ec223,test,1,test/Corn leaf blight/2015070295153021.jpg
+test/Corn leaf blight/corn-gray-leaf-spot-f4.jpg,8,9120578a76fd8539da220def6e0609ebb2435decc7a9c34b949e46e86e794c8d,test,1,test/Corn leaf blight/corn-gray-leaf-spot-f4.jpg
+test/Potato leaf early blight/backus-056-potato-blight.jpg,11,64c0f7b5701e815769bad881c0834ffb3b58018233fc3af42c3a1b7968f86973,test,1,test/Potato leaf early blight/backus-056-potato-blight.jpg
+test/Potato leaf early blight/earlyblightpotato.jpg,11,c339100d52667a90c43b2f7f36d969e5894849f621b1bbc4a5ba5cf6817b8cbe,test,1,test/Potato leaf early blight/earlyblightpotato.jpg
+test/Potato leaf late blight/1421_0.jpeg?itok=FMtmgePj.jpg,12,c53ad8d40c38debfbc0b79a87d0f3649c20b933a65f5b78a6931f59d06aad498,test,1,test/Potato leaf late blight/1421_0.jpeg?itok=FMtmgePj.jpg
+test/Potato leaf late blight/5816740026_d42ef24413_Phytophthora-Infestans.jpg,12,a981ee59e5e1dcafd0d225f74369a05969200352c17743318c31987083ab6f4c,test,1,test/Potato leaf late blight/5816740026_d42ef24413_Phytophthora-Infestans.jpg
+test/Potato leaf late blight/irish-blight-symptoms-on-potato-leaves-atmf8b.jpg,12,9dd93b4217495fbb725cfdded86d3dc5f98955c9616fff5323be1a00df17be8b,test,1,test/Potato leaf late blight/irish-blight-symptoms-on-potato-leaves-atmf8b.jpg
+test/Tomato Septoria leaf spot/early-blight-septoria-ls-fig-3.jpg,18,93c989d8551209bf34d4002ee9fae48ddbf6ab66fc3c27466c0473bcc7c0a2b7,test,1,test/Tomato Septoria leaf spot/early-blight-septoria-ls-fig-3.jpg
+test/Tomato leaf bacterial spot/07.17.18-Common_Tomato_Diseases_Canker-258x300.jpg,20,d9e9aa3d8e0e58d5875c4b9bb17b19327a5b004e91e20942d7a528a8c52f4eeb,test,1,test/Tomato leaf bacterial spot/07.17.18-Common_Tomato_Diseases_Canker-258x300.jpg
+test/Tomato leaf bacterial spot/tomato_V8.jpg,20,e23a29c94b58aac28e92f57f95eb6f53e99c874323cb2b90ebd327085721574e,test,1,test/Tomato leaf bacterial spot/tomato_V8.jpg
+test/Tomato leaf late blight/18c.jpg,21,1a33cccc63bbb630a1c07cc04a1caa2ee0bbfb8f855529328076b3e725950afc,test,1,test/Tomato leaf late blight/18c.jpg
+test/Tomato leaf yellow virus/tylcv-seminar-1-638.jpg,23,3c52144e19e95cc3d4170407eaf729d0981b934615eaa183f7f5aa29d8ef265a,test,1,test/Tomato leaf yellow virus/tylcv-seminar-1-638.jpg

@@ -1,0 +1,7 @@
+group,n,class_token_accuracy_pct,attentive_gain_pp
+Mosaic/mottling/curling,280,61.43,7.93
+Blight,410,67.56,1.8
+Spot/lesion,702,68.09,4.39
+Mildew/rust,538,74.72,2.12
+Healthy,1556,87.98,-0.12
+Wilt/deformation,191,95.81,0.21

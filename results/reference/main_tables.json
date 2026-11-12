@@ -1,0 +1,307 @@
+{
+  "title": "Attentive Probing of Patch Tokens Complements Backbone Fusion for In-the-Wild Plant Disease Recognition",
+  "tables": {
+    "1a": [
+      [
+        "Classifier",
+        "DINOv2-L",
+        "DINOv3-L",
+        "CLIP-L"
+      ],
+      [
+        "Class-token probe ᵃ",
+        "78.35",
+        "79.49",
+        "74.22"
+      ],
+      [
+        "Uniform pooling",
+        "79.04 ± 0.09",
+        "79.61 ± 0.06",
+        "74.69 ± 0.13"
+      ],
+      [
+        "Attentive probe",
+        "80.27 ± 0.28",
+        "80.39 ± 0.14",
+        "74.70 ± 0.32"
+      ],
+      [
+        "Attentive probe − class-token probe",
+        "+1.91†",
+        "+0.89†",
+        "+0.48"
+      ],
+      [
+        "Attentive probe − uniform pooling",
+        "+1.22†",
+        "+0.78†",
+        "+0.02"
+      ]
+    ],
+    "1b": [
+      [
+        "Classifier",
+        "Accuracy (%)",
+        "Macro-F1 (%)",
+        "Difference (pp)"
+      ],
+      [
+        "Attentive probe (h = 128)",
+        "80.27 ± 0.28",
+        "77.88 ± 0.38",
+        "—"
+      ],
+      [
+        "Probe on class token and mean patch feature",
+        "79.25",
+        "76.90",
+        "−1.02†"
+      ],
+      [
+        "Residual MLP on class token",
+        "78.66 ± 0.09",
+        "75.99 ± 0.22",
+        "−1.60†"
+      ],
+      [
+        "Attention branch without class-token probe",
+        "75.50 ± 0.28",
+        "72.54 ± 0.34",
+        "−4.77†"
+      ],
+      [
+        "Attentive probe, h = 64",
+        "80.44 ± 0.25",
+        "78.11 ± 0.30",
+        "+0.17"
+      ],
+      [
+        "Attentive probe, h = 256",
+        "79.87 ± 0.19",
+        "77.33 ± 0.23",
+        "−0.39†"
+      ]
+    ],
+    "2": [
+      [
+        "Configuration",
+        "PlantWild official",
+        "Δ",
+        "PlantWild deduplicated",
+        "Δ",
+        "PlantSeg",
+        "Δ"
+      ],
+      [
+        "Fusions of global features",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Three-probe fusion",
+        "80.96",
+        "—",
+        "81.23",
+        "—",
+        "79.32",
+        "—"
+      ],
+      [
+        "Feature fusion, tuned hybrid head [12]",
+        "81.01",
+        "+0.05",
+        "80.92",
+        "−0.32",
+        "79.30",
+        "−0.01"
+      ],
+      [
+        "Feature fusion, logistic probe",
+        "80.50",
+        "−0.46",
+        "81.53",
+        "+0.30",
+        "78.13",
+        "−1.18"
+      ],
+      [
+        "DINOv2-L probe replaced by",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Class-token MLP",
+        "81.12",
+        "+0.15",
+        "81.40",
+        "+0.16",
+        "79.40",
+        "+0.08"
+      ],
+      [
+        "Uniform pooling",
+        "81.06",
+        "+0.10",
+        "81.37",
+        "+0.13",
+        "79.82",
+        "+0.50†"
+      ],
+      [
+        "Probe on class token and mean patch feature",
+        "81.26",
+        "+0.30",
+        "81.53",
+        "+0.30",
+        "79.04",
+        "−0.28"
+      ],
+      [
+        "Attentive probe (swap)",
+        "81.93",
+        "+0.97†",
+        "82.27",
+        "+1.03†",
+        "80.33",
+        "+1.02†"
+      ],
+      [
+        "Attentive probe in place of",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "DINOv3-L probe",
+        "81.59",
+        "+0.63†",
+        "81.82",
+        "+0.58†",
+        "79.22",
+        "−0.10"
+      ],
+      [
+        "Both DINO probes",
+        "82.03",
+        "+1.07†",
+        "82.39",
+        "+1.16†",
+        "80.24",
+        "+0.92†"
+      ],
+      [
+        "CLIP-L probe",
+        "81.00",
+        "+0.04",
+        "81.43",
+        "+0.19",
+        "79.43",
+        "+0.11"
+      ]
+    ],
+    "3a": [
+      [
+        "Dataset and split",
+        "Classes",
+        "Training",
+        "Validation",
+        "Test",
+        "Use"
+      ],
+      [
+        "PlantWild v1, official split [9]",
+        "89",
+        "13,045",
+        "1820",
+        "3677",
+        "Main benchmark"
+      ],
+      [
+        "PlantWild, deduplicated",
+        "89",
+        "12,833",
+        "1787",
+        "3677",
+        "Training and validation images that duplicate test images removed"
+      ],
+      [
+        "PlantWild, data-size subsets",
+        "89",
+        "2225 / 4417 / 8110",
+        "1820",
+        "3677",
+        "Capped at 25 / 50 / 100 training images per class"
+      ],
+      [
+        "PlantDoc, official classification split [8]",
+        "28 (27 in test)",
+        "2342 ᵃ",
+        "ᵃ",
+        "236",
+        "Third benchmark"
+      ],
+      [
+        "PlantSeg, cleaned [10]",
+        "115 (114 in test)",
+        "4611 ᵇ",
+        "ᵇ",
+        "1436",
+        "Second benchmark; lesion-mask study"
+      ]
+    ],
+    "3b": [
+      [
+        "Model",
+        "Checkpoint",
+        "Params (M)",
+        "Input (px)",
+        "Patch",
+        "Tokens",
+        "Dim.",
+        "GFLOPs"
+      ],
+      [
+        "DINOv2-L",
+        "facebook/dinov2-large",
+        "304.4",
+        "518",
+        "14",
+        "1369 (37 × 37)",
+        "1024",
+        "829.1"
+      ],
+      [
+        "DINOv3-L",
+        "facebook/dinov3-vitl16-pretrain-lvd1689m",
+        "303.1",
+        "512",
+        "16",
+        "1024 (32 × 32)",
+        "1024",
+        "623.1"
+      ],
+      [
+        "CLIP-L",
+        "openai/clip-vit-large-patch14",
+        "304.0",
+        "224",
+        "14",
+        "256 (16 × 16)",
+        "768 / 1024 ᶜ",
+        "155.5"
+      ]
+    ]
+  }
+}

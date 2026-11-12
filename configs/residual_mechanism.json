@@ -1,0 +1,41 @@
+{
+  "C_grid": [
+    0.001,
+    0.003,
+    0.01,
+    0.03,
+    0.1,
+    0.3,
+    1.0
+  ],
+  "B_C": [
+    1.0,
+    0.01
+  ],
+  "seeds": [
+    101,
+    202,
+    303,
+    404,
+    505
+  ],
+  "probe": "TRAIN-onlyStandardScaler;rawCLSfloat32;sklearnLRlbfgs,L2,max_iter2000,tol1e-4,no classweights,random_state101;C0.01fullprobe reused",
+  "head_configuration": {
+    "epochs": 10,
+    "schedule_horizon": 50,
+    "lr": 0.0001,
+    "weight_decay": 0.001,
+    "batch": 16,
+    "MIL_hidden": 128,
+    "schedule": "cosine_warmup5pct",
+    "classification_loss": "CE"
+  },
+  "head_updates": 8160,
+  "head_schedule_steps": 40800,
+  "precision": "FP32,noAMP,noTF32;storedpatchfloat16 promoted as in original",
+  "OOF": "one frozen groupfold map; eachfoldscaler/probe fit only other4folds; no calibration or logit alignment; stitch cache-row order; fullprobe used for everyTEST residual",
+  "extra_diagnostics": "B twoC,TRAINonly,full in-sample andOOF;mean maxsoftmax andmean raw uncentered89logit L2; descriptive only,not decisions",
+  "statistics": "11 contrasts x Accuracy/MF89/Host:t95df4;Accuracy imagebootstrap10000 sameA-prime stream after seed-averageperimagecorrectness;no multiplicity adjustment",
+  "bootstrap_draw_sha256": "d36b8688a7a07bb2d32c760af730964dc1a62deb267f673bfc482676f35c2289",
+  "no_VAL_evaluation_or_selection": true
+}

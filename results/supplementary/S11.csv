@@ -1,0 +1,15 @@
+Table S11. PlantSeg swap on test images outside the PlantSeg–PlantWild overlap.,,,,
+,,,,
+(a) Evaluation images after exclusion,,,,
+Primary test records,Matching unique hashes,Excluded test records,Retained test records,
+1436,172,173,1263,
+,,,,
+,,,,
+(b) Three-probe fusion and attentive swap,,,,
+Classifier,Test images,Accuracy (%),Δ accuracy (pp),Image-bootstrap 95% CI
+Three-probe fusion,1263,79.57,0.00,—
+DINOv2-L attentive swap,1263,80.55 ± 0.31,0.98,"[0.30, 1.71]"
+Images byte-identical to PlantWild test images were excluded before resampling the retained images.,,,,
+,,,,
+,,,,
+,,,,

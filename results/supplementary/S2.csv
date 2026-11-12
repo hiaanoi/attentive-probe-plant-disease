@@ -1,0 +1,687 @@
+"Table S2. Configurations, validation results, per-seed test results and latency for the PlantWild and PlantDoc comparisons.",,,,,,,,
+,,,,,,,,
+(a) Classifier configurations,,,,,,,,
+Classifier,Input,Trainable parameters (89 classes),Optimisation and selection,,,,,
+Class-token probe,"DINOv2-L class token (1024-d, standardised)",91225,"Multinomial logistic regression, L-BFGS, max 2000 iterations, tol 1e-4; C = 0.01 selected among eight values on the validation split",,,,,
+Probe on class token + mean patch feature,Class token and mean of 1369 patch features (2048-d),182361,As above; C selected separately among eight values (C = 0.01),,,,,
+DINOv3-L probe / CLIP-L probe,Global feature of DINOv3-L (512 px) or CLIP-L image embedding (224 px),—,"As above; C from {0.001, 0.01, 0.1, 1} on the validation split (C = 0.01 for both; Table S4)",,,,,
+Attentive probe (h = 128),37 × 37 DINOv2-L patch features + frozen class-token probe logits,274265,"AdamW (lr 1e-4, weight decay 1e-3, betas 0.9/0.999, eps 1e-8), batch 16, cross-entropy, cosine schedule with 5% warm-up laid out over 40,800 updates, stopped at 8,160 updates (10 epochs), final model kept; selected among eight candidates on the validation split (seed 101: validation accuracy 79.18%, macro-F1 75.60%)",,,,,
+"Attentive probe, h = 64 / h = 256",As attentive probe,"137,177 / 548,441",Same recipe,,,,,
+Uniform pooling,"As attentive probe, attention fixed to 1/1369","274,265 stored (142,681 effective)",Same recipe; key/query parameters do not affect the output,,,,,
+Attention branch without class-token probe,Patch features only,274265,Same recipe,,,,,
+Three-backbone fusion (tuned),"L2-normalised global features of DINOv2-L (518), DINOv3-L (512), CLIP-L (224), 2816-d",1253210,"Hybrid linear–prototype head, K = 4; batch 128; cosine schedule with 5% warm-up; eight configurations (Table S13); selected: lr 5.45e-4, weight decay 1e-3, cross-entropy, max 50 epochs; epoch chosen by validation macro-F1",,,,,
+Fusion probe,Same 2816-d vector,250713,Logistic regression; C selected among four values on the validation split,,,,,
+Late fusions,Softmax probabilities of two or three models,0,Equal-weight average; no fitting; trained models paired by seed,,,,,
+Attentive probe on PlantDoc,As attentive probe,—,PlantWild configuration; epoch chosen among the first 10 on a stratified 10% validation split,,,,,
+,,,,,,,,
+,,,,,,,,
+(b) Validation and test summaries,,,,,,,,
+Data,Classifier,Training data,Validation accuracy (%),Validation macro-F1 (%),Test accuracy (%),Test macro-F1 (%),,
+"PlantWild, official split",Class-token probe,all data,77.42,72.93,78.35,75.65,,
+"PlantWild, official split",Probe on class token + mean patch feature,all data,78.30,74.31,79.25,76.90,,
+"PlantWild, official split",Uniform pooling,all data,78.23 ± 0.26,74.42 ± 0.33,79.04 ± 0.09,76.62 ± 0.18,,
+"PlantWild, official split",Attention branch without class-token probe,all data,73.54 ± 0.67,68.97 ± 1.19,75.50 ± 0.28,72.54 ± 0.34,,
+"PlantWild, official split",Attentive probe,all data,78.67 ± 0.34,74.72 ± 0.60,80.27 ± 0.28,77.88 ± 0.38,,
+"PlantWild, official split","Attentive probe, h = 64",all data,79.07 ± 0.15,75.11 ± 0.20,80.44 ± 0.25,78.11 ± 0.30,,
+"PlantWild, official split","Attentive probe, h = 256",all data,78.23 ± 0.16,73.99 ± 0.25,79.87 ± 0.19,77.33 ± 0.23,,
+"PlantWild, official split",Attentive probe + mask supervision (masks on 22.9% of images),all data,78.85 ± 0.24,74.99 ± 0.33,80.57 ± 0.24,77.96 ± 0.29,,
+"PlantWild, official split",Class-token probe,224 px,76.98,72.51,78.00,75.37,,
+"PlantWild, official split",Attentive probe,224 px,78.63 ± 0.30,74.62 ± 0.28,79.62 ± 0.19,77.41 ± 0.31,,
+"PlantWild, official split",Class-token probe,336 px,77.69,73.28,78.16,75.57,,
+"PlantWild, official split",Attentive probe,336 px,79.02 ± 0.16,74.68 ± 0.27,79.71 ± 0.14,77.36 ± 0.11,,
+"PlantWild, official split","Three-backbone fusion, source-study recipe",all data,80.26 ± 0.13,76.32 ± 0.19,80.28 ± 0.28,77.74 ± 0.34,,
+"PlantWild, official split",Three-backbone fusion (tuned),all data,80.34 ± 0.10,76.34 ± 0.10,81.01 ± 0.22,78.30 ± 0.22,,
+"PlantWild, official split","Fusion probe (logistic regression, 2816-d)",all data,79.84,75.74,80.50,77.79,,
+"PlantWild, official split",Attentive probe as residual on fusion probe,all data,79.53 ± 0.39,75.25 ± 0.59,80.48 ± 0.36,77.87 ± 0.35,,
+"PlantWild, official split",Fusion + attentive probe (averaged),all data,—,—,81.56 ± 0.25,79.20 ± 0.31,,
+"PlantWild, deduplicated split",Class-token probe,all data,77.90,73.40,78.57,75.92,,
+"PlantWild, deduplicated split",Probe on class token + mean patch feature,all data,79.13,75.22,79.52,77.18,,
+"PlantWild, deduplicated split",Attentive probe,all data,79.05 ± 0.20,75.00 ± 0.21,80.76 ± 0.19,78.41 ± 0.32,,
+"PlantWild, deduplicated split",Three-backbone fusion (tuned),all data,80.63 ± 0.17,76.49 ± 0.10,80.92 ± 0.28,78.32 ± 0.37,,
+"PlantDoc, official split",Class-token probe,all data,79.57,78.91,77.12,76.02,,
+"PlantDoc, official split",Attentive probe,all data,81.62 ± 0.55,81.45 ± 0.64,78.31 ± 1.88,77.25 ± 1.90,,
+"PlantDoc, deduplicated split",Class-token probe,all data,78.11,77.10,77.12,76.17,,
+"PlantDoc, deduplicated split",Attentive probe,all data,82.15 ± 0.38,81.52 ± 0.78,78.81 ± 0.67,77.58 ± 0.65,,
+"PlantWild, official split",Class-token probe,≤25 per class,70.16,67.54,70.52,68.23,,
+"PlantWild, official split",Probe on class token + mean patch feature,≤25 per class,70.55,67.26,71.12,68.82,,
+"PlantWild, official split",Attentive probe,≤25 per class,67.26 ± 1.90,64.19 ± 2.07,68.44 ± 2.54,66.50 ± 2.39,,
+"PlantWild, official split",Three-backbone fusion (tuned),≤25 per class,71.09 ± 0.17,67.53 ± 0.22,73.11 ± 0.15,70.37 ± 0.18,,
+"PlantWild, official split",Class-token probe,≤50 per class,73.24,70.11,74.22,72.06,,
+"PlantWild, official split",Probe on class token + mean patch feature,≤50 per class,73.85,70.31,74.00,72.04,,
+"PlantWild, official split",Attentive probe,≤50 per class,72.67 ± 1.74,69.74 ± 1.62,74.43 ± 1.68,72.44 ± 1.53,,
+"PlantWild, official split",Three-backbone fusion (tuned),≤50 per class,75.01 ± 0.02,71.47 ± 0.03,76.19 ± 0.07,73.88 ± 0.08,,
+"PlantWild, official split",Class-token probe,≤100 per class,75.05,71.54,76.39,74.17,,
+"PlantWild, official split",Probe on class token + mean patch feature,≤100 per class,76.04,72.28,76.96,75.06,,
+"PlantWild, official split",Attentive probe,≤100 per class,76.10 ± 0.31,72.72 ± 0.50,77.91 ± 0.71,75.83 ± 0.75,,
+"PlantWild, official split",Three-backbone fusion (tuned),≤100 per class,77.45 ± 0.03,73.67 ± 0.05,78.57 ± 0.08,76.31 ± 0.14,,
+"PlantWild, official split",CLIP-L probe,all data,—,—,74.22,71.13,,
+"PlantWild, official split",DINOv3-L probe,all data,—,—,79.49,76.49,,
+"PlantWild, official split",Class-token probe (224 px) + CLIP-L probe,all data,—,—,79.30,76.52,,
+"PlantWild, official split",Attentive probe (224 px) + CLIP-L probe,all data,—,—,80.64 ± 0.16,78.09 ± 0.28,,
+"PlantWild, official split",Class-token probe (518 px) + CLIP-L probe,all data,—,—,79.77,77.02,,
+"PlantWild, official split",Attentive probe (518 px) + CLIP-L probe,all data,—,—,81.22 ± 0.13,78.62 ± 0.20,,
+"PlantWild, official split",Class-token probe + DINOv3-L probe,all data,—,—,80.20,77.38,,
+"PlantWild, official split",Attentive probe + DINOv3-L probe,all data,—,—,81.69 ± 0.22,79.43 ± 0.26,,
+"PlantWild, official split",Late fusion of three probes,all data,—,—,80.96,78.26,,
+"PlantWild, official split","Late fusion, attentive probe in place of DINOv2-L probe",all data,—,—,81.93 ± 0.18,79.46 ± 0.20,,
+"PlantWild, deduplicated split",Fusion + attentive probe (averaged),all data,—,—,81.76 ± 0.20,79.46 ± 0.33,,
+"PlantWild, deduplicated split",DINOv3-L probe,all data,79.57,75.04,79.68,76.64,,
+"PlantWild, deduplicated split",CLIP-L probe,all data,74.54,69.72,74.82,71.67,,
+"PlantWild, deduplicated split",Late fusion of three probes,all data,—,—,81.23,78.50,,
+"PlantWild, deduplicated split","Late fusion, attentive probe in place of DINOv2-L probe",all data,—,—,82.27 ± 0.13,79.82 ± 0.18,,
+,,,,,,,,
+,,,,,,,,
+(c) Individual test runs,,,,,,,,
+Data,Training data,Classifier,Seed,Test images,Accuracy (%),Host accuracy (%),Within-host accuracy (%),Macro-F1 (%)
+"PlantWild, official split",all data,Class-token probe,—,3677,78.35,89.83,87.22,75.65
+"PlantWild, official split",all data,Probe on class token + mean patch feature,—,3677,79.25,89.91,88.14,76.90
+"PlantWild, official split",all data,Attentive probe,101,3677,80.12,89.75,89.27,77.93
+"PlantWild, official split",all data,Attentive probe,202,3677,79.85,89.88,88.84,77.24
+"PlantWild, official split",all data,Attentive probe,303,3677,80.36,89.86,89.44,77.95
+"PlantWild, official split",all data,Attentive probe,404,3677,80.47,90.13,89.29,78.25
+"PlantWild, official split",all data,Attentive probe,505,3677,80.53,89.94,89.54,78.05
+"PlantWild, official split",all data,Uniform pooling,101,3677,79.03,89.86,87.95,76.59
+"PlantWild, official split",all data,Uniform pooling,202,3677,79.00,89.91,87.87,76.70
+"PlantWild, official split",all data,Uniform pooling,303,3677,79.19,89.88,88.11,76.88
+"PlantWild, official split",all data,Uniform pooling,404,3677,78.98,89.77,87.97,76.51
+"PlantWild, official split",all data,Uniform pooling,505,3677,79.00,89.75,88.03,76.41
+"PlantWild, official split",all data,Attention branch without class-token probe,101,3677,75.61,86.46,87.45,72.96
+"PlantWild, official split",all data,Attention branch without class-token probe,202,3677,75.55,86.76,87.08,72.67
+"PlantWild, official split",all data,Attention branch without class-token probe,303,3677,75.36,87.00,86.62,72.28
+"PlantWild, official split",all data,Attention branch without class-token probe,404,3677,75.85,87.14,87.05,72.65
+"PlantWild, official split",all data,Attention branch without class-token probe,505,3677,75.12,86.97,86.37,72.12
+"PlantWild, official split",all data,Three-backbone fusion (tuned),101,3677,81.07,91.05,89.04,78.40
+"PlantWild, official split",all data,Three-backbone fusion (tuned),202,3677,81.04,90.92,89.14,78.28
+"PlantWild, official split",all data,Three-backbone fusion (tuned),303,3677,80.64,91.03,88.59,77.93
+"PlantWild, official split",all data,Three-backbone fusion (tuned),404,3677,81.07,91.03,89.06,78.34
+"PlantWild, official split",all data,Three-backbone fusion (tuned),505,3677,81.23,91.00,89.27,78.52
+"PlantWild, official split",all data,"Fusion probe (logistic regression, 2816-d)",—,3677,80.50,90.45,89.00,77.79
+"PlantWild, official split",all data,Fusion + attentive probe (averaged),101,3677,81.45,90.83,89.67,79.36
+"PlantWild, official split",all data,Fusion + attentive probe (averaged),202,3677,81.26,90.75,89.54,78.83
+"PlantWild, official split",all data,Fusion + attentive probe (averaged),303,3677,81.56,90.97,89.66,79.11
+"PlantWild, official split",all data,Fusion + attentive probe (averaged),404,3677,81.94,91.08,89.97,79.63
+"PlantWild, official split",all data,Fusion + attentive probe (averaged),505,3677,81.59,90.83,89.82,79.08
+"PlantWild, official split",all data,CLIP-L probe,—,3677,74.22,84.06,88.29,71.13
+"PlantWild, official split",all data,DINOv3-L probe,—,3677,79.49,90.51,87.83,76.49
+"PlantWild, official split",all data,Attentive probe (518 px) + CLIP-L probe,101,3677,81.34,89.94,90.44,78.86
+"PlantWild, official split",all data,Attentive probe (518 px) + CLIP-L probe,202,3677,81.04,89.77,90.28,78.43
+"PlantWild, official split",all data,Attentive probe (518 px) + CLIP-L probe,303,3677,81.32,89.88,90.47,78.75
+"PlantWild, official split",all data,Attentive probe (518 px) + CLIP-L probe,404,3677,81.26,89.83,90.46,78.67
+"PlantWild, official split",all data,Attentive probe (518 px) + CLIP-L probe,505,3677,81.13,89.69,90.45,78.41
+"PlantWild, official split",all data,Attentive probe (224 px) + CLIP-L probe,101,3677,80.53,89.69,89.78,77.94
+"PlantWild, official split",all data,Attentive probe (224 px) + CLIP-L probe,202,3677,80.45,89.37,90.02,77.77
+"PlantWild, official split",all data,Attentive probe (224 px) + CLIP-L probe,303,3677,80.83,89.88,89.92,78.50
+"PlantWild, official split",all data,Attentive probe (224 px) + CLIP-L probe,404,3677,80.61,89.72,89.85,78.05
+"PlantWild, official split",all data,Attentive probe (224 px) + CLIP-L probe,505,3677,80.77,89.56,90.19,78.20
+"PlantWild, official split",all data,Attentive probe + DINOv3-L probe,101,3677,81.37,90.89,89.53,79.13
+"PlantWild, official split",all data,Attentive probe + DINOv3-L probe,202,3677,81.56,91.03,89.60,79.17
+"PlantWild, official split",all data,Attentive probe + DINOv3-L probe,303,3677,81.89,91.00,89.99,79.72
+"PlantWild, official split",all data,Attentive probe + DINOv3-L probe,404,3677,81.86,91.03,89.93,79.58
+"PlantWild, official split",all data,Attentive probe + DINOv3-L probe,505,3677,81.75,91.03,89.81,79.53
+"PlantWild, official split",all data,Class-token probe (518 px) + CLIP-L probe,—,3677,79.77,89.67,88.96,77.02
+"PlantWild, official split",all data,Class-token probe (224 px) + CLIP-L probe,—,3677,79.30,89.26,88.85,76.52
+"PlantWild, official split",all data,Class-token probe + DINOv3-L probe,—,3677,80.20,90.97,88.16,77.38
+"PlantWild, official split",all data,Late fusion of three probes,—,3677,80.96,90.75,89.21,78.26
+"PlantWild, official split",all data,"Late fusion, attentive probe in place of DINOv2-L probe",101,3677,81.89,90.83,90.15,79.44
+"PlantWild, official split",all data,"Late fusion, attentive probe in place of DINOv2-L probe",202,3677,81.91,91.13,89.88,79.38
+"PlantWild, official split",all data,"Late fusion, attentive probe in place of DINOv2-L probe",303,3677,82.21,91.00,90.35,79.76
+"PlantWild, official split",all data,"Late fusion, attentive probe in place of DINOv2-L probe",404,3677,81.91,90.92,90.10,79.50
+"PlantWild, official split",all data,"Late fusion, attentive probe in place of DINOv2-L probe",505,3677,81.72,90.73,90.08,79.21
+"PlantWild, official split",all data,Attentive probe + mask supervision,101,3677,80.99,90.16,89.83,78.44
+"PlantWild, official split",all data,Attentive probe + mask supervision,202,3677,80.50,89.91,89.53,78.05
+"PlantWild, official split",all data,Attentive probe + mask supervision,303,3677,80.50,90.10,89.34,77.78
+"PlantWild, official split",all data,Attentive probe + mask supervision,404,3677,80.39,89.86,89.47,77.74
+"PlantWild, official split",all data,Attentive probe + mask supervision,505,3677,80.45,90.07,89.31,77.81
+"PlantWild, official split",all data,"Three-backbone fusion, source-study recipe",101,3677,80.17,90.40,88.69,77.74
+"PlantWild, official split",all data,"Three-backbone fusion, source-study recipe",202,3677,80.77,90.75,89.00,78.33
+"PlantWild, official split",all data,"Three-backbone fusion, source-study recipe",303,3677,80.17,90.40,88.69,77.62
+"PlantWild, official split",all data,"Three-backbone fusion, source-study recipe",404,3677,80.09,90.43,88.57,77.56
+"PlantWild, official split",all data,"Three-backbone fusion, source-study recipe",505,3677,80.20,90.67,88.45,77.46
+"PlantWild, official split",all data,"Attentive probe, h = 64",101,3677,80.55,90.16,89.35,78.26
+"PlantWild, official split",all data,"Attentive probe, h = 64",202,3677,80.75,90.24,89.48,78.51
+"PlantWild, official split",all data,"Attentive probe, h = 64",303,3677,80.36,89.99,89.30,78.05
+"PlantWild, official split",all data,"Attentive probe, h = 64",404,3677,80.07,90.29,88.67,77.71
+"PlantWild, official split",all data,"Attentive probe, h = 64",505,3677,80.47,90.13,89.29,78.02
+"PlantWild, official split",all data,"Attentive probe, h = 256",101,3677,79.96,89.45,89.39,77.57
+"PlantWild, official split",all data,"Attentive probe, h = 256",202,3677,79.85,89.50,89.21,77.31
+"PlantWild, official split",all data,"Attentive probe, h = 256",303,3677,79.90,89.91,88.87,77.27
+"PlantWild, official split",all data,"Attentive probe, h = 256",404,3677,79.58,89.09,89.32,77.00
+"PlantWild, official split",all data,"Attentive probe, h = 256",505,3677,80.09,89.72,89.27,77.53
+"PlantWild, official split",all data,Attentive probe as residual on fusion probe,101,3677,80.42,90.13,89.23,77.83
+"PlantWild, official split",all data,Attentive probe as residual on fusion probe,202,3677,79.96,90.13,88.71,77.31
+"PlantWild, official split",all data,Attentive probe as residual on fusion probe,303,3677,80.83,90.43,89.38,78.23
+"PlantWild, official split",all data,Attentive probe as residual on fusion probe,404,3677,80.83,90.13,89.68,78.10
+"PlantWild, official split",all data,Attentive probe as residual on fusion probe,505,3677,80.39,90.32,89.01,77.88
+"PlantWild, official split",≤25 per class,Class-token probe,—,3677,70.52,86.76,81.29,68.23
+"PlantWild, official split",≤25 per class,Probe on class token + mean patch feature,—,3677,71.12,86.59,82.13,68.82
+"PlantWild, official split",≤25 per class,Attentive probe,101,3677,68.04,81.34,83.65,66.29
+"PlantWild, official split",≤25 per class,Attentive probe,202,3677,64.43,79.71,80.83,62.62
+"PlantWild, official split",≤25 per class,Attentive probe,303,3677,69.84,81.64,85.54,67.63
+"PlantWild, official split",≤25 per class,Attentive probe,404,3677,68.70,80.88,84.94,66.90
+"PlantWild, official split",≤25 per class,Attentive probe,505,3677,71.20,82.92,85.86,69.03
+"PlantWild, official split",≤25 per class,Three-backbone fusion (tuned),101,3677,73.24,87.90,83.32,70.48
+"PlantWild, official split",≤25 per class,Three-backbone fusion (tuned),202,3677,73.13,87.76,83.33,70.43
+"PlantWild, official split",≤25 per class,Three-backbone fusion (tuned),303,3677,72.91,87.71,83.13,70.09
+"PlantWild, official split",≤25 per class,Three-backbone fusion (tuned),404,3677,73.27,87.73,83.51,70.54
+"PlantWild, official split",≤25 per class,Three-backbone fusion (tuned),505,3677,73.02,87.68,83.28,70.29
+"PlantWild, official split",≤50 per class,Class-token probe,—,3677,74.22,88.22,84.12,72.06
+"PlantWild, official split",≤50 per class,Probe on class token + mean patch feature,—,3677,74.00,87.52,84.56,72.04
+"PlantWild, official split",≤50 per class,Attentive probe,101,3677,74.63,85.75,87.03,72.75
+"PlantWild, official split",≤50 per class,Attentive probe,202,3677,71.58,85.15,84.06,69.82
+"PlantWild, official split",≤50 per class,Attentive probe,303,3677,74.87,85.91,87.15,72.70
+"PlantWild, official split",≤50 per class,Attentive probe,404,3677,76.04,87.08,87.32,73.84
+"PlantWild, official split",≤50 per class,Attentive probe,505,3677,75.03,86.24,87.01,73.06
+"PlantWild, official split",≤50 per class,Three-backbone fusion (tuned),101,3677,76.15,89.04,85.52,73.81
+"PlantWild, official split",≤50 per class,Three-backbone fusion (tuned),202,3677,76.20,89.09,85.53,73.92
+"PlantWild, official split",≤50 per class,Three-backbone fusion (tuned),303,3677,76.18,89.09,85.50,73.83
+"PlantWild, official split",≤50 per class,Three-backbone fusion (tuned),404,3677,76.31,89.04,85.71,74.00
+"PlantWild, official split",≤50 per class,Three-backbone fusion (tuned),505,3677,76.12,89.07,85.47,73.83
+"PlantWild, official split",≤100 per class,Class-token probe,—,3677,76.39,88.88,85.95,74.17
+"PlantWild, official split",≤100 per class,Probe on class token + mean patch feature,—,3677,76.96,88.85,86.62,75.06
+"PlantWild, official split",≤100 per class,Attentive probe,101,3677,77.70,88.28,88.02,75.68
+"PlantWild, official split",≤100 per class,Attentive probe,202,3677,76.77,88.01,87.24,74.63
+"PlantWild, official split",≤100 per class,Attentive probe,303,3677,78.46,88.20,88.96,76.36
+"PlantWild, official split",≤100 per class,Attentive probe,404,3677,78.43,88.41,88.71,76.51
+"PlantWild, official split",≤100 per class,Attentive probe,505,3677,78.19,88.41,88.43,75.97
+"PlantWild, official split",≤100 per class,Three-backbone fusion (tuned),101,3677,78.43,89.77,87.37,76.08
+"PlantWild, official split",≤100 per class,Three-backbone fusion (tuned),202,3677,78.62,89.86,87.50,76.39
+"PlantWild, official split",≤100 per class,Three-backbone fusion (tuned),303,3677,78.60,89.86,87.47,76.32
+"PlantWild, official split",≤100 per class,Three-backbone fusion (tuned),404,3677,78.57,89.88,87.41,76.31
+"PlantWild, official split",≤100 per class,Three-backbone fusion (tuned),505,3677,78.62,89.99,87.37,76.44
+"PlantWild, official split, 224 px",all data,Class-token probe,—,3677,78.00,89.86,86.80,75.37
+"PlantWild, official split, 224 px",all data,Attentive probe,101,3677,79.44,89.64,88.62,77.06
+"PlantWild, official split, 224 px",all data,Attentive probe,202,3677,79.74,89.64,88.96,77.46
+"PlantWild, official split, 224 px",all data,Attentive probe,303,3677,79.77,89.77,88.85,77.83
+"PlantWild, official split, 224 px",all data,Attentive probe,404,3677,79.39,89.31,88.89,77.16
+"PlantWild, official split, 224 px",all data,Attentive probe,505,3677,79.77,89.45,89.18,77.56
+"PlantWild, official split, 336 px",all data,Class-token probe,—,3677,78.16,89.80,87.04,75.57
+"PlantWild, official split, 336 px",all data,Attentive probe,101,3677,79.77,89.56,89.07,77.33
+"PlantWild, official split, 336 px",all data,Attentive probe,202,3677,79.49,89.83,88.50,77.31
+"PlantWild, official split, 336 px",all data,Attentive probe,303,3677,79.87,89.96,88.78,77.47
+"PlantWild, official split, 336 px",all data,Attentive probe,404,3677,79.74,89.53,89.06,77.45
+"PlantWild, official split, 336 px",all data,Attentive probe,505,3677,79.68,89.64,88.90,77.22
+"PlantWild, deduplicated split",all data,Class-token probe,—,3677,78.57,90.16,87.15,75.92
+"PlantWild, deduplicated split",all data,Attentive probe,101,3677,80.64,90.13,89.47,78.23
+"PlantWild, deduplicated split",all data,Attentive probe,202,3677,80.80,90.16,89.62,78.55
+"PlantWild, deduplicated split",all data,Attentive probe,303,3677,81.07,90.32,89.76,78.83
+"PlantWild, deduplicated split",all data,Attentive probe,404,3677,80.61,90.18,89.38,78.45
+"PlantWild, deduplicated split",all data,Attentive probe,505,3677,80.66,90.35,89.28,77.98
+"PlantWild, deduplicated split",all data,Three-backbone fusion (tuned),101,3677,80.75,91.00,88.73,78.07
+"PlantWild, deduplicated split",all data,Three-backbone fusion (tuned),202,3677,80.75,90.94,88.79,78.18
+"PlantWild, deduplicated split",all data,Three-backbone fusion (tuned),303,3677,81.29,91.08,89.25,78.80
+"PlantWild, deduplicated split",all data,Three-backbone fusion (tuned),404,3677,81.15,91.00,89.18,78.62
+"PlantWild, deduplicated split",all data,Three-backbone fusion (tuned),505,3677,80.66,91.00,88.64,77.94
+"PlantWild, deduplicated split",all data,Fusion + attentive probe (averaged),101,3677,81.51,91.00,89.57,79.26
+"PlantWild, deduplicated split",all data,Fusion + attentive probe (averaged),202,3677,81.64,90.92,89.80,79.32
+"PlantWild, deduplicated split",all data,Fusion + attentive probe (averaged),303,3677,81.94,91.19,89.86,79.68
+"PlantWild, deduplicated split",all data,Fusion + attentive probe (averaged),404,3677,82.00,91.30,89.81,79.91
+"PlantWild, deduplicated split",all data,Fusion + attentive probe (averaged),505,3677,81.72,91.11,89.70,79.12
+"PlantWild, deduplicated split",all data,Probe on class token + mean patch feature,—,3677,79.52,90.29,88.07,77.18
+"PlantWild, deduplicated split",all data,DINOv3-L probe,—,3677,79.68,90.81,87.75,76.64
+"PlantWild, deduplicated split",all data,CLIP-L probe,—,3677,74.82,84.44,88.60,71.67
+"PlantWild, deduplicated split",all data,Late fusion of three probes,—,3677,81.23,90.89,89.38,78.50
+"PlantWild, deduplicated split",all data,"Late fusion, attentive probe in place of DINOv2-L probe",101,3677,82.19,90.97,90.34,79.62
+"PlantWild, deduplicated split",all data,"Late fusion, attentive probe in place of DINOv2-L probe",202,3677,82.24,91.00,90.38,79.78
+"PlantWild, deduplicated split",all data,"Late fusion, attentive probe in place of DINOv2-L probe",303,3677,82.49,91.22,90.43,80.07
+"PlantWild, deduplicated split",all data,"Late fusion, attentive probe in place of DINOv2-L probe",404,3677,82.27,91.24,90.16,79.94
+"PlantWild, deduplicated split",all data,"Late fusion, attentive probe in place of DINOv2-L probe",505,3677,82.16,90.94,90.34,79.70
+"PlantDoc, official split",all data,Class-token probe,—,236,77.12,—,—,76.02
+"PlantDoc, official split",all data,Attentive probe,101,236,78.81,—,—,77.69
+"PlantDoc, official split",all data,Attentive probe,202,236,78.81,—,—,77.88
+"PlantDoc, official split",all data,Attentive probe,303,236,75.00,—,—,73.91
+"PlantDoc, official split",all data,Attentive probe,404,236,79.24,—,—,78.17
+"PlantDoc, official split",all data,Attentive probe,505,236,79.66,—,—,78.58
+"PlantDoc, deduplicated split",all data,Class-token probe,—,236,77.12,—,—,76.17
+"PlantDoc, deduplicated split",all data,Attentive probe,101,236,78.81,—,—,77.54
+"PlantDoc, deduplicated split",all data,Attentive probe,202,236,78.39,—,—,76.96
+"PlantDoc, deduplicated split",all data,Attentive probe,303,236,79.66,—,—,78.42
+"PlantDoc, deduplicated split",all data,Attentive probe,404,236,79.24,—,—,78.01
+"PlantDoc, deduplicated split",all data,Attentive probe,505,236,77.97,—,—,76.95
+"PlantDoc mapped subset (1,160)","PlantSeg cleaned training set (4,611)",Logistic probe on class token,—,1160,64.74,—,—,64.26
+"PlantDoc mapped subset (1,160)","PlantSeg cleaned training set (4,611)",Attentive probe,101,1160,66.81,—,—,67.13
+"PlantDoc mapped subset (1,160)","PlantSeg cleaned training set (4,611)",Attentive probe,202,1160,68.19,—,—,68.69
+"PlantDoc mapped subset (1,160)","PlantSeg cleaned training set (4,611)",Attentive probe,303,1160,67.33,—,—,66.98
+"PlantDoc mapped subset (1,160)","PlantSeg cleaned training set (4,611)",Attentive probe,404,1160,66.55,—,—,67.05
+"PlantDoc mapped subset (1,160)","PlantSeg cleaned training set (4,611)",Attentive probe,505,1160,68.45,—,—,68.28
+"PlantDoc mapped subset (1,160)","PlantSeg cleaned training set (4,611)",Mask-supervised attentive probe,101,1160,61.38,—,—,62.74
+"PlantDoc mapped subset (1,160)","PlantSeg cleaned training set (4,611)",Mask-supervised attentive probe,202,1160,65.60,—,—,66.24
+"PlantDoc mapped subset (1,160)","PlantSeg cleaned training set (4,611)",Mask-supervised attentive probe,303,1160,68.28,—,—,67.87
+"PlantDoc mapped subset (1,160)","PlantSeg cleaned training set (4,611)",Mask-supervised attentive probe,404,1160,66.29,—,—,66.84
+"PlantDoc mapped subset (1,160)","PlantSeg cleaned training set (4,611)",Mask-supervised attentive probe,505,1160,67.24,—,—,66.86
+"PlantDoc mapped subset (1,160)","PlantSeg cleaned training set (4,611)",Three-backbone fusion,101,1160,65.26,—,—,65.36
+"PlantDoc mapped subset (1,160)","PlantSeg cleaned training set (4,611)",Three-backbone fusion,202,1160,64.83,—,—,65.17
+"PlantDoc mapped subset (1,160)","PlantSeg cleaned training set (4,611)",Three-backbone fusion,303,1160,64.57,—,—,64.95
+"PlantDoc mapped subset (1,160)","PlantSeg cleaned training set (4,611)",Three-backbone fusion,404,1160,63.71,—,—,64.29
+"PlantDoc mapped subset (1,160)","PlantSeg cleaned training set (4,611)",Three-backbone fusion,505,1160,64.83,—,—,65.21
+"PlantWild mapped subset (5,564)","PlantSeg cleaned training set (4,611)",Logistic probe on class token,—,5564,62.29,81.65,76.29,60.74
+"PlantWild mapped subset (5,564)","PlantSeg cleaned training set (4,611)",Attentive probe,101,5564,62.08,80.75,76.88,61.21
+"PlantWild mapped subset (5,564)","PlantSeg cleaned training set (4,611)",Attentive probe,202,5564,64.38,81.00,79.48,62.46
+"PlantWild mapped subset (5,564)","PlantSeg cleaned training set (4,611)",Attentive probe,303,5564,62.65,80.57,77.76,61.05
+"PlantWild mapped subset (5,564)","PlantSeg cleaned training set (4,611)",Attentive probe,404,5564,63.16,80.88,78.09,62.08
+"PlantWild mapped subset (5,564)","PlantSeg cleaned training set (4,611)",Attentive probe,505,5564,64.09,81.06,79.07,62.84
+"PlantWild mapped subset (5,564)","PlantSeg cleaned training set (4,611)",Mask-supervised attentive probe,101,5564,62.78,80.43,78.06,61.52
+"PlantWild mapped subset (5,564)","PlantSeg cleaned training set (4,611)",Mask-supervised attentive probe,202,5564,63.41,79.92,79.33,61.90
+"PlantWild mapped subset (5,564)","PlantSeg cleaned training set (4,611)",Mask-supervised attentive probe,303,5564,64.27,80.27,80.07,62.65
+"PlantWild mapped subset (5,564)","PlantSeg cleaned training set (4,611)",Mask-supervised attentive probe,404,5564,64.00,80.64,79.36,62.33
+"PlantWild mapped subset (5,564)","PlantSeg cleaned training set (4,611)",Mask-supervised attentive probe,505,5564,62.53,79.74,78.41,61.30
+"PlantWild mapped subset (5,564)","PlantSeg cleaned training set (4,611)",Three-backbone fusion,101,5564,64.38,82.53,78.01,62.77
+"PlantWild mapped subset (5,564)","PlantSeg cleaned training set (4,611)",Three-backbone fusion,202,5564,63.64,81.96,77.65,62.11
+"PlantWild mapped subset (5,564)","PlantSeg cleaned training set (4,611)",Three-backbone fusion,303,5564,63.16,81.33,77.66,61.79
+"PlantWild mapped subset (5,564)","PlantSeg cleaned training set (4,611)",Three-backbone fusion,404,5564,64.04,82.24,77.86,62.56
+"PlantWild mapped subset (5,564)","PlantSeg cleaned training set (4,611)",Three-backbone fusion,505,5564,64.07,82.22,77.92,62.57
+,,,,,,,,
+,,,,,,,,
+(d) Computation and latency — Components (one image),,,,,,,,
+Component,Parameters (stored),Parameters (effective),"GFLOPs, convolution + linear","GFLOPs, all registered operations",,,,
+"DINOv2-L, 518 px",304368640,304368640,829.1009,1013.6077,,,,
+"DINOv2-L, 224 px",304368640,304368640,155.5311,162.0240,,,,
+"DINOv2-L, 336 px",304368640,304368640,349.1900,381.9182,,,,
+"DINOv3-L, 512 px",303129600,303129600,623.1058,727.1941,,,,
+"CLIP-L image encoder, 224 px",303966208,303966208,155.5327,162.0255,,,,
+Class-token probe head,91225,91225,0.0002,0.0002,,,,
+Probe on class token + mean patch head,182361,182361,0.0004,0.0004,,,,
+Fusion probe head,250713,250713,0.0005,0.0005,,,,
+"Attention branch, h = 64",137177,137177,0.3589,0.3592,,,,
+"Attention branch, h = 128",274265,274265,0.7178,0.7185,,,,
+"Attention branch, h = 256",548441,548441,1.4355,1.4369,,,,
+Uniform-pooling branch,274265,142681,0.3589,0.3589,,,,
+"Fusion hybrid head, K = 4",1253210,1253210,0.0005,0.0025,,,,
+,,,,,,,,
+,,,,,,,,
+(e) Computation and latency — Late fusions (each backbone runs once),,,,,,,,
+Combination,"GFLOPs, convolution + linear",,,,,,,
+Attentive probe (518 px) + CLIP-L probe,985.3500,,,,,,,
+Attentive probe (224 px) + CLIP-L probe,311.2000,,,,,,,
+Attentive probe + DINOv3-L probe,1452.9200,,,,,,,
+Class-token probe (518 px) + CLIP-L probe,984.6300,,,,,,,
+Class-token probe (224 px) + CLIP-L probe,311.0600,,,,,,,
+Class-token probe + DINOv3-L probe,1452.2100,,,,,,,
+Late fusion of three probes,1607.7400,,,,,,,
+"Late fusion, attentive probe in place of DINOv2-L probe",1608.4600,,,,,,,
+Two attentive probes (seed pair),830.5400,,,,,,,
+Two fusion models (seed pair),1607.7400,,,,,,,
+Attentive probe + fusion (averaged),1608.4600,,,,,,,
+Tuned feature fusion,1607.7400,,,,,,,
+,,,,,,,,
+,,,,,,,,
+(f) Computation and latency (3),,,,,,,,
+Classifier,Input (px),Median latency (ms),Batch,Warm-up runs,Timed runs,transformers version,,
+Attentive probe,518,21.80,1,20,100,5.13.0,,
+Three-backbone fusion,518+512+224,47.50,1,20,100,5.13.0,,
+Attentive probe,224,14.30,1,20,100,4.57.6,,
+Attentive probe,336,17.00,1,20,100,4.57.6,,
+,,,,,,,,
+,,,,,,,,
+(g) Training-image budgets,,,,,,,,
+Subset,Training images,Mean images per class,Updates,Schedule length (updates),Complete passes,Batches in last partial pass,,
+≤25 per class,2225,25,8160,40800,58,40,,
+≤50 per class,4417,49.63,8160,40800,29,127,,
+≤100 per class,8110,91.12,8160,40800,16,48,,
+All data,13045,146.57,8160,40800,10,0,,
+,,,,,,,,
+,,,,,,,,
+(h) Additional paired seed comparisons,,,,,,,,
+Data,Comparison,Metric,Difference (pp),Seed t 95% CI,Seeds or pairs,,,
+"PlantWild, official split",Attentive probe − three-backbone fusion (tuned),Accuracy,−0.75,"[−1.18, −0.31]",5,,,
+"PlantWild, official split",Attentive probe − three-backbone fusion (tuned),Macro-F1,−0.41,"[−0.93, 0.11]",5,,,
+"PlantWild, official split",Uniform pooling − attentive probe,Accuracy,−1.22,"[−1.58, −0.87]",5,,,
+"PlantWild, official split",Uniform pooling − attentive probe,Macro-F1,−1.27,"[−1.87, −0.67]",5,,,
+"PlantWild, official split",Attention branch without probe − attentive probe,Accuracy,−4.77,"[−5.32, −4.22]",5,,,
+"PlantWild, official split",Attention branch without probe − attentive probe,Macro-F1,−5.35,"[−6.04, −4.65]",5,,,
+"PlantWild, official split",Attentive probe h = 64 − h = 128,Accuracy,0.17,"[−0.45, 0.80]",5,,,
+"PlantWild, official split",Attentive probe h = 64 − h = 128,Macro-F1,0.23,"[−0.60, 1.05]",5,,,
+"PlantWild, official split",Attentive probe h = 256 − h = 128,Accuracy,−0.39,"[−0.82, 0.03]",5,,,
+"PlantWild, official split",Attentive probe h = 256 − h = 128,Macro-F1,−0.55,"[−1.15, 0.05]",5,,,
+"PlantWild, official split",Attention residual on fusion probe − attentive probe,Accuracy,0.22,"[−0.07, 0.51]",5,,,
+"PlantWild, official split",Attention residual on fusion probe − attentive probe,Macro-F1,−0.01,"[−0.25, 0.22]",5,,,
+"PlantWild, official split",Attention residual on fusion probe − fusion (tuned),Accuracy,−0.53,"[−1.16, 0.10]",5,,,
+"PlantWild, official split",Attention residual on fusion probe − fusion (tuned),Macro-F1,−0.43,"[−1.02, 0.17]",5,,,
+"PlantWild, official split",Attentive probe − fusion (tuned) (≤25/class),Accuracy,−4.67,"[−7.91, −1.43]",5,,,
+"PlantWild, official split",Attentive probe − fusion (tuned) (≤25/class),Macro-F1,−3.87,"[−6.94, −0.80]",5,,,
+"PlantWild, official split",Attentive probe − class-token probe (≤25/class),Accuracy,−2.08,"[−5.24, 1.08]",5,,,
+"PlantWild, official split",Attentive probe − class-token probe (≤25/class),Macro-F1,−1.73,"[−4.70, 1.24]",5,,,
+"PlantWild, official split",Attentive probe − fusion (tuned) (≤50/class),Accuracy,−1.76,"[−3.83, 0.31]",5,,,
+"PlantWild, official split",Attentive probe − fusion (tuned) (≤50/class),Macro-F1,−1.44,"[−3.35, 0.46]",5,,,
+"PlantWild, official split",Attentive probe − class-token probe (≤50/class),Accuracy,0.21,"[−1.88, 2.30]",5,,,
+"PlantWild, official split",Attentive probe − class-token probe (≤50/class),Macro-F1,0.37,"[−1.53, 2.27]",5,,,
+"PlantWild, official split",Attentive probe − fusion (tuned) (≤100/class),Accuracy,−0.66,"[−1.54, 0.22]",5,,,
+"PlantWild, official split",Attentive probe − fusion (tuned) (≤100/class),Macro-F1,−0.48,"[−1.44, 0.48]",5,,,
+"PlantWild, official split",Attentive probe − class-token probe (≤100/class),Accuracy,1.52,"[0.64, 2.39]",5,,,
+"PlantWild, official split",Attentive probe − class-token probe (≤100/class),Macro-F1,1.66,"[0.73, 2.59]",5,,,
+"PlantWild, official split",Attentive probe − fusion (tuned) (all data),Accuracy,−0.75,"[−1.18, −0.31]",5,,,
+"PlantWild, official split",Attentive probe − fusion (tuned) (all data),Macro-F1,−0.41,"[−0.93, 0.11]",5,,,
+"PlantWild, official split",Attentive probe − class-token probe (all data),Accuracy,1.91,"[1.56, 2.26]",5,,,
+"PlantWild, official split",Attentive probe − class-token probe (all data),Macro-F1,2.23,"[1.76, 2.71]",5,,,
+"PlantWild, deduplicated split",Attentive probe − fusion (tuned),Accuracy,−0.16,"[−0.46, 0.13]",5,,,
+"PlantWild, deduplicated split",Attentive probe − fusion (tuned),Macro-F1,0.09,"[−0.16, 0.33]",5,,,
+"PlantWild, deduplicated split",Attentive probe − class-token probe,Macro-F1,2.49,"[2.09, 2.89]",5,,,
+"PlantWild, deduplicated split",Attentive probe − probe on class token + mean patch,Accuracy,1.23,"[1.00, 1.47]",5,,,
+"PlantWild, deduplicated split",Attentive probe − probe on class token + mean patch,Macro-F1,1.22,"[0.82, 1.62]",5,,,
+"PlantDoc, deduplicated split",Attentive probe − class-token probe,Accuracy,1.69,"[0.86, 2.53]",5,,,
+"PlantDoc, deduplicated split",Attentive probe − class-token probe,Macro-F1,1.41,"[0.60, 2.21]",5,,,
+"PlantWild, official split",Attentive probe: deduplicated − official training,Accuracy,0.49,"[0.05, 0.93]",5,,,
+"PlantWild, official split",Attentive probe: deduplicated − official training,Macro-F1,0.52,"[−0.17, 1.22]",5,,,
+"PlantWild, official split",Fusion: deduplicated − official training,Accuracy,−0.09,"[−0.69, 0.50]",5,,,
+"PlantWild, official split",Fusion: deduplicated − official training,Macro-F1,0.03,"[−0.68, 0.73]",5,,,
+"PlantDoc, official split",Attentive probe: deduplicated − official training,Accuracy,0.51,"[−2.50, 3.52]",5,,,
+"PlantDoc, official split",Attentive probe: deduplicated − official training,Macro-F1,0.33,"[−2.67, 3.33]",5,,,
+"PlantDoc mapped subset (1,160)",Mask-supervised attentive probe − attentive probe (tuned recipes),Accuracy,−1.71,"[−4.75, 1.34]",5,,,
+"PlantDoc mapped subset (1,160)",Mask-supervised attentive probe − attentive probe (tuned recipes),Macro-F1,−1.52,"[−4.05, 1.01]",5,,,
+"PlantDoc mapped subset (1,160)",Attentive probe − three-backbone fusion (tuned recipes),Accuracy,2.83,"[1.84, 3.82]",5,,,
+"PlantDoc mapped subset (1,160)",Attentive probe − three-backbone fusion (tuned recipes),Macro-F1,2.63,"[1.73, 3.53]",5,,,
+"PlantDoc mapped subset (1,160)",Mask-supervised attentive probe − three-backbone fusion (tuned recipes),Accuracy,1.12,"[−2.58, 4.83]",5,,,
+"PlantDoc mapped subset (1,160)",Mask-supervised attentive probe − three-backbone fusion (tuned recipes),Macro-F1,1.11,"[−1.63, 3.85]",5,,,
+"PlantWild mapped subset (5,564)",Mask-supervised attentive probe − attentive probe (tuned recipes),Accuracy,0.13,"[−1.53, 1.78]",5,,,
+"PlantWild mapped subset (5,564)",Mask-supervised attentive probe − attentive probe (tuned recipes),Macro-F1,0.01,"[−1.43, 1.46]",5,,,
+"PlantWild mapped subset (5,564)",Attentive probe − three-backbone fusion (tuned recipes),Accuracy,−0.59,"[−1.99, 0.82]",5,,,
+"PlantWild mapped subset (5,564)",Attentive probe − three-backbone fusion (tuned recipes),Macro-F1,−0.43,"[−1.41, 0.54]",5,,,
+"PlantWild mapped subset (5,564)",Mask-supervised attentive probe − three-backbone fusion (tuned recipes),Accuracy,−0.46,"[−1.87, 0.95]",5,,,
+"PlantWild mapped subset (5,564)",Mask-supervised attentive probe − three-backbone fusion (tuned recipes),Macro-F1,−0.42,"[−1.52, 0.68]",5,,,
+"PlantDoc, official split",Attentive probe − class-token probe,Accuracy,1.19,"[−1.15, 3.52]",5,,,
+"PlantDoc, official split",Attentive probe − class-token probe,Macro-F1,1.23,"[−1.12, 3.58]",5,,,
+"PlantWild, official split",Attention–fusion cross-seed pairs − fusion pairs (descriptive; dependent pairs),Accuracy,0.51,"[0.43, 0.59]",10,,,
+"PlantWild, official split",Attention–fusion cross-seed pairs − fusion pairs (descriptive; dependent pairs),Macro-F1,0.87,"[0.76, 0.98]",10,,,
+"PlantWild, official split",Fusion + attentive probe (averaged) − fusion,Accuracy,0.55,"[0.15, 0.95]",5,,,
+"PlantWild, official split",Fusion + attentive probe (averaged) − fusion,Macro-F1,0.91,"[0.48, 1.34]",5,,,
+"PlantWild, official split",Attentive probe (518) + CLIP-L − fusion,Accuracy,0.21,"[−0.17, 0.58]",5,,,
+"PlantWild, official split",Attentive probe (518) + CLIP-L − fusion,Macro-F1,0.33,"[−0.10, 0.76]",5,,,
+"PlantWild, official split",Attentive probe (518) + CLIP-L − fusion + attention,Accuracy,−0.34,"[−0.63, −0.06]",5,,,
+"PlantWild, official split",Attentive probe (518) + CLIP-L − fusion + attention,Macro-F1,−0.58,"[−0.89, −0.27]",5,,,
+"PlantWild, official split",Attentive probe (224) + CLIP-L − fusion,Accuracy,−0.38,"[−0.77, 0.02]",5,,,
+"PlantWild, official split",Attentive probe (224) + CLIP-L − fusion,Macro-F1,−0.20,"[−0.76, 0.35]",5,,,
+"PlantWild, official split",Attentive probe (224) + CLIP-L − fusion + attention,Accuracy,−0.92,"[−1.22, −0.63]",5,,,
+"PlantWild, official split",Attentive probe (224) + CLIP-L − fusion + attention,Macro-F1,−1.11,"[−1.60, −0.62]",5,,,
+"PlantWild, official split",Attentive probe + DINOv3-L − fusion,Accuracy,0.67,"[0.22, 1.13]",5,,,
+"PlantWild, official split",Attentive probe + DINOv3-L − fusion,Macro-F1,1.13,"[0.62, 1.65]",5,,,
+"PlantWild, official split",Attentive probe + DINOv3-L − fusion + attention,Accuracy,0.13,"[−0.12, 0.37]",5,,,
+"PlantWild, official split",Attentive probe + DINOv3-L − fusion + attention,Macro-F1,0.22,"[−0.21, 0.66]",5,,,
+"PlantWild, official split",Class-token probe + CLIP-L − fusion,Accuracy,−1.25,"[−1.52, −0.97]",5,,,
+"PlantWild, official split",Class-token probe + CLIP-L − fusion,Macro-F1,−1.28,"[−1.56, −1.00]",5,,,
+"PlantWild, official split",Class-token probe + CLIP-L − fusion + attention,Accuracy,−1.79,"[−2.10, −1.49]",5,,,
+"PlantWild, official split",Class-token probe + CLIP-L − fusion + attention,Macro-F1,−2.19,"[−2.57, −1.81]",5,,,
+"PlantWild, deduplicated split",Fusion + attentive probe (averaged) − fusion,Accuracy,0.84,"[0.65, 1.03]",5,,,
+"PlantWild, deduplicated split",Fusion + attentive probe (averaged) − fusion,Macro-F1,1.14,"[0.95, 1.32]",5,,,
+"PlantWild, deduplicated split",Fusion + attentive probe (averaged) − attentive probe,Accuracy,1.01,"[0.72, 1.29]",5,,,
+"PlantWild, deduplicated split",Fusion + attentive probe (averaged) − attentive probe,Macro-F1,1.05,"[0.71, 1.39]",5,,,
+"PlantWild, official split, 224 px",Attentive probe − class-token probe,Accuracy,1.62,"[1.39, 1.86]",5,,,
+"PlantWild, official split, 224 px",Attentive probe − class-token probe,Macro-F1,2.04,"[1.65, 2.43]",5,,,
+"PlantWild, official split",Fusion + attentive probe (averaged) − attentive probe,Accuracy,1.29,"[1.09, 1.50]",5,,,
+"PlantWild, official split",Fusion + attentive probe (averaged) − attentive probe,Macro-F1,1.32,"[1.04, 1.60]",5,,,
+"PlantWild, official split",Attentive probe (224 px) + CLIP-L probe − class-token probe (224 px) + CLIP-L probe,Macro-F1,1.57,"[1.22, 1.92]",5,,,
+"PlantWild, official split",Attentive probe + DINOv3-L probe − class-token probe + DINOv3-L probe,Macro-F1,2.05,"[1.72, 2.37]",5,,,
+"PlantWild, official split",Late fusion of three probes − three-backbone fusion (tuned),Macro-F1,−0.04,"[−0.31, 0.24]",5,,,
+"PlantWild, official split",Fusion + attentive probe (averaged) − late fusion of three probes,Accuracy,0.60,"[0.29, 0.91]",5,,,
+"PlantWild, official split",Fusion + attentive probe (averaged) − late fusion of three probes,Macro-F1,0.95,"[0.57, 1.33]",5,,,
+"PlantWild, official split","Late fusion, attentive probe in place of DINOv2-L probe − late fusion of three probes",Macro-F1,1.20,"[0.95, 1.45]",5,,,
+"PlantWild, official split","Late fusion, attentive probe in place of DINOv2-L probe − fusion + attentive probe (averaged)",Macro-F1,0.25,"[−0.16, 0.67]",5,,,
+"PlantWild, official split",Attentive probe + DINOv3-L probe − fusion + attentive probe (averaged),Accuracy,0.13,"[−0.12, 0.37]",5,,,
+"PlantWild, official split",Attentive probe + DINOv3-L probe − fusion + attentive probe (averaged),Macro-F1,0.22,"[−0.21, 0.66]",5,,,
+"PlantWild, official split",Attentive probe − probe on class token + mean patch feature,Accuracy,1.02,"[0.67, 1.37]",5,,,
+"PlantWild, official split",Attentive probe − probe on class token + mean patch feature,Macro-F1,0.99,"[0.51, 1.46]",5,,,
+"PlantWild, deduplicated split","Late fusion, attentive probe in place of DINOv2-L probe − late fusion of three probes",Macro-F1,1.32,"[1.09, 1.55]",5,,,
+"PlantWild, deduplicated split","Late fusion, attentive probe in place of DINOv2-L probe − three-backbone fusion (tuned)",Macro-F1,1.50,"[1.25, 1.75]",5,,,
+"PlantWild, deduplicated split","Late fusion, attentive probe in place of DINOv2-L probe − fusion + attentive probe (averaged)",Accuracy,0.51,"[0.31, 0.70]",5,,,
+The PlantDoc intervals are paired seed t intervals.,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+(i) DINOv3-L candidate configurations,,,,,,,,
+Configuration,Learning rate,Weight decay,Epochs,Schedule,Schedule horizon,Validation accuracy (%),Validation macro-F1 (%),
+1,0.00042333458726621936,0.001,10,Cosine with 5% warm-up,50,76.54,71.57,
+2,0.0001,0.001,10,Cosine with 5% warm-up,50,79.84,75.55,
+3,0.0003,0.001,10,Cosine with 5% warm-up,50,77.64,73.08,
+4,0.001,0.001,10,Cosine with 5% warm-up,50,76.43,71.83,
+5,0.00042333458726621936,0.0001,10,Cosine with 5% warm-up,50,76.48,71.52,
+6,0.00042333458726621936,0.001,20,Cosine with 5% warm-up,50,74.18,69.12,
+7,0.00042333458726621936,0.001,10,Constant,10,75.27,71.05,
+8,0.001,0.0001,20,Constant,20,73.19,68.35,
+,,,,,,,,
+,,,,,,,,
+(j) DINOv3-L individual test runs,,,,,,,,
+Data,Training data,Classifier,Seed,Test images,Accuracy (%),Host accuracy (%),Within-host accuracy (%),Macro-F1 (%)
+PlantWild official test N3677,Official training (13045 images),DINOv3-L global-feature probe,—,3677,79.49,90.51,87.83,76.49
+PlantWild official test N3677,Official training (13045 images),DINOv2-L attentive probe,101,3677,80.12,89.75,89.27,77.93
+PlantWild official test N3677,Official training (13045 images),DINOv2-L attentive probe,202,3677,79.85,89.88,88.84,77.24
+PlantWild official test N3677,Official training (13045 images),DINOv2-L attentive probe,303,3677,80.36,89.86,89.44,77.95
+PlantWild official test N3677,Official training (13045 images),DINOv2-L attentive probe,404,3677,80.47,90.13,89.29,78.25
+PlantWild official test N3677,Official training (13045 images),DINOv2-L attentive probe,505,3677,80.53,89.94,89.54,78.05
+PlantWild official test N3677,Official training (13045 images),Three-probe fusion,—,3677,80.96,90.75,89.21,78.26
+PlantWild official test N3677,Official training (13045 images),DINOv2-L attentive swap,101,3677,81.89,90.83,90.15,79.44
+PlantWild official test N3677,Official training (13045 images),DINOv2-L attentive swap,202,3677,81.91,91.13,89.88,79.38
+PlantWild official test N3677,Official training (13045 images),DINOv2-L attentive swap,303,3677,82.21,91.00,90.35,79.76
+PlantWild official test N3677,Official training (13045 images),DINOv2-L attentive swap,404,3677,81.91,90.92,90.10,79.50
+PlantWild official test N3677,Official training (13045 images),DINOv2-L attentive swap,505,3677,81.72,90.73,90.08,79.21
+PlantWild official test N3677,Deduplicated training (12833 images),DINOv3-L global-feature probe (deduplicated training),—,3677,79.68,90.81,87.75,76.64
+PlantWild official test N3677,Deduplicated training (12833 images),Three-probe fusion (deduplicated training),—,3677,81.23,90.89,89.38,78.50
+PlantWild official test N3677,Deduplicated training (12833 images),DINOv2-L attentive swap (deduplicated training),101,3677,82.19,90.97,90.34,79.62
+PlantWild official test N3677,Deduplicated training (12833 images),DINOv2-L attentive swap (deduplicated training),202,3677,82.24,91.00,90.38,79.78
+PlantWild official test N3677,Deduplicated training (12833 images),DINOv2-L attentive swap (deduplicated training),303,3677,82.49,91.22,90.43,80.07
+PlantWild official test N3677,Deduplicated training (12833 images),DINOv2-L attentive swap (deduplicated training),404,3677,82.27,91.24,90.16,79.94
+PlantWild official test N3677,Deduplicated training (12833 images),DINOv2-L attentive swap (deduplicated training),505,3677,82.16,90.94,90.34,79.70
+PlantWild official test N3677,Official training (13045 images),DINOv3-L attentive probe,101,3677,80.36,90.51,88.79,77.83
+PlantWild official test N3677,Official training (13045 images),DINOv3-L attentive probe,202,3677,80.28,90.43,88.78,77.69
+PlantWild official test N3677,Official training (13045 images),DINOv3-L attentive probe,303,3677,80.55,90.43,89.08,77.81
+PlantWild official test N3677,Official training (13045 images),DINOv3-L attentive probe,404,3677,80.50,90.37,89.08,77.79
+PlantWild official test N3677,Official training (13045 images),DINOv3-L attentive probe,505,3677,80.23,90.48,88.67,77.33
+PlantWild official test N3677,Official training (13045 images),DINOv3-L uniform pooling,101,3677,79.58,90.62,87.82,76.63
+PlantWild official test N3677,Official training (13045 images),DINOv3-L uniform pooling,202,3677,79.58,90.45,87.97,76.75
+PlantWild official test N3677,Official training (13045 images),DINOv3-L uniform pooling,303,3677,79.55,90.62,87.79,76.67
+PlantWild official test N3677,Official training (13045 images),DINOv3-L uniform pooling,404,3677,79.71,90.56,88.02,76.66
+PlantWild official test N3677,Official training (13045 images),DINOv3-L uniform pooling,505,3677,79.63,90.56,87.93,76.60
+PlantWild official test N3677,Deduplicated training (12833 images),DINOv3-L attentive probe (deduplicated training),101,3677,81.21,90.75,89.48,78.65
+PlantWild official test N3677,Deduplicated training (12833 images),DINOv3-L attentive probe (deduplicated training),202,3677,80.64,90.86,88.75,77.84
+PlantWild official test N3677,Deduplicated training (12833 images),DINOv3-L attentive probe (deduplicated training),303,3677,80.80,90.75,89.03,78.08
+PlantWild official test N3677,Deduplicated training (12833 images),DINOv3-L attentive probe (deduplicated training),404,3677,80.91,90.86,89.05,78.30
+PlantWild official test N3677,Deduplicated training (12833 images),DINOv3-L attentive probe (deduplicated training),505,3677,80.85,91.03,88.83,78.04
+PlantWild official test N3677,Official training (13045 images),DINOv3-L attentive swap,101,3677,81.67,90.92,89.83,79.17
+PlantWild official test N3677,Official training (13045 images),DINOv3-L attentive swap,202,3677,81.56,90.86,89.76,78.98
+PlantWild official test N3677,Official training (13045 images),DINOv3-L attentive swap,303,3677,81.83,91.00,89.93,79.28
+PlantWild official test N3677,Official training (13045 images),DINOv3-L attentive swap,404,3677,81.43,91.00,89.48,78.88
+PlantWild official test N3677,Official training (13045 images),DINOv3-L attentive swap,505,3677,81.48,90.67,89.86,78.84
+PlantWild official test N3677,Official training (13045 images),Both-DINO attentive swap,101,3677,81.91,90.62,90.40,79.38
+PlantWild official test N3677,Official training (13045 images),Both-DINO attentive swap,202,3677,82.10,91.11,90.12,79.52
+PlantWild official test N3677,Official training (13045 images),Both-DINO attentive swap,303,3677,82.24,90.97,90.40,79.66
+PlantWild official test N3677,Official training (13045 images),Both-DINO attentive swap,404,3677,82.05,90.97,90.19,79.54
+PlantWild official test N3677,Official training (13045 images),Both-DINO attentive swap,505,3677,81.83,90.73,90.20,79.27
+PlantWild official test N3677,Deduplicated training (12833 images),DINOv3-L attentive swap (deduplicated training),101,3677,81.89,91.03,89.96,79.33
+PlantWild official test N3677,Deduplicated training (12833 images),DINOv3-L attentive swap (deduplicated training),202,3677,81.75,90.92,89.92,79.21
+PlantWild official test N3677,Deduplicated training (12833 images),DINOv3-L attentive swap (deduplicated training),303,3677,81.83,91.03,89.90,79.26
+PlantWild official test N3677,Deduplicated training (12833 images),DINOv3-L attentive swap (deduplicated training),404,3677,81.89,91.22,89.77,79.50
+PlantWild official test N3677,Deduplicated training (12833 images),DINOv3-L attentive swap (deduplicated training),505,3677,81.72,91.00,89.81,79.12
+PlantWild official test N3677,Deduplicated training (12833 images),Both-DINO attentive swap (deduplicated training),101,3677,82.35,91.08,90.42,79.81
+PlantWild official test N3677,Deduplicated training (12833 images),Both-DINO attentive swap (deduplicated training),202,3677,82.24,90.97,90.40,79.80
+PlantWild official test N3677,Deduplicated training (12833 images),Both-DINO attentive swap (deduplicated training),303,3677,82.65,91.05,90.77,80.25
+PlantWild official test N3677,Deduplicated training (12833 images),Both-DINO attentive swap (deduplicated training),404,3677,82.49,91.22,90.43,80.28
+PlantWild official test N3677,Deduplicated training (12833 images),Both-DINO attentive swap (deduplicated training),505,3677,82.24,90.92,90.46,79.76
+,,,,,,,,
+,,,,,,,,
+(k) Residual MLP validation search,,,,,,,,
+Configuration,Learning rate,Weight decay,Epochs,Schedule horizon,Schedule,Validation accuracy (%),Validation macro-F1 (%),
+1,0.000423335,0.001,10,50,Cosine with 5% warm-up,76.87,73.35,
+2,0.0001,0.001,10,50,Cosine with 5% warm-up,77.25,72.93,
+3,0.0003,0.001,10,50,Cosine with 5% warm-up,77.14,72.96,
+4,0.001,0.001,10,50,Cosine with 5% warm-up,76.76,72.20,
+5,0.000423335,0.0001,10,50,Cosine with 5% warm-up,77.20,73.86,
+6,0.000423335,0.001,20,50,Cosine with 5% warm-up,76.43,72.11,
+7,0.000423335,0.001,10,10,Constant,77.09,73.18,
+8,0.001,0.0001,20,20,Constant,74.62,69.38,
+,,,,,,,,
+,,,,,,,,
+(l) Residual MLP test summaries,,,,,,,,
+Training protocol,Classifier,Accuracy (%),Macro-F1 (%),Host accuracy (%),Within-host accuracy (%),,,
+PlantWild official training,Class-token residual MLP,78.66 ± 0.09,75.99 ± 0.22,89.87 ± 0.18,87.53 ± 0.14,,,
+PlantWild official training,Class-token MLP swap,81.12 ± 0.14,78.44 ± 0.11,90.84 ± 0.06,89.29 ± 0.10,,,
+PlantWild deduplicated training,Class-token residual MLP,78.96 ± 0.16,76.37 ± 0.26,90.00 ± 0.11,87.73 ± 0.14,,,
+PlantWild deduplicated training,Class-token MLP swap,81.40 ± 0.22,78.73 ± 0.30,90.95 ± 0.03,89.49 ± 0.22,,,
+,,,,,,,,
+,,,,,,,,
+(m) Residual MLP individual test runs,,,,,,,,
+Training protocol,Classifier,Seed,Test images,Accuracy (%),Macro-F1 (%),Host accuracy (%),Within-host accuracy (%),
+PlantWild official training,Class-token residual MLP,101,3677,78.68,76.17,90.07,87.35,
+PlantWild official training,Class-token residual MLP,202,3677,78.68,76.16,90.02,87.40,
+PlantWild official training,Class-token residual MLP,303,3677,78.62,75.79,89.69,87.66,
+PlantWild official training,Class-token residual MLP,404,3677,78.54,75.70,89.69,87.57,
+PlantWild official training,Class-token residual MLP,505,3677,78.79,76.11,89.88,87.66,
+PlantWild official training,Class-token MLP swap,101,3677,80.94,78.42,90.75,89.18,
+PlantWild official training,Class-token MLP swap,202,3677,81.04,78.31,90.81,89.25,
+PlantWild official training,Class-token MLP swap,303,3677,81.07,78.36,90.83,89.25,
+PlantWild official training,Class-token MLP swap,404,3677,81.23,78.54,90.89,89.38,
+PlantWild official training,Class-token MLP swap,505,3677,81.29,78.56,90.92,89.41,
+PlantWild deduplicated training,Class-token residual MLP,101,3677,79.03,76.44,90.07,87.74,
+PlantWild deduplicated training,Class-token residual MLP,202,3677,79.14,76.60,90.13,87.81,
+PlantWild deduplicated training,Class-token residual MLP,303,3677,78.79,76.09,90.02,87.52,
+PlantWild deduplicated training,Class-token residual MLP,404,3677,79.06,76.61,89.94,87.90,
+PlantWild deduplicated training,Class-token residual MLP,505,3677,78.79,76.11,89.86,87.68,
+PlantWild deduplicated training,Class-token MLP swap,101,3677,81.62,79.06,91.00,89.69,
+PlantWild deduplicated training,Class-token MLP swap,202,3677,81.59,78.96,90.97,89.69,
+PlantWild deduplicated training,Class-token MLP swap,303,3677,81.23,78.57,90.94,89.32,
+PlantWild deduplicated training,Class-token MLP swap,404,3677,81.43,78.73,90.92,89.56,
+PlantWild deduplicated training,Class-token MLP swap,505,3677,81.13,78.32,90.94,89.20,
+,,,,,,,,
+,,,,,,,,
+(n) Residual MLP paired comparisons,,,,,,,,
+Training protocol,Comparison,Metric,Δ (pp),Seed t 95% CI,Image-bootstrap 95% CI,,,
+PlantWild official training,Class-token residual MLP − DINOv2-L class-token probe,Accuracy,0.31,"[0.20, 0.42]","[−0.10, 0.72]",,,
+PlantWild official training,Class-token residual MLP − DINOv2-L class-token probe,Host accuracy,0.04,"[−0.18, 0.26]","[−0.26, 0.35]",,,
+PlantWild official training,Class-token residual MLP − DINOv2-L class-token probe,Within-host accuracy,0.30,"[0.12, 0.48]","[−0.04, 0.66]",,,
+PlantWild official training,Class-token residual MLP − DINOv2-L class-token probe,Macro-F1,0.33,"[0.06, 0.61]",—,,,
+PlantWild official training,DINOv2-L attentive probe − Class-token residual MLP,Accuracy,1.60,"[1.23, 1.98]","[1.01, 2.22]",,,
+PlantWild official training,DINOv2-L attentive probe − Class-token residual MLP,Host accuracy,0.04,"[−0.32, 0.40]","[−0.34, 0.41]",,,
+PlantWild official training,DINOv2-L attentive probe − Class-token residual MLP,Within-host accuracy,1.75,"[1.51, 1.99]","[1.17, 2.34]",,,
+PlantWild official training,DINOv2-L attentive probe − Class-token residual MLP,Macro-F1,1.90,"[1.22, 2.58]",—,,,
+PlantWild official training,Class-token MLP swap − Three-probe fusion,Accuracy,0.15,"[−0.03, 0.33]","[−0.11, 0.42]",,,
+PlantWild official training,Class-token MLP swap − Three-probe fusion,Host accuracy,0.09,"[0.01, 0.17]","[−0.12, 0.29]",,,
+PlantWild official training,Class-token MLP swap − Three-probe fusion,Within-host accuracy,0.08,"[−0.04, 0.20]","[−0.16, 0.33]",,,
+PlantWild official training,Class-token MLP swap − Three-probe fusion,Macro-F1,0.18,"[0.04, 0.32]",—,,,
+PlantWild official training,DINOv2-L attentive swap − Class-token MLP swap,Accuracy,0.82,"[0.48, 1.15]","[0.39, 1.24]",,,
+PlantWild official training,DINOv2-L attentive swap − Class-token MLP swap,Host accuracy,0.08,"[−0.15, 0.32]","[−0.17, 0.33]",,,
+PlantWild official training,DINOv2-L attentive swap − Class-token MLP swap,Within-host accuracy,0.82,"[0.57, 1.07]","[0.39, 1.24]",,,
+PlantWild official training,DINOv2-L attentive swap − Class-token MLP swap,Macro-F1,1.02,"[0.69, 1.35]",—,,,
+PlantWild deduplicated training,Class-token residual MLP − DINOv2-L class-token probe,Accuracy,0.39,"[0.19, 0.60]","[−0.03, 0.81]",,,
+PlantWild deduplicated training,Class-token residual MLP − DINOv2-L class-token probe,Host accuracy,−0.15,"[−0.29, −0.02]","[−0.45, 0.14]",,,
+PlantWild deduplicated training,Class-token residual MLP − DINOv2-L class-token probe,Within-host accuracy,0.58,"[0.40, 0.76]","[0.22, 0.95]",,,
+PlantWild deduplicated training,Class-token residual MLP − DINOv2-L class-token probe,Macro-F1,0.45,"[0.13, 0.77]",—,,,
+PlantWild deduplicated training,DINOv2-L attentive probe − Class-token residual MLP,Accuracy,1.79,"[1.42, 2.17]","[1.19, 2.43]",,,
+PlantWild deduplicated training,DINOv2-L attentive probe − Class-token residual MLP,Host accuracy,0.22,"[−0.01, 0.46]","[−0.15, 0.60]",,,
+PlantWild deduplicated training,DINOv2-L attentive probe − Class-token residual MLP,Within-host accuracy,1.77,"[1.41, 2.13]","[1.19, 2.38]",,,
+PlantWild deduplicated training,DINOv2-L attentive probe − Class-token residual MLP,Macro-F1,2.04,"[1.54, 2.53]",—,,,
+PlantWild deduplicated training,Class-token MLP swap − Three-probe fusion,Accuracy,0.16,"[−0.10, 0.43]","[−0.09, 0.43]",,,
+PlantWild deduplicated training,Class-token MLP swap − Three-probe fusion,Host accuracy,0.07,"[0.03, 0.10]","[−0.13, 0.26]",,,
+PlantWild deduplicated training,Class-token MLP swap − Three-probe fusion,Within-host accuracy,0.12,"[−0.16, 0.39]","[−0.10, 0.34]",,,
+PlantWild deduplicated training,Class-token MLP swap − Three-probe fusion,Macro-F1,0.23,"[−0.14, 0.59]",—,,,
+PlantWild deduplicated training,DINOv2-L attentive swap − Class-token MLP swap,Accuracy,0.87,"[0.53, 1.22]","[0.46, 1.28]",,,
+PlantWild deduplicated training,DINOv2-L attentive swap − Class-token MLP swap,Host accuracy,0.12,"[−0.09, 0.33]","[−0.15, 0.38]",,,
+PlantWild deduplicated training,DINOv2-L attentive swap − Class-token MLP swap,Within-host accuracy,0.84,"[0.52, 1.16]","[0.44, 1.25]",,,
+PlantWild deduplicated training,DINOv2-L attentive swap − Class-token MLP swap,Macro-F1,1.10,"[0.61, 1.58]",—,,,
+,,,,,,,,
+,,,,,,,,
+(o) CLIP-L attentive probe validation search,,,,,,,,
+Configuration,Learning rate,Weight decay,Epochs,Schedule horizon,Schedule,Validation accuracy (%),Validation macro-F1 (%),
+1,0.000423335,0.001,10,50,Cosine with 5% warm-up,70.82,65.63,
+2,0.0001,0.001,10,50,Cosine with 5% warm-up,73.41,69.08,
+3,0.0003,0.001,10,50,Cosine with 5% warm-up,72.58,67.86,
+4,0.001,0.001,10,50,Cosine with 5% warm-up,70.55,66.10,
+5,0.000423335,0.0001,10,50,Cosine with 5% warm-up,70.82,65.63,
+6,0.000423335,0.001,20,50,Cosine with 5% warm-up,68.30,63.11,
+7,0.000423335,0.001,10,10,Constant,69.56,64.73,
+8,0.001,0.0001,20,20,Constant,67.80,63.00,
+,,,,,,,,
+,,,,,,,,
+(p) CLIP-L attentive probe test summaries,,,,,,,,
+Training protocol,Classifier,Accuracy (%),Macro-F1 (%),Host accuracy (%),Within-host accuracy (%),,,
+PlantWild official training,CLIP-L image-embedding probe,74.22,71.13,84.06,88.29,,,
+PlantWild official training,CLIP-L attentive probe,74.70 ± 0.32,71.63 ± 0.29,84.35 ± 0.20,88.56 ± 0.52,,,
+PlantWild official training,CLIP-L attentive swap,81.00 ± 0.17,78.32 ± 0.20,90.78 ± 0.16,89.23 ± 0.15,,,
+PlantWild official training,CLIP-L uniform pooling,74.69 ± 0.13,71.62 ± 0.12,84.45 ± 0.12,88.44 ± 0.09,,,
+PlantWild deduplicated training,CLIP-L image-embedding probe,74.82,71.67,84.44,88.60,,,
+PlantWild deduplicated training,CLIP-L attentive probe,75.16 ± 0.33,72.21 ± 0.52,84.81 ± 0.20,88.62 ± 0.42,,,
+PlantWild deduplicated training,CLIP-L attentive swap,81.43 ± 0.08,78.81 ± 0.07,91.04 ± 0.08,89.44 ± 0.15,,,
+,,,,,,,,
+,,,,,,,,
+(q) CLIP-L attentive probe individual test runs,,,,,,,,
+Training protocol,Classifier,Seed,Test images,Accuracy (%),Macro-F1 (%),Host accuracy (%),Within-host accuracy (%),
+PlantWild official training,CLIP-L image-embedding probe,—,3677,74.22,71.13,84.06,88.29,
+PlantWild official training,CLIP-L attentive probe,101,3677,74.95,71.74,84.39,88.82,
+PlantWild official training,CLIP-L attentive probe,202,3677,74.38,71.51,84.63,87.89,
+PlantWild official training,CLIP-L attentive probe,303,3677,75.12,72.08,84.20,89.21,
+PlantWild official training,CLIP-L attentive probe,404,3677,74.46,71.39,84.42,88.21,
+PlantWild official training,CLIP-L attentive probe,505,3677,74.60,71.42,84.12,88.68,
+PlantWild official training,CLIP-L attentive swap,101,3677,80.80,78.06,90.59,89.19,
+PlantWild official training,CLIP-L attentive swap,202,3677,80.91,78.22,90.64,89.26,
+PlantWild official training,CLIP-L attentive swap,303,3677,81.04,78.36,90.83,89.22,
+PlantWild official training,CLIP-L attentive swap,404,3677,80.99,78.37,90.97,89.03,
+PlantWild official training,CLIP-L attentive swap,505,3677,81.26,78.61,90.86,89.43,
+PlantWild official training,CLIP-L uniform pooling,101,3677,74.76,71.70,84.58,88.39,
+PlantWild official training,CLIP-L uniform pooling,202,3677,74.68,71.55,84.34,88.55,
+PlantWild official training,CLIP-L uniform pooling,303,3677,74.46,71.44,84.31,88.32,
+PlantWild official training,CLIP-L uniform pooling,404,3677,74.73,71.67,84.53,88.42,
+PlantWild official training,CLIP-L uniform pooling,505,3677,74.79,71.72,84.50,88.51,
+PlantWild deduplicated training,CLIP-L image-embedding probe,—,3677,74.82,71.67,84.44,88.60,
+PlantWild deduplicated training,CLIP-L attentive probe,101,3677,74.68,71.56,84.88,87.98,
+PlantWild deduplicated training,CLIP-L attentive probe,202,3677,75.20,72.46,84.99,88.48,
+PlantWild deduplicated training,CLIP-L attentive probe,303,3677,75.52,72.77,84.99,88.86,
+PlantWild deduplicated training,CLIP-L attentive probe,404,3677,75.39,72.51,84.61,89.10,
+PlantWild deduplicated training,CLIP-L attentive probe,505,3677,75.01,71.76,84.58,88.68,
+PlantWild deduplicated training,CLIP-L attentive swap,101,3677,81.34,78.80,91.00,89.39,
+PlantWild deduplicated training,CLIP-L attentive swap,202,3677,81.37,78.88,91.11,89.31,
+PlantWild deduplicated training,CLIP-L attentive swap,303,3677,81.43,78.73,91.03,89.45,
+PlantWild deduplicated training,CLIP-L attentive swap,404,3677,81.43,78.76,91.13,89.35,
+PlantWild deduplicated training,CLIP-L attentive swap,505,3677,81.56,78.89,90.94,89.68,
+,,,,,,,,
+,,,,,,,,
+(r) CLIP-L attentive probe paired comparisons,,,,,,,,
+Training protocol,Comparison,Metric,Δ (pp),Seed t 95% CI,Image-bootstrap 95% CI,,,
+PlantWild official training,CLIP-L attentive probe − CLIP-L image-embedding probe,Accuracy,0.48,"[0.09, 0.88]","[−0.07, 1.04]",,,
+PlantWild official training,CLIP-L attentive probe − CLIP-L image-embedding probe,Host accuracy,0.29,"[0.04, 0.54]","[−0.17, 0.75]",,,
+PlantWild official training,CLIP-L attentive probe − CLIP-L image-embedding probe,Within-host accuracy,0.27,"[−0.37, 0.92]","[−0.19, 0.74]",,,
+PlantWild official training,CLIP-L attentive probe − CLIP-L image-embedding probe,Macro-F1,0.50,"[0.14, 0.85]",—,,,
+PlantWild official training,CLIP-L attentive probe − CLIP-L uniform pooling,Accuracy,0.02,"[−0.49, 0.52]","[−0.45, 0.48]",,,
+PlantWild official training,CLIP-L attentive probe − CLIP-L uniform pooling,Host accuracy,−0.10,"[−0.41, 0.21]","[−0.48, 0.29]",,,
+PlantWild official training,CLIP-L attentive probe − CLIP-L uniform pooling,Within-host accuracy,0.12,"[−0.62, 0.86]","[−0.28, 0.55]",,,
+PlantWild official training,CLIP-L attentive probe − CLIP-L uniform pooling,Macro-F1,0.01,"[−0.46, 0.49]",—,,,
+PlantWild official training,CLIP-L attentive swap − Three-probe fusion,Accuracy,0.04,"[−0.18, 0.25]","[−0.22, 0.29]",,,
+PlantWild official training,CLIP-L attentive swap − Three-probe fusion,Host accuracy,0.03,"[−0.17, 0.22]","[−0.15, 0.20]",,,
+PlantWild official training,CLIP-L attentive swap − Three-probe fusion,Within-host accuracy,0.02,"[−0.17, 0.20]","[−0.24, 0.26]",,,
+PlantWild official training,CLIP-L attentive swap − Three-probe fusion,Macro-F1,0.06,"[−0.19, 0.32]",—,,,
+PlantWild deduplicated training,CLIP-L attentive probe − CLIP-L image-embedding probe,Accuracy,0.34,"[−0.07, 0.75]","[−0.19, 0.89]",,,
+PlantWild deduplicated training,CLIP-L attentive probe − CLIP-L image-embedding probe,Host accuracy,0.36,"[0.11, 0.61]","[−0.06, 0.81]",,,
+PlantWild deduplicated training,CLIP-L attentive probe − CLIP-L image-embedding probe,Within-host accuracy,0.02,"[−0.50, 0.55]","[−0.44, 0.49]",,,
+PlantWild deduplicated training,CLIP-L attentive probe − CLIP-L image-embedding probe,Macro-F1,0.54,"[−0.11, 1.20]",—,,,
+PlantWild deduplicated training,CLIP-L attentive swap − Three-probe fusion,Accuracy,0.19,"[0.09, 0.29]","[−0.09, 0.47]",,,
+PlantWild deduplicated training,CLIP-L attentive swap − Three-probe fusion,Host accuracy,0.15,"[0.06, 0.25]","[−0.03, 0.34]",,,
+PlantWild deduplicated training,CLIP-L attentive swap − Three-probe fusion,Within-host accuracy,0.06,"[−0.12, 0.24]","[−0.19, 0.31]",,,
+PlantWild deduplicated training,CLIP-L attentive swap − Three-probe fusion,Macro-F1,0.31,"[0.22, 0.40]",—,,,
+,,,,,,,,
+,,,,,,,,
+(s) Matched global and attentive backbone combinations,,,,,,,,
+Training protocol,Backbone combination,Global accuracy (%),Attentive accuracy (%),Gain (pp),Global GFLOPs,Attentive GFLOPs,,
+PlantWild official training,"DINOv2-L, 224 px",78.00,79.62 ± 0.19,1.62,155.53,155.67,,
+PlantWild official training,"DINOv2-L, 224 px + CLIP-L",79.30,80.64 ± 0.16,1.33,311.06,311.20,,
+PlantWild official training,"DINOv2-L, 518 px",78.35,80.27 ± 0.28,1.91,829.10,829.82,,
+PlantWild official training,"DINOv2-L, 518 px + CLIP-L",79.77,81.22 ± 0.13,1.45,984.63,985.35,,
+PlantWild official training,DINOv2-L + DINOv3-L,80.20,81.69 ± 0.22,1.48,1452.21,1452.92,,
+PlantWild official training,DINOv2-L + DINOv3-L + CLIP-L,80.96,81.93 ± 0.18,0.97,1607.74,1608.46,,
+PlantWild deduplicated training,"DINOv2-L, 224 px",78.30,80.42 ± 0.22,2.13,155.53,155.67,,
+PlantWild deduplicated training,"DINOv2-L, 224 px + CLIP-L",79.68,81.08 ± 0.26,1.39,311.06,311.20,,
+PlantWild deduplicated training,"DINOv2-L, 518 px",78.57,80.76 ± 0.19,2.19,829.10,829.82,,
+PlantWild deduplicated training,"DINOv2-L, 518 px + CLIP-L",80.12,81.53 ± 0.22,1.41,984.63,985.35,,
+PlantWild deduplicated training,DINOv2-L + DINOv3-L,80.55,82.06 ± 0.16,1.50,1452.21,1452.92,,
+PlantWild deduplicated training,DINOv2-L + DINOv3-L + CLIP-L,81.23,82.27 ± 0.13,1.03,1607.74,1608.46,,
+,,,,,,,,
+,,,,,,,,
+(t) Relative computation and recovered accuracy gain,,,,,,,,
+Quantity,Value,Unit,,,,,,
+Added DINOv3-L and CLIP-L computation,778.64,GFLOPs/image,,,,,,
+DINOv2-L attentive-branch computation,0.72,GFLOPs/image,,,,,,
+Attentive branch / added-backbone computation,0.0922,%,,,,,,
+Swap computation increase,0.0446,%,,,,,,
+PlantWild official training: fraction of added-backbone gain recovered,73.33,%,,,,,,
+PlantWild deduplicated training: fraction of added-backbone gain recovered,82.04,%,,,,,,
+,,,,,,,,
+,,,,,,,,
+(u) Accuracy gained by adding two backbones,,,,,,,,
+Training protocol,Added-backbone gain (pp),,,,,,,
+PlantWild official training,2.61,,,,,,,
+PlantWild deduplicated training,2.67,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,

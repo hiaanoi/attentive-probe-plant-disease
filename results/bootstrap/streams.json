@@ -1,0 +1,18 @@
+[
+  {
+    "dataset": "PlantWild",
+    "n": 3677,
+    "resamples": 10000,
+    "seed": 0,
+    "dtype": "little-endian int64",
+    "sha256": "d36b8688a7a07bb2d32c760af730964dc1a62deb267f673bfc482676f35c2289"
+  },
+  {
+    "dataset": "PlantSeg",
+    "n": 1436,
+    "resamples": 10000,
+    "seed": 0,
+    "dtype": "little-endian int64",
+    "sha256": "a92029f7d48d226147d922f73f5abd74fc114704a82a94f733356b07721f52cc"
+  }
+]

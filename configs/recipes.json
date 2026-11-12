@@ -1,0 +1,113 @@
+{
+  "seeds": [
+    101,
+    202,
+    303,
+    404,
+    505
+  ],
+  "plantwild": {
+    "classes": 89,
+    "train_n": 13045,
+    "deduplicated_train_n": 12833,
+    "validation_n": 1820,
+    "test_n": 3677,
+    "class_token_C_grid": [
+      0.001,
+      0.01,
+      0.1,
+      1,
+      10,
+      100,
+      1000,
+      10000
+    ],
+    "other_probe_C_grid": [
+      0.001,
+      0.01,
+      0.1,
+      1
+    ],
+    "probe": {
+      "solver": "lbfgs",
+      "max_iter": 2000,
+      "tol": 0.0001,
+      "standardization": "training-only StandardScaler"
+    },
+    "attention": {
+      "batch": 16,
+      "MIL_hidden": 128,
+      "lr": 0.0001,
+      "weight_decay": 0.001,
+      "epochs": 10,
+      "schedule_horizon_epochs": 50,
+      "official_updates": 8160,
+      "official_schedule_updates": 40800,
+      "order": "numpy.default_rng(seed).permutation",
+      "gradient_clipping": null
+    },
+    "data_size": {
+      "caps": [
+        25,
+        50,
+        100
+      ],
+      "updates": 8160,
+      "schedule_updates": 40800
+    }
+  },
+  "plantseg": {
+    "classes": 115,
+    "clean_train_n": 4611,
+    "internal_train_dev_n": 3919,
+    "folds": 3,
+    "C_grid": [
+      0.001,
+      0.003,
+      0.01,
+      0.03,
+      0.1,
+      0.3,
+      1,
+      3,
+      10
+    ],
+    "main_probe_C": {
+      "dinov2": 0.1,
+      "dinov3": 10,
+      "clip": 1
+    },
+    "candidate_selection": "maximum mean supported-class macro-F1 at a shared epoch across three folds; ties earlier epoch then lower candidate number",
+    "final_schedule": "candidate max_epochs horizon, stop at selected_epochs for new models",
+    "combination_C_selection": "same selected epoch for every C, main max_epochs schedule, smaller C breaks ties",
+    "residual_mlp_gradient_clip_norm": 1.0,
+    "initial_final_schedule": "candidate_max_epochs horizon, stop at selected epochs; see plantseg_initial_selected.json"
+  },
+  "late_fusion": {
+    "arithmetic": "mean of softmax probabilities",
+    "geometric": "mean of natural log probabilities",
+    "simplex_step": 0.05,
+    "simplex_candidates": 231,
+    "weight_selection": "validation accuracy, macro-F1, distance to equal, lexical integer weights",
+    "stacking_C_grid": [
+      0.01,
+      0.1,
+      1,
+      10
+    ],
+    "stacking_folds": 5,
+    "stacking_features": "standardized concatenated log probabilities"
+  },
+  "bootstrap": {
+    "seed": 0,
+    "replicates": 10000,
+    "dtype": "int64",
+    "batch_size": 64,
+    "quantiles": [
+      0.025,
+      0.975
+    ],
+    "method": "linear",
+    "unit": "image, models fixed; seed-average per-image correctness before resampling"
+  }
+}

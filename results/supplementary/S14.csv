@@ -1,0 +1,255 @@
+Table S14. Class-to-host mapping with healthy classes and merged-host sensitivity analysis.,,,,,,
+,,,,,,
+(a) Class-to-host mapping,,,,,,
+Dataset,Class ID,Class,Host,"Host, merged (sensitivity)",Healthy class,Classes of this host
+PlantWild,0,apple black rot,apple,apple,No,5
+PlantWild,1,apple leaf,apple,apple,Yes,5
+PlantWild,2,apple mosaic virus,apple,apple,No,5
+PlantWild,3,apple rust,apple,apple,No,5
+PlantWild,4,apple scab,apple,apple,No,5
+PlantWild,5,banana leaf,banana,banana,Yes,2
+PlantWild,6,banana panama disease,banana,banana,No,2
+PlantWild,7,basil downy mildew,basil,basil,No,2
+PlantWild,8,basil leaf,basil,basil,Yes,2
+PlantWild,9,bean halo blight,bean,bean,No,4
+PlantWild,10,bean leaf,bean,bean,Yes,4
+PlantWild,11,bean mosaic virus,bean,bean,No,4
+PlantWild,12,bean rust,bean,bean,No,4
+PlantWild,13,bell pepper leaf,bell pepper,bell pepper,Yes,2
+PlantWild,14,bell pepper leaf spot,bell pepper,bell pepper,No,2
+PlantWild,15,blueberry leaf,blueberry,blueberry,Yes,2
+PlantWild,16,blueberry rust,blueberry,blueberry,No,2
+PlantWild,17,broccoli downy mildew,broccoli,Brassica oleracea,No,2
+PlantWild,18,broccoli leaf,broccoli,Brassica oleracea,Yes,2
+PlantWild,19,cabbage alternaria leaf spot,cabbage,Brassica oleracea,No,2
+PlantWild,20,cabbage leaf,cabbage,Brassica oleracea,Yes,2
+PlantWild,21,carrot cavity spot,carrot,carrot,No,1
+PlantWild,22,cauliflower alternaria leaf spot,cauliflower,Brassica oleracea,No,2
+PlantWild,23,cauliflower leaf,cauliflower,Brassica oleracea,Yes,2
+PlantWild,24,celery anthracnose,celery,celery,No,3
+PlantWild,25,celery early blight,celery,celery,No,3
+PlantWild,26,celery leaf,celery,celery,Yes,3
+PlantWild,27,cherry leaf,cherry,cherry,Yes,3
+PlantWild,28,cherry leaf spot,cherry,cherry,No,3
+PlantWild,29,cherry powdery mildew,cherry,cherry,No,3
+PlantWild,30,citrus canker,citrus,citrus,No,2
+PlantWild,31,citrus greening disease,citrus,citrus,No,2
+PlantWild,32,coffee leaf,coffee,coffee,Yes,2
+PlantWild,33,coffee leaf rust,coffee,coffee,No,2
+PlantWild,34,corn gray leaf spot,corn,corn,No,5
+PlantWild,35,corn leaf,corn,corn,Yes,5
+PlantWild,36,corn northern leaf blight,corn,corn,No,5
+PlantWild,37,corn rust,corn,corn,No,5
+PlantWild,38,corn smut,corn,corn,No,5
+PlantWild,39,cucumber angular leaf spot,cucumber,cucumber,No,4
+PlantWild,40,cucumber bacterial wilt,cucumber,cucumber,No,4
+PlantWild,41,cucumber leaf,cucumber,cucumber,Yes,4
+PlantWild,42,cucumber powdery mildew,cucumber,cucumber,No,4
+PlantWild,43,eggplant cercospora leaf spot,eggplant,eggplant,No,2
+PlantWild,44,eggplant leaf,eggplant,eggplant,Yes,2
+PlantWild,45,garlic leaf,garlic,garlic,Yes,3
+PlantWild,46,garlic leaf blight,garlic,garlic,No,3
+PlantWild,47,garlic rust,garlic,garlic,No,3
+PlantWild,48,ginger leaf,ginger,ginger,Yes,3
+PlantWild,49,ginger leaf spot,ginger,ginger,No,3
+PlantWild,50,ginger sheath blight,ginger,ginger,No,3
+PlantWild,51,grape black rot,grape,grape,No,5
+PlantWild,52,grape downy mildew,grape,grape,No,5
+PlantWild,53,grape leaf,grape,grape,Yes,5
+PlantWild,54,grape leaf spot,grape,grape,No,5
+PlantWild,55,grapevine leafroll disease,grape,grape,No,5
+PlantWild,56,lettuce downy mildew,lettuce,lettuce,No,3
+PlantWild,57,lettuce leaf,lettuce,lettuce,Yes,3
+PlantWild,58,lettuce mosaic virus,lettuce,lettuce,No,3
+PlantWild,59,maple leaf,maple,maple,Yes,2
+PlantWild,60,maple tar spot,maple,maple,No,2
+PlantWild,61,peach leaf,peach,peach,Yes,2
+PlantWild,62,peach leaf curl,peach,peach,No,2
+PlantWild,63,plum leaf,plum,plum,Yes,2
+PlantWild,64,plum pocket disease,plum,plum,No,2
+PlantWild,65,potato early blight,potato,potato,No,3
+PlantWild,66,potato late blight,potato,potato,No,3
+PlantWild,67,potato leaf,potato,potato,Yes,3
+PlantWild,68,raspberry leaf,raspberry,raspberry,Yes,1
+PlantWild,69,rice blast,rice,rice,No,3
+PlantWild,70,rice leaf,rice,rice,Yes,3
+PlantWild,71,rice sheath blight,rice,rice,No,3
+PlantWild,72,soybean leaf,soybean,soybean,Yes,1
+PlantWild,73,squash leaf,squash,squash/zucchini,Yes,2
+PlantWild,74,squash powdery mildew,squash,squash/zucchini,No,2
+PlantWild,75,strawberry anthracnose,strawberry,strawberry,No,3
+PlantWild,76,strawberry leaf,strawberry,strawberry,Yes,3
+PlantWild,77,strawberry leaf scorch,strawberry,strawberry,No,3
+PlantWild,78,tobacco leaf,tobacco,tobacco,Yes,2
+PlantWild,79,tobacco mosaic virus,tobacco,tobacco,No,2
+PlantWild,80,tomato bacterial leaf spot,tomato,tomato,No,8
+PlantWild,81,tomato early blight,tomato,tomato,No,8
+PlantWild,82,tomato late blight,tomato,tomato,No,8
+PlantWild,83,tomato leaf,tomato,tomato,Yes,8
+PlantWild,84,tomato leaf mold,tomato,tomato,No,8
+PlantWild,85,tomato mosaic virus,tomato,tomato,No,8
+PlantWild,86,tomato septoria leaf spot,tomato,tomato,No,8
+PlantWild,87,tomato yellow leaf curl virus,tomato,tomato,No,8
+PlantWild,88,zucchini yellow mosaic virus,zucchini,squash/zucchini,No,1
+PlantSeg,0,apple black rot,apple,apple,No,4
+PlantSeg,1,apple mosaic virus,apple,apple,No,4
+PlantSeg,2,apple rust,apple,apple,No,4
+PlantSeg,3,apple scab,apple,apple,No,4
+PlantSeg,4,banana anthracnose,banana,banana,No,6
+PlantSeg,5,banana black leaf streak,banana,banana,No,6
+PlantSeg,6,banana bunchy top,banana,banana,No,6
+PlantSeg,7,banana cigar end rot,banana,banana,No,6
+PlantSeg,8,banana cordana leaf spot,banana,banana,No,6
+PlantSeg,9,banana panama disease,banana,banana,No,6
+PlantSeg,10,basil downy mildew,basil,basil,No,1
+PlantSeg,11,bean halo blight,bean,bean,No,3
+PlantSeg,12,bean mosaic virus,bean,bean,No,3
+PlantSeg,13,bean rust,bean,bean,No,3
+PlantSeg,14,bell pepper bacterial spot,bell pepper,bell pepper,No,4
+PlantSeg,15,bell pepper blossom end rot,bell pepper,bell pepper,No,4
+PlantSeg,16,bell pepper frogeye leaf spot,bell pepper,bell pepper,No,4
+PlantSeg,17,bell pepper powdery mildew,bell pepper,bell pepper,No,4
+PlantSeg,18,blueberry anthracnose,blueberry,blueberry,No,5
+PlantSeg,19,blueberry botrytis blight,blueberry,blueberry,No,5
+PlantSeg,20,blueberry mummy berry,blueberry,blueberry,No,5
+PlantSeg,21,blueberry rust,blueberry,blueberry,No,5
+PlantSeg,22,blueberry scorch,blueberry,blueberry,No,5
+PlantSeg,23,broccoli alternaria leaf spot,broccoli,Brassica oleracea,No,3
+PlantSeg,24,broccoli downy mildew,broccoli,Brassica oleracea,No,3
+PlantSeg,25,broccoli ring spot,broccoli,Brassica oleracea,No,3
+PlantSeg,26,cabbage alternaria leaf spot,cabbage,Brassica oleracea,No,3
+PlantSeg,27,cabbage black rot,cabbage,Brassica oleracea,No,3
+PlantSeg,28,cabbage downy mildew,cabbage,Brassica oleracea,No,3
+PlantSeg,29,carrot alternaria leaf blight,carrot,carrot,No,3
+PlantSeg,30,carrot cavity spot,carrot,carrot,No,3
+PlantSeg,31,carrot cercospora leaf blight,carrot,carrot,No,3
+PlantSeg,32,cauliflower alternaria leaf spot,cauliflower,Brassica oleracea,No,2
+PlantSeg,33,cauliflower bacterial soft rot,cauliflower,Brassica oleracea,No,2
+PlantSeg,34,celery anthracnose,celery,celery,No,2
+PlantSeg,35,celery early blight,celery,celery,No,2
+PlantSeg,36,cherry leaf spot,cherry,cherry,No,2
+PlantSeg,37,cherry powdery mildew,cherry,cherry,No,2
+PlantSeg,38,citrus canker,citrus,citrus,No,2
+PlantSeg,39,citrus greening disease,citrus,citrus,No,2
+PlantSeg,40,coffee berry blotch,coffee,coffee,No,4
+PlantSeg,41,coffee black rot,coffee,coffee,No,4
+PlantSeg,42,coffee brown eye spot,coffee,coffee,No,4
+PlantSeg,43,coffee leaf rust,coffee,coffee,No,4
+PlantSeg,44,corn gray leaf spot,corn,corn,No,4
+PlantSeg,45,corn northern leaf blight,corn,corn,No,4
+PlantSeg,46,corn rust,corn,corn,No,4
+PlantSeg,47,corn smut,corn,corn,No,4
+PlantSeg,48,cucumber angular leaf spot,cucumber,cucumber,No,3
+PlantSeg,49,cucumber bacterial wilt,cucumber,cucumber,No,3
+PlantSeg,50,cucumber powdery mildew,cucumber,cucumber,No,3
+PlantSeg,51,eggplant cercospora leaf spot,eggplant,eggplant,No,3
+PlantSeg,52,eggplant phomopsis fruit rot,eggplant,eggplant,No,3
+PlantSeg,53,eggplant phytophthora blight,eggplant,eggplant,No,3
+PlantSeg,54,garlic leaf blight,garlic,garlic,No,2
+PlantSeg,55,garlic rust,garlic,garlic,No,2
+PlantSeg,56,ginger leaf spot,ginger,ginger,No,2
+PlantSeg,57,ginger sheath blight,ginger,ginger,No,2
+PlantSeg,58,grape black rot,grape,grape,No,4
+PlantSeg,59,grape downy mildew,grape,grape,No,4
+PlantSeg,60,grape leaf spot,grape,grape,No,4
+PlantSeg,61,grapevine leafroll disease,grape,grape,No,4
+PlantSeg,62,lettuce downy mildew,lettuce,lettuce,No,2
+PlantSeg,63,lettuce mosaic virus,lettuce,lettuce,No,2
+PlantSeg,64,maple tar spot,maple,maple,No,1
+PlantSeg,65,peach anthracnose,peach,peach,No,5
+PlantSeg,66,peach brown rot,peach,peach,No,5
+PlantSeg,67,peach leaf curl,peach,peach,No,5
+PlantSeg,68,peach rust,peach,peach,No,5
+PlantSeg,69,peach scab,peach,peach,No,5
+PlantSeg,70,plum bacterial spot,plum,plum,No,5
+PlantSeg,71,plum brown rot,plum,plum,No,5
+PlantSeg,72,plum pocket disease,plum,plum,No,5
+PlantSeg,73,plum pox virus,plum,plum,No,5
+PlantSeg,74,plum rust,plum,plum,No,5
+PlantSeg,75,potato early blight,potato,potato,No,2
+PlantSeg,76,potato late blight,potato,potato,No,2
+PlantSeg,77,raspberry fire blight,raspberry,raspberry,No,4
+PlantSeg,78,raspberry gray mold,raspberry,raspberry,No,4
+PlantSeg,79,raspberry leaf spot,raspberry,raspberry,No,4
+PlantSeg,80,raspberry yellow rust,raspberry,raspberry,No,4
+PlantSeg,81,rice blast,rice,rice,No,2
+PlantSeg,82,rice sheath blight,rice,rice,No,2
+PlantSeg,83,soybean bacterial blight,soybean,soybean,No,6
+PlantSeg,84,soybean brown spot,soybean,soybean,No,6
+PlantSeg,85,soybean downy mildew,soybean,soybean,No,6
+PlantSeg,86,soybean frog eye leaf spot,soybean,soybean,No,6
+PlantSeg,87,soybean mosaic,soybean,soybean,No,6
+PlantSeg,88,soybean rust,soybean,soybean,No,6
+PlantSeg,89,squash powdery mildew,squash,squash/zucchini,No,1
+PlantSeg,90,strawberry anthracnose,strawberry,strawberry,No,2
+PlantSeg,91,strawberry leaf scorch,strawberry,strawberry,No,2
+PlantSeg,92,tobacco blue mold,tobacco,tobacco,No,4
+PlantSeg,93,tobacco brown spot,tobacco,tobacco,No,4
+PlantSeg,94,tobacco frogeye leaf spot,tobacco,tobacco,No,4
+PlantSeg,95,tobacco mosaic virus,tobacco,tobacco,No,4
+PlantSeg,96,tomato bacterial leaf spot,tomato,tomato,No,7
+PlantSeg,97,tomato early blight,tomato,tomato,No,7
+PlantSeg,98,tomato late blight,tomato,tomato,No,7
+PlantSeg,99,tomato leaf mold,tomato,tomato,No,7
+PlantSeg,100,tomato mosaic virus,tomato,tomato,No,7
+PlantSeg,101,tomato septoria leaf spot,tomato,tomato,No,7
+PlantSeg,102,tomato yellow leaf curl virus,tomato,tomato,No,7
+PlantSeg,103,wheat bacterial leaf streak (black chaff),wheat,wheat,No,8
+PlantSeg,104,wheat head scab,wheat,wheat,No,8
+PlantSeg,105,wheat leaf rust,wheat,wheat,No,8
+PlantSeg,106,wheat loose smut,wheat,wheat,No,8
+PlantSeg,107,wheat powdery mildew,wheat,wheat,No,8
+PlantSeg,108,wheat septoria blotch,wheat,wheat,No,8
+PlantSeg,109,wheat stem rust,wheat,wheat,No,8
+PlantSeg,110,wheat stripe rust,wheat,wheat,No,8
+PlantSeg,111,zucchini bacterial wilt,zucchini,squash/zucchini,No,4
+PlantSeg,112,zucchini downy mildew,zucchini,squash/zucchini,No,4
+PlantSeg,113,zucchini powdery mildew,zucchini,squash/zucchini,No,4
+PlantSeg,114,zucchini yellow mosaic virus,zucchini,squash/zucchini,No,4
+,,,,,,
+,,,,,,
+(b) Merged-host sensitivity,,,,,,
+Data,Comparison (a → b),Term,Original mapping (pp),Merged mapping (pp),Change (pp),"Change, Seed t 95% CI"
+"PlantSeg test (1,436), independently tuned recipes",Attentive probe → mask-supervised attentive probe,Within-host term [n(W→C) − n(C→W)]/N,0.00,0.10,0.10,"[−0.23, 0.42]"
+"PlantSeg test (1,436), independently tuned recipes",Attentive probe → mask-supervised attentive probe,Host term [n(X→C) − n(C→X)]/N,0.21,0.11,−0.10,"[−0.42, 0.23]"
+"PlantSeg test (1,436), independently tuned recipes",Attentive probe → three-backbone fusion,Within-host term [n(W→C) − n(C→W)]/N,−0.49,−0.63,−0.14,"[−0.26, −0.02]"
+"PlantSeg test (1,436), independently tuned recipes",Attentive probe → three-backbone fusion,Host term [n(X→C) − n(C→X)]/N,0.14,0.28,0.14,"[0.02, 0.26]"
+"PlantSeg test (1,436), independently tuned recipes",Logistic probe on class token → attentive probe,Within-host term [n(W→C) − n(C→W)]/N,2.13,2.42,0.29,"[0.22, 0.36]"
+"PlantSeg test (1,436), independently tuned recipes",Logistic probe on class token → attentive probe,Host term [n(X→C) − n(C→X)]/N,0.71,0.42,−0.29,"[−0.36, −0.22]"
+"PlantWild, official split",Fusion + attentive probe (averaged) → attentive probe (224 px) + CLIP-L probe,Within-host term [n(W→C) − n(C→W)]/N,0.22,0.08,−0.14,"[−0.20, −0.09]"
+"PlantWild, official split",Fusion + attentive probe (averaged) → attentive probe (224 px) + CLIP-L probe,Host term [n(X→C) − n(C→X)]/N,−1.15,−1.01,0.14,"[0.09, 0.20]"
+"PlantWild, official split",Fusion + attentive probe (averaged) → attentive probe (518 px) + CLIP-L probe,Within-host term [n(W→C) − n(C→W)]/N,0.59,0.53,−0.07,"[−0.14, 0.01]"
+"PlantWild, official split",Fusion + attentive probe (averaged) → attentive probe (518 px) + CLIP-L probe,Host term [n(X→C) − n(C→X)]/N,−0.94,−0.87,0.07,"[−0.01, 0.14]"
+"PlantWild, official split",Fusion + attentive probe (averaged) → attentive probe + DINOv3-L probe,Within-host term [n(W→C) − n(C→W)]/N,0.03,0.07,0.03,"[−0.02, 0.09]"
+"PlantWild, official split",Fusion + attentive probe (averaged) → attentive probe + DINOv3-L probe,Host term [n(X→C) − n(C→X)]/N,0.09,0.06,−0.03,"[−0.09, 0.02]"
+"PlantWild, official split",Fusion + attentive probe (averaged) → class-token probe (518 px) + CLIP-L probe,Within-host term [n(W→C) − n(C→W)]/N,−0.60,−0.68,−0.08,"[−0.14, −0.01]"
+"PlantWild, official split",Fusion + attentive probe (averaged) → class-token probe (518 px) + CLIP-L probe,Host term [n(X→C) − n(C→X)]/N,−1.19,−1.11,0.08,"[0.01, 0.14]"
+"PlantWild, official split",Three-backbone fusion (tuned) → attentive probe (224 px) + CLIP-L probe,Within-host term [n(W→C) − n(C→W)]/N,0.87,0.78,−0.09,"[−0.14, −0.04]"
+"PlantWild, official split",Three-backbone fusion (tuned) → attentive probe (224 px) + CLIP-L probe,Host term [n(X→C) − n(C→X)]/N,−1.25,−1.16,0.09,"[0.04, 0.14]"
+"PlantWild, official split",Three-backbone fusion (tuned) → attentive probe (518 px) + CLIP-L probe,Within-host term [n(W→C) − n(C→W)]/N,1.24,1.22,−0.02,"[−0.07, 0.02]"
+"PlantWild, official split",Three-backbone fusion (tuned) → attentive probe (518 px) + CLIP-L probe,Host term [n(X→C) − n(C→X)]/N,−1.03,−1.01,0.02,"[−0.02, 0.07]"
+"PlantWild, official split",Three-backbone fusion (tuned) → attentive probe + DINOv3-L probe,Within-host term [n(W→C) − n(C→W)]/N,0.65,0.73,0.08,"[0.03, 0.12]"
+"PlantWild, official split",Three-backbone fusion (tuned) → attentive probe + DINOv3-L probe,Host term [n(X→C) − n(C→X)]/N,0.02,−0.05,−0.08,"[−0.12, −0.03]"
+"PlantWild, official split",Three-backbone fusion (tuned) → class-token probe (518 px) + CLIP-L probe,Within-host term [n(W→C) − n(C→W)]/N,0.05,0.06,0.01,"[−0.01, 0.02]"
+"PlantWild, official split",Three-backbone fusion (tuned) → class-token probe (518 px) + CLIP-L probe,Host term [n(X→C) − n(C→X)]/N,−1.30,−1.31,−0.01,"[−0.02, 0.01]"
+"PlantWild, deduplicated split",Attentive probe → fusion + attentive probe (averaged),Within-host term [n(W→C) − n(C→W)]/N,0.24,0.33,0.08,"[0.04, 0.12]"
+"PlantWild, deduplicated split",Attentive probe → fusion + attentive probe (averaged),Host term [n(X→C) − n(C→X)]/N,0.76,0.68,−0.08,"[−0.12, −0.04]"
+"PlantWild, deduplicated split",Attentive probe → three-backbone fusion (tuned),Within-host term [n(W→C) − n(C→W)]/N,−0.48,−0.46,0.02,"[−0.02, 0.07]"
+"PlantWild, deduplicated split",Attentive probe → three-backbone fusion (tuned),Host term [n(X→C) − n(C→X)]/N,0.65,0.63,−0.02,"[−0.07, 0.02]"
+"PlantWild, deduplicated split",Class-token probe → attentive probe,Within-host term [n(W→C) − n(C→W)]/N,1.95,2.09,0.14,"[0.11, 0.16]"
+"PlantWild, deduplicated split",Class-token probe → attentive probe,Host term [n(X→C) − n(C→X)]/N,0.23,0.10,−0.14,"[−0.16, −0.11]"
+"PlantWild, deduplicated split",Three-backbone fusion (tuned) → fusion + attentive probe (averaged),Within-host term [n(W→C) − n(C→W)]/N,0.71,0.76,0.05,"[0.03, 0.08]"
+"PlantWild, deduplicated split",Three-backbone fusion (tuned) → fusion + attentive probe (averaged),Host term [n(X→C) − n(C→X)]/N,0.14,0.08,−0.05,"[−0.08, −0.03]"
+"PlantWild, official split, 224 px",Class-token probe → attentive probe,Within-host term [n(W→C) − n(C→W)]/N,1.77,1.66,−0.10,"[−0.18, −0.02]"
+"PlantWild, official split, 224 px",Class-token probe → attentive probe,Host term [n(X→C) − n(C→X)]/N,−0.15,−0.04,0.10,"[0.02, 0.18]"
+"PlantWild, official split",Three-backbone fusion (tuned) → fusion + attentive probe (averaged),Within-host term [n(W→C) − n(C→W)]/N,0.64,0.69,0.05,"[−0.01, 0.12]"
+"PlantWild, official split",Three-backbone fusion (tuned) → fusion + attentive probe (averaged),Host term [n(X→C) − n(C→X)]/N,−0.09,−0.14,−0.05,"[−0.12, 0.01]"
+"PlantWild, official split",Attentive probe → three-backbone fusion (tuned),Within-host term [n(W→C) − n(C→W)]/N,−0.21,−0.20,0.01,"[−0.07, 0.09]"
+"PlantWild, official split",Attentive probe → three-backbone fusion (tuned),Host term [n(X→C) − n(C→X)]/N,0.96,0.95,−0.01,"[−0.09, 0.07]"
+"PlantWild, official split",Class-token probe → attentive probe,Within-host term [n(W→C) − n(C→W)]/N,1.71,1.89,0.18,"[0.12, 0.24]"
+"PlantWild, official split",Class-token probe → attentive probe,Host term [n(X→C) − n(C→X)]/N,0.20,0.02,−0.18,"[−0.24, −0.12]"
+"PlantWild, official split",Class-token probe → three-backbone fusion (tuned),Within-host term [n(W→C) − n(C→W)]/N,1.47,1.65,0.18,"[0.17, 0.20]"
+"PlantWild, official split",Class-token probe → three-backbone fusion (tuned),Host term [n(X→C) − n(C→X)]/N,1.19,1.01,−0.18,"[−0.20, −0.17]"
+,,,,,,
+,,,,,,
+,,,,,,

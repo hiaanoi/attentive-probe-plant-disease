@@ -1,0 +1,7 @@
+item,setting,estimate,estimand,low,high,valid_replicates,undefined_replicates,added_gain_nonpositive_bootstrap,attentive_gain_nonpositive_bootstrap
+N4,official,25.946969696969745,within_host_share_difference_pp,7.728627020757511,51.17544535799929,10000,0,0,0
+N5,official,73.3333333333333,recovered_gain_pct,49.24492017416541,104.31479324403023,10000,0,0,0
+N4,dedup,15.834094831962652,within_host_share_difference_pp,-2.1450353975261733,36.30593294720361,10000,0,0,0
+N5,dedup,82.0408163265306,recovered_gain_pct,58.3835447498238,115.06172839506155,10000,0,0,0
+N4,PS,33.33333333333342,within_host_share_difference_pp,4.843516545731087,69.1997066047099,9998,2,4,0
+N5,PS,113.33333333333326,recovered_gain_pct,70.0,228.8972222222221,9998,2,4,0

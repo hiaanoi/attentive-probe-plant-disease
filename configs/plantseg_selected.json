@@ -1,0 +1,94 @@
+{
+  "main": [
+    {
+      "arm": "P5",
+      "config": {
+        "arm": "P5",
+        "candidate_id": "P5_T06",
+        "candidate_number": 6,
+        "training_seed": 20261016,
+        "lr": 0.0019485510381133928,
+        "weight_decay": 0.05,
+        "max_epochs": 100,
+        "schedule": "cosine_warmup5pct",
+        "classification_loss": "focal_gamma2_LS0.1",
+        "batch": 16,
+        "MIL_hidden": 256
+      },
+      "selected_epochs": 57,
+      "mean_macro_F1_pct": 66.17411876376485,
+      "reused": true
+    },
+    {
+      "arm": "P2",
+      "config": {
+        "candidate_number": 6,
+        "training_seed": 20261016,
+        "lr": 0.00042333458726621936,
+        "weight_decay": 0.001,
+        "max_epochs": 50,
+        "schedule": "cosine_warmup5pct",
+        "classification_loss": "CE",
+        "batch": 16,
+        "arm": "P2",
+        "candidate_id": "P2_T06",
+        "hidden": 244,
+        "architecture": "T10 residual CLS MLP; output115"
+      },
+      "selected_epochs": 15,
+      "mean_macro_F1_pct": 65.98095786860446
+    },
+    {
+      "arm": "P7",
+      "config": {
+        "candidate_number": 3,
+        "training_seed": 20261016,
+        "lr": 0.00032102420061024103,
+        "weight_decay": 0.05,
+        "max_epochs": 50,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 64,
+        "arm": "P7",
+        "candidate_id": "P7_T03",
+        "MIL_hidden": 128,
+        "architecture": "shared attentive residual head; output115"
+      },
+      "selected_epochs": 21,
+      "mean_macro_F1_pct": 61.86051551071508
+    },
+    {
+      "arm": "P3",
+      "config": {
+        "arm": "P3",
+        "candidate_id": "P3_FIXED_B1_T06",
+        "candidate_number": 6,
+        "training_seed": 20261016,
+        "lr": 0.00042333458726621936,
+        "weight_decay": 0.001,
+        "max_epochs": 50,
+        "schedule": "cosine_warmup5pct",
+        "classification_loss": "CE",
+        "batch": 16,
+        "MIL_hidden": 128
+      },
+      "selected_epochs": 10
+    }
+  ],
+  "supplement": [
+    {
+      "arm": "P5",
+      "C": 0.001,
+      "mean_macro_F1_pct": 67.20593903060534,
+      "reused_main_endpoint": false,
+      "selected_epochs": 57
+    },
+    {
+      "arm": "P7",
+      "C": 1,
+      "mean_macro_F1_pct": 61.86051551071508,
+      "reused_main_endpoint": true,
+      "selected_epochs": 21
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "plantwild": {
+    "config": {
+      "arm": "D1",
+      "lr": 0.0001,
+      "weight_decay": 0.001,
+      "batch": 16,
+      "MIL_hidden": 128,
+      "max_epochs": 50,
+      "schedule": "cosine_warmup5pct",
+      "classification_loss": "CE",
+      "candidate_number": 2
+    },
+    "selected_epochs": 10,
+    "reuse_main_predictions": true
+  },
+  "plantseg": {
+    "config": {
+      "MIL_hidden": 128,
+      "arm": "P3",
+      "batch": 16,
+      "candidate_id": "UNIFORM_B1_T06",
+      "candidate_number": 6,
+      "classification_loss": "CE",
+      "lr": 0.00042333458726621936,
+      "max_epochs": 50,
+      "schedule": "cosine_warmup5pct",
+      "training_seed": 20261016,
+      "weight_decay": 0.001
+    },
+    "selected_epochs": 17,
+    "mean_macro_F1_pct": 66.65179775060477,
+    "seconds": 33.03337735403329
+  },
+  "seed_list": [
+    101,
+    202,
+    303,
+    404,
+    505
+  ],
+  "plantseg_prediction_protocol": "cleaned-uniform-tuned17",
+  "schedule_horizon_uses_candidate_max_epochs": true
+}

@@ -1,0 +1,4 @@
+protocol,n_test,observed_overlap_pct,attention_only_pct,independent_expectation_pct,between_seed_overlap_pct,ordered_seed_pairs,definition
+official,3677,51.526809775674124,48.473190224325876,20.979899497487438,75.02159479926705,20,mean_{s!=t} |E_s intersection E_t| / |E_s|; E_s=probe-wrong and attentive_s-correct
+dedup,3677,53.45248641665615,46.54751358334385,21.82741116751269,72.90454057132607,20,mean_{s!=t} |E_s intersection E_t| / |E_s|; E_s=probe-wrong and attentive_s-correct
+PS,1436,47.61408256092072,52.38591743907928,22.52252252252252,68.12657034580319,20,mean_{s!=t} |E_s intersection E_t| / |E_s|; E_s=probe-wrong and attentive_s-correct

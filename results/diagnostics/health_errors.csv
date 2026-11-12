@@ -1,0 +1,3 @@
+error_type,N,baseline_count_mean,swap_count_mean,delta_count,delta_pp,low_count,high_count,count_difference_direction
+diseased_to_healthy,3677,84.0,73.0,-11.0,-0.2991569214033179,-19.4,-3.1950000000000696,swap minus three-probe fusion
+healthy_to_diseased,3677,43.0,41.8,-1.2,-0.03263530051672559,-6.8,4.199999999999999,swap minus three-probe fusion

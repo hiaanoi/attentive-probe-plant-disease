@@ -1,0 +1,1637 @@
+{
+  "records": [
+    {
+      "arm": "G1_L",
+      "seed": 101,
+      "kind": "g1",
+      "feature": "L",
+      "C": 0.1
+    },
+    {
+      "arm": "G1_v3",
+      "seed": 101,
+      "kind": "g1",
+      "feature": "D3",
+      "C": 10
+    },
+    {
+      "arm": "A1_L",
+      "seed": 101,
+      "kind": "neural",
+      "configuration": {
+        "arm": "A1_L",
+        "candidate_id": "A1_L_T06",
+        "candidate_number": 6,
+        "training_seed": 20261016,
+        "lr": 0.00010255188732052084,
+        "weight_decay": 0.01,
+        "max_epochs": 100,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 64
+      },
+      "epochs": 96,
+      "selected_from": "A1_L_T06"
+    },
+    {
+      "arm": "A2_L",
+      "seed": 101,
+      "kind": "neural",
+      "configuration": {
+        "arm": "A2_L",
+        "candidate_id": "A2_L_T14",
+        "candidate_number": 14,
+        "training_seed": 20261016,
+        "lr": 0.0019050193453924893,
+        "weight_decay": 0.01,
+        "max_epochs": 20,
+        "schedule": "cosine_warmup5pct",
+        "classification_loss": "focal_gamma2_LS0.1",
+        "batch": 16,
+        "K": 4
+      },
+      "epochs": 15,
+      "selected_from": "A2_L_T14"
+    },
+    {
+      "arm": "A3_L",
+      "seed": 101,
+      "kind": "neural",
+      "configuration": {
+        "arm": "A3_L",
+        "candidate_id": "A3_L_T11",
+        "candidate_number": 11,
+        "training_seed": 20261016,
+        "lr": 0.002866287365777677,
+        "weight_decay": 0.01,
+        "max_epochs": 100,
+        "schedule": "cosine_warmup5pct",
+        "classification_loss": "CE",
+        "batch": 16,
+        "K": 8
+      },
+      "epochs": 64,
+      "selected_from": "A3_L_T11"
+    },
+    {
+      "arm": "A6_L",
+      "seed": 101,
+      "kind": "neural",
+      "configuration": {
+        "arm": "A6_L",
+        "candidate_id": "A6_L_T06",
+        "candidate_number": 6,
+        "training_seed": 20261016,
+        "lr": 0.0004243434804115018,
+        "weight_decay": 0.0001,
+        "max_epochs": 100,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 64,
+        "hidden": 512,
+        "dropout": 0.2
+      },
+      "epochs": 67,
+      "selected_from": "A6_L_T06"
+    },
+    {
+      "arm": "A4_F",
+      "seed": 101,
+      "kind": "neural",
+      "configuration": {
+        "arm": "A4_F",
+        "candidate_id": "A4_F_T07",
+        "candidate_number": 7,
+        "training_seed": 20261016,
+        "lr": 0.00034628600512765043,
+        "weight_decay": 0.01,
+        "max_epochs": 100,
+        "schedule": "cosine_warmup5pct",
+        "classification_loss": "CE",
+        "batch": 16,
+        "head_type": "prototype",
+        "K": 4
+      },
+      "epochs": 87,
+      "selected_from": "A4_F_T07"
+    },
+    {
+      "arm": "A5_D3",
+      "seed": 101,
+      "kind": "neural",
+      "configuration": {
+        "arm": "A5_D3",
+        "candidate_id": "A5_D3_T13",
+        "candidate_number": 13,
+        "training_seed": 20261016,
+        "lr": 0.002448727882816709,
+        "weight_decay": 0.05,
+        "max_epochs": 50,
+        "schedule": "cosine_warmup5pct",
+        "classification_loss": "CE",
+        "batch": 16,
+        "head_type": "hybrid",
+        "K": 2
+      },
+      "epochs": 37,
+      "selected_from": "A5_D3_T13"
+    },
+    {
+      "arm": "B1",
+      "seed": 101,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B1",
+        "candidate_id": "B1_T06",
+        "candidate_number": 6,
+        "training_seed": 20261016,
+        "lr": 0.00042333458726621936,
+        "weight_decay": 0.001,
+        "max_epochs": 50,
+        "schedule": "cosine_warmup5pct",
+        "classification_loss": "CE",
+        "batch": 16,
+        "MIL_hidden": 128
+      },
+      "epochs": 10,
+      "selected_from": "B1_T06"
+    },
+    {
+      "arm": "B2",
+      "seed": 101,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B2",
+        "candidate_id": "B2_T01",
+        "candidate_number": 1,
+        "training_seed": 20261016,
+        "lr": 0.0014493269804025293,
+        "weight_decay": 0.01,
+        "max_epochs": 100,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 64,
+        "MIL_hidden": 256,
+        "aux_weight": 0.02128181005621698
+      },
+      "epochs": 10,
+      "selected_from": "B2_T01"
+    },
+    {
+      "arm": "B3_seg",
+      "seed": 101,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B3_seg",
+        "candidate_id": "B3_seg_T07",
+        "candidate_number": 7,
+        "training_seed": 20261016,
+        "lr": 0.0004420868197794708,
+        "weight_decay": 0.01,
+        "max_epochs": 100,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 16,
+        "MIL_hidden": 128,
+        "aux_weight": 0.11305917860914734
+      },
+      "epochs": 15,
+      "selected_from": "B3_seg_T07"
+    },
+    {
+      "arm": "B2_gc",
+      "seed": 101,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B2_gc",
+        "candidate_id": "B2_gc_T16",
+        "candidate_number": 16,
+        "training_seed": 20261016,
+        "lr": 0.0002299798348361321,
+        "weight_decay": 0.0001,
+        "max_epochs": 20,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 16,
+        "MIL_hidden": 256,
+        "aux_weight": 0.06093523942215178,
+        "CAM_threshold": 0.6
+      },
+      "epochs": 8,
+      "selected_from": "B2_gc_T16"
+    },
+    {
+      "arm": "B2_F25",
+      "seed": 101,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B2_F25",
+        "candidate_id": "B2_F25_T07",
+        "candidate_number": 7,
+        "training_seed": 20261016,
+        "lr": 0.0018310730052817955,
+        "weight_decay": 0.001,
+        "max_epochs": 100,
+        "schedule": "cosine_warmup5pct",
+        "classification_loss": "CE",
+        "batch": 16,
+        "MIL_hidden": 128,
+        "aux_weight": 0.017392078911614667,
+        "top_fraction": 0.4
+      },
+      "epochs": 27,
+      "selected_from": "B2_F25_T07"
+    },
+    {
+      "arm": "B1_v3",
+      "seed": 101,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B1_v3",
+        "candidate_id": "B1_v3_T06",
+        "candidate_number": 6,
+        "training_seed": 20261016,
+        "lr": 0.0019485510381133928,
+        "weight_decay": 0.05,
+        "max_epochs": 100,
+        "schedule": "cosine_warmup5pct",
+        "classification_loss": "focal_gamma2_LS0.1",
+        "batch": 16,
+        "MIL_hidden": 256
+      },
+      "epochs": 57,
+      "selected_from": "B1_v3_T06"
+    },
+    {
+      "arm": "B2_v3",
+      "seed": 101,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B2_v3",
+        "candidate_id": "B2_v3_T06",
+        "candidate_number": 6,
+        "training_seed": 20261016,
+        "lr": 0.0006764631636634616,
+        "weight_decay": 0.0001,
+        "max_epochs": 100,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 16,
+        "MIL_hidden": 256,
+        "aux_weight": 0.2736164483425018
+      },
+      "epochs": 80,
+      "selected_from": "B2_v3_T06"
+    },
+    {
+      "arm": "B2_random",
+      "seed": 101,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B2_random",
+        "candidate_id": "B2_T01",
+        "candidate_number": 1,
+        "training_seed": 20261016,
+        "lr": 0.0014493269804025293,
+        "weight_decay": 0.01,
+        "max_epochs": 100,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 64,
+        "MIL_hidden": 256,
+        "aux_weight": 0.02128181005621698
+      },
+      "epochs": 10,
+      "selected_from": "B2_T01"
+    },
+    {
+      "arm": "B2_mismatched",
+      "seed": 101,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B2_mismatched",
+        "candidate_id": "B2_T01",
+        "candidate_number": 1,
+        "training_seed": 20261016,
+        "lr": 0.0014493269804025293,
+        "weight_decay": 0.01,
+        "max_epochs": 100,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 64,
+        "MIL_hidden": 256,
+        "aux_weight": 0.02128181005621698
+      },
+      "epochs": 10,
+      "selected_from": "B2_T01"
+    },
+    {
+      "arm": "G1_L",
+      "seed": 202,
+      "kind": "g1",
+      "feature": "L",
+      "C": 0.1
+    },
+    {
+      "arm": "G1_v3",
+      "seed": 202,
+      "kind": "g1",
+      "feature": "D3",
+      "C": 10
+    },
+    {
+      "arm": "A1_L",
+      "seed": 202,
+      "kind": "neural",
+      "configuration": {
+        "arm": "A1_L",
+        "candidate_id": "A1_L_T06",
+        "candidate_number": 6,
+        "training_seed": 20261016,
+        "lr": 0.00010255188732052084,
+        "weight_decay": 0.01,
+        "max_epochs": 100,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 64
+      },
+      "epochs": 96,
+      "selected_from": "A1_L_T06"
+    },
+    {
+      "arm": "A2_L",
+      "seed": 202,
+      "kind": "neural",
+      "configuration": {
+        "arm": "A2_L",
+        "candidate_id": "A2_L_T14",
+        "candidate_number": 14,
+        "training_seed": 20261016,
+        "lr": 0.0019050193453924893,
+        "weight_decay": 0.01,
+        "max_epochs": 20,
+        "schedule": "cosine_warmup5pct",
+        "classification_loss": "focal_gamma2_LS0.1",
+        "batch": 16,
+        "K": 4
+      },
+      "epochs": 15,
+      "selected_from": "A2_L_T14"
+    },
+    {
+      "arm": "A3_L",
+      "seed": 202,
+      "kind": "neural",
+      "configuration": {
+        "arm": "A3_L",
+        "candidate_id": "A3_L_T11",
+        "candidate_number": 11,
+        "training_seed": 20261016,
+        "lr": 0.002866287365777677,
+        "weight_decay": 0.01,
+        "max_epochs": 100,
+        "schedule": "cosine_warmup5pct",
+        "classification_loss": "CE",
+        "batch": 16,
+        "K": 8
+      },
+      "epochs": 64,
+      "selected_from": "A3_L_T11"
+    },
+    {
+      "arm": "A6_L",
+      "seed": 202,
+      "kind": "neural",
+      "configuration": {
+        "arm": "A6_L",
+        "candidate_id": "A6_L_T06",
+        "candidate_number": 6,
+        "training_seed": 20261016,
+        "lr": 0.0004243434804115018,
+        "weight_decay": 0.0001,
+        "max_epochs": 100,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 64,
+        "hidden": 512,
+        "dropout": 0.2
+      },
+      "epochs": 67,
+      "selected_from": "A6_L_T06"
+    },
+    {
+      "arm": "A4_F",
+      "seed": 202,
+      "kind": "neural",
+      "configuration": {
+        "arm": "A4_F",
+        "candidate_id": "A4_F_T07",
+        "candidate_number": 7,
+        "training_seed": 20261016,
+        "lr": 0.00034628600512765043,
+        "weight_decay": 0.01,
+        "max_epochs": 100,
+        "schedule": "cosine_warmup5pct",
+        "classification_loss": "CE",
+        "batch": 16,
+        "head_type": "prototype",
+        "K": 4
+      },
+      "epochs": 87,
+      "selected_from": "A4_F_T07"
+    },
+    {
+      "arm": "A5_D3",
+      "seed": 202,
+      "kind": "neural",
+      "configuration": {
+        "arm": "A5_D3",
+        "candidate_id": "A5_D3_T13",
+        "candidate_number": 13,
+        "training_seed": 20261016,
+        "lr": 0.002448727882816709,
+        "weight_decay": 0.05,
+        "max_epochs": 50,
+        "schedule": "cosine_warmup5pct",
+        "classification_loss": "CE",
+        "batch": 16,
+        "head_type": "hybrid",
+        "K": 2
+      },
+      "epochs": 37,
+      "selected_from": "A5_D3_T13"
+    },
+    {
+      "arm": "B1",
+      "seed": 202,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B1",
+        "candidate_id": "B1_T06",
+        "candidate_number": 6,
+        "training_seed": 20261016,
+        "lr": 0.00042333458726621936,
+        "weight_decay": 0.001,
+        "max_epochs": 50,
+        "schedule": "cosine_warmup5pct",
+        "classification_loss": "CE",
+        "batch": 16,
+        "MIL_hidden": 128
+      },
+      "epochs": 10,
+      "selected_from": "B1_T06"
+    },
+    {
+      "arm": "B2",
+      "seed": 202,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B2",
+        "candidate_id": "B2_T01",
+        "candidate_number": 1,
+        "training_seed": 20261016,
+        "lr": 0.0014493269804025293,
+        "weight_decay": 0.01,
+        "max_epochs": 100,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 64,
+        "MIL_hidden": 256,
+        "aux_weight": 0.02128181005621698
+      },
+      "epochs": 10,
+      "selected_from": "B2_T01"
+    },
+    {
+      "arm": "B3_seg",
+      "seed": 202,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B3_seg",
+        "candidate_id": "B3_seg_T07",
+        "candidate_number": 7,
+        "training_seed": 20261016,
+        "lr": 0.0004420868197794708,
+        "weight_decay": 0.01,
+        "max_epochs": 100,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 16,
+        "MIL_hidden": 128,
+        "aux_weight": 0.11305917860914734
+      },
+      "epochs": 15,
+      "selected_from": "B3_seg_T07"
+    },
+    {
+      "arm": "B2_gc",
+      "seed": 202,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B2_gc",
+        "candidate_id": "B2_gc_T16",
+        "candidate_number": 16,
+        "training_seed": 20261016,
+        "lr": 0.0002299798348361321,
+        "weight_decay": 0.0001,
+        "max_epochs": 20,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 16,
+        "MIL_hidden": 256,
+        "aux_weight": 0.06093523942215178,
+        "CAM_threshold": 0.6
+      },
+      "epochs": 8,
+      "selected_from": "B2_gc_T16"
+    },
+    {
+      "arm": "B2_F25",
+      "seed": 202,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B2_F25",
+        "candidate_id": "B2_F25_T07",
+        "candidate_number": 7,
+        "training_seed": 20261016,
+        "lr": 0.0018310730052817955,
+        "weight_decay": 0.001,
+        "max_epochs": 100,
+        "schedule": "cosine_warmup5pct",
+        "classification_loss": "CE",
+        "batch": 16,
+        "MIL_hidden": 128,
+        "aux_weight": 0.017392078911614667,
+        "top_fraction": 0.4
+      },
+      "epochs": 27,
+      "selected_from": "B2_F25_T07"
+    },
+    {
+      "arm": "B1_v3",
+      "seed": 202,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B1_v3",
+        "candidate_id": "B1_v3_T06",
+        "candidate_number": 6,
+        "training_seed": 20261016,
+        "lr": 0.0019485510381133928,
+        "weight_decay": 0.05,
+        "max_epochs": 100,
+        "schedule": "cosine_warmup5pct",
+        "classification_loss": "focal_gamma2_LS0.1",
+        "batch": 16,
+        "MIL_hidden": 256
+      },
+      "epochs": 57,
+      "selected_from": "B1_v3_T06"
+    },
+    {
+      "arm": "B2_v3",
+      "seed": 202,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B2_v3",
+        "candidate_id": "B2_v3_T06",
+        "candidate_number": 6,
+        "training_seed": 20261016,
+        "lr": 0.0006764631636634616,
+        "weight_decay": 0.0001,
+        "max_epochs": 100,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 16,
+        "MIL_hidden": 256,
+        "aux_weight": 0.2736164483425018
+      },
+      "epochs": 80,
+      "selected_from": "B2_v3_T06"
+    },
+    {
+      "arm": "B2_random",
+      "seed": 202,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B2_random",
+        "candidate_id": "B2_T01",
+        "candidate_number": 1,
+        "training_seed": 20261016,
+        "lr": 0.0014493269804025293,
+        "weight_decay": 0.01,
+        "max_epochs": 100,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 64,
+        "MIL_hidden": 256,
+        "aux_weight": 0.02128181005621698
+      },
+      "epochs": 10,
+      "selected_from": "B2_T01"
+    },
+    {
+      "arm": "B2_mismatched",
+      "seed": 202,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B2_mismatched",
+        "candidate_id": "B2_T01",
+        "candidate_number": 1,
+        "training_seed": 20261016,
+        "lr": 0.0014493269804025293,
+        "weight_decay": 0.01,
+        "max_epochs": 100,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 64,
+        "MIL_hidden": 256,
+        "aux_weight": 0.02128181005621698
+      },
+      "epochs": 10,
+      "selected_from": "B2_T01"
+    },
+    {
+      "arm": "G1_L",
+      "seed": 303,
+      "kind": "g1",
+      "feature": "L",
+      "C": 0.1
+    },
+    {
+      "arm": "G1_v3",
+      "seed": 303,
+      "kind": "g1",
+      "feature": "D3",
+      "C": 10
+    },
+    {
+      "arm": "A1_L",
+      "seed": 303,
+      "kind": "neural",
+      "configuration": {
+        "arm": "A1_L",
+        "candidate_id": "A1_L_T06",
+        "candidate_number": 6,
+        "training_seed": 20261016,
+        "lr": 0.00010255188732052084,
+        "weight_decay": 0.01,
+        "max_epochs": 100,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 64
+      },
+      "epochs": 96,
+      "selected_from": "A1_L_T06"
+    },
+    {
+      "arm": "A2_L",
+      "seed": 303,
+      "kind": "neural",
+      "configuration": {
+        "arm": "A2_L",
+        "candidate_id": "A2_L_T14",
+        "candidate_number": 14,
+        "training_seed": 20261016,
+        "lr": 0.0019050193453924893,
+        "weight_decay": 0.01,
+        "max_epochs": 20,
+        "schedule": "cosine_warmup5pct",
+        "classification_loss": "focal_gamma2_LS0.1",
+        "batch": 16,
+        "K": 4
+      },
+      "epochs": 15,
+      "selected_from": "A2_L_T14"
+    },
+    {
+      "arm": "A3_L",
+      "seed": 303,
+      "kind": "neural",
+      "configuration": {
+        "arm": "A3_L",
+        "candidate_id": "A3_L_T11",
+        "candidate_number": 11,
+        "training_seed": 20261016,
+        "lr": 0.002866287365777677,
+        "weight_decay": 0.01,
+        "max_epochs": 100,
+        "schedule": "cosine_warmup5pct",
+        "classification_loss": "CE",
+        "batch": 16,
+        "K": 8
+      },
+      "epochs": 64,
+      "selected_from": "A3_L_T11"
+    },
+    {
+      "arm": "A6_L",
+      "seed": 303,
+      "kind": "neural",
+      "configuration": {
+        "arm": "A6_L",
+        "candidate_id": "A6_L_T06",
+        "candidate_number": 6,
+        "training_seed": 20261016,
+        "lr": 0.0004243434804115018,
+        "weight_decay": 0.0001,
+        "max_epochs": 100,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 64,
+        "hidden": 512,
+        "dropout": 0.2
+      },
+      "epochs": 67,
+      "selected_from": "A6_L_T06"
+    },
+    {
+      "arm": "A4_F",
+      "seed": 303,
+      "kind": "neural",
+      "configuration": {
+        "arm": "A4_F",
+        "candidate_id": "A4_F_T07",
+        "candidate_number": 7,
+        "training_seed": 20261016,
+        "lr": 0.00034628600512765043,
+        "weight_decay": 0.01,
+        "max_epochs": 100,
+        "schedule": "cosine_warmup5pct",
+        "classification_loss": "CE",
+        "batch": 16,
+        "head_type": "prototype",
+        "K": 4
+      },
+      "epochs": 87,
+      "selected_from": "A4_F_T07"
+    },
+    {
+      "arm": "A5_D3",
+      "seed": 303,
+      "kind": "neural",
+      "configuration": {
+        "arm": "A5_D3",
+        "candidate_id": "A5_D3_T13",
+        "candidate_number": 13,
+        "training_seed": 20261016,
+        "lr": 0.002448727882816709,
+        "weight_decay": 0.05,
+        "max_epochs": 50,
+        "schedule": "cosine_warmup5pct",
+        "classification_loss": "CE",
+        "batch": 16,
+        "head_type": "hybrid",
+        "K": 2
+      },
+      "epochs": 37,
+      "selected_from": "A5_D3_T13"
+    },
+    {
+      "arm": "B1",
+      "seed": 303,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B1",
+        "candidate_id": "B1_T06",
+        "candidate_number": 6,
+        "training_seed": 20261016,
+        "lr": 0.00042333458726621936,
+        "weight_decay": 0.001,
+        "max_epochs": 50,
+        "schedule": "cosine_warmup5pct",
+        "classification_loss": "CE",
+        "batch": 16,
+        "MIL_hidden": 128
+      },
+      "epochs": 10,
+      "selected_from": "B1_T06"
+    },
+    {
+      "arm": "B2",
+      "seed": 303,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B2",
+        "candidate_id": "B2_T01",
+        "candidate_number": 1,
+        "training_seed": 20261016,
+        "lr": 0.0014493269804025293,
+        "weight_decay": 0.01,
+        "max_epochs": 100,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 64,
+        "MIL_hidden": 256,
+        "aux_weight": 0.02128181005621698
+      },
+      "epochs": 10,
+      "selected_from": "B2_T01"
+    },
+    {
+      "arm": "B3_seg",
+      "seed": 303,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B3_seg",
+        "candidate_id": "B3_seg_T07",
+        "candidate_number": 7,
+        "training_seed": 20261016,
+        "lr": 0.0004420868197794708,
+        "weight_decay": 0.01,
+        "max_epochs": 100,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 16,
+        "MIL_hidden": 128,
+        "aux_weight": 0.11305917860914734
+      },
+      "epochs": 15,
+      "selected_from": "B3_seg_T07"
+    },
+    {
+      "arm": "B2_gc",
+      "seed": 303,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B2_gc",
+        "candidate_id": "B2_gc_T16",
+        "candidate_number": 16,
+        "training_seed": 20261016,
+        "lr": 0.0002299798348361321,
+        "weight_decay": 0.0001,
+        "max_epochs": 20,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 16,
+        "MIL_hidden": 256,
+        "aux_weight": 0.06093523942215178,
+        "CAM_threshold": 0.6
+      },
+      "epochs": 8,
+      "selected_from": "B2_gc_T16"
+    },
+    {
+      "arm": "B2_F25",
+      "seed": 303,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B2_F25",
+        "candidate_id": "B2_F25_T07",
+        "candidate_number": 7,
+        "training_seed": 20261016,
+        "lr": 0.0018310730052817955,
+        "weight_decay": 0.001,
+        "max_epochs": 100,
+        "schedule": "cosine_warmup5pct",
+        "classification_loss": "CE",
+        "batch": 16,
+        "MIL_hidden": 128,
+        "aux_weight": 0.017392078911614667,
+        "top_fraction": 0.4
+      },
+      "epochs": 27,
+      "selected_from": "B2_F25_T07"
+    },
+    {
+      "arm": "B1_v3",
+      "seed": 303,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B1_v3",
+        "candidate_id": "B1_v3_T06",
+        "candidate_number": 6,
+        "training_seed": 20261016,
+        "lr": 0.0019485510381133928,
+        "weight_decay": 0.05,
+        "max_epochs": 100,
+        "schedule": "cosine_warmup5pct",
+        "classification_loss": "focal_gamma2_LS0.1",
+        "batch": 16,
+        "MIL_hidden": 256
+      },
+      "epochs": 57,
+      "selected_from": "B1_v3_T06"
+    },
+    {
+      "arm": "B2_v3",
+      "seed": 303,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B2_v3",
+        "candidate_id": "B2_v3_T06",
+        "candidate_number": 6,
+        "training_seed": 20261016,
+        "lr": 0.0006764631636634616,
+        "weight_decay": 0.0001,
+        "max_epochs": 100,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 16,
+        "MIL_hidden": 256,
+        "aux_weight": 0.2736164483425018
+      },
+      "epochs": 80,
+      "selected_from": "B2_v3_T06"
+    },
+    {
+      "arm": "B2_random",
+      "seed": 303,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B2_random",
+        "candidate_id": "B2_T01",
+        "candidate_number": 1,
+        "training_seed": 20261016,
+        "lr": 0.0014493269804025293,
+        "weight_decay": 0.01,
+        "max_epochs": 100,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 64,
+        "MIL_hidden": 256,
+        "aux_weight": 0.02128181005621698
+      },
+      "epochs": 10,
+      "selected_from": "B2_T01"
+    },
+    {
+      "arm": "B2_mismatched",
+      "seed": 303,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B2_mismatched",
+        "candidate_id": "B2_T01",
+        "candidate_number": 1,
+        "training_seed": 20261016,
+        "lr": 0.0014493269804025293,
+        "weight_decay": 0.01,
+        "max_epochs": 100,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 64,
+        "MIL_hidden": 256,
+        "aux_weight": 0.02128181005621698
+      },
+      "epochs": 10,
+      "selected_from": "B2_T01"
+    },
+    {
+      "arm": "G1_L",
+      "seed": 404,
+      "kind": "g1",
+      "feature": "L",
+      "C": 0.1
+    },
+    {
+      "arm": "G1_v3",
+      "seed": 404,
+      "kind": "g1",
+      "feature": "D3",
+      "C": 10
+    },
+    {
+      "arm": "A1_L",
+      "seed": 404,
+      "kind": "neural",
+      "configuration": {
+        "arm": "A1_L",
+        "candidate_id": "A1_L_T06",
+        "candidate_number": 6,
+        "training_seed": 20261016,
+        "lr": 0.00010255188732052084,
+        "weight_decay": 0.01,
+        "max_epochs": 100,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 64
+      },
+      "epochs": 96,
+      "selected_from": "A1_L_T06"
+    },
+    {
+      "arm": "A2_L",
+      "seed": 404,
+      "kind": "neural",
+      "configuration": {
+        "arm": "A2_L",
+        "candidate_id": "A2_L_T14",
+        "candidate_number": 14,
+        "training_seed": 20261016,
+        "lr": 0.0019050193453924893,
+        "weight_decay": 0.01,
+        "max_epochs": 20,
+        "schedule": "cosine_warmup5pct",
+        "classification_loss": "focal_gamma2_LS0.1",
+        "batch": 16,
+        "K": 4
+      },
+      "epochs": 15,
+      "selected_from": "A2_L_T14"
+    },
+    {
+      "arm": "A3_L",
+      "seed": 404,
+      "kind": "neural",
+      "configuration": {
+        "arm": "A3_L",
+        "candidate_id": "A3_L_T11",
+        "candidate_number": 11,
+        "training_seed": 20261016,
+        "lr": 0.002866287365777677,
+        "weight_decay": 0.01,
+        "max_epochs": 100,
+        "schedule": "cosine_warmup5pct",
+        "classification_loss": "CE",
+        "batch": 16,
+        "K": 8
+      },
+      "epochs": 64,
+      "selected_from": "A3_L_T11"
+    },
+    {
+      "arm": "A6_L",
+      "seed": 404,
+      "kind": "neural",
+      "configuration": {
+        "arm": "A6_L",
+        "candidate_id": "A6_L_T06",
+        "candidate_number": 6,
+        "training_seed": 20261016,
+        "lr": 0.0004243434804115018,
+        "weight_decay": 0.0001,
+        "max_epochs": 100,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 64,
+        "hidden": 512,
+        "dropout": 0.2
+      },
+      "epochs": 67,
+      "selected_from": "A6_L_T06"
+    },
+    {
+      "arm": "A4_F",
+      "seed": 404,
+      "kind": "neural",
+      "configuration": {
+        "arm": "A4_F",
+        "candidate_id": "A4_F_T07",
+        "candidate_number": 7,
+        "training_seed": 20261016,
+        "lr": 0.00034628600512765043,
+        "weight_decay": 0.01,
+        "max_epochs": 100,
+        "schedule": "cosine_warmup5pct",
+        "classification_loss": "CE",
+        "batch": 16,
+        "head_type": "prototype",
+        "K": 4
+      },
+      "epochs": 87,
+      "selected_from": "A4_F_T07"
+    },
+    {
+      "arm": "A5_D3",
+      "seed": 404,
+      "kind": "neural",
+      "configuration": {
+        "arm": "A5_D3",
+        "candidate_id": "A5_D3_T13",
+        "candidate_number": 13,
+        "training_seed": 20261016,
+        "lr": 0.002448727882816709,
+        "weight_decay": 0.05,
+        "max_epochs": 50,
+        "schedule": "cosine_warmup5pct",
+        "classification_loss": "CE",
+        "batch": 16,
+        "head_type": "hybrid",
+        "K": 2
+      },
+      "epochs": 37,
+      "selected_from": "A5_D3_T13"
+    },
+    {
+      "arm": "B1",
+      "seed": 404,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B1",
+        "candidate_id": "B1_T06",
+        "candidate_number": 6,
+        "training_seed": 20261016,
+        "lr": 0.00042333458726621936,
+        "weight_decay": 0.001,
+        "max_epochs": 50,
+        "schedule": "cosine_warmup5pct",
+        "classification_loss": "CE",
+        "batch": 16,
+        "MIL_hidden": 128
+      },
+      "epochs": 10,
+      "selected_from": "B1_T06"
+    },
+    {
+      "arm": "B2",
+      "seed": 404,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B2",
+        "candidate_id": "B2_T01",
+        "candidate_number": 1,
+        "training_seed": 20261016,
+        "lr": 0.0014493269804025293,
+        "weight_decay": 0.01,
+        "max_epochs": 100,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 64,
+        "MIL_hidden": 256,
+        "aux_weight": 0.02128181005621698
+      },
+      "epochs": 10,
+      "selected_from": "B2_T01"
+    },
+    {
+      "arm": "B3_seg",
+      "seed": 404,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B3_seg",
+        "candidate_id": "B3_seg_T07",
+        "candidate_number": 7,
+        "training_seed": 20261016,
+        "lr": 0.0004420868197794708,
+        "weight_decay": 0.01,
+        "max_epochs": 100,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 16,
+        "MIL_hidden": 128,
+        "aux_weight": 0.11305917860914734
+      },
+      "epochs": 15,
+      "selected_from": "B3_seg_T07"
+    },
+    {
+      "arm": "B2_gc",
+      "seed": 404,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B2_gc",
+        "candidate_id": "B2_gc_T16",
+        "candidate_number": 16,
+        "training_seed": 20261016,
+        "lr": 0.0002299798348361321,
+        "weight_decay": 0.0001,
+        "max_epochs": 20,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 16,
+        "MIL_hidden": 256,
+        "aux_weight": 0.06093523942215178,
+        "CAM_threshold": 0.6
+      },
+      "epochs": 8,
+      "selected_from": "B2_gc_T16"
+    },
+    {
+      "arm": "B2_F25",
+      "seed": 404,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B2_F25",
+        "candidate_id": "B2_F25_T07",
+        "candidate_number": 7,
+        "training_seed": 20261016,
+        "lr": 0.0018310730052817955,
+        "weight_decay": 0.001,
+        "max_epochs": 100,
+        "schedule": "cosine_warmup5pct",
+        "classification_loss": "CE",
+        "batch": 16,
+        "MIL_hidden": 128,
+        "aux_weight": 0.017392078911614667,
+        "top_fraction": 0.4
+      },
+      "epochs": 27,
+      "selected_from": "B2_F25_T07"
+    },
+    {
+      "arm": "B1_v3",
+      "seed": 404,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B1_v3",
+        "candidate_id": "B1_v3_T06",
+        "candidate_number": 6,
+        "training_seed": 20261016,
+        "lr": 0.0019485510381133928,
+        "weight_decay": 0.05,
+        "max_epochs": 100,
+        "schedule": "cosine_warmup5pct",
+        "classification_loss": "focal_gamma2_LS0.1",
+        "batch": 16,
+        "MIL_hidden": 256
+      },
+      "epochs": 57,
+      "selected_from": "B1_v3_T06"
+    },
+    {
+      "arm": "B2_v3",
+      "seed": 404,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B2_v3",
+        "candidate_id": "B2_v3_T06",
+        "candidate_number": 6,
+        "training_seed": 20261016,
+        "lr": 0.0006764631636634616,
+        "weight_decay": 0.0001,
+        "max_epochs": 100,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 16,
+        "MIL_hidden": 256,
+        "aux_weight": 0.2736164483425018
+      },
+      "epochs": 80,
+      "selected_from": "B2_v3_T06"
+    },
+    {
+      "arm": "B2_random",
+      "seed": 404,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B2_random",
+        "candidate_id": "B2_T01",
+        "candidate_number": 1,
+        "training_seed": 20261016,
+        "lr": 0.0014493269804025293,
+        "weight_decay": 0.01,
+        "max_epochs": 100,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 64,
+        "MIL_hidden": 256,
+        "aux_weight": 0.02128181005621698
+      },
+      "epochs": 10,
+      "selected_from": "B2_T01"
+    },
+    {
+      "arm": "B2_mismatched",
+      "seed": 404,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B2_mismatched",
+        "candidate_id": "B2_T01",
+        "candidate_number": 1,
+        "training_seed": 20261016,
+        "lr": 0.0014493269804025293,
+        "weight_decay": 0.01,
+        "max_epochs": 100,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 64,
+        "MIL_hidden": 256,
+        "aux_weight": 0.02128181005621698
+      },
+      "epochs": 10,
+      "selected_from": "B2_T01"
+    },
+    {
+      "arm": "G1_L",
+      "seed": 505,
+      "kind": "g1",
+      "feature": "L",
+      "C": 0.1
+    },
+    {
+      "arm": "G1_v3",
+      "seed": 505,
+      "kind": "g1",
+      "feature": "D3",
+      "C": 10
+    },
+    {
+      "arm": "A1_L",
+      "seed": 505,
+      "kind": "neural",
+      "configuration": {
+        "arm": "A1_L",
+        "candidate_id": "A1_L_T06",
+        "candidate_number": 6,
+        "training_seed": 20261016,
+        "lr": 0.00010255188732052084,
+        "weight_decay": 0.01,
+        "max_epochs": 100,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 64
+      },
+      "epochs": 96,
+      "selected_from": "A1_L_T06"
+    },
+    {
+      "arm": "A2_L",
+      "seed": 505,
+      "kind": "neural",
+      "configuration": {
+        "arm": "A2_L",
+        "candidate_id": "A2_L_T14",
+        "candidate_number": 14,
+        "training_seed": 20261016,
+        "lr": 0.0019050193453924893,
+        "weight_decay": 0.01,
+        "max_epochs": 20,
+        "schedule": "cosine_warmup5pct",
+        "classification_loss": "focal_gamma2_LS0.1",
+        "batch": 16,
+        "K": 4
+      },
+      "epochs": 15,
+      "selected_from": "A2_L_T14"
+    },
+    {
+      "arm": "A3_L",
+      "seed": 505,
+      "kind": "neural",
+      "configuration": {
+        "arm": "A3_L",
+        "candidate_id": "A3_L_T11",
+        "candidate_number": 11,
+        "training_seed": 20261016,
+        "lr": 0.002866287365777677,
+        "weight_decay": 0.01,
+        "max_epochs": 100,
+        "schedule": "cosine_warmup5pct",
+        "classification_loss": "CE",
+        "batch": 16,
+        "K": 8
+      },
+      "epochs": 64,
+      "selected_from": "A3_L_T11"
+    },
+    {
+      "arm": "A6_L",
+      "seed": 505,
+      "kind": "neural",
+      "configuration": {
+        "arm": "A6_L",
+        "candidate_id": "A6_L_T06",
+        "candidate_number": 6,
+        "training_seed": 20261016,
+        "lr": 0.0004243434804115018,
+        "weight_decay": 0.0001,
+        "max_epochs": 100,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 64,
+        "hidden": 512,
+        "dropout": 0.2
+      },
+      "epochs": 67,
+      "selected_from": "A6_L_T06"
+    },
+    {
+      "arm": "A4_F",
+      "seed": 505,
+      "kind": "neural",
+      "configuration": {
+        "arm": "A4_F",
+        "candidate_id": "A4_F_T07",
+        "candidate_number": 7,
+        "training_seed": 20261016,
+        "lr": 0.00034628600512765043,
+        "weight_decay": 0.01,
+        "max_epochs": 100,
+        "schedule": "cosine_warmup5pct",
+        "classification_loss": "CE",
+        "batch": 16,
+        "head_type": "prototype",
+        "K": 4
+      },
+      "epochs": 87,
+      "selected_from": "A4_F_T07"
+    },
+    {
+      "arm": "A5_D3",
+      "seed": 505,
+      "kind": "neural",
+      "configuration": {
+        "arm": "A5_D3",
+        "candidate_id": "A5_D3_T13",
+        "candidate_number": 13,
+        "training_seed": 20261016,
+        "lr": 0.002448727882816709,
+        "weight_decay": 0.05,
+        "max_epochs": 50,
+        "schedule": "cosine_warmup5pct",
+        "classification_loss": "CE",
+        "batch": 16,
+        "head_type": "hybrid",
+        "K": 2
+      },
+      "epochs": 37,
+      "selected_from": "A5_D3_T13"
+    },
+    {
+      "arm": "B1",
+      "seed": 505,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B1",
+        "candidate_id": "B1_T06",
+        "candidate_number": 6,
+        "training_seed": 20261016,
+        "lr": 0.00042333458726621936,
+        "weight_decay": 0.001,
+        "max_epochs": 50,
+        "schedule": "cosine_warmup5pct",
+        "classification_loss": "CE",
+        "batch": 16,
+        "MIL_hidden": 128
+      },
+      "epochs": 10,
+      "selected_from": "B1_T06"
+    },
+    {
+      "arm": "B2",
+      "seed": 505,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B2",
+        "candidate_id": "B2_T01",
+        "candidate_number": 1,
+        "training_seed": 20261016,
+        "lr": 0.0014493269804025293,
+        "weight_decay": 0.01,
+        "max_epochs": 100,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 64,
+        "MIL_hidden": 256,
+        "aux_weight": 0.02128181005621698
+      },
+      "epochs": 10,
+      "selected_from": "B2_T01"
+    },
+    {
+      "arm": "B3_seg",
+      "seed": 505,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B3_seg",
+        "candidate_id": "B3_seg_T07",
+        "candidate_number": 7,
+        "training_seed": 20261016,
+        "lr": 0.0004420868197794708,
+        "weight_decay": 0.01,
+        "max_epochs": 100,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 16,
+        "MIL_hidden": 128,
+        "aux_weight": 0.11305917860914734
+      },
+      "epochs": 15,
+      "selected_from": "B3_seg_T07"
+    },
+    {
+      "arm": "B2_gc",
+      "seed": 505,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B2_gc",
+        "candidate_id": "B2_gc_T16",
+        "candidate_number": 16,
+        "training_seed": 20261016,
+        "lr": 0.0002299798348361321,
+        "weight_decay": 0.0001,
+        "max_epochs": 20,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 16,
+        "MIL_hidden": 256,
+        "aux_weight": 0.06093523942215178,
+        "CAM_threshold": 0.6
+      },
+      "epochs": 8,
+      "selected_from": "B2_gc_T16"
+    },
+    {
+      "arm": "B2_F25",
+      "seed": 505,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B2_F25",
+        "candidate_id": "B2_F25_T07",
+        "candidate_number": 7,
+        "training_seed": 20261016,
+        "lr": 0.0018310730052817955,
+        "weight_decay": 0.001,
+        "max_epochs": 100,
+        "schedule": "cosine_warmup5pct",
+        "classification_loss": "CE",
+        "batch": 16,
+        "MIL_hidden": 128,
+        "aux_weight": 0.017392078911614667,
+        "top_fraction": 0.4
+      },
+      "epochs": 27,
+      "selected_from": "B2_F25_T07"
+    },
+    {
+      "arm": "B1_v3",
+      "seed": 505,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B1_v3",
+        "candidate_id": "B1_v3_T06",
+        "candidate_number": 6,
+        "training_seed": 20261016,
+        "lr": 0.0019485510381133928,
+        "weight_decay": 0.05,
+        "max_epochs": 100,
+        "schedule": "cosine_warmup5pct",
+        "classification_loss": "focal_gamma2_LS0.1",
+        "batch": 16,
+        "MIL_hidden": 256
+      },
+      "epochs": 57,
+      "selected_from": "B1_v3_T06"
+    },
+    {
+      "arm": "B2_v3",
+      "seed": 505,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B2_v3",
+        "candidate_id": "B2_v3_T06",
+        "candidate_number": 6,
+        "training_seed": 20261016,
+        "lr": 0.0006764631636634616,
+        "weight_decay": 0.0001,
+        "max_epochs": 100,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 16,
+        "MIL_hidden": 256,
+        "aux_weight": 0.2736164483425018
+      },
+      "epochs": 80,
+      "selected_from": "B2_v3_T06"
+    },
+    {
+      "arm": "B2_random",
+      "seed": 505,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B2_random",
+        "candidate_id": "B2_T01",
+        "candidate_number": 1,
+        "training_seed": 20261016,
+        "lr": 0.0014493269804025293,
+        "weight_decay": 0.01,
+        "max_epochs": 100,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 64,
+        "MIL_hidden": 256,
+        "aux_weight": 0.02128181005621698
+      },
+      "epochs": 10,
+      "selected_from": "B2_T01"
+    },
+    {
+      "arm": "B2_mismatched",
+      "seed": 505,
+      "kind": "neural",
+      "configuration": {
+        "arm": "B2_mismatched",
+        "candidate_id": "B2_T01",
+        "candidate_number": 1,
+        "training_seed": 20261016,
+        "lr": 0.0014493269804025293,
+        "weight_decay": 0.01,
+        "max_epochs": 100,
+        "schedule": "constant",
+        "classification_loss": "CE",
+        "batch": 64,
+        "MIL_hidden": 256,
+        "aux_weight": 0.02128181005621698
+      },
+      "epochs": 10,
+      "selected_from": "B2_T01"
+    }
+  ],
+  "seeds": [
+    101,
+    202,
+    303,
+    404,
+    505
+  ],
+  "final_schedule_horizon": "candidate_max_epochs"
+}

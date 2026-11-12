@@ -1,0 +1,49 @@
+"Table S12. PlantSeg cleaning, test-image filter and data flow.",,,,
+,,,,
+(a) Cleaning and evaluation data flow,,,,
+Data,Step,Images before,Removed or set aside,Remaining
+PlantSeg official training set,Images reserved for held-out sets in earlier stages (byte-identical comparison),5367,412,4955
+PlantSeg official training set,Copies of test images (byte-identical comparison),4955,78,4877
+PlantSeg official training set,Image and mask sizes differ,4877,3,4874
+PlantSeg official training set,Unresolved metadata or mask conflict,4874,6,4868
+PlantSeg official training set,Identical images with different labels,4868,82,4786
+PlantSeg official training set,Identical images with different masks,4786,174,4612
+PlantSeg official training set,Exact duplicate with identical mask (one copy kept),4612,1,4611
+PlantSeg cleaned training set,"Early development set (structural choices), set aside from the internal split",4611,692,3919
+"PlantSeg cleaned training set (3,919 remaining)","Internal development split (534); internal training split 3,385",3919,534,3385
+PlantSeg official test set,Exact or near-duplicate matches to cleaned training images (perceptual-hash distance ≤ 6),1561,125,1436
+"PlantDoc (classification split, all images)",Duplicate groups spanning labels,2578,66,2512
+"PlantDoc (classification split, all images)",Internal duplicates,2512,42,2470
+"PlantDoc (classification split, all images)",Overlap with cleaned PlantSeg training images,2470,66,2404
+"PlantDoc (classification split, all images)",Classes without a PlantSeg counterpart,2404,905,1499
+PlantDoc mapped subset,Three classes kept only for a sensitivity analysis,1499,339,1160
+PlantWild (all official splits),Identical to PlantSeg images (byte-identical comparison),18542,4568,13974
+PlantWild (all official splits),Near duplicates of PlantSeg images (perceptual-hash distance ≤ 6),13974,194,13780
+PlantWild (all official splits),Duplicate groups spanning classes,13780,337,13443
+PlantWild (all official splits),Same-class duplicates,13443,130,13313
+PlantWild (all official splits),Classes without a PlantSeg counterpart,13313,7749,5564
+,,,,
+,,,,
+"(b) Cleaning and evaluation data flow — Datasets, splits and their roles",,,,
+Set,Role,Images,Classes,
+PlantWild official training / validation / test,Benchmark; validation for configuration and epoch selection,"13,045 / 1,820 / 3,677",89,
+PlantWild deduplicated training / validation / test,"Benchmark, sensitivity","12,833 / 1,787 / 3,677",89,
+PlantDoc official training (fit / validation) / test,Benchmark,"2,342 (2,107 / 235) / 236","28 in training, 27 in test",
+PlantSeg cleaned training set,Training in the mask study,"4,611",115,
+PlantSeg internal training / development split,Region-source controls and equal tuning,"3,385 / 534",113 in the development split,
+"PlantSeg official test, primary set",Primary evaluation in the mask study,"1,436 of 1,561",114 with test images,
+PlantDoc mapped subset,External evaluation in the mask study,"1,160",13,
+PlantWild mapped subset,External evaluation in the mask study (drawn from all official splits),"5,564 of 18,542",58,
+,,,,
+,,,,
+(c) PlantWild training images with PlantSeg masks,,,,
+Training images,Images with masks,Share with masks (%),,
+13045,2984,22.90,,
+,,,,
+,,,,
+(d) Cross-benchmark overlap sensitivity subset,,,,
+Primary test records,Matching unique hashes,Excluded records,Retained records,
+1436,172,173,1263,
+,,,,
+,,,,
+,,,,

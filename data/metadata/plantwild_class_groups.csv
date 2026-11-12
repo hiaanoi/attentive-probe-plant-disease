@@ -1,0 +1,90 @@
+class_id,class_label,pathogen,symptom
+0,apple black rot,Fungus,Spot/lesion
+1,apple leaf,Healthy,Healthy
+2,apple mosaic virus,Virus,Mosaic/mottling/curling
+3,apple rust,Fungus,Mildew/rust
+4,apple scab,Fungus,Spot/lesion
+5,banana leaf,Healthy,Healthy
+6,banana panama disease,Fungus,Wilt/deformation
+7,basil downy mildew,Oomycete,Mildew/rust
+8,basil leaf,Healthy,Healthy
+9,bean halo blight,Bacterium,Blight
+10,bean leaf,Healthy,Healthy
+11,bean mosaic virus,Virus,Mosaic/mottling/curling
+12,bean rust,Fungus,Mildew/rust
+13,bell pepper leaf,Healthy,Healthy
+14,bell pepper leaf spot,Bacterium,Spot/lesion
+15,blueberry leaf,Healthy,Healthy
+16,blueberry rust,Fungus,Mildew/rust
+17,broccoli downy mildew,Oomycete,Mildew/rust
+18,broccoli leaf,Healthy,Healthy
+19,cabbage alternaria leaf spot,Fungus,Spot/lesion
+20,cabbage leaf,Healthy,Healthy
+21,carrot cavity spot,Oomycete,Spot/lesion
+22,cauliflower alternaria leaf spot,Fungus,Spot/lesion
+23,cauliflower leaf,Healthy,Healthy
+24,celery anthracnose,Fungus,Spot/lesion
+25,celery early blight,Fungus,Blight
+26,celery leaf,Healthy,Healthy
+27,cherry leaf,Healthy,Healthy
+28,cherry leaf spot,Fungus,Spot/lesion
+29,cherry powdery mildew,Fungus,Mildew/rust
+30,citrus canker,Bacterium,Spot/lesion
+31,citrus greening disease,Bacterium,Mosaic/mottling/curling
+32,coffee leaf,Healthy,Healthy
+33,coffee leaf rust,Fungus,Mildew/rust
+34,corn gray leaf spot,Fungus,Spot/lesion
+35,corn leaf,Healthy,Healthy
+36,corn northern leaf blight,Fungus,Blight
+37,corn rust,Fungus,Mildew/rust
+38,corn smut,Fungus,Wilt/deformation
+39,cucumber angular leaf spot,Bacterium,Spot/lesion
+40,cucumber bacterial wilt,Bacterium,Wilt/deformation
+41,cucumber leaf,Healthy,Healthy
+42,cucumber powdery mildew,Fungus,Mildew/rust
+43,eggplant cercospora leaf spot,Fungus,Spot/lesion
+44,eggplant leaf,Healthy,Healthy
+45,garlic leaf,Healthy,Healthy
+46,garlic leaf blight,Fungus,Blight
+47,garlic rust,Fungus,Mildew/rust
+48,ginger leaf,Healthy,Healthy
+49,ginger leaf spot,Fungus,Spot/lesion
+50,ginger sheath blight,Fungus,Blight
+51,grape black rot,Fungus,Spot/lesion
+52,grape downy mildew,Oomycete,Mildew/rust
+53,grape leaf,Healthy,Healthy
+54,grape leaf spot,Fungus,Spot/lesion
+55,grapevine leafroll disease,Virus,Mosaic/mottling/curling
+56,lettuce downy mildew,Oomycete,Mildew/rust
+57,lettuce leaf,Healthy,Healthy
+58,lettuce mosaic virus,Virus,Mosaic/mottling/curling
+59,maple leaf,Healthy,Healthy
+60,maple tar spot,Fungus,Spot/lesion
+61,peach leaf,Healthy,Healthy
+62,peach leaf curl,Fungus,Wilt/deformation
+63,plum leaf,Healthy,Healthy
+64,plum pocket disease,Fungus,Wilt/deformation
+65,potato early blight,Fungus,Blight
+66,potato late blight,Oomycete,Blight
+67,potato leaf,Healthy,Healthy
+68,raspberry leaf,Healthy,Healthy
+69,rice blast,Fungus,Spot/lesion
+70,rice leaf,Healthy,Healthy
+71,rice sheath blight,Fungus,Blight
+72,soybean leaf,Healthy,Healthy
+73,squash leaf,Healthy,Healthy
+74,squash powdery mildew,Fungus,Mildew/rust
+75,strawberry anthracnose,Fungus,Spot/lesion
+76,strawberry leaf,Healthy,Healthy
+77,strawberry leaf scorch,Fungus,Blight
+78,tobacco leaf,Healthy,Healthy
+79,tobacco mosaic virus,Virus,Mosaic/mottling/curling
+80,tomato bacterial leaf spot,Bacterium,Spot/lesion
+81,tomato early blight,Fungus,Blight
+82,tomato late blight,Oomycete,Blight
+83,tomato leaf,Healthy,Healthy
+84,tomato leaf mold,Fungus,Mildew/rust
+85,tomato mosaic virus,Virus,Mosaic/mottling/curling
+86,tomato septoria leaf spot,Fungus,Spot/lesion
+87,tomato yellow leaf curl virus,Virus,Mosaic/mottling/curling
+88,zucchini yellow mosaic virus,Virus,Mosaic/mottling/curling

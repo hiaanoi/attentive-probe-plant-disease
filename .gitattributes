@@ -1,0 +1,3 @@
+# Preserve release bytes: CSV and NPY SHA-256 values are part of the checks.
+# Readers may clone on any OS without automatic LF/CRLF conversion.
+* -text

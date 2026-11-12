@@ -1,0 +1,1821 @@
+image_id,true_class,predicted_class
+apple black rot/111.jpg,0,0
+apple black rot/156.jpg,0,14
+apple black rot/google_0099.jpg,0,1
+apple black rot/google_0008.jpg,0,0
+apple black rot/google_0016.jpg,0,4
+apple black rot/211.jpg,0,40
+apple black rot/google_0158.jpg,0,4
+apple black rot/150.jpg,0,0
+apple black rot/google_0014.jpg,0,4
+apple black rot/google_0113.jpg,0,28
+apple black rot/70.jpg,0,4
+apple black rot/google_0012.jpg,0,0
+apple black rot/google_0043.jpg,0,4
+apple black rot/google_0137.jpg,0,28
+apple black rot/151.jpg,0,0
+apple black rot/168.jpg,0,31
+apple black rot/32.jpg,0,0
+apple leaf/87.jpg,1,76
+apple leaf/9.jpg,1,1
+apple leaf/325.jpg,1,1
+apple leaf/google_0345.jpg,1,1
+apple leaf/google_0403.jpg,1,1
+apple leaf/74.jpg,1,1
+apple leaf/google_0386.jpg,1,1
+apple leaf/67.jpg,1,1
+apple leaf/google_0008.jpg,1,1
+apple leaf/133.jpg,1,1
+apple leaf/251.jpg,1,1
+apple leaf/209.jpg,1,4
+apple leaf/google_0126.jpg,1,1
+apple leaf/google_0514.jpg,1,1
+apple leaf/55.jpg,1,1
+apple leaf/190.jpg,1,63
+apple leaf/302.jpg,1,1
+apple leaf/google_0055.jpg,1,1
+apple leaf/100.jpg,1,1
+apple leaf/google_0023.jpg,1,1
+apple leaf/google_0376.jpg,1,1
+apple leaf/281.jpg,1,1
+apple leaf/238.jpg,1,1
+apple leaf/170.jpg,1,1
+apple leaf/google_0552.jpg,1,1
+apple leaf/75.jpg,1,1
+apple leaf/48.jpg,1,1
+apple leaf/81.jpg,1,1
+apple leaf/google_0204.jpg,1,1
+apple leaf/88.jpg,1,1
+apple leaf/google_0377.jpg,1,1
+apple leaf/191.jpg,1,1
+apple leaf/112.jpg,1,63
+apple leaf/google_0044.jpg,1,1
+apple leaf/289.jpg,1,1
+apple leaf/google_0118.jpg,1,63
+apple leaf/330.jpg,1,3
+apple leaf/287.jpg,1,1
+apple leaf/google_0494.jpg,1,1
+apple leaf/50.jpg,1,1
+apple leaf/276.jpg,1,1
+apple leaf/66.jpg,1,1
+apple leaf/google_0182.jpg,1,1
+apple leaf/267.jpg,1,1
+apple mosaic virus/google_0155.jpg,2,78
+apple mosaic virus/google_0041.jpg,2,14
+apple mosaic virus/google_0071.jpg,2,2
+apple mosaic virus/8.jpg,2,2
+apple mosaic virus/100.jpg,2,2
+apple mosaic virus/google_0081.jpg,2,2
+apple mosaic virus/google_0078.jpg,2,3
+apple mosaic virus/google_0144.jpg,2,39
+apple mosaic virus/google_0058.jpg,2,2
+apple mosaic virus/65.jpg,2,2
+apple mosaic virus/63.jpg,2,11
+apple mosaic virus/google_0196.jpg,2,2
+apple mosaic virus/72.jpg,2,11
+apple mosaic virus/45.jpg,2,2
+apple mosaic virus/google_0030.jpg,2,2
+apple mosaic virus/google_0024.jpg,2,2
+apple mosaic virus/google_0089.jpg,2,2
+apple mosaic virus/37.jpg,2,2
+apple rust/google_0056.jpg,3,3
+apple rust/google_0036.jpg,3,3
+apple rust/google_0065.jpg,3,3
+apple rust/google_0143.jpg,3,3
+apple rust/google_0064.jpg,3,3
+apple rust/74.jpg,3,3
+apple rust/google_0207.jpg,3,3
+apple rust/google_0168.jpg,3,3
+apple rust/google_0194.jpg,3,3
+apple rust/google_0228.jpg,3,16
+apple rust/71.jpg,3,3
+apple rust/google_0142.jpg,3,3
+apple rust/google_0159.jpg,3,3
+apple rust/google_0114.jpg,3,3
+apple rust/google_0220.jpg,3,3
+apple rust/google_0022.jpg,3,3
+apple rust/google_0169.jpg,3,3
+apple rust/19.jpg,3,3
+apple rust/6.jpg,3,3
+apple rust/45.jpg,3,3
+apple rust/34.jpg,3,3
+apple rust/google_0030.jpg,3,3
+apple rust/143.jpg,3,3
+apple rust/google_0093.jpg,3,3
+apple rust/google_0010.jpg,3,3
+apple rust/google_0092.jpg,3,3
+apple rust/google_0227.jpg,3,3
+apple rust/182.jpg,3,0
+apple rust/google_0123.jpg,3,3
+apple rust/26 - Copy (2).jpg,3,3
+apple scab/google_0133.jpg,4,4
+apple scab/google_0064.jpg,4,4
+apple scab/4.jpg,4,4
+apple scab/google_0207.jpg,4,63
+apple scab/google_0288.jpg,4,4
+apple scab/google_0208.jpg,4,4
+apple scab/71.jpg,4,4
+apple scab/google_0072.jpg,4,4
+apple scab/google_0037.jpg,4,4
+apple scab/85.jpg,4,3
+apple scab/google_0189.jpg,4,4
+apple scab/62.jpg,4,3
+apple scab/google_0002.jpg,4,4
+apple scab/google_0140.jpg,4,4
+apple scab/43.jpg,4,4
+apple scab/google_0097.jpg,4,3
+apple scab/21.jpg,4,4
+apple scab/google_0320.jpg,4,4
+apple scab/google_0125.jpg,4,4
+apple scab/google_0169.jpg,4,1
+apple scab/google_0216.jpg,4,4
+apple scab/google_0316.jpg,4,4
+apple scab/google_0013.jpg,4,0
+apple scab/google_0018.jpg,4,4
+apple scab/google_0118.jpg,4,4
+apple scab/google_0249.jpg,4,1
+apple scab/37.jpg,4,80
+apple scab/google_0218.jpg,4,3
+apple scab/google_0332.jpg,4,0
+banana leaf/google_0153.jpg,5,5
+banana leaf/83.jpg,5,5
+banana leaf/74.jpg,5,5
+banana leaf/4.jpg,5,5
+banana leaf/284.jpg,5,78
+banana leaf/55.jpg,5,5
+banana leaf/google_0102.jpg,5,5
+banana leaf/49.jpg,5,5
+banana leaf/google_0049.jpg,5,5
+banana leaf/167.jpg,5,5
+banana leaf/36.jpg,5,5
+banana leaf/81.jpg,5,5
+banana leaf/70.jpg,5,5
+banana leaf/137.jpg,5,5
+banana leaf/15.jpg,5,5
+banana leaf/94.jpg,5,5
+banana leaf/25.jpg,5,5
+banana leaf/202.jpg,5,5
+banana leaf/140.jpg,5,5
+banana leaf/165.jpg,5,5
+banana leaf/201.jpg,5,5
+banana leaf/189.jpg,5,5
+banana leaf/google_0180.jpg,5,5
+banana leaf/57.jpg,5,5
+banana panama disease/google_0157 - Copy.jpg,6,6
+banana panama disease/add_2 (1).jpg,6,6
+banana panama disease/addition (13).jpg,6,6
+banana panama disease/111.jpg,6,6
+banana panama disease/addition (8).jpg,6,6
+banana panama disease/google_0000.jpg,6,6
+banana panama disease/add_2 (11).jpg,6,6
+banana panama disease/49.jpg,6,6
+banana panama disease/google_0144.jpg,6,6
+banana panama disease/addition (10).jpg,6,5
+banana panama disease/add_2 (10).jpg,6,6
+banana panama disease/google_0017.jpg,6,6
+banana panama disease/add_2 (63).jpg,6,6
+banana panama disease/118.jpg,6,6
+banana panama disease/add_2 (55).jpg,6,6
+banana panama disease/google_0015.jpg,6,6
+banana panama disease/google_0061.jpg,6,6
+banana panama disease/add_2 (49).jpg,6,6
+banana panama disease/addition (17).jpg,6,6
+banana panama disease/57.jpg,6,6
+banana panama disease/google_0105.jpg,6,6
+basil downy mildew/google_0045.jpg,7,7
+basil downy mildew/google_0057.jpg,7,7
+basil downy mildew/google_0084.jpg,7,7
+basil downy mildew/google_0052 - Copy.jpg,7,7
+basil downy mildew/google_0184.jpg,7,7
+basil downy mildew/google_0210.jpg,7,8
+basil downy mildew/google_0167.jpg,7,7
+basil downy mildew/google_0030.jpg,7,7
+basil leaf/google_0321.jpg,8,8
+basil leaf/1.jpg,8,8
+basil leaf/google_0133.jpg,8,8
+basil leaf/google_0036.jpg,8,8
+basil leaf/399.jpg,8,8
+basil leaf/google_0070.jpg,8,8
+basil leaf/54.jpg,8,8
+basil leaf/google_0041.jpg,8,8
+basil leaf/105.jpg,8,8
+basil leaf/google_0392.jpg,8,8
+basil leaf/google_0087.jpg,8,8
+basil leaf/425.jpg,8,8
+basil leaf/336.jpg,8,8
+basil leaf/google_0111.jpg,8,8
+basil leaf/google_0170.jpg,8,8
+basil leaf/google_0266.jpg,8,8
+basil leaf/google_0435.jpg,8,8
+basil leaf/275.jpg,8,8
+basil leaf/23.jpg,8,8
+basil leaf/104.jpg,8,8
+basil leaf/google_0102.jpg,8,8
+basil leaf/google_0391.jpg,8,8
+basil leaf/google_0110.jpg,8,8
+basil leaf/google_0197.jpg,8,8
+basil leaf/92.jpg,8,8
+basil leaf/49.jpg,8,8
+basil leaf/393.jpg,8,8
+basil leaf/google_0129.jpg,8,8
+basil leaf/198.jpg,8,8
+basil leaf/google_0271.jpg,8,8
+basil leaf/google_0162.jpg,8,8
+basil leaf/371.jpg,8,8
+basil leaf/431.jpg,8,8
+basil leaf/402.jpg,8,8
+basil leaf/google_0204.jpg,8,8
+basil leaf/134.jpg,8,8
+basil leaf/15.jpg,8,8
+basil leaf/223.jpg,8,8
+basil leaf/274.jpg,8,8
+basil leaf/202.jpg,8,8
+basil leaf/252.jpg,8,8
+basil leaf/google_0018.jpg,8,8
+basil leaf/239.jpg,8,8
+basil leaf/428.jpg,8,8
+basil leaf/199.jpg,8,8
+basil leaf/231.jpg,8,8
+basil leaf/58.jpg,8,8
+basil leaf/28.jpg,8,8
+basil leaf/google_0007.jpg,8,8
+basil leaf/google_0402.jpg,8,8
+basil leaf/366.jpg,8,8
+basil leaf/google_0165.jpg,8,8
+basil leaf/57.jpg,8,8
+basil leaf/227.jpg,8,8
+basil leaf/312.jpg,8,8
+basil leaf/google_0095.jpg,8,8
+basil leaf/66.jpg,8,8
+basil leaf/270.jpg,8,8
+basil leaf/310.jpg,8,8
+bean halo blight/google_0075.jpg,9,9
+bean halo blight/google_0035.jpg,9,9
+bean halo blight/google_0021.jpg,9,9
+bean halo blight/google_0042.jpg,9,9
+bean halo blight/18.jpg,9,65
+bean halo blight/google_0067.jpg,9,12
+bean halo blight/google_0306.jpg,9,9
+bean halo blight/google_0113.jpg,9,9
+bean halo blight/google_0161.jpg,9,52
+bean halo blight/google_0018.jpg,9,12
+bean halo blight/google_0184 - Copy (2).jpg,9,9
+bean leaf/google_0054.jpg,10,10
+bean leaf/google_0057.jpg,10,10
+bean leaf/260.jpg,10,63
+bean leaf/google_0514.jpg,10,72
+bean leaf/275.jpg,10,10
+bean leaf/google_0031.jpg,10,10
+bean leaf/282.jpg,10,10
+bean leaf/193.jpg,10,10
+bean leaf/google_0088.jpg,10,72
+bean leaf/google_0183.jpg,10,72
+bean leaf/281.jpg,10,10
+bean leaf/google_0114.jpg,10,10
+bean leaf/google_0220.jpg,10,10
+bean leaf/google_0340.jpg,10,72
+bean leaf/google_0129.jpg,10,10
+bean leaf/google_0286.jpg,10,10
+bean leaf/google_0181.jpg,10,10
+bean leaf/google_0001.jpg,10,10
+bean leaf/72.jpg,10,9
+bean leaf/google_0259.jpg,10,10
+bean leaf/google_0315.jpg,10,10
+bean leaf/google_0326.jpg,10,10
+bean leaf/14.jpg,10,12
+bean leaf/google_0289.jpg,10,10
+bean leaf/66.jpg,10,10
+bean mosaic virus/38.jpg,11,79
+bean mosaic virus/google_0012 - Copy (2).jpg,11,11
+bean mosaic virus/google_0111.jpg,11,11
+bean mosaic virus/google_0142.jpg,11,11
+bean mosaic virus/google_0203.jpg,11,9
+bean mosaic virus/google_0066.jpg,11,11
+bean mosaic virus/21.jpg,11,12
+bean mosaic virus/22.jpg,11,11
+bean mosaic virus/google_0181.jpg,11,11
+bean mosaic virus/google_0017.jpg,11,11
+bean mosaic virus/17.jpg,11,11
+bean mosaic virus/57.jpg,11,13
+bean rust/google_0054.jpg,12,10
+bean rust/197.jpg,12,12
+bean rust/175.jpg,12,12
+bean rust/google_0077.jpg,12,28
+bean rust/google_0128.jpg,12,12
+bean rust/3.jpg,12,12
+bean rust/google_0178.jpg,12,16
+bean rust/21.jpg,12,12
+bean rust/11.jpg,12,12
+bean rust/170.jpg,12,12
+bean rust/google_0121.jpg,12,12
+bean rust/46.jpg,12,12
+bean rust/26.jpg,12,12
+bean rust/google_0015.jpg,12,12
+bean rust/50.jpg,12,16
+bean rust/google_0107.jpg,12,12
+bell pepper leaf/54.jpg,13,13
+bell pepper leaf/175.jpg,13,13
+bell pepper leaf/40 - Copy.jpg,13,13
+bell pepper leaf/241.jpg,13,13
+bell pepper leaf/51.jpg,13,13
+bell pepper leaf/275.jpg,13,13
+bell pepper leaf/google_0140.jpg,13,13
+bell pepper leaf/google_0192.jpg,13,13
+bell pepper leaf/242.jpg,13,13
+bell pepper leaf/108.jpg,13,13
+bell pepper leaf/11.jpg,13,15
+bell pepper leaf/65.jpg,13,13
+bell pepper leaf/158.jpg,13,13
+bell pepper leaf/google_0117.jpg,13,13
+bell pepper leaf/google_0014.jpg,13,13
+bell pepper leaf/google_0253.jpg,13,13
+bell pepper leaf/46.jpg,13,85
+bell pepper leaf/google_0161.jpg,13,13
+bell pepper leaf/google_0006.jpg,13,13
+bell pepper leaf/google_0264.jpg,13,13
+bell pepper leaf/58.jpg,13,13
+bell pepper leaf/17.jpg,13,13
+bell pepper leaf/37.jpg,13,13
+bell pepper leaf/50.jpg,13,13
+bell pepper leaf spot/google_0214.jpg,14,13
+bell pepper leaf spot/google_0153.jpg,14,14
+bell pepper leaf spot/google_0208.jpg,14,14
+bell pepper leaf spot/3.jpg,14,14
+bell pepper leaf spot/google_0222.jpg,14,85
+bell pepper leaf spot/google_0066.jpg,14,86
+bell pepper leaf spot/google_0151.jpg,14,13
+bell pepper leaf spot/google_0122.jpg,14,14
+bell pepper leaf spot/google_0213.jpg,14,9
+bell pepper leaf spot/google_0024.jpg,14,14
+bell pepper leaf spot/google_0090.jpg,14,14
+blueberry leaf/google_0291.jpg,15,15
+blueberry leaf/174.jpg,15,15
+blueberry leaf/google_0135.jpg,15,15
+blueberry leaf/google_0283.jpg,15,15
+blueberry leaf/124.jpg,15,15
+blueberry leaf/56.jpg,15,15
+blueberry leaf/44.jpg,15,15
+blueberry leaf/113.jpg,15,15
+blueberry leaf/google_0031.jpg,15,1
+blueberry leaf/google_0504.jpg,15,15
+blueberry leaf/154.jpg,15,63
+blueberry leaf/google_0355.jpg,15,15
+blueberry leaf/google_0026.jpg,15,15
+blueberry leaf/48.jpg,15,15
+blueberry leaf/81.jpg,15,68
+blueberry leaf/google_0501.jpg,15,65
+blueberry leaf/google_0308.jpg,15,15
+blueberry leaf/google_0481.jpg,15,15
+blueberry leaf/97.jpg,15,15
+blueberry leaf/199.jpg,15,15
+blueberry leaf/google_0431.jpg,15,15
+blueberry leaf/189.jpg,15,15
+blueberry leaf/28.jpg,15,15
+blueberry leaf/195.jpg,15,15
+blueberry leaf/208.jpg,15,15
+blueberry leaf/google_0185.jpg,15,15
+blueberry leaf/146.jpg,15,16
+blueberry leaf/32.jpg,15,15
+blueberry rust/google_0054.jpg,16,16
+blueberry rust/google_0135.jpg,16,28
+blueberry rust/12.jpg,16,15
+blueberry rust/google_0226.jpg,16,31
+blueberry rust/google_0072.jpg,16,16
+blueberry rust/google_0034.jpg,16,15
+blueberry rust/google_0033.jpg,16,16
+blueberry rust/google_0190.jpg,16,28
+blueberry rust/34.jpg,16,28
+blueberry rust/31.jpg,16,16
+blueberry rust/google_0025.jpg,16,16
+broccoli downy mildew/google_0003.jpg,17,19
+broccoli downy mildew/google_0050.jpg,17,19
+broccoli downy mildew/google_0163.jpg,17,17
+broccoli downy mildew/22.jpg,17,19
+broccoli downy mildew/google_0256.jpg,17,39
+broccoli downy mildew/google_0275.jpg,17,17
+broccoli leaf/331.jpg,18,18
+broccoli leaf/google_0321.jpg,18,18
+broccoli leaf/1.jpg,18,18
+broccoli leaf/google_0384.jpg,18,18
+broccoli leaf/86.jpg,18,18
+broccoli leaf/google_0453.jpg,18,18
+broccoli leaf/google_0396.jpg,18,18
+broccoli leaf/google_0242.jpg,18,23
+broccoli leaf/google_0409.jpg,18,18
+broccoli leaf/google_0164.jpg,18,18
+broccoli leaf/178.jpg,18,18
+broccoli leaf/242.jpg,18,18
+broccoli leaf/163.jpg,18,18
+broccoli leaf/google_0322.jpg,18,18
+broccoli leaf/google_0073.jpg,18,18
+broccoli leaf/30.jpg,18,18
+broccoli leaf/172.jpg,18,18
+broccoli leaf/198.jpg,18,18
+broccoli leaf/google_0014.jpg,18,18
+broccoli leaf/400.jpg,18,18
+broccoli leaf/google_0161.jpg,18,18
+broccoli leaf/173.jpg,18,18
+broccoli leaf/231.jpg,18,18
+broccoli leaf/189.jpg,18,18
+broccoli leaf/google_0260.jpg,18,18
+broccoli leaf/google_0103.jpg,18,18
+broccoli leaf/google_0127.jpg,18,18
+cabbage alternaria leaf spot/40.jpg,19,19
+cabbage alternaria leaf spot/google_0075.jpg,19,19
+cabbage alternaria leaf spot/12.jpg,19,17
+cabbage alternaria leaf spot/google_0074.jpg,19,19
+cabbage alternaria leaf spot/16.jpg,19,19
+cabbage alternaria leaf spot/43.jpg,19,20
+cabbage alternaria leaf spot/google_0047.jpg,19,19
+cabbage alternaria leaf spot/22.jpg,19,19
+cabbage alternaria leaf spot/google_0027.jpg,19,17
+cabbage alternaria leaf spot/8 - Copy.jpg,19,20
+cabbage alternaria leaf spot/17.jpg,19,18
+cabbage alternaria leaf spot/google_0107.jpg,19,39
+cabbage leaf/47.jpg,20,20
+cabbage leaf/385.jpg,20,20
+cabbage leaf/156.jpg,20,20
+cabbage leaf/google_0071.jpg,20,20
+cabbage leaf/google_0080.jpg,20,20
+cabbage leaf/103.jpg,20,20
+cabbage leaf/113.jpg,20,20
+cabbage leaf/282.jpg,20,20
+cabbage leaf/190.jpg,20,20
+cabbage leaf/397.jpg,20,20
+cabbage leaf/136.jpg,20,20
+cabbage leaf/205.jpg,20,20
+cabbage leaf/google_0246.jpg,20,20
+cabbage leaf/398.jpg,20,20
+cabbage leaf/11.jpg,20,20
+cabbage leaf/65.jpg,20,20
+cabbage leaf/215.jpg,20,20
+cabbage leaf/257.jpg,20,20
+cabbage leaf/324.jpg,20,20
+cabbage leaf/547.jpg,20,20
+cabbage leaf/81.jpg,20,20
+cabbage leaf/347.jpg,20,20
+cabbage leaf/google_0029.jpg,20,20
+cabbage leaf/435.jpg,20,26
+cabbage leaf/google_0001.jpg,20,20
+cabbage leaf/460.jpg,20,20
+cabbage leaf/112.jpg,20,20
+cabbage leaf/453.jpg,20,20
+cabbage leaf/109.jpg,20,20
+cabbage leaf/390.jpg,20,20
+cabbage leaf/448.jpg,20,20
+cabbage leaf/96.jpg,20,18
+cabbage leaf/561.jpg,20,20
+cabbage leaf/35.jpg,20,20
+cabbage leaf/428.jpg,20,18
+cabbage leaf/google_0093.jpg,20,20
+cabbage leaf/google_0090.jpg,20,20
+cabbage leaf/31.jpg,20,20
+cabbage leaf/357.jpg,20,20
+cabbage leaf/196.jpg,20,20
+cabbage leaf/50.jpg,20,20
+cabbage leaf/356.jpg,20,20
+cabbage leaf/google_0025.jpg,20,20
+cabbage leaf/404.jpg,20,20
+cabbage leaf/438.jpg,20,20
+cabbage leaf/255.jpg,20,20
+carrot cavity spot/google_0003.jpg,21,21
+carrot cavity spot/google_0269.jpg,21,21
+carrot cavity spot/google_0192.jpg,21,21
+carrot cavity spot/google_0245.jpg,21,21
+carrot cavity spot/google_0012.jpg,21,21
+carrot cavity spot/google_0024.jpg,21,21
+carrot cavity spot/google_0093.jpg,21,21
+cauliflower alternaria leaf spot/google_0042 - Copy.jpg,22,19
+cauliflower alternaria leaf spot/google_0008.jpg,22,19
+cauliflower alternaria leaf spot/google_0288.jpg,22,22
+cauliflower alternaria leaf spot/google_0208.jpg,22,19
+cauliflower alternaria leaf spot/google_0037.jpg,22,19
+cauliflower alternaria leaf spot/google_0022.jpg,22,19
+cauliflower alternaria leaf spot/google_0120.jpg,22,22
+cauliflower alternaria leaf spot/google_0061.jpg,22,19
+cauliflower alternaria leaf spot/17.jpg,22,19
+cauliflower leaf/google_0214.jpg,23,23
+cauliflower leaf/1.jpg,23,23
+cauliflower leaf/68.jpg,23,23
+cauliflower leaf/5.jpg,23,23
+cauliflower leaf/google_0071.jpg,23,23
+cauliflower leaf/google_0179.jpg,23,56
+cauliflower leaf/103.jpg,23,23
+cauliflower leaf/56.jpg,23,23
+cauliflower leaf/google_0136.jpg,23,23
+cauliflower leaf/google_0150.jpg,23,20
+cauliflower leaf/google_0158.jpg,23,23
+cauliflower leaf/google_0247.jpg,23,23
+cauliflower leaf/90.jpg,23,23
+cauliflower leaf/120.jpg,23,23
+cauliflower leaf/google_0169.jpg,23,18
+cauliflower leaf/google_0122.jpg,23,23
+cauliflower leaf/google_0239.jpg,23,18
+cauliflower leaf/155.jpg,23,23
+cauliflower leaf/66.jpg,23,20
+celery anthracnose/google_0035.jpg,24,46
+celery anthracnose/google_0002.jpg,24,24
+celery anthracnose/google_0024.jpg,24,24
+celery anthracnose/google_0090.jpg,24,80
+celery early blight/1.jpg,25,25
+celery early blight/google_0023.jpg,25,81
+celery early blight/google_0022.jpg,25,81
+celery early blight/6.jpg,25,25
+celery early blight/google_0012.jpg,25,80
+celery leaf/google_0082.jpg,26,26
+celery leaf/203.jpg,26,26
+celery leaf/83.jpg,26,26
+celery leaf/105.jpg,26,26
+celery leaf/google_0084.jpg,26,26
+celery leaf/69.jpg,26,26
+celery leaf/190.jpg,26,26
+celery leaf/235.jpg,26,26
+celery leaf/234.jpg,26,26
+celery leaf/google_0164.jpg,26,26
+celery leaf/90.jpg,26,25
+celery leaf/198.jpg,26,26
+celery leaf/google_0116.jpg,26,26
+celery leaf/google_0017.jpg,26,26
+celery leaf/97.jpg,26,26
+celery leaf/google_0161.jpg,26,26
+celery leaf/25.jpg,26,26
+celery leaf/6.jpg,26,26
+celery leaf/201.jpg,26,26
+celery leaf/132.jpg,26,26
+celery leaf/32.jpg,26,26
+cherry leaf/google_0335.jpg,27,1
+cherry leaf/13.jpg,27,27
+cherry leaf/google_0425.jpg,27,63
+cherry leaf/105.jpg,27,27
+cherry leaf/145.jpg,27,27
+cherry leaf/google_0084.jpg,27,27
+cherry leaf/139.jpg,27,27
+cherry leaf/53.jpg,27,27
+cherry leaf/google_0461.jpg,27,63
+cherry leaf/google_0228.jpg,27,27
+cherry leaf/google_0285.jpg,27,27
+cherry leaf/google_0002.jpg,27,27
+cherry leaf/google_0000.jpg,27,27
+cherry leaf/google_0158.jpg,27,27
+cherry leaf/79.jpg,27,27
+cherry leaf/google_0322.jpg,27,27
+cherry leaf/144.jpg,27,28
+cherry leaf/google_0286.jpg,27,27
+cherry leaf/google_0438.jpg,27,27
+cherry leaf/109.jpg,27,27
+cherry leaf/google_0079.jpg,27,1
+cherry leaf/26.jpg,27,27
+cherry leaf/157.jpg,27,13
+cherry leaf/google_0263.jpg,27,27
+cherry leaf/google_0455.jpg,27,27
+cherry leaf/2.jpg,27,27
+cherry leaf/132.jpg,27,27
+cherry leaf/google_0007.jpg,27,27
+cherry leaf spot/google_0304.jpg,28,28
+cherry leaf spot/google_0054.jpg,28,28
+cherry leaf spot/google_0215.jpg,28,28
+cherry leaf spot/16.jpg,28,28
+cherry leaf spot/google_0011.jpg,28,28
+cherry leaf spot/google_0072.jpg,28,28
+cherry leaf spot/google_0004.jpg,28,28
+cherry leaf spot/google_0274.jpg,28,63
+cherry leaf spot/google_0022.jpg,28,28
+cherry leaf spot/google_0300.jpg,28,63
+cherry leaf spot/google_0427.jpg,28,28
+cherry leaf spot/google_0017.jpg,28,28
+cherry leaf spot/70.jpg,28,28
+cherry leaf spot/google_0204.jpg,28,28
+cherry leaf spot/google_0397.jpg,28,65
+cherry leaf spot/google_0196.jpg,28,28
+cherry leaf spot/15.jpg,28,28
+cherry leaf spot/google_0316.jpg,28,28
+cherry leaf spot/google_0122.jpg,28,28
+cherry leaf spot/45.jpg,28,28
+cherry leaf spot/33.jpg,28,61
+cherry leaf spot/google_0090.jpg,28,28
+cherry leaf spot/google_0289.jpg,28,81
+cherry powdery mildew/13.jpg,29,84
+cherry powdery mildew/40.jpg,29,14
+cherry powdery mildew/8.jpg,29,3
+cherry powdery mildew/google_0077.jpg,29,28
+cherry powdery mildew/google_0094.jpg,29,1
+cherry powdery mildew/google_0031.jpg,29,29
+cherry powdery mildew/google_0164.jpg,29,82
+cherry powdery mildew/google_0145.jpg,29,29
+cherry powdery mildew/google_0023.jpg,29,29
+cherry powdery mildew/google_0028.jpg,29,14
+cherry powdery mildew/29.jpg,29,29
+citrus canker/309.jpg,30,30
+citrus canker/google_0304.jpg,30,30
+citrus canker/399.jpg,30,30
+citrus canker/226.jpg,30,30
+citrus canker/124.jpg,30,30
+citrus canker/google_0221.jpg,30,30
+citrus canker/35 - Copy (3).jpg,30,30
+citrus canker/42.jpg,30,30
+citrus canker/71.jpg,30,30
+citrus canker/google_0072.jpg,30,30
+citrus canker/paper2.png,30,30
+citrus canker/139 - Copy (2).jpg,30,30
+citrus canker/313.jpg,30,30
+citrus canker/397.jpg,30,30
+citrus canker/google_0238.jpg,30,31
+citrus canker/265.jpg,30,30
+citrus canker/24.jpg,30,30
+citrus canker/google_0197.jpg,30,30
+citrus canker/163.jpg,30,30
+citrus canker/google_0287.jpg,30,30
+citrus canker/google_0004.jpg,30,30
+citrus canker/396.jpg,30,30
+citrus canker/google_0049.jpg,30,30
+citrus canker/google_0184.jpg,30,30
+citrus canker/google_0129.jpg,30,30
+citrus canker/google_0108.jpg,30,4
+citrus canker/269.jpg,30,30
+citrus canker/389.jpg,30,30
+citrus canker/google_0240.jpg,30,30
+citrus canker/google_0029.jpg,30,30
+citrus canker/15.jpg,30,30
+citrus canker/225.jpg,30,30
+citrus canker/105 - Copy.jpg,30,12
+citrus canker/273.jpg,30,30
+citrus canker/405.jpg,30,30
+citrus canker/94.jpg,30,30
+citrus canker/202.jpg,30,30
+citrus canker/118.jpg,30,30
+citrus canker/google_0232.jpg,30,30
+citrus canker/139 - Copy.jpg,30,30
+citrus canker/google_0012.jpg,30,52
+citrus canker/26.jpg,30,30
+citrus canker/140.jpg,30,30
+citrus canker/173.jpg,30,31
+citrus canker/406.jpg,30,30
+citrus canker/382.jpg,30,30
+citrus canker/35.jpg,30,30
+citrus canker/28.jpg,30,30
+citrus canker/57.jpg,30,30
+citrus canker/50.jpg,30,30
+citrus canker/google_0278.jpg,30,30
+citrus canker/35 - Copy.jpg,30,30
+citrus canker/262.jpg,30,30
+citrus greening disease/47.jpg,31,31
+citrus greening disease/google_0036.jpg,31,31
+citrus greening disease/5.jpg,31,31
+citrus greening disease/67.jpg,31,31
+citrus greening disease/google_0071.jpg,31,31
+citrus greening disease/google_0074.jpg,31,31
+citrus greening disease/8.jpg,31,31
+citrus greening disease/google_0077.jpg,31,31
+citrus greening disease/56.jpg,31,31
+citrus greening disease/google_0011 - Copy.jpg,31,33
+citrus greening disease/google_0126.jpg,31,31
+citrus greening disease/51.jpg,31,31
+citrus greening disease/google_0131.jpg,31,31
+citrus greening disease/google_0236.jpg,31,30
+citrus greening disease/google_0081.jpg,31,31
+citrus greening disease/google_0004.jpg,31,31
+citrus greening disease/108.jpg,31,30
+citrus greening disease/google_0073.jpg,31,31
+citrus greening disease/65.jpg,31,31
+citrus greening disease/google_0053.jpg,31,31
+citrus greening disease/6.jpg,31,31
+citrus greening disease/52.jpg,31,31
+citrus greening disease/google_0185.jpg,31,31
+coffee leaf/13.jpg,32,32
+coffee leaf/google_0036.jpg,32,32
+coffee leaf/323.jpg,32,32
+coffee leaf/google_0112.jpg,32,32
+coffee leaf/342.jpg,32,15
+coffee leaf/google_0066.jpg,32,32
+coffee leaf/google_0058.jpg,32,32
+coffee leaf/48.jpg,32,32
+coffee leaf/6.jpg,32,32
+coffee leaf/157.jpg,32,32
+coffee leaf/292.jpg,32,32
+coffee leaf/35.jpg,32,32
+coffee leaf/39.jpg,32,32
+coffee leaf rust/google_0270.jpg,33,33
+coffee leaf rust/google_0065.jpg,33,33
+coffee leaf rust/google_0045.jpg,33,33
+coffee leaf rust/9.jpg,33,33
+coffee leaf rust/google_0223.jpg,33,33
+coffee leaf rust/google_0195.jpg,33,33
+coffee leaf rust/3.jpg,33,33
+coffee leaf rust/79.jpg,33,32
+coffee leaf rust/google_0069.jpg,33,33
+coffee leaf rust/google_0091.jpg,33,33
+coffee leaf rust/google_0287.jpg,33,33
+coffee leaf rust/63.jpg,33,33
+coffee leaf rust/google_0001.jpg,33,33
+coffee leaf rust/google_0038.jpg,33,33
+coffee leaf rust/35.jpg,33,16
+coffee leaf rust/google_0106.jpg,33,33
+coffee leaf rust/171.jpg,33,33
+coffee leaf rust/google_0089.jpg,33,33
+coffee leaf rust/google_0134.jpg,33,33
+corn gray leaf spot/google_0101.jpg,34,34
+corn gray leaf spot/2 - Copy (3).jpg,34,36
+corn gray leaf spot/google_0257.jpg,34,34
+corn gray leaf spot/google_0084.jpg,34,34
+corn gray leaf spot/google_0074.jpg,34,34
+corn gray leaf spot/google_0142.jpg,34,34
+corn gray leaf spot/20.jpg,34,36
+corn gray leaf spot/44.jpg,34,35
+corn gray leaf spot/google_0050.jpg,34,34
+corn gray leaf spot/3.jpg,34,34
+corn gray leaf spot/google_0140.jpg,34,34
+corn gray leaf spot/google_0102.jpg,34,34
+corn gray leaf spot/google_0246.jpg,34,36
+corn gray leaf spot/google_0298.jpg,34,34
+corn gray leaf spot/google_0296.jpg,34,36
+corn gray leaf spot/google_0385.jpg,34,34
+corn gray leaf spot/google_0122.jpg,34,34
+corn gray leaf spot/google_0044.jpg,34,34
+corn gray leaf spot/google_0118.jpg,34,36
+corn gray leaf spot/google_0157.jpg,34,34
+corn gray leaf spot/add (8).jpg,34,34
+corn leaf/4.jpg,35,35
+corn leaf/google_0148.jpg,35,35
+corn leaf/google_0019.jpg,35,38
+corn leaf/18.jpg,35,36
+corn leaf/google_0247.jpg,35,35
+corn leaf/google_0115.jpg,35,35
+corn leaf/15.jpg,35,35
+corn leaf/19.jpg,35,35
+corn leaf/45.jpg,35,35
+corn leaf/34.jpg,35,35
+corn leaf/google_0010.jpg,35,35
+corn leaf/google_0076.jpg,35,35
+corn leaf/google_0134.jpg,35,35
+corn leaf/google_0543.jpg,35,45
+corn leaf/google_0225.jpg,35,63
+corn northern leaf blight/google_0065.jpg,36,36
+corn northern leaf blight/google_0045.jpg,36,36
+corn northern leaf blight/10.jpg,36,36
+corn northern leaf blight/google_0057.jpg,36,36
+corn northern leaf blight/google_0075.jpg,36,36
+corn northern leaf blight/16.jpg,36,36
+corn northern leaf blight/google_0126.jpg,36,36
+corn northern leaf blight/55.jpg,36,37
+corn northern leaf blight/86 - Copy.jpg,36,36
+corn northern leaf blight/google_0069.jpg,36,36
+corn northern leaf blight/7.jpg,36,36
+corn northern leaf blight/11.jpg,36,34
+corn northern leaf blight/add (10).jpg,36,34
+corn northern leaf blight/google_0047.jpg,36,34
+corn northern leaf blight/google_0022.jpg,36,36
+corn northern leaf blight/1 - Copy (3).jpg,36,36
+corn northern leaf blight/google_0014.jpg,36,35
+corn northern leaf blight/add (21).jpg,36,36
+corn northern leaf blight/add (6).jpg,36,36
+corn northern leaf blight/google_0149.jpg,36,36
+corn northern leaf blight/google_0043.jpg,36,36
+corn northern leaf blight/add (22).jpg,36,36
+corn rust/google_0214.jpg,37,34
+corn rust/74.jpg,37,37
+corn rust/google_0008.jpg,37,37
+corn rust/google_0009.jpg,37,37
+corn rust/43.jpg,37,37
+corn rust/30.jpg,37,37
+corn rust/google_0177.jpg,37,37
+corn rust/google_0115.jpg,37,37
+corn rust/google_0125.jpg,37,37
+corn rust/73.jpg,37,37
+corn rust/google_0181.jpg,37,34
+corn rust/15.jpg,37,37
+corn rust/97.jpg,37,37
+corn rust/94.jpg,37,37
+corn rust/76.jpg,37,69
+corn rust/google_0012.jpg,37,37
+corn rust/80.jpg,37,37
+corn rust/google_0139.jpg,37,36
+corn rust/96.jpg,37,37
+corn rust/82.jpg,37,37
+corn rust/google_0186.jpg,37,37
+corn rust/google_0105.jpg,37,37
+corn rust/66.jpg,37,36
+corn smut/google_0321.jpg,38,38
+corn smut/google_0155.jpg,38,38
+corn smut/174.jpg,38,38
+corn smut/10.jpg,38,38
+corn smut/google_0223.jpg,38,38
+corn smut/53.jpg,38,38
+corn smut/google_0234.jpg,38,38
+corn smut/google_0195.jpg,38,38
+corn smut/google_0150.jpg,38,38
+corn smut/google_0094.jpg,38,38
+corn smut/166.jpg,38,38
+corn smut/google_0000.jpg,38,38
+corn smut/google_0219.jpg,38,38
+corn smut/49.jpg,38,38
+corn smut/google_0370.jpg,38,38
+corn smut/google_0028.jpg,38,38
+corn smut/google_0169.jpg,38,38
+corn smut/161.jpg,38,38
+corn smut/google_0001.jpg,38,38
+corn smut/google_0027.jpg,38,38
+corn smut/google_0122.jpg,38,38
+corn smut/google_0018.jpg,38,38
+corn smut/google_0263.jpg,38,38
+corn smut/35.jpg,38,38
+corn smut/google_0063.jpg,38,38
+corn smut/google_0134.jpg,38,38
+corn smut/google_0188.jpg,38,38
+corn smut/66.jpg,38,38
+corn smut/39.jpg,38,38
+cucumber angular leaf spot/google_0036.jpg,39,39
+cucumber angular leaf spot/130.jpg,39,39
+cucumber angular leaf spot/160.jpg,39,39
+cucumber angular leaf spot/google_0077.jpg,39,39
+cucumber angular leaf spot/google_0011.jpg,39,39
+cucumber angular leaf spot/185.jpg,39,39
+cucumber angular leaf spot/232.jpg,39,39
+cucumber angular leaf spot/62.jpg,39,39
+cucumber angular leaf spot/23.jpg,39,39
+cucumber angular leaf spot/43.jpg,39,39
+cucumber angular leaf spot/google_0055.jpg,39,39
+cucumber angular leaf spot/49.jpg,39,39
+cucumber angular leaf spot/269.jpg,39,39
+cucumber angular leaf spot/google_0117.jpg,39,39
+cucumber angular leaf spot/266.jpg,39,39
+cucumber angular leaf spot/google_0014.jpg,39,39
+cucumber angular leaf spot/70.jpg,39,39
+cucumber angular leaf spot/41.jpg,39,39
+cucumber angular leaf spot/google_0013.jpg,39,39
+cucumber angular leaf spot/292.jpg,39,39
+cucumber angular leaf spot/google_0061.jpg,39,39
+cucumber angular leaf spot/152.jpg,39,39
+cucumber angular leaf spot/14.jpg,39,39
+cucumber angular leaf spot/143.jpg,39,39
+cucumber angular leaf spot/303.jpg,39,40
+cucumber bacterial wilt/google_0082.jpg,40,40
+cucumber bacterial wilt/google_0255 - Copy.jpg,40,40
+cucumber bacterial wilt/google_0189.jpg,40,40
+cucumber bacterial wilt/121.jpg,40,40
+cucumber bacterial wilt/google_0217.jpg,40,40
+cucumber bacterial wilt/46.jpg,40,40
+cucumber bacterial wilt/google_0161.jpg,40,40
+cucumber bacterial wilt/91.jpg,40,40
+cucumber bacterial wilt/25.jpg,40,40
+cucumber bacterial wilt/26.jpg,40,40
+cucumber bacterial wilt/95.jpg,40,40
+cucumber bacterial wilt/google_0043.jpg,40,40
+cucumber bacterial wilt/google_0100.jpg,40,40
+cucumber bacterial wilt/37.jpg,40,40
+cucumber leaf/10.jpg,41,73
+cucumber leaf/186.jpg,41,41
+cucumber leaf/google_0193.jpg,41,41
+cucumber leaf/google_0099.jpg,41,83
+cucumber leaf/192.jpg,41,41
+cucumber leaf/google_0132.jpg,41,41
+cucumber leaf/google_0111.jpg,41,41
+cucumber leaf/181.jpg,41,41
+cucumber leaf/google_0285.jpg,41,40
+cucumber leaf/google_0000.jpg,41,41
+cucumber leaf/136.jpg,41,41
+cucumber leaf/google_0066.jpg,41,39
+cucumber leaf/google_0229.jpg,41,41
+cucumber leaf/google_0236.jpg,41,73
+cucumber leaf/google_0004.jpg,41,41
+cucumber leaf/189 - Copy (2).jpg,41,41
+cucumber leaf/google_0364.jpg,41,41
+cucumber leaf/google_0296.jpg,41,41
+cucumber leaf/google_0380.jpg,41,40
+cucumber leaf/google_0272.jpg,41,41
+cucumber leaf/60.jpg,41,41
+cucumber leaf/google_0120.jpg,41,41
+cucumber leaf/78.jpg,41,41
+cucumber leaf/google_0030.jpg,41,41
+cucumber leaf/199.jpg,41,41
+cucumber leaf/google_0160.jpg,41,41
+cucumber leaf/52.jpg,41,41
+cucumber leaf/151.jpg,41,41
+cucumber leaf/google_0367.jpg,41,41
+cucumber leaf/google_0360.jpg,41,41
+cucumber leaf/google_0095.jpg,41,41
+cucumber leaf/168.jpg,41,41
+cucumber leaf/google_0225.jpg,41,41
+cucumber leaf/google_0107.jpg,41,41
+cucumber powdery mildew/74.jpg,42,42
+cucumber powdery mildew/google_0170.jpg,42,41
+cucumber powdery mildew/google_0042.jpg,42,74
+cucumber powdery mildew/89.jpg,42,52
+cucumber powdery mildew/google_0131.jpg,42,7
+cucumber powdery mildew/google_0110.jpg,42,42
+cucumber powdery mildew/154.jpg,42,74
+cucumber powdery mildew/121.jpg,42,42
+cucumber powdery mildew/244.jpg,42,42
+cucumber powdery mildew/229.jpg,42,42
+cucumber powdery mildew/149.jpg,42,41
+cucumber powdery mildew/google_0181.jpg,42,74
+cucumber powdery mildew/141.jpg,42,42
+cucumber powdery mildew/176.jpg,42,42
+cucumber powdery mildew/137.jpg,42,42
+cucumber powdery mildew/223.jpg,42,74
+cucumber powdery mildew/google_0012.jpg,42,42
+cucumber powdery mildew/26.jpg,42,42
+cucumber powdery mildew/google_0046.jpg,42,74
+cucumber powdery mildew/google_0089.jpg,42,42
+cucumber powdery mildew/google_0092.jpg,42,42
+cucumber powdery mildew/77.jpg,42,42
+cucumber powdery mildew/159.jpg,42,42
+eggplant cercospora leaf spot/185.jpg,43,43
+eggplant cercospora leaf spot/google_0048.jpg,43,18
+eggplant cercospora leaf spot/google_0197.jpg,43,10
+eggplant cercospora leaf spot/google_0058.jpg,43,44
+eggplant cercospora leaf spot/15.jpg,43,43
+eggplant cercospora leaf spot/8 - Copy.jpg,43,43
+eggplant cercospora leaf spot/google_0018.jpg,43,43
+eggplant cercospora leaf spot/google_0095.jpg,43,80
+eggplant leaf/google_0056.jpg,44,44
+eggplant leaf/google_0133.jpg,44,44
+eggplant leaf/google_0309.jpg,44,44
+eggplant leaf/google_0224.jpg,44,44
+eggplant leaf/186.jpg,44,44
+eggplant leaf/4.jpg,44,44
+eggplant leaf/67.jpg,44,44
+eggplant leaf/google_0226.jpg,44,44
+eggplant leaf/google_0244.jpg,44,44
+eggplant leaf/62.jpg,44,44
+eggplant leaf/google_0002.jpg,44,44
+eggplant leaf/google_0282.jpg,44,44
+eggplant leaf/google_0262.jpg,44,44
+eggplant leaf/google_0004.jpg,44,44
+eggplant leaf/7.jpg,44,44
+eggplant leaf/google_0073.jpg,44,44
+eggplant leaf/google_0212.jpg,44,44
+eggplant leaf/google_0038.jpg,44,44
+eggplant leaf/google_0012.jpg,44,67
+eggplant leaf/34.jpg,44,44
+eggplant leaf/212.jpg,44,44
+eggplant leaf/google_0093.jpg,44,44
+eggplant leaf/google_0060.jpg,44,44
+eggplant leaf/77.jpg,44,10
+garlic leaf/google_0051.jpg,45,47
+garlic leaf/google_0193.jpg,45,45
+garlic leaf/263.jpg,45,45
+garlic leaf/google_0084.jpg,45,45
+garlic leaf/google_0077.jpg,45,45
+garlic leaf/google_0009.jpg,45,45
+garlic leaf/207.jpg,45,45
+garlic leaf/333.jpg,45,45
+garlic leaf/google_0037.jpg,45,46
+garlic leaf/44.jpg,45,45
+garlic leaf/google_0031.jpg,45,45
+garlic leaf/google_0172.jpg,45,45
+garlic leaf/79.jpg,45,45
+garlic leaf/90.jpg,45,45
+garlic leaf/30.jpg,45,45
+garlic leaf/341.jpg,45,46
+garlic leaf/81.jpg,45,45
+garlic leaf/212.jpg,45,45
+garlic leaf/google_0118.jpg,45,45
+garlic leaf/249.jpg,45,45
+garlic leaf/14.jpg,45,45
+garlic leaf/google_0235.jpg,45,45
+garlic leaf blight/17 - Copy (3).jpg,46,46
+garlic leaf blight/101.jpg,46,46
+garlic leaf blight/google_0065.jpg,46,46
+garlic leaf blight/google_0226.jpg,46,45
+garlic leaf blight/google_0302 - Copy (2).jpg,46,46
+garlic leaf blight/google_0163.jpg,46,46
+garlic leaf blight/google_0159 - Copy.jpg,46,46
+garlic leaf blight/24.jpg,46,46
+garlic leaf blight/163.jpg,46,46
+garlic leaf blight/google_0004.jpg,46,45
+garlic leaf blight/google_0032.jpg,46,46
+garlic leaf blight/29.jpg,46,46
+garlic leaf blight/52.jpg,46,46
+garlic leaf blight/39.jpg,46,70
+garlic rust/335.jpg,47,47
+garlic rust/4.jpg,47,47
+garlic rust/122.jpg,47,47
+garlic rust/53.jpg,47,47
+garlic rust/google_0128.jpg,47,47
+garlic rust/google_0002.jpg,47,46
+garlic rust/234.jpg,47,47
+garlic rust/google_0088.jpg,47,46
+garlic rust/247.jpg,47,47
+garlic rust/290.jpg,47,47
+garlic rust/29.jpg,47,47
+garlic rust/94.jpg,47,47
+garlic rust/109.jpg,47,47
+garlic rust/96.jpg,47,46
+garlic rust/2.jpg,47,47
+garlic rust/32.jpg,47,47
+ginger leaf/google_0051.jpg,48,48
+ginger leaf/4.jpg,48,48
+ginger leaf/google_0075.jpg,48,48
+ginger leaf/google_0136.jpg,48,35
+ginger leaf/google_0037.jpg,48,48
+ginger leaf/google_0150.jpg,48,48
+ginger leaf/59.jpg,48,48
+ginger leaf/google_0203.jpg,48,48
+ginger leaf/google_0262.jpg,48,48
+ginger leaf/7.jpg,48,48
+ginger leaf/11.jpg,48,48
+ginger leaf/63.jpg,48,49
+ginger leaf/93.jpg,48,48
+ginger leaf/google_0015.jpg,48,48
+ginger leaf/google_0109.jpg,48,48
+ginger leaf/77.jpg,48,48
+ginger leaf/google_0174.jpg,48,48
+ginger leaf spot/105.jpg,49,49
+ginger leaf spot/google_0011.jpg,49,49
+ginger leaf spot/62.jpg,49,46
+ginger leaf spot/7.jpg,49,49
+ginger leaf spot/88.jpg,49,46
+ginger leaf spot/96.jpg,49,70
+ginger leaf spot/82.jpg,49,46
+ginger leaf spot/32.jpg,49,48
+ginger sheath blight/101.jpg,50,70
+ginger sheath blight/google_0021.jpg,50,48
+ginger sheath blight/3.jpg,50,48
+ginger sheath blight/79.jpg,50,71
+ginger sheath blight/21.jpg,50,50
+ginger sheath blight/161.jpg,50,71
+ginger sheath blight/52.jpg,50,71
+ginger sheath blight/32.jpg,50,50
+grape black rot/google_0133.jpg,51,51
+grape black rot/google_0003.jpg,51,51
+grape black rot/40.jpg,51,51
+grape black rot/74.jpg,51,64
+grape black rot/google_0283.jpg,51,51
+grape black rot/google_0036 - Copy.jpg,51,51
+grape black rot/12.jpg,51,51
+grape black rot/google_0130.jpg,51,51
+grape black rot/google_0234.jpg,51,51
+grape black rot/google_0037.jpg,51,51
+grape black rot/44.jpg,51,82
+grape black rot/23.jpg,51,51
+grape black rot/18.jpg,51,51
+grape black rot/178.jpg,51,51
+grape black rot/49.jpg,51,51
+grape black rot/google_0028.jpg,51,51
+grape black rot/google_0040.jpg,51,51
+grape black rot/google_0018.jpg,51,51
+grape black rot/34.jpg,51,54
+grape black rot/33.jpg,51,51
+grape black rot/155.jpg,51,51
+grape black rot/google_0260.jpg,51,51
+grape black rot/37.jpg,51,51
+grape downy mildew/38.jpg,52,52
+grape downy mildew/google_0045.jpg,52,54
+grape downy mildew/google_0153.jpg,52,52
+grape downy mildew/10.jpg,52,51
+grape downy mildew/google_0041.jpg,52,52
+grape downy mildew/google_0193.jpg,52,52
+grape downy mildew/243 - Copy (2).jpg,52,52
+grape downy mildew/68.jpg,52,52
+grape downy mildew/260.jpg,52,52
+grape downy mildew/google_0074.jpg,52,52
+grape downy mildew/google_0363.jpg,52,52
+grape downy mildew/google_0215.jpg,52,54
+grape downy mildew/106.jpg,52,52
+grape downy mildew/google_0255.jpg,52,52
+grape downy mildew/google_0094.jpg,52,52
+grape downy mildew/232.jpg,52,52
+grape downy mildew/275.jpg,52,52
+grape downy mildew/google_0238.jpg,52,52
+grape downy mildew/221.jpg,52,52
+grape downy mildew/google_0081.jpg,52,52
+grape downy mildew/google_0083.jpg,52,52
+grape downy mildew/114.jpg,52,52
+grape downy mildew/google_0062.jpg,52,54
+grape downy mildew/google_0108.jpg,52,52
+grape downy mildew/google_0104.jpg,52,52
+grape downy mildew/google_0113.jpg,52,52
+grape downy mildew/google_0191.jpg,52,52
+grape downy mildew/google_0141.jpg,52,52
+grape downy mildew/97.jpg,52,52
+grape downy mildew/91.jpg,52,52
+grape downy mildew/google_0256.jpg,52,52
+grape downy mildew/google_0213.jpg,52,54
+grape downy mildew/google_0030.jpg,52,52
+grape downy mildew/201.jpg,52,52
+grape downy mildew/182.jpg,52,52
+grape downy mildew/google_0123.jpg,52,52
+grape downy mildew/google_0147.jpg,52,52
+grape downy mildew/google_0426.jpg,52,52
+grape downy mildew/272 - Copy.jpg,52,52
+grape leaf/87.jpg,53,53
+grape leaf/40.jpg,53,53
+grape leaf/122.jpg,53,1
+grape leaf/103.jpg,53,53
+grape leaf/125.jpg,53,53
+grape leaf/181.jpg,53,53
+grape leaf/178.jpg,53,53
+grape leaf/21.jpg,53,53
+grape leaf/google_0246.jpg,53,53
+grape leaf/49.jpg,53,53
+grape leaf/google_0059.jpg,53,53
+grape leaf/26.jpg,53,53
+grape leaf/33.jpg,53,59
+grape leaf/143.jpg,53,53
+grape leaf/2.jpg,53,53
+grape leaf/52.jpg,53,53
+grape leaf/179.jpg,53,53
+grape leaf/50.jpg,53,53
+grape leaf/64.jpg,53,53
+grape leaf/66.jpg,53,53
+grape leaf spot/google_0077 - Copy (3).jpg,54,54
+grape leaf spot/44.jpg,54,51
+grape leaf spot/15.jpg,54,51
+grape leaf spot/25.jpg,54,53
+grape leaf spot/140.jpg,54,51
+grape leaf spot/google_0077 - Copy (2).jpg,54,60
+grape leaf spot/2.jpg,54,52
+grape leaf spot/155.jpg,54,52
+grape leaf spot/google_0046.jpg,54,81
+grape leaf spot/google_0060.jpg,54,81
+grapevine leafroll disease/10.jpg,55,55
+grapevine leafroll disease/4.jpg,55,55
+grapevine leafroll disease/71.jpg,55,55
+grapevine leafroll disease/google_0072.jpg,55,55
+grapevine leafroll disease/google_0004 - Copy (7).jpg,55,55
+grapevine leafroll disease/google_0108.jpg,55,54
+grapevine leafroll disease/google_0116 - Copy.jpg,55,55
+grapevine leafroll disease/22.jpg,55,53
+grapevine leafroll disease/google_0211.jpg,55,55
+grapevine leafroll disease/google_0006.jpg,55,55
+grapevine leafroll disease/google_0043.jpg,55,55
+grapevine leafroll disease/google_0004 - Copy.jpg,55,55
+grapevine leafroll disease/google_0182.jpg,55,55
+lettuce downy mildew/340.jpg,56,52
+lettuce downy mildew/8.jpg,56,56
+lettuce downy mildew/53.jpg,56,56
+lettuce downy mildew/184.jpg,56,56
+lettuce downy mildew/3.jpg,56,56
+lettuce downy mildew/193.jpg,56,20
+lettuce downy mildew/65.jpg,56,56
+lettuce downy mildew/google_0040.jpg,56,42
+lettuce downy mildew/60.jpg,56,19
+lettuce downy mildew/15.jpg,56,56
+lettuce downy mildew/78.jpg,56,58
+lettuce leaf/google_0200.jpg,57,57
+lettuce leaf/google_0056.jpg,57,57
+lettuce leaf/google_0054.jpg,57,57
+lettuce leaf/google_0242.jpg,57,57
+lettuce leaf/google_0409.jpg,57,57
+lettuce leaf/google_0372.jpg,57,8
+lettuce leaf/google_0281.jpg,57,57
+lettuce leaf/12.jpg,57,57
+lettuce leaf/google_0336.jpg,57,57
+lettuce leaf/google_0416.jpg,57,57
+lettuce leaf/google_0142.jpg,57,57
+lettuce leaf/google_0262.jpg,57,57
+lettuce leaf/google_0088.jpg,57,57
+lettuce leaf/google_0412.jpg,57,57
+lettuce leaf/google_0376.jpg,57,57
+lettuce leaf/google_0293.jpg,57,57
+lettuce leaf/google_0177.jpg,57,57
+lettuce leaf/google_0026.jpg,57,57
+lettuce leaf/google_0296.jpg,57,58
+lettuce leaf/google_0173.jpg,57,57
+lettuce leaf/google_0349.jpg,57,57
+lettuce leaf/google_0096.jpg,57,57
+lettuce leaf/google_0315.jpg,57,57
+lettuce leaf/google_0227.jpg,57,20
+lettuce mosaic virus/8.jpg,58,58
+lettuce mosaic virus/16.jpg,58,56
+lettuce mosaic virus/google_0050.jpg,58,58
+lettuce mosaic virus/google_0040 - Copy.jpg,58,58
+lettuce mosaic virus/google_0088.jpg,58,58
+lettuce mosaic virus/google_0141.jpg,58,58
+lettuce mosaic virus/97.jpg,58,87
+lettuce mosaic virus/google_0061 - Copy.jpg,58,58
+lettuce mosaic virus/google_0010.jpg,58,58
+lettuce mosaic virus/google_0049 - Copy (6).jpg,58,58
+maple leaf/295.jpg,59,53
+maple leaf/156.jpg,59,59
+maple leaf/413.jpg,59,59
+maple leaf/254.jpg,59,59
+maple leaf/133.jpg,59,59
+maple leaf/8.jpg,59,59
+maple leaf/322.jpg,59,59
+maple leaf/283.jpg,59,53
+maple leaf/181.jpg,59,59
+maple leaf/332.jpg,59,59
+maple leaf/319.jpg,59,59
+maple leaf/google_0088.jpg,59,59
+maple leaf/21.jpg,59,59
+maple leaf/114.jpg,59,59
+maple leaf/407.jpg,59,59
+maple leaf/266.jpg,59,59
+maple leaf/22.jpg,59,59
+maple leaf/402.jpg,59,59
+maple leaf/81.jpg,59,59
+maple leaf/339.jpg,59,59
+maple leaf/316.jpg,59,59
+maple leaf/405.jpg,59,59
+maple leaf/109.jpg,59,59
+maple leaf/25.jpg,59,59
+maple leaf/95.jpg,59,59
+maple leaf/14.jpg,59,59
+maple leaf/28.jpg,59,59
+maple leaf/357.jpg,59,59
+maple leaf/google_0166.jpg,59,59
+maple leaf/57.jpg,59,59
+maple leaf/310.jpg,59,59
+maple tar spot/google_0101.jpg,60,60
+maple tar spot/google_0099.jpg,60,60
+maple tar spot/google_0072.jpg,60,60
+maple tar spot/google_0094.jpg,60,60
+maple tar spot/google_0102.jpg,60,60
+maple tar spot/google_0088.jpg,60,60
+maple tar spot/google_0028.jpg,60,59
+maple tar spot/google_0117.jpg,60,60
+maple tar spot/google_0205.jpg,60,60
+maple tar spot/google_0161.jpg,60,60
+maple tar spot/google_0013.jpg,60,60
+maple tar spot/google_0012.jpg,60,60
+maple tar spot/google_0043.jpg,60,60
+maple tar spot/google_0182.jpg,60,60
+peach leaf/13.jpg,61,27
+peach leaf/147.jpg,61,61
+peach leaf/8.jpg,61,61
+peach leaf/google_0328.jpg,61,61
+peach leaf/google_0000.jpg,61,61
+peach leaf/google_0311.jpg,61,61
+peach leaf/google_0339.jpg,61,61
+peach leaf/google_0178.jpg,61,61
+peach leaf/178.jpg,61,61
+peach leaf/146 - Copy.jpg,61,61
+peach leaf/google_0083.jpg,61,61
+peach leaf/170.jpg,61,15
+peach leaf/164.jpg,61,61
+peach leaf/34.jpg,61,61
+peach leaf/227.jpg,61,61
+peach leaf curl/47.jpg,62,62
+peach leaf curl/google_0303.jpg,62,62
+peach leaf curl/40.jpg,62,62
+peach leaf curl/google_0064.jpg,62,62
+peach leaf curl/google_0207.jpg,62,62
+peach leaf curl/google_0150.jpg,62,62
+peach leaf curl/google_0247.jpg,62,62
+peach leaf curl/google_0004.jpg,62,62
+peach leaf curl/google_0220.jpg,62,64
+peach leaf curl/google_0049.jpg,62,62
+peach leaf curl/google_0067.jpg,62,62
+peach leaf curl/google_0204.jpg,62,62
+peach leaf curl/google_0317.jpg,62,62
+peach leaf curl/google_0038.jpg,62,62
+peach leaf curl/25.jpg,62,62
+peach leaf curl/google_0126 - Copy.jpg,62,62
+peach leaf curl/6.jpg,62,62
+peach leaf curl/google_0012.jpg,62,62
+peach leaf curl/google_0196 - Copy.jpg,62,62
+peach leaf curl/33.jpg,62,62
+peach leaf curl/google_0165.jpg,62,62
+peach leaf curl/google_0089.jpg,62,62
+peach leaf curl/google_0060.jpg,62,62
+plum leaf/google_0056.jpg,63,63
+plum leaf/183.jpg,63,63
+plum leaf/459.jpg,63,63
+plum leaf/368.jpg,63,63
+plum leaf/google_0064.jpg,63,63
+plum leaf/74.jpg,63,63
+plum leaf/263.jpg,63,63
+plum leaf/google_0208.jpg,63,64
+plum leaf/google_0209.jpg,63,63
+plum leaf/google_0011.jpg,63,63
+plum leaf/424.jpg,63,1
+plum leaf/277.jpg,63,61
+plum leaf/59.jpg,63,63
+plum leaf/google_0203.jpg,63,63
+plum leaf/google_0031.jpg,63,27
+plum leaf/369.jpg,63,27
+plum leaf/279.jpg,63,4
+plum leaf/49.jpg,63,63
+plum leaf/162.jpg,63,63
+plum leaf/410.jpg,63,1
+plum leaf/266.jpg,63,67
+plum leaf/176.jpg,63,63
+plum leaf/41.jpg,63,63
+plum leaf/76.jpg,63,10
+plum leaf/95.jpg,63,63
+plum leaf/google_0043.jpg,63,27
+plum leaf/35.jpg,63,61
+plum leaf/google_0030.jpg,63,63
+plum leaf/2.jpg,63,63
+plum leaf/google_0090.jpg,63,63
+plum leaf/206.jpg,63,63
+plum leaf/google_0105.jpg,63,63
+plum pocket disease/google_0074.jpg,64,64
+plum pocket disease/google_0004.jpg,64,64
+plum pocket disease/google_0059.jpg,64,64
+plum pocket disease/google_0027.jpg,64,64
+plum pocket disease/google_0038.jpg,64,64
+plum pocket disease/google_0043.jpg,64,64
+plum pocket disease/google_0010.jpg,64,64
+potato early blight/47.jpg,65,66
+potato early blight/google_0276.jpg,65,65
+potato early blight/google_0056.jpg,65,65
+potato early blight/google_0133.jpg,65,81
+potato early blight/google_0054.jpg,65,65
+potato early blight/19 - Copy.jpg,65,65
+potato early blight/google_0252.jpg,65,66
+potato early blight/google_0080.jpg,65,81
+potato early blight/google_0011.jpg,65,80
+potato early blight/google_0111.jpg,65,81
+potato early blight/55.jpg,65,66
+potato early blight/23.jpg,65,65
+potato early blight/google_0202.jpg,65,65
+potato early blight/google_0178.jpg,65,65
+potato early blight/google_0352.jpg,65,65
+potato early blight/21.jpg,65,65
+potato early blight/65.jpg,65,65
+potato early blight/70.jpg,65,65
+potato early blight/google_0277.jpg,65,81
+potato early blight/google_0306 - Copy (8).jpg,65,65
+potato early blight/google_0031 - Copy.jpg,65,65
+potato early blight/google_0225.jpg,65,80
+potato late blight/38.jpg,66,66
+potato late blight/86.jpg,66,66
+potato late blight/30 - Copy.jpg,66,66
+potato late blight/google_0240 - Copy.jpg,66,81
+potato late blight/56.jpg,66,65
+potato late blight/85.jpg,66,67
+potato late blight/44.jpg,66,66
+potato late blight/18.jpg,66,66
+potato late blight/80 - Copy.jpg,66,40
+potato late blight/google_0039 - Copy (3).jpg,66,66
+potato late blight/google_0097.jpg,66,66
+potato late blight/google_0078.jpg,66,81
+potato late blight/google_0152.jpg,66,81
+potato late blight/google_0271.jpg,66,65
+potato late blight/google_0110 - Copy.jpg,66,56
+potato late blight/34 - Copy.jpg,66,66
+potato late blight/google_0303 - Copy (2).jpg,66,65
+potato late blight/78.jpg,66,66
+potato late blight/34.jpg,66,66
+potato late blight/96.jpg,66,66
+potato late blight/add (2).jpg,66,66
+potato late blight/2.jpg,66,66
+potato late blight/70 - Copy (3).jpg,66,66
+potato late blight/google_0225.jpg,66,66
+potato leaf/google_0143.jpg,67,67
+potato leaf/google_0064.jpg,67,67
+potato leaf/4.jpg,67,67
+potato leaf/53.jpg,67,67
+potato leaf/google_0128.jpg,67,67
+potato leaf/google_0656.jpg,67,67
+potato leaf/google_0219.jpg,67,67
+potato leaf/google_0088.jpg,67,67
+potato leaf/google_0047.jpg,67,67
+potato leaf/google_0129.jpg,67,67
+potato leaf/google_0205.jpg,67,67
+potato leaf/70.jpg,67,67
+potato leaf/google_0576.jpg,67,67
+potato leaf/41.jpg,67,67
+potato leaf/95.jpg,67,67
+potato leaf/google_0137.jpg,67,67
+potato leaf/google_0139.jpg,67,67
+potato leaf/google_0667.jpg,67,67
+potato leaf/google_0677.jpg,67,67
+potato leaf/28.jpg,67,67
+potato leaf/google_0292.jpg,67,83
+potato leaf/google_0562.jpg,67,67
+potato leaf/google_0218.jpg,67,67
+potato leaf/google_0123.jpg,67,67
+potato leaf/39.jpg,67,67
+raspberry leaf/47.jpg,68,68
+raspberry leaf/google_0054.jpg,68,68
+raspberry leaf/40.jpg,68,68
+raspberry leaf/56.jpg,68,68
+raspberry leaf/85.jpg,68,68
+raspberry leaf/55.jpg,68,68
+raspberry leaf/google_0002.jpg,68,68
+raspberry leaf/google_0004.jpg,68,68
+raspberry leaf/49.jpg,68,68
+raspberry leaf/7.jpg,68,68
+raspberry leaf/google_0205.jpg,68,68
+raspberry leaf/107.jpg,68,68
+raspberry leaf/google_0001.jpg,68,68
+raspberry leaf/19.jpg,68,68
+raspberry leaf/25.jpg,68,68
+raspberry leaf/33.jpg,68,68
+raspberry leaf/google_0180.jpg,68,8
+raspberry leaf/37.jpg,68,68
+rice blast/86.jpg,69,69
+rice blast/google_0075.jpg,69,69
+rice blast/google_0111.jpg,69,69
+rice blast/69.jpg,69,69
+rice blast/18.jpg,69,71
+rice blast/49.jpg,69,69
+rice blast/120.jpg,69,69
+rice blast/73.jpg,69,69
+rice blast/google_0027.jpg,69,71
+rice blast/26.jpg,69,69
+rice blast/google_0138 - Copy.jpg,69,69
+rice blast/google_0106.jpg,69,69
+rice blast/151.jpg,69,69
+rice blast/146.jpg,69,69
+rice leaf/38.jpg,70,70
+rice leaf/174.jpg,70,70
+rice leaf/54.jpg,70,70
+rice leaf/68.jpg,70,70
+rice leaf/135.jpg,70,70
+rice leaf/333.jpg,70,70
+rice leaf/259.jpg,70,70
+rice leaf/166.jpg,70,70
+rice leaf/221.jpg,70,70
+rice leaf/224.jpg,70,70
+rice leaf/167.jpg,70,70
+rice leaf/229.jpg,70,70
+rice leaf/293.jpg,70,70
+rice leaf/70.jpg,70,70
+rice leaf/264.jpg,70,70
+rice leaf/191.jpg,70,70
+rice leaf/202.jpg,70,70
+rice leaf/96.jpg,70,70
+rice leaf/299.jpg,70,70
+rice leaf/201.jpg,70,70
+rice leaf/151.jpg,70,70
+rice leaf/189.jpg,70,70
+rice leaf/117.jpg,70,70
+rice leaf/77.jpg,70,70
+rice leaf/267.jpg,70,70
+rice sheath blight/87.jpg,71,71
+rice sheath blight/google_0111 - Copy.jpg,71,71
+rice sheath blight/google_0041.jpg,71,71
+rice sheath blight/97 - Copy.jpg,71,71
+rice sheath blight/145.jpg,71,69
+rice sheath blight/google_0198.jpg,71,34
+rice sheath blight/google_0009.jpg,71,69
+rice sheath blight/google_0016.jpg,71,71
+rice sheath blight/google_0048 - Copy.jpg,71,71
+rice sheath blight/190.jpg,71,49
+rice sheath blight/google_0123 - Copy.jpg,71,71
+rice sheath blight/google_0114.jpg,71,71
+rice sheath blight/google_0083.jpg,71,71
+rice sheath blight/google_0052.jpg,71,71
+rice sheath blight/google_0034.jpg,71,71
+rice sheath blight/73.jpg,71,69
+rice sheath blight/60.jpg,71,71
+rice sheath blight/140.jpg,71,69
+rice sheath blight/google_0139.jpg,71,70
+rice sheath blight/google_0024.jpg,71,71
+rice sheath blight/52.jpg,71,71
+rice sheath blight/213 - Copy.jpg,71,71
+rice sheath blight/google_0089.jpg,71,71
+rice sheath blight/159.jpg,71,71
+rice sheath blight/32.jpg,71,71
+soybean leaf/272.jpg,72,72
+soybean leaf/87.jpg,72,72
+soybean leaf/147.jpg,72,72
+soybean leaf/google_0556.jpg,72,72
+soybean leaf/4.jpg,72,72
+soybean leaf/284.jpg,72,10
+soybean leaf/99.jpg,72,72
+soybean leaf/google_0371.jpg,72,72
+soybean leaf/20.jpg,72,10
+soybean leaf/44.jpg,72,12
+soybean leaf/google_0048.jpg,72,72
+soybean leaf/google_0422.jpg,72,72
+soybean leaf/243.jpg,72,72
+soybean leaf/google_0114.jpg,72,72
+soybean leaf/250.jpg,72,72
+soybean leaf/google_0557.jpg,72,72
+soybean leaf/google_0582.jpg,72,10
+soybean leaf/293.jpg,72,72
+soybean leaf/15.jpg,72,72
+soybean leaf/252.jpg,72,72
+soybean leaf/217.jpg,72,72
+soybean leaf/28.jpg,72,72
+soybean leaf/google_0543.jpg,72,72
+soybean leaf/google_0225.jpg,72,72
+squash leaf/z68.jpg,73,73
+squash leaf/38.jpg,73,39
+squash leaf/zgoogle_0225.jpg,73,73
+squash leaf/zgoogle_0356.jpg,73,73
+squash leaf/zgoogle_0260.jpg,73,73
+squash leaf/192.jpg,73,73
+squash leaf/103.jpg,73,73
+squash leaf/zgoogle_0079.jpg,73,73
+squash leaf/16.jpg,73,73
+squash leaf/zgoogle_0180.jpg,73,73
+squash leaf/z1.jpg,73,73
+squash leaf/55.jpg,73,73
+squash leaf/23.jpg,73,73
+squash leaf/313.jpg,73,73
+squash leaf/200.jpg,73,73
+squash leaf/google_0202.jpg,73,73
+squash leaf/z351.jpg,73,73
+squash leaf/zgoogle_0283.jpg,73,73
+squash leaf/90.jpg,73,88
+squash leaf/zgoogle_0117.jpg,73,73
+squash leaf/google_0004.jpg,73,73
+squash leaf/zgoogle_0265.jpg,73,73
+squash leaf/zgoogle_0273.jpg,73,74
+squash leaf/z331.jpg,73,73
+squash leaf/zgoogle_0170.jpg,73,73
+squash leaf/zgoogle_0131.jpg,73,88
+squash leaf/zgoogle_0007.jpg,73,41
+squash leaf/google_0204.jpg,73,41
+squash leaf/google_0029.jpg,73,73
+squash leaf/zgoogle_0073.jpg,73,73
+squash leaf/273.jpg,73,73
+squash leaf/google_0256.jpg,73,41
+squash leaf/45.jpg,73,73
+squash leaf/z353.jpg,73,73
+squash leaf/14.jpg,73,73
+squash leaf/zgoogle_0094.jpg,73,73
+squash leaf/zgoogle_0075.jpg,73,73
+squash leaf/google_0156.jpg,73,73
+squash leaf/google_0367.jpg,73,73
+squash leaf/77.jpg,73,88
+squash leaf/267.jpg,73,73
+squash powdery mildew/google_0082.jpg,74,74
+squash powdery mildew/google_0155.jpg,74,74
+squash powdery mildew/google_0304.jpg,74,42
+squash powdery mildew/54.jpg,74,74
+squash powdery mildew/68.jpg,74,42
+squash powdery mildew/google_0008.jpg,74,74
+squash powdery mildew/google_0375.jpg,74,74
+squash powdery mildew/google_0363.jpg,74,74
+squash powdery mildew/google_0011.jpg,74,74
+squash powdery mildew/106.jpg,74,73
+squash powdery mildew/44.jpg,74,73
+squash powdery mildew/google_0048.jpg,74,74
+squash powdery mildew/google_0144.jpg,74,74
+squash powdery mildew/google_0176.jpg,74,74
+squash powdery mildew/google_0026.jpg,74,74
+squash powdery mildew/google_0370.jpg,74,74
+squash powdery mildew/120.jpg,74,76
+squash powdery mildew/15.jpg,74,74
+squash powdery mildew/93.jpg,74,73
+squash powdery mildew/google_0308.jpg,74,74
+squash powdery mildew/25.jpg,74,74
+squash powdery mildew/google_0006.jpg,74,74
+squash powdery mildew/34.jpg,74,74
+squash powdery mildew/google_0213.jpg,74,74
+squash powdery mildew/33.jpg,74,73
+squash powdery mildew/google_0326.jpg,74,2
+squash powdery mildew/google_0010.jpg,74,74
+squash powdery mildew/google_0378.jpg,74,42
+strawberry anthracnose/google_0054.jpg,75,75
+strawberry anthracnose/google_0011.jpg,75,75
+strawberry anthracnose/22.jpg,75,77
+strawberry anthracnose/7 - Copy.jpg,75,75
+strawberry anthracnose/7 - Copy (2).jpg,75,75
+strawberry anthracnose/google_0096.jpg,75,75
+strawberry anthracnose/26.jpg,75,77
+strawberry anthracnose/google_0015.jpg,75,75
+strawberry anthracnose/google_0090.jpg,75,75
+strawberry leaf/google_0230.jpg,76,76
+strawberry leaf/google_0054.jpg,76,76
+strawberry leaf/google_0615.jpg,76,76
+strawberry leaf/4.jpg,76,76
+strawberry leaf/61.jpg,76,76
+strawberry leaf/google_0423.jpg,76,76
+strawberry leaf/google_0338.jpg,76,8
+strawberry leaf/24.jpg,76,76
+strawberry leaf/google_0083.jpg,76,76
+strawberry leaf/google_0489.jpg,76,76
+strawberry leaf/google_0240.jpg,76,76
+strawberry leaf/63.jpg,76,76
+strawberry leaf/google_0201.jpg,76,76
+strawberry leaf/72.jpg,76,76
+strawberry leaf/google_0629.jpg,76,76
+strawberry leaf/google_0079.jpg,76,76
+strawberry leaf/google_0018.jpg,76,76
+strawberry leaf/28.jpg,76,76
+strawberry leaf/google_0402.jpg,76,76
+strawberry leaf/google_0127.jpg,76,76
+strawberry leaf scorch/google_0082.jpg,77,77
+strawberry leaf scorch/9.jpg,77,77
+strawberry leaf scorch/google_0084.jpg,77,77
+strawberry leaf scorch/google_0074.jpg,77,77
+strawberry leaf scorch/google_0026.jpg,77,77
+strawberry leaf scorch/6.jpg,77,77
+strawberry leaf scorch/google_0010.jpg,77,77
+tobacco leaf/24.jpg,78,78
+tobacco leaf/google_0004.jpg,78,78
+tobacco leaf/27.jpg,78,79
+tobacco leaf/google_0027 - Copy (2).jpg,78,78
+tobacco leaf/2.jpg,78,78
+tobacco leaf/google_0020.jpg,78,78
+tobacco leaf/31.jpg,78,78
+tobacco mosaic virus/147.jpg,79,11
+tobacco mosaic virus/190.jpg,79,85
+tobacco mosaic virus/120.jpg,79,79
+tobacco mosaic virus/161.jpg,79,79
+tobacco mosaic virus/20 - Copy.jpg,79,79
+tobacco mosaic virus/115.jpg,79,79
+tobacco mosaic virus/41.jpg,79,78
+tobacco mosaic virus/google_0010.jpg,79,30
+tobacco mosaic virus/39.jpg,79,79
+tomato bacterial leaf spot/google_0070.jpg,80,19
+tomato bacterial leaf spot/google_0099.jpg,80,81
+tomato bacterial leaf spot/99.jpg,80,80
+tomato bacterial leaf spot/google_0021.jpg,80,80
+tomato bacterial leaf spot/119.jpg,80,80
+tomato bacterial leaf spot/google_0111.jpg,80,80
+tomato bacterial leaf spot/google_0328.jpg,80,80
+tomato bacterial leaf spot/20.jpg,80,80
+tomato bacterial leaf spot/google_0048.jpg,80,9
+tomato bacterial leaf spot/google_0247.jpg,80,80
+tomato bacterial leaf spot/98.jpg,80,82
+tomato bacterial leaf spot/187.jpg,80,83
+tomato bacterial leaf spot/google_0159.jpg,80,81
+tomato bacterial leaf spot/google_0410.jpg,80,86
+tomato bacterial leaf spot/198.jpg,80,86
+tomato bacterial leaf spot/google_0113.jpg,80,86
+tomato bacterial leaf spot/google_0059.jpg,80,81
+tomato bacterial leaf spot/15.jpg,80,80
+tomato bacterial leaf spot/19.jpg,80,80
+tomato bacterial leaf spot/93.jpg,80,82
+tomato bacterial leaf spot/41.jpg,80,86
+tomato bacterial leaf spot/45.jpg,80,86
+tomato bacterial leaf spot/google_0012.jpg,80,81
+tomato bacterial leaf spot/33.jpg,80,80
+tomato bacterial leaf spot/google_0093.jpg,80,80
+tomato bacterial leaf spot/179.jpg,80,83
+tomato bacterial leaf spot/google_0060.jpg,80,86
+tomato bacterial leaf spot/64.jpg,80,80
+tomato early blight/google_0146.jpg,81,83
+tomato early blight/38.jpg,81,81
+tomato early blight/1.jpg,81,81
+tomato early blight/285.jpg,81,43
+tomato early blight/160.jpg,81,81
+tomato early blight/google_0345.jpg,81,81
+tomato early blight/google_0035.jpg,81,82
+tomato early blight/133.jpg,81,84
+tomato early blight/google_0347.jpg,81,81
+tomato early blight/google_0112.jpg,81,81
+tomato early blight/google_0136.jpg,81,81
+tomato early blight/177.jpg,81,81
+tomato early blight/193.jpg,81,81
+tomato early blight/google_0246.jpg,81,81
+tomato early blight/google_0073.jpg,81,82
+tomato early blight/google_0177.jpg,81,80
+tomato early blight/238.jpg,81,80
+tomato early blight/google_0295.jpg,81,82
+tomato early blight/google_0272.jpg,81,81
+tomato early blight/google_0394.jpg,81,81
+tomato early blight/google_0167.jpg,81,81
+tomato early blight/google_0397.jpg,81,81
+tomato early blight/137.jpg,81,81
+tomato early blight/google_0404.jpg,81,81
+tomato early blight/321.jpg,81,81
+tomato early blight/274.jpg,81,81
+tomato early blight/google_0390.jpg,81,81
+tomato early blight/33.jpg,81,82
+tomato early blight/152.jpg,81,80
+tomato early blight/189.jpg,81,86
+tomato early blight/194.jpg,81,81
+tomato early blight/google_0400.jpg,81,81
+tomato early blight/google_0095.jpg,81,86
+tomato early blight/39.jpg,81,81
+tomato late blight/google_0155.jpg,82,81
+tomato late blight/add (13).jpg,82,82
+tomato late blight/google_0101.jpg,82,82
+tomato late blight/101.jpg,82,82
+tomato late blight/56.jpg,82,82
+tomato late blight/google_0126.jpg,82,82
+tomato late blight/google_0016.jpg,82,66
+tomato late blight/google_0050.jpg,82,82
+tomato late blight/104.jpg,82,82
+tomato late blight/3.jpg,82,82
+tomato late blight/205.jpg,82,82
+tomato late blight/google_0262.jpg,82,82
+tomato late blight/google_0091.jpg,82,82
+tomato late blight/google_0081.jpg,82,82
+tomato late blight/108.jpg,82,40
+tomato late blight/google_0083.jpg,82,82
+tomato late blight/238.jpg,82,82
+tomato late blight/102.jpg,82,82
+tomato late blight/180.jpg,82,80
+tomato late blight/google_0059.jpg,82,82
+tomato late blight/134.jpg,82,40
+tomato late blight/add (6).jpg,82,82
+tomato late blight/google_0263.jpg,82,82
+tomato late blight/220.jpg,82,82
+tomato late blight/google_0124.jpg,82,82
+tomato late blight/google_0092.jpg,82,82
+tomato late blight/google_0156.jpg,82,82
+tomato late blight/google_0095.jpg,82,82
+tomato late blight/32.jpg,82,82
+tomato leaf/13.jpg,83,83
+tomato leaf/1.jpg,83,83
+tomato leaf/google_0542.jpg,83,83
+tomato leaf/google_0008.jpg,83,83
+tomato leaf/google_0269.jpg,83,83
+tomato leaf/google_0258.jpg,83,83
+tomato leaf/53.jpg,83,83
+tomato leaf/16.jpg,83,83
+tomato leaf/51.jpg,83,83
+tomato leaf/google_0593.jpg,83,83
+tomato leaf/google_0262.jpg,83,83
+tomato leaf/google_0607.jpg,83,83
+tomato leaf/google_0445.jpg,83,83
+tomato leaf/google_0577.jpg,83,83
+tomato leaf/google_0519.jpg,83,83
+tomato leaf/73.jpg,83,83
+tomato leaf/google_0104.jpg,83,83
+tomato leaf/google_0405.jpg,83,83
+tomato leaf/google_0013.jpg,83,83
+tomato leaf/6.jpg,83,83
+tomato leaf/google_0063.jpg,83,83
+tomato leaf/google_0025.jpg,83,83
+tomato leaf mold/183.jpg,84,84
+tomato leaf mold/186.jpg,84,81
+tomato leaf mold/google_0257.jpg,84,84
+tomato leaf mold/99.jpg,84,84
+tomato leaf mold/226.jpg,84,84
+tomato leaf mold/google_0063 - Copy.jpg,84,84
+tomato leaf mold/google_0226.jpg,84,84
+tomato leaf mold/204.jpg,84,84
+tomato leaf mold/282.jpg,84,84
+tomato leaf mold/google_0178.jpg,84,84
+tomato leaf mold/google_0110.jpg,84,84
+tomato leaf mold/247.jpg,84,84
+tomato leaf mold/198.jpg,84,84
+tomato leaf mold/161.jpg,84,84
+tomato leaf mold/google_0308 - Copy (2).jpg,84,84
+tomato leaf mold/140.jpg,84,84
+tomato leaf mold/217.jpg,84,84
+tomato leaf mold/58 - Copy.jpg,84,84
+tomato leaf mold/google_0277.jpg,84,84
+tomato leaf mold/google_0024.jpg,84,84
+tomato leaf mold/google_0007.jpg,84,84
+tomato leaf mold/262.jpg,84,84
+tomato leaf mold/32.jpg,84,84
+tomato leaf mold/267.jpg,84,82
+tomato mosaic virus/1.jpg,85,87
+tomato mosaic virus/230.jpg,85,79
+tomato mosaic virus/google_0193.jpg,85,88
+tomato mosaic virus/google_0008.jpg,85,84
+tomato mosaic virus/16.jpg,85,85
+tomato mosaic virus/184.jpg,85,11
+tomato mosaic virus/245.jpg,85,85
+tomato mosaic virus/google_0037.jpg,85,85
+tomato mosaic virus/google_0140.jpg,85,85
+tomato mosaic virus/google_0164.jpg,85,85
+tomato mosaic virus/153.jpg,85,87
+tomato mosaic virus/200.jpg,85,87
+tomato mosaic virus/google_0200 - Copy (2).jpg,85,85
+tomato mosaic virus/30.jpg,85,85
+tomato mosaic virus/167.jpg,85,85
+tomato mosaic virus/google_0017.jpg,85,85
+tomato mosaic virus/google_0044.jpg,85,2
+tomato mosaic virus/35.jpg,85,87
+tomato mosaic virus/google_0063.jpg,85,85
+tomato septoria leaf spot/174.jpg,86,80
+tomato septoria leaf spot/10.jpg,86,86
+tomato septoria leaf spot/google_0283.jpg,86,86
+tomato septoria leaf spot/google_0223.jpg,86,86
+tomato septoria leaf spot/google_0226.jpg,86,14
+tomato septoria leaf spot/google_0219.jpg,86,86
+tomato septoria leaf spot/google_0081.jpg,86,80
+tomato septoria leaf spot/google_0261.jpg,86,86
+tomato septoria leaf spot/google_0022.jpg,86,80
+tomato septoria leaf spot/google_0266 - Copy.jpg,86,81
+tomato septoria leaf spot/88.jpg,86,80
+tomato septoria leaf spot/google_0140 - Copy.jpg,86,81
+tomato septoria leaf spot/google_0063.jpg,86,86
+tomato septoria leaf spot/google_0231.jpg,86,80
+tomato septoria leaf spot/google_0093.jpg,86,86
+tomato septoria leaf spot/google_0020.jpg,86,86
+tomato septoria leaf spot/195.jpg,86,86
+tomato septoria leaf spot/37.jpg,86,80
+tomato septoria leaf spot/google_0134.jpg,86,81
+tomato septoria leaf spot/google_0103.jpg,86,84
+tomato septoria leaf spot/google_0127.jpg,86,39
+tomato septoria leaf spot/google_0147.jpg,86,83
+tomato yellow leaf curl virus/google_0146.jpg,87,85
+tomato yellow leaf curl virus/13.jpg,87,85
+tomato yellow leaf curl virus/40.jpg,87,85
+tomato yellow leaf curl virus/68.jpg,87,87
+tomato yellow leaf curl virus/google_0021.jpg,87,85
+tomato yellow leaf curl virus/google_0111.jpg,87,87
+tomato yellow leaf curl virus/59.jpg,87,85
+tomato yellow leaf curl virus/google_0049.jpg,87,85
+tomato yellow leaf curl virus/22.jpg,87,85
+tomato yellow leaf curl virus/google_0013.jpg,87,87
+tomato yellow leaf curl virus/google_0100.jpg,87,87
+tomato yellow leaf curl virus/152.jpg,87,87
+tomato yellow leaf curl virus/google_0092.jpg,87,85
+tomato yellow leaf curl virus/227.jpg,87,85
+tomato yellow leaf curl virus/google_0105.jpg,87,87
+tomato yellow leaf curl virus/32.jpg,87,50
+tomato yellow leaf curl virus/google_0072 - Copy.jpg,87,85
+zucchini yellow mosaic virus/160.jpg,88,88
+zucchini yellow mosaic virus/105.jpg,88,88
+zucchini yellow mosaic virus/google_0087.jpg,88,88
+zucchini yellow mosaic virus/google_0223.jpg,88,39
+zucchini yellow mosaic virus/google_0209.jpg,88,88
+zucchini yellow mosaic virus/google_0095 - Copy.jpg,88,88
+zucchini yellow mosaic virus/google_0011.jpg,88,88
+zucchini yellow mosaic virus/google_0037.jpg,88,88
+zucchini yellow mosaic virus/google_0112 - Copy.jpg,88,88
+zucchini yellow mosaic virus/google_0038.jpg,88,88
+zucchini yellow mosaic virus/46.jpg,88,88
+zucchini yellow mosaic virus/25.jpg,88,73
+zucchini yellow mosaic virus/34.jpg,88,88
+zucchini yellow mosaic virus/google_0043.jpg,88,88
+zucchini yellow mosaic virus/71 - Copy.jpg,88,73
+zucchini yellow mosaic virus/117.jpg,88,87
+zucchini yellow mosaic virus/66.jpg,88,88
+zucchini yellow mosaic virus/google_0147.jpg,88,88

@@ -1,0 +1,28 @@
+panel,label,accuracy_pct,SD_pct,reference_accuracy_pct
+a,"Residual MLP on
+class token",81.12,0.14,80.96
+b,"Residual MLP on
+class token",81.4,0.22,81.23
+c,"Residual MLP on
+class token",79.4,0.19,79.32
+a,"Probe on class token and
+mean patch feature",81.26,,80.96
+b,"Probe on class token and
+mean patch feature",81.53,,81.23
+c,"Probe on class token and
+mean patch feature",79.04,,79.32
+a,Uniform pooling,81.06,0.13,80.96
+b,Uniform pooling,81.37,0.06,81.23
+c,Uniform pooling,79.58,0.09,79.32
+a,"Attentive probe
+(attentive swap)",81.93,0.18,80.96
+b,"Attentive probe
+(attentive swap)",82.27,0.13,81.23
+c,"Attentive probe
+(attentive swap)",80.33,0.27,79.32
+a,Logistic probe,80.5,,80.96
+b,Logistic probe,81.53,,81.23
+c,Logistic probe,78.13,,79.32
+a,Tuned hybrid head,81.01,0.22,80.96
+b,Tuned hybrid head,80.92,0.28,81.23
+c,Tuned hybrid head,79.3,0.38,79.32

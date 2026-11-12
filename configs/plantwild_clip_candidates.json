@@ -1,0 +1,68 @@
+{
+  "candidates": [
+    {
+      "id": 1,
+      "lr": 0.00042333458726621936,
+      "weight_decay": 0.001,
+      "epochs": 10,
+      "schedule": "cosine_warmup5pct",
+      "schedule_horizon": 50
+    },
+    {
+      "id": 2,
+      "lr": 0.0001,
+      "weight_decay": 0.001,
+      "epochs": 10,
+      "schedule": "cosine_warmup5pct",
+      "schedule_horizon": 50
+    },
+    {
+      "id": 3,
+      "lr": 0.0003,
+      "weight_decay": 0.001,
+      "epochs": 10,
+      "schedule": "cosine_warmup5pct",
+      "schedule_horizon": 50
+    },
+    {
+      "id": 4,
+      "lr": 0.001,
+      "weight_decay": 0.001,
+      "epochs": 10,
+      "schedule": "cosine_warmup5pct",
+      "schedule_horizon": 50
+    },
+    {
+      "id": 5,
+      "lr": 0.00042333458726621936,
+      "weight_decay": 0.0001,
+      "epochs": 10,
+      "schedule": "cosine_warmup5pct",
+      "schedule_horizon": 50
+    },
+    {
+      "id": 6,
+      "lr": 0.00042333458726621936,
+      "weight_decay": 0.001,
+      "epochs": 20,
+      "schedule": "cosine_warmup5pct",
+      "schedule_horizon": 50
+    },
+    {
+      "id": 7,
+      "lr": 0.00042333458726621936,
+      "weight_decay": 0.001,
+      "epochs": 10,
+      "schedule": "constant",
+      "schedule_horizon": 10
+    },
+    {
+      "id": 8,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "epochs": 20,
+      "schedule": "constant",
+      "schedule_horizon": 20
+    }
+  ]
+}

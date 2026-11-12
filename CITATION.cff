@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the accompanying article."
+title: "Attentive Probing of Patch Tokens Complements Backbone Fusion for In-the-Wild Plant Disease Recognition"
+type: software
+version: "1.0.0"
+authors:
+  - family-names: "[TBD]"
+    given-names: "[TBD]"
+license: MIT

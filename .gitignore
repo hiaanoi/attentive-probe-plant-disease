@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.pyc
+generated/
+inputs/
+outputs/
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.tiff
+*.webp
+*.npy
+*.npz
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.pkl
+*.joblib
+.env
+.DS_Store
+
+# Saved visualisation output explicitly included by the release protocol.
+!results/attention/candidate_02_mean5.npy

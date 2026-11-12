@@ -1,0 +1,39 @@
+"Table S15. Tuning of the uniform-pooling control on PlantWild (eight candidates) and PlantSeg (16 candidates, three-fold cross-validation), and the five-seed results with paired differences from the attentive probe.",,,,,,,,
+,,,,,,,,
+"(a) PlantWild validation search for uniform pooling (h = 128, batch size 16, cross-entropy loss, seed 101)",,,,,,,,
+Candidate,Learning rate,Weight decay,Epochs (trained / scheduled),Schedule,Val. accuracy (%),Val. macro-F1 (%),,
+1,0.000423334587,0.001,10 / 50,"Cosine, 5% warm-up",77.58,73.58,,
+2,0.0001,0.001,10 / 50,"Cosine, 5% warm-up",78.24,74.42,,
+3,0.0003,0.001,10 / 50,"Cosine, 5% warm-up",77.75,73.81,,
+4,0.001,0.001,10 / 50,"Cosine, 5% warm-up",76.43,72.76,,
+5,0.000423334587,0.0001,10 / 50,"Cosine, 5% warm-up",77.58,73.58,,
+6,0.000423334587,0.001,20 / 50,"Cosine, 5% warm-up",76.81,73.03,,
+7,0.000423334587,0.001,10 / 10,Constant,77.80,73.93,,
+8,0.001,0.0001,20 / 20,Constant,74.40,70.20,,
+,,,,,,,,
+,,,,,,,,
+(b) PlantSeg three-fold cross-validation of uniform pooling over 16 configurations,,,,,,,,
+Candidate,h,Learning rate,Weight decay,Batch size,Selected / maximum epochs,Loss,Schedule,Mean macro-F1 (%)
+1,256,0.000113086035,0.001,16,49 / 50,Focal + LS,Constant,66.50
+2,128,0.00240015204,0.01,16,68 / 100,Focal + LS,"Cosine, 5% warm-up",65.72
+3,128,0.000321024201,0.05,64,35 / 50,CE,Constant,66.18
+4,256,0.000161597223,0.01,16,11 / 20,CE,Constant,66.35
+5,128,0.000353742009,0.001,64,14 / 20,Focal + LS,"Cosine, 5% warm-up",65.78
+6,128,0.000423334587,0.001,16,17 / 50,CE,"Cosine, 5% warm-up",66.65
+7,128,0.000129518619,0.001,64,74 / 100,CE,Constant,66.01
+8,256,0.00274580118,0.05,16,9 / 50,CE,"Cosine, 5% warm-up",65.42
+9,128,0.00262856327,0.01,64,19 / 20,Focal + LS,"Cosine, 5% warm-up",66.36
+10,128,0.0017774441,0.01,16,22 / 50,CE,"Cosine, 5% warm-up",65.64
+11,128,0.00151441638,0.05,16,10 / 100,CE,"Cosine, 5% warm-up",65.89
+12,128,0.00013883073,0.0001,64,17 / 20,Focal + LS,Constant,65.68
+13,128,0.0011969176,0.01,16,16 / 20,Focal + LS,"Cosine, 5% warm-up",66.31
+14,256,0.00270774341,0.0001,16,15 / 50,Focal + LS,Constant,64.98
+15,128,0.000757973677,0.05,16,39 / 100,Focal + LS,Constant,66.63
+16,128,0.000398446012,0.0001,16,22 / 50,CE,Constant,66.63
+,,,,,,,,
+,,,,,,,,
+(c) Tuned uniform pooling: five-seed accuracy and paired differences from the attentive probe,,,,,,,,
+Setting,"Uniform pooling, single backbone (%)",Single-backbone macro-F1 (%),Uniform-pooling swap (%),Swap macro-F1 (%),Attentive probe − uniform pooling (pp) [95% CI],Attentive swap − uniform-pooling swap (pp) [95% CI],,
+PlantWild official,79.04 ± 0.09,76.62 ± 0.18,81.06 ± 0.13,78.34 ± 0.13,"+1.22 [0.61, 1.84]","+0.87 [0.47, 1.27]",,
+PlantWild deduplicated,79.38 ± 0.10,77.00 ± 0.19,81.37 ± 0.06,78.67 ± 0.07,"+1.38 [0.78, 1.99]","+0.90 [0.49, 1.31]",,
+PlantSeg,77.80 ± 0.26,72.28 ± 0.36,79.58 ± 0.09,73.90 ± 0.17,"+1.85 [0.95, 2.76]","+0.75 [0.22, 1.30]",,

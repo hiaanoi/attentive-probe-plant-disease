@@ -1,0 +1,4 @@
+protocol,n_test,n_seeds,probe_errors,attention_corrected_mean,both_corrected_mean,attention_only_mean,both_corrected_pct,attention_only_pct,expected_overlap_pct,aggregation
+official,3677,5,796,160.0,82.4,77.6,51.52680977567411,48.47319022432588,20.979899497487438,mean of five per-seed overlap ratios; denominator attention-corrected probe errors
+dedup,3677,5,788,165.8,88.6,77.2,53.45248641665616,46.54751358334384,21.82741116751269,mean of five per-seed overlap ratios; denominator attention-corrected probe errors
+PS,1436,5,333,71.8,34.0,37.8,47.61408256092072,52.38591743907928,22.52252252252252,mean of five per-seed overlap ratios; denominator attention-corrected probe errors

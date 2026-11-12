@@ -1,0 +1,179 @@
+"Table S1. Accuracy, macro-F1, SD and 95% intervals of every classifier and fusion in Tables 1 and 2, the two-backbone comparisons and the combination-selected C analysis on PlantSeg.",,,,,
+,,,,,
+(a) Single-backbone classifiers on official PlantWild,,,,,
+Backbone,Classifier,Accuracy (%),Macro-F1 (%),Δ vs attentive probe [95% CI] (pp),
+DINOv2-L,Class-token probe,78.35,75.65,"−1.91 [−2.65, −1.20]",
+DINOv2-L,Class token + mean-patch probe,79.25,76.90,"−1.02 [−1.77, −0.30]",
+DINOv2-L,Class-token residual MLP,78.66 ± 0.09,75.99 ± 0.22,"−1.60 [−2.22, −1.01]",
+DINOv2-L,Uniform pooling,79.04 ± 0.09,76.62 ± 0.18,"−1.22 [−1.84, −0.61]",
+DINOv2-L,Attention branch without class-token probe,75.50 ± 0.28,72.54 ± 0.34,"−4.77 [−5.71, −3.81]",
+DINOv2-L,Attentive probe (h = 128),80.27 ± 0.28,77.88 ± 0.38,0.00,
+DINOv2-L,Attentive probe (h = 64),80.44 ± 0.25,78.11 ± 0.30,"+0.17 [−0.13, 0.48]",
+DINOv2-L,Attentive probe (h = 256),79.87 ± 0.19,77.33 ± 0.23,"−0.39 [−0.72, −0.05]",
+DINOv3-L,Global-feature probe,79.49,76.49,"−0.89 [−1.45, −0.34]",
+DINOv3-L,Uniform pooling,79.61 ± 0.06,76.66 ± 0.06,"−0.78 [−1.28, −0.27]",
+DINOv3-L,Attentive probe,80.39 ± 0.14,77.69 ± 0.21,0.00,
+CLIP-L,Image-embedding probe,74.22,71.13,"−0.48 [−1.04, 0.07]",
+CLIP-L,Uniform pooling,74.69 ± 0.13,71.62 ± 0.12,"−0.02 [−0.48, 0.45]",
+CLIP-L,Attentive probe,74.70 ± 0.32,71.63 ± 0.29,0.00,
+,,,,,
+,,,,,
+(b) Attentive-probe contrasts on each backbone,,,,,
+Backbone,Comparison,Δ accuracy [95% CI] (pp),,,
+DINOv2-L,Attentive probe − global probe,"+1.91 [1.20, 2.65]",,,
+DINOv2-L,Attentive probe − uniform pooling,"+1.22 [0.61, 1.84]",,,
+DINOv3-L,Attentive probe − global probe,"+0.89 [0.34, 1.45]",,,
+DINOv3-L,Attentive probe − uniform pooling,"+0.78 [0.27, 1.28]",,,
+CLIP-L,Attentive probe − global probe,"+0.48 [−0.07, 1.04]",,,
+CLIP-L,Attentive probe − uniform pooling,"+0.02 [−0.45, 0.48]",,,
+,,,,,
+,,,,,
+(c) Direct swap controls on PlantWild,,,,,
+Protocol,Comparison,Δ accuracy [95% CI] (pp),,,
+Official,Attentive swap − uniform-pooling swap,"+0.87 [0.47, 1.27]",,,
+Official,Attentive swap − class-token + mean-patch swap,"+0.67 [0.18, 1.15]",,,
+Deduplicated,Attentive swap − class-token + mean-patch swap,"+0.73 [0.25, 1.22]",,,
+,,,,,
+,,,,,
+(d) Fusion results — PlantWild official,,,,,
+Configuration,Accuracy (%),Macro-F1 (%),Δ vs three-probe fusion [95% CI] (pp),,
+Three-probe fusion,80.96,78.26,0.00,,
+"Feature fusion, tuned hybrid head [12]",81.01 ± 0.22,78.30 ± 0.22,"+0.05 [−0.50, 0.59]",,
+"Feature fusion, logistic probe",80.50,77.79,"−0.46 [−1.14, 0.22]",,
+Class-token MLP,81.12 ± 0.14,78.44 ± 0.11,"+0.15 [−0.11, 0.42]",,
+Uniform pooling,81.06 ± 0.13,78.34 ± 0.13,"+0.10 [−0.16, 0.35]",,
+Class token + mean-patch probe,81.26,78.48,"+0.30 [−0.16, 0.76]",,
+Attentive probe (swap),81.93 ± 0.18,79.46 ± 0.20,"+0.97 [0.51, 1.44]",,
+DINOv3-L probe,81.59 ± 0.16,79.03 ± 0.19,"+0.63 [0.30, 0.98]",,
+Both DINO probes,82.03 ± 0.16,79.47 ± 0.15,"+1.07 [0.54, 1.60]",,
+CLIP-L probe,81.00 ± 0.17,78.32 ± 0.20,"+0.04 [−0.22, 0.29]",,
+,,,,,
+,,,,,
+(e) Fusion results — PlantWild deduplicated,,,,,
+Configuration,Accuracy (%),Macro-F1 (%),Δ vs three-probe fusion [95% CI] (pp),,
+Three-probe fusion,81.23,78.50,0.00,,
+"Feature fusion, tuned hybrid head [12]",80.92 ± 0.28,78.32 ± 0.37,"−0.32 [−0.86, 0.23]",,
+"Feature fusion, logistic probe",81.53,78.77,"+0.30 [−0.38, 0.98]",,
+Class-token MLP,81.40 ± 0.22,78.73 ± 0.30,"+0.16 [−0.09, 0.43]",,
+Uniform pooling,81.37 ± 0.06,78.67 ± 0.07,"+0.13 [−0.14, 0.41]",,
+Class token + mean-patch probe,81.53,78.80,"+0.30 [−0.19, 0.79]",,
+Attentive probe (swap),82.27 ± 0.13,79.82 ± 0.18,"+1.03 [0.57, 1.50]",,
+DINOv3-L probe,81.82 ± 0.08,79.28 ± 0.14,"+0.58 [0.24, 0.93]",,
+Both DINO probes,82.39 ± 0.17,79.98 ± 0.26,"+1.16 [0.64, 1.69]",,
+CLIP-L probe,81.43 ± 0.08,78.81 ± 0.07,"+0.19 [−0.09, 0.47]",,
+,,,,,
+,,,,,
+(f) Fusion results — PlantSeg,,,,,
+Configuration,Accuracy (%),Macro-F1 (%),Δ vs three-probe fusion [95% CI] (pp),,
+Three-probe fusion,79.32,73.70,0.00,,
+"Feature fusion, tuned hybrid head [12]",79.30 ± 0.38,73.18 ± 0.49,"−0.01 [−1.02, 1.02]",,
+"Feature fusion, logistic probe",78.13,72.14,"−1.18 [−2.44, 0.14]",,
+Class-token MLP,79.40 ± 0.19,74.01 ± 0.30,"+0.08 [−0.36, 0.54]",,
+Uniform pooling,79.58 ± 0.09,73.90 ± 0.17,"+0.26 [−0.32, 0.85]",,
+Class token + mean-patch probe,79.04,72.90,"−0.28 [−1.04, 0.49]",,
+Attentive probe (swap),80.33 ± 0.27,75.06 ± 0.35,"+1.02 [0.39, 1.66]",,
+DINOv3-L probe,79.22 ± 0.17,73.62 ± 0.35,"−0.10 [−0.45, 0.25]",,
+Both DINO probes,80.24 ± 0.21,74.76 ± 0.32,"+0.92 [0.25, 1.62]",,
+CLIP-L probe,79.43 ± 0.35,73.53 ± 0.38,"+0.11 [−0.26, 0.50]",,
+,,,,,
+,,,,,
+(g) Two-backbone fusion comparisons,,,,,
+PlantWild protocol,Comparison,Δ accuracy [95% CI] (pp),,,
+Official,DINOv2-L attentive + DINOv3-L probe − tuned feature fusion,"+0.67 [0.03, 1.33]",,,
+Deduplicated,DINOv2-L attentive + DINOv3-L probe − tuned feature fusion,"+1.14 [0.51, 1.79]",,,
+Deduplicated,DINOv2-L attentive + DINOv3-L probe − logistic feature-fusion probe,"+0.52 [−0.22, 1.27]",,,
+Official,224px DINOv2-L attentive + CLIP-L probe − tuned feature fusion,"−0.38 [−1.17, 0.43]",,,
+,,,,,
+,,,,,
+(h) Matched swap controls on PlantSeg,,,,,
+Comparison,Δ accuracy [95% CI] (pp),,,,
+Attentive swap − uniform-pooling swap,"+0.75 [0.22, 1.30]",,,,
+Existing attentive swap − class-token + mean-patch swap,"+1.30 [0.53, 2.08]",,,,
+,,,,,
+,,,,,
+(i) Single-backbone attentive probe,,,,,
+Backbone,Main-analysis C,Selected C,Accuracy (%),Macro-F1 (%),Δ [95% CI] (pp)
+DINOv3-L,10,0.001,77.58 ± 0.76,71.35 ± 1.24,"+7.73 [5.74, 9.79]"
+CLIP-L,1,1,73.27 ± 1.14,65.62 ± 1.87,"+0.92 [0.10, 1.77]"
+"C was selected by internal three-fold attentive-probe macro-F1, with head configuration and training epoch fixed from the main analysis; Δ is relative to its own selected lower probe. Only the combination-selection analysis is supplemental; an unchanged C reuses the main model and predictions.",,,,,
+,,,,,
+,,,,,
+(j) Swap with the selected lower probe,,,,,
+Backbone,Main-analysis C,Selected C,Accuracy (%),Macro-F1 (%),Δ [95% CI] (pp)
+DINOv3-L,10,0.001,80.56 ± 0.32,74.17 ± 0.44,"+1.24 [0.03, 2.45]"
+CLIP-L,1,1,79.43 ± 0.35,73.53 ± 0.38,"+0.11 [−0.26, 0.50]"
+"C was selected by internal three-fold attentive-probe macro-F1, with head configuration and training epoch fixed from the main analysis; Δ is relative to the unchanged three-probe fusion. Only the combination-selection analysis is supplemental; an unchanged C reuses the main model and predictions.",,,,,
+,,,,,
+,,,,,
+(k) Seed and test-image intervals,,,,,
+Data,Comparison,Metric,Difference (pp),Seed t interval [95% CI],Test-image bootstrap [95% CI]
+"PlantWild, official split",Attentive probe − class-token probe,Accuracy,1.91,"[1.56, 2.26]","[1.20, 2.65]"
+"PlantWild, official split",Attentive probe − uniform pooling,Accuracy,1.22,"[0.87, 1.58]","[0.61, 1.84]"
+"PlantWild, official split",Three-backbone fusion (tuned) − attentive probe,Accuracy,0.75,"[0.31, 1.18]","[−0.06, 1.52]"
+"PlantWild, official split",Fusion + attentive probe (averaged) − three-backbone fusion (tuned),Accuracy,0.55,"[0.15, 0.95]","[−0.03, 1.15]"
+"PlantWild, official split",Attentive probe (224 px) + CLIP-L probe − three-backbone fusion (tuned),Accuracy,−0.38,"[−0.77, 0.02]","[−1.17, 0.43]"
+"PlantWild, official split",Attentive probe + DINOv3-L probe − three-backbone fusion (tuned),Accuracy,0.67,"[0.22, 1.13]","[0.03, 1.33]"
+"PlantWild, official split",Attentive probe (224 px) + CLIP-L probe − class-token probe (224 px) + CLIP-L probe,Accuracy,1.33,"[1.13, 1.53]","[0.73, 1.94]"
+"PlantWild, deduplicated split",Fusion + attentive probe (averaged) − three-backbone fusion (tuned),Accuracy,0.84,"[0.65, 1.03]","[0.27, 1.43]"
+"PlantWild, official split","Late fusion, attentive probe in place of DINOv2-L probe − late fusion of three probes",Accuracy,0.97,"[0.75, 1.19]","[0.51, 1.44]"
+"PlantWild, official split","Late fusion, attentive probe in place of DINOv2-L probe − three-backbone fusion (tuned)",Accuracy,0.92,"[0.42, 1.41]","[0.34, 1.51]"
+"PlantWild, official split","Late fusion, attentive probe in place of DINOv2-L probe − fusion + attentive probe (averaged)",Accuracy,0.37,"[−0.01, 0.75]","[−0.10, 0.83]"
+"PlantWild, official split",Attentive probe + DINOv3-L probe − class-token probe + DINOv3-L probe,Accuracy,1.48,"[1.21, 1.76]","[0.91, 2.06]"
+"PlantWild, official split",Attentive probe (518 px) + CLIP-L probe − class-token probe (518 px) + CLIP-L probe,Accuracy,1.45,"[1.29, 1.61]","[0.89, 2.00]"
+"PlantWild, official split",Three-backbone fusion (tuned) − class-token probe,Accuracy,2.66,"[2.38, 2.94]","[1.86, 3.46]"
+"PlantWild, official split",Late fusion of three probes − three-backbone fusion (tuned),Accuracy,−0.05,"[−0.33, 0.23]","[−0.59, 0.50]"
+"PlantWild, deduplicated split",Attentive probe − class-token probe,Accuracy,2.19,"[1.95, 2.42]","[1.47, 2.92]"
+"PlantWild, deduplicated split",Three-backbone fusion (tuned) − attentive probe,Accuracy,0.16,"[−0.13, 0.46]","[−0.63, 0.95]"
+"PlantWild, deduplicated split","Late fusion, attentive probe in place of DINOv2-L probe − late fusion of three probes",Accuracy,1.03,"[0.87, 1.19]","[0.57, 1.50]"
+"PlantWild, deduplicated split","Late fusion, attentive probe in place of DINOv2-L probe − late fusion of three probes",Host accuracy,0.18,"[0.01, 0.36]","[−0.10, 0.47]"
+"PlantWild, deduplicated split","Late fusion, attentive probe in place of DINOv2-L probe − late fusion of three probes",Within-host accuracy,0.95,"[0.83, 1.08]","[0.52, 1.40]"
+"PlantWild, deduplicated split","Late fusion, attentive probe in place of DINOv2-L probe − three-backbone fusion (tuned)",Accuracy,1.35,"[1.13, 1.57]","[0.77, 1.94]"
+"PlantWild, deduplicated split","Late fusion, attentive probe in place of DINOv2-L probe − three-backbone fusion (tuned)",Host accuracy,0.07,"[−0.08, 0.22]","[−0.31, 0.44]"
+"PlantSeg test (1,436), independently tuned recipes",Attentive probe − logistic probe on class token,Accuracy,2.84,"[1.83, 3.85]","[1.73, 3.97]"
+"PlantSeg test (1,436), independently tuned recipes",Three-backbone fusion − attentive probe,Accuracy,−0.35,"[−1.71, 1.01]","[−1.46, 0.77]"
+"PlantWild, official split",Attentive probe − class-token probe,Host accuracy,0.08,"[−0.09, 0.26]","[−0.38, 0.54]"
+"PlantWild, official split",Three-backbone fusion (tuned) − class-token probe,Host accuracy,1.17,"[1.11, 1.24]","[0.66, 1.70]"
+"PlantWild, official split",Three-backbone fusion (tuned) − attentive probe,Host accuracy,1.09,"[0.90, 1.28]","[0.55, 1.64]"
+"PlantWild, official split","Late fusion, attentive probe in place of DINOv2-L probe − late fusion of three probes",Host accuracy,0.17,"[−0.02, 0.36]","[−0.11, 0.46]"
+"PlantWild, official split",Attentive probe − class-token probe,Within-host accuracy,2.05,"[1.72, 2.38]","[1.39, 2.74]"
+"PlantWild, official split",Three-backbone fusion (tuned) − class-token probe,Within-host accuracy,1.80,"[1.48, 2.12]","[1.09, 2.52]"
+"PlantWild, official split",Three-backbone fusion (tuned) − attentive probe,Within-host accuracy,−0.25,"[−0.76, 0.26]","[−0.94, 0.42]"
+"PlantWild, official split","Late fusion, attentive probe in place of DINOv2-L probe − late fusion of three probes",Within-host accuracy,0.90,"[0.69, 1.11]","[0.45, 1.36]"
+Seed intervals are paired t intervals; image intervals resample test images for the fixed fitted models.,,,,,
+,,,,,
+,,,,,
+(l) Attentive swap versus the strongest global-feature fusion in PlantWild official training,,,,,
+Comparison,Δ accuracy (pp),Image-bootstrap 95% CI,,,
+DINOv2-L attentive swap − Tuned feature fusion,0.92,"[0.34, 1.51]",,,
+,,,,,
+,,,,,
+(m) Attentive swap versus the strongest global-feature fusion in PlantWild deduplicated training,,,,,
+Comparison,Δ accuracy (pp),Image-bootstrap 95% CI,,,
+DINOv2-L attentive swap − Feature-fusion logistic probe,0.73,"[0.06, 1.40]",,,
+,,,,,
+,,,,,
+(n) Attentive swap versus the strongest global-feature fusion in PlantSeg,,,,,
+Comparison,Δ accuracy (pp),Image-bootstrap 95% CI,,,
+DINOv2-L attentive swap − Tuned feature fusion,1.03,"[0.13, 1.94]",,,
+,,,,,
+,,,,,
+(o) Macro-F1 changes of the main attentive swap,,,,,
+Training protocol,Δ macro-F1 (pp),,,,
+PlantWild official training,1.20,,,,
+PlantWild deduplicated training,1.32,,,,
+PlantSeg,1.36,,,,
+,,,,,
+,,,,,
+(p) Attentive-probe and added-backbone gains on PlantSeg,,,,,
+Comparison,Δ accuracy (pp),Image-bootstrap 95% CI,,,
+Attentive probe − class-token probe,2.84,"[1.73, 3.97]",,,
+Added backbones − class-token probe,2.51,"[1.11, 3.90]",,,
+Attentive probe − three-probe fusion,0.33,"[−1.00, 1.69]",,,
+,,,,,
+,,,,,
+(q) Lower probe selected for the DINOv3-L attentive combination,,,,,
+Backbone,C,Probe accuracy (%),Probe macro-F1 (%),,
+DINOv3-L,0.001,69.85,57.18,,
+,,,,,
+,,,,,
+,,,,,

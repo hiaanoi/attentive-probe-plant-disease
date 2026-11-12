@@ -1,0 +1,27 @@
+{
+  "dinov2": {
+    "architecture": "ViT-L/14",
+    "crop": 518,
+    "short_edge": 592,
+    "storage": "float16 CLS and patches; float32 mean of stored patches",
+    "sha256": "399fba97a95f22c36834418bc69373364a99af3a1153da1c0fb31db567c92e23"
+  },
+  "dinov3": {
+    "architecture": "ViT-L/16 LVD-1689M",
+    "crop": 518,
+    "resize_after_crop": 512,
+    "register_tokens_excluded": 4,
+    "sha256": "dcb2e45127cccbf1601e5f42fef165eea275c8e5213197e8dcf3f48822718179"
+  },
+  "clip": {
+    "architecture": "ViT-L/14",
+    "crop": 518,
+    "processor_size": 224,
+    "global_dimension": 768,
+    "patch_dimension": 1024,
+    "sha256": "a2bf730a0c7debf160f7a6b50b3aaf3703e7e88ac73de7a314903141db026dcb"
+  },
+  "inference": "bf16 autocast; TF32 disabled",
+  "image_interpolation": "bicubic",
+  "mask_interpolation": "nearest"
+}

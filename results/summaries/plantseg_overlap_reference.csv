@@ -1,0 +1,2 @@
+N_primary,unique_matching_hashes,excluded_records,retained_records,baseline_accuracy_pct,swap_accuracy_mean_pct,swap_accuracy_SD_pct,delta_pp,CI_low_pp,CI_high_pp,B,seed,index_stream_SHA256
+1436,172,173,1263,79.57244655581948,80.55423594615993,0.30970082685047984,0.9817893903404592,0.30087094220110844,1.7102137767220902,10000,0,7cafa7254e8020e8b0298708076cce48c53693e9327b893a23b4504b3a586a92

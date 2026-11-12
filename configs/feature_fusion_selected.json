@@ -1,0 +1,16 @@
+{
+  "configuration": {
+    "candidate_id": "A5_D3_T03",
+    "candidate_number": 3,
+    "arm": "A5_D3",
+    "training_seed": 101,
+    "lr": 0.0005451900364028041,
+    "weight_decay": 0.001,
+    "max_epochs": 50,
+    "classification_loss": "CE",
+    "head_type": "hybrid",
+    "K": 4,
+    "batch": 128,
+    "schedule": "cosine_warmup5pct"
+  }
+}

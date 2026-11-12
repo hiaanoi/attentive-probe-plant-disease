@@ -1,0 +1,16 @@
+{
+  "config": {
+    "arm": "P3",
+    "candidate_id": "P3_FIXED_B1_T06",
+    "candidate_number": 6,
+    "training_seed": 20261016,
+    "lr": 0.00042333458726621936,
+    "weight_decay": 0.001,
+    "max_epochs": 50,
+    "schedule": "cosine_warmup5pct",
+    "classification_loss": "CE",
+    "batch": 16,
+    "MIL_hidden": 128
+  },
+  "selected_epochs": 10
+}
