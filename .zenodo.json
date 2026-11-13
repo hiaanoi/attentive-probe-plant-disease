@@ -3,8 +3,27 @@
   "description": "Code, dataset identities and splits, saved predictions, result tables and figure-generation scripts for attentive probing and backbone fusion in plant disease recognition. Figure 1 includes an attributed PlantDoc photograph and a 37 by 37 mean attention output array.",
   "creators": [
     {
-      "name": "[TBD]"
+      "name": "Yu, Enhao"
+    },
+ {
+      "name": "Ding, Yaoqian"
+    },
+ {
+      "name": "Zhang, Wei"
+    },
+ {
+      "name": "Cao, Yu"
+    },
+ {
+      "name": "Chen, Runxin"
+    },
+ {
+      "name": "Zhang, Xiao"
+    },
+ {
+      "name": "Xie, Haijun"
     }
+
   ],
   "upload_type": "software",
   "version": "1.0.0",

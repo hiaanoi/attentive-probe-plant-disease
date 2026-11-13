@@ -4,6 +4,18 @@ title: "Attentive Probing of Patch Tokens Complements Backbone Fusion for In-the
 type: software
 version: "1.0.0"
 authors:
-  - family-names: "[TBD]"
-    given-names: "[TBD]"
+  - family-names: "Yu"
+    given-names: "Enhao"
+  - family-names: "Ding"
+    given-names: "Yaoqian"
+- family-names: "Zhang"
+    given-names: "Wei"
+- family-names: "Cao"
+    given-names: "Yu"
+- family-names: "Chen"
+    given-names: "Runxin"
+- family-names: "Zhang"
+    given-names: "Xiao"
+- family-names: "Xie"
+    given-names: "Haijun"
 license: MIT

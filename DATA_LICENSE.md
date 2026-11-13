@@ -2,7 +2,7 @@
 
 The numeric data products in this repository (splits, metadata, predictions and result tables) are licensed under CC BY 4.0.
 
-License: https://creativecommons.org/licenses/by/4.0/ . Copyright holders: [TBD].
+License: https://creativecommons.org/licenses/by/4.0/ . Copyright holders: the authors.
 
 PlantWild images are supplied by their authors under CC BY-NC-ND 4.0;
 PlantSeg images under CC BY-NC 4.0; PlantDoc under CC BY 4.0. Obtain each
