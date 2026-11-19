@@ -1,4 +1,4 @@
-# Attentive Probing of Patch Tokens Complements Backbone Fusion for In-the-Wild Plant Disease Recognition
+# In-the-Wild Plant Disease Recognition: Patch Tokens from One Frozen Backbone Recover Most of the Gain from Adding Backbones
 
 The study compares reading patch tokens from an existing backbone with adding
 backbones. On official PlantWild, the DINOv2-L attentive probe recovered 73% of
@@ -58,7 +58,7 @@ training caps and overlap-excluded images. Host and symptom mappings are in
 `results/predictions/inventory.csv` identifies each dataset, protocol, model,
 seed and prediction checksum. Five-seed runs use 101, 202, 303, 404 and 505;
 deterministic probes and training-subsample repeats retain their identifiers.
-`cleaned` contains the earlier fixed-epoch uniform-pooling control; Table 2
+`cleaned` contains the earlier fixed-epoch uniform-pooling control; Table 3
 and Figure 3 use `cleaned-uniform-tuned17`.
 C-scan, out-of-fold and data-budget predictions have separate protocols;
 validation-selection records are in `results/diagnostics/`.
@@ -66,16 +66,18 @@ validation-selection records are in `results/diagnostics/`.
 ## Manuscript-to-file map
 
 Use `python scripts/make_tables.py --table <number-or-panel>` to select a table.
+The script numbers main-text tables in an earlier order; the first column below
+gives the manuscript numbering.
 Complete supplementary cells are in `results/supplementary/`, with block
 definitions in `results/summaries/supplementary_tables.json`.
 
 | Manuscript item | Entry point | Inputs |
 |---|---|---|
-| Table 1(a–c) | `make_tables.py --table 1` | predictions; main references; profiling |
-| Table 2(a,b) | `make_tables.py --table 2` | fusion/control predictions; overlap-excluded IDs |
-| Table 3(a–c) | `make_tables.py --table 3` | predictions; host and health-state mappings |
-| Table 4(a–c) | `make_tables.py --table 4` | subsample/OOF predictions; TRAIN statistics; configurations |
-| Table 5(a,b) | `make_tables.py --table 5` | dataset/backbone descriptions; split identities |
+| Table 1(a,b) | `make_tables.py --table 5` | dataset/backbone descriptions; split identities |
+| Table 2(a–c) | `make_tables.py --table 1` | predictions; main references; profiling |
+| Table 3(a,b) | `make_tables.py --table 2` | fusion/control predictions; overlap-excluded IDs |
+| Table 4(a–c) | `make_tables.py --table 3` | predictions; host and health-state mappings |
+| Table 5(a–c) | `make_tables.py --table 4` | subsample/OOF predictions; TRAIN statistics; configurations |
 | Figure 1 | `figures/Figure_1.pdf` / `.svg`; scripts below | diagram; PlantDoc photograph; mean attention |
 | Figure 2 | `plot_figures.py --figure 2` | `results/figures/Figure_2_source.csv` |
 | Figure 3 | `plot_figures.py --figure 3` | `results/figures/Figure_3_source.csv` |
